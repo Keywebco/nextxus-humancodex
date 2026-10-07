@@ -67,7 +67,7 @@
 
   var f=$("rform");
   if(f){f.addEventListener("submit",function(ev){ev.preventDefault();var q=$("rq").value.trim();if(q){history.replaceState(null,"","?q="+encodeURIComponent(q));search(q);}});
-    var m=/[?&]q=([^&]+)/.exec(location.search);if(m){$("rq").value=decodeURIComponent(m[1]);search($("rq").value);}}
+    var m=/[?&]q=([^&]+)/.exec(location.search);if(m){var qq=m[1].replace(/\+/g," ");try{qq=decodeURIComponent(qq);}catch(e){}$("rq").value=qq;search(qq);}}
   onThisDay();
   document.querySelectorAll("[data-q]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();$("rq").value=a.getAttribute("data-q");$("rform").dispatchEvent(new Event("submit",{cancelable:true,bubbles:true}));});});
 })();
