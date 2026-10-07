@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ask: check a claim against its sources | NextXus HumanCodex</title>
+<meta name="description" content="Paste a claim. We search Wikipedia and scholarly papers, show every source, and score how well they agree.">
+<link rel="stylesheet" href="../assets/style.css">
+</head><body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site"><a class="brand" href="../index.html">NextXus HumanCodex</a>
+<nav class="main" aria-label="Main">
+<a href="../learn/index.html">Learn</a>
+<a href="../research/index.html">Research</a>
+<a href="../ask/index.html" aria-current="page">Ask</a>
+<a href="../members/index.html">Members</a>
+<a href="https://keywebco.github.io/nextxus-agent-zero/universe/">Universe</a>
+<a href="https://keywebco.github.io/">Store</a>
+</nav></header>
+<main id="main">
+
+<h1>Ask</h1>
+<p class="lead">Paste a claim or ask a question. We look it up in Wikipedia and scholarly papers, a model reads each source, and you see every source with its verdict.</p>
+<form class="row" id="aform"><label for="aq" class="skip">Claim or question</label><input type="text" id="aq" data-voice="submit" placeholder="The Earth is an oblate spheroid" autocomplete="off"><button class="btn" type="submit" id="ago">Check it</button></form>
+<p class="note" id="afree" role="status"></p>
+<div id="aout" aria-live="polite" data-readable></div>
+<h2>Use your own key</h2>
+<p>The first 3 checks are free. After that, add your own key (MiMo, DeepSeek, Grok or OpenAI), or a subscriber license key on the <a href="../members/index.html">Members page</a>. Your key stays in this browser.</p>
+<div class="grid"><div class="card"><label for="aprov">Provider</label><select id="aprov"><option value="mimo">MiMo (Xiaomi)</option><option value="deepseek">DeepSeek</option><option value="grok">Grok (xAI)</option><option value="openai">OpenAI</option></select><label for="akey" style="display:block;margin-top:10px">Your API key</label><input type="password" id="akey" autocomplete="off" placeholder="paste your key"><p style="margin-top:10px"><button class="btn" id="asave" type="button">Save key</button> <button class="btn alt" id="aclear" type="button">Clear</button></p></div></div>
+<p class="note">Honest limit: the score is how well outside sources agree, not proof. Sources can be wrong or silent. The page shows how many sources were read and how many counted.</p>
+
+</main>
+<footer class="site">NextXus HumanCodex Federation. Truth Before Comfort. Legacy Before Ego. Give Without Reward.<br>
+<a href="https://keywebco.github.io/nextxus-archives/">Archives</a> |
+<a href="https://keywebco.github.io/nextxus-research-hub/">Research Hub</a> |
+<a href="https://keywebco.github.io/nextxus-senate/">Senate</a> |
+<a href="https://keywebster.gumroad.com/">Gumroad</a></footer>
+<script src="../assets/nx-providers.js"></script><script src="../assets/truth-check.js"></script><script src="../assets/ask.js"></script>
+<script src="../assets/voice.js"></script>
+</body></html>
