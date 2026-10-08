@@ -32,3 +32,14 @@ footer.site{border-top:1px solid var(--bg3);padding:22px 20px;color:var(--dim);f
 .nx-voicebar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;background:var(--bg2);border:1px solid var(--bg3);border-radius:10px;padding:10px 14px;margin:0 0 18px}
 .nx-mic{margin-left:6px}
 form.row .nx-mic{flex:0 0 auto}
+
+.hero{margin-bottom:10px}
+.greeter{display:grid;grid-template-columns:minmax(260px,1.2fr) 1fr;gap:18px;margin:18px 0}
+@media(max-width:760px){.greeter{grid-template-columns:1fr}}
+.greeter-video{aspect-ratio:16/9;min-height:200px;background:linear-gradient(135deg,var(--bg2),var(--bg3));border:1px dashed var(--gold-dim);border-radius:12px;padding:22px;display:flex;flex-direction:column;justify-content:center}
+.greeter-text{background:var(--bg2);border:1px solid var(--bg3);border-radius:12px;padding:18px}
+nav.jump{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--bg3);padding:10px 0;display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0}
+nav.jump a{color:var(--gold);text-decoration:none;font-weight:700}
+h2[id]{scroll-margin-top:70px}
+.card .btn{margin:4px 6px 4px 0}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:var(--gold)}}
