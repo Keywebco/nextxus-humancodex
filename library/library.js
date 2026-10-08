@@ -74,5 +74,7 @@
     });
     var m=/^#(\d{4})$/.exec(location.hash);if(m)openPoem(m[1]);
   }
+  window.addEventListener("hashchange",function(){var m=/^#(\d{4})$/.exec(location.hash);if(m)openPoem(m[1]);});
+  window.LivingLibrary={show:function(ns){var s={};ns.forEach(function(n){s[n]=1;});show(LIST.filter(function(e){return s[e.n];}));$("count").textContent=ns.length+" entries from Astris.";}};
   init();
 })();
