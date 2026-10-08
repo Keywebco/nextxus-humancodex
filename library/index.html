@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Living Library: 4,300 poems through history | NextXus HumanCodex</title>
+<meta name="description" content="4,300 poems from deep time to tomorrow, one for each moment in the history of the world. Free to browse, free to download, free to print.">
+<link rel="stylesheet" href="../assets/style.css">
+</head><body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site"><a class="brand" href="../index.html">NextXus HumanCodex</a>
+<nav class="main" aria-label="Main">
+<a href="../learn/index.html">Learn</a>
+<a href="../library/index.html" aria-current="page">Library</a>
+<a href="../research/index.html">Research</a>
+<a href="../ask/index.html">Ask</a>
+<a href="../members/index.html">Members</a>
+<a href="https://keywebco.github.io/nextxus-agent-zero/universe/">Universe</a>
+<a href="https://keywebco.github.io/">Store</a>
+</nav></header>
+<main id="main">
+<h1>The Living Library</h1>
+<p class="lead">4,300 poems, one for each moment in the history of the world, from deep time to tomorrow. Read them free. Download them free. Print them free. Forever.</p>
+<div class="card" style="margin:14px 0"><b>The raw files are free.</b> Six plain text files, one per volume. <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">Download them from GitHub</a>. They are meant to be copied, printed and shared.</div>
+
+<div class="readbar" role="group" aria-label="Reading controls">
+<span>Text size</span> <button class="btn alt" type="button" id="tdown" aria-label="Smaller text">A-</button> <button class="btn alt" type="button" id="tup" aria-label="Larger text">A+</button>
+<span style="margin-left:14px">Colors</span> <button class="btn alt" type="button" id="tdark">Dark</button> <button class="btn alt" type="button" id="tlight">Light</button> <button class="btn alt" type="button" id="thigh">High contrast</button>
+<button class="btn alt" type="button" id="tprint">Print this page</button>
+</div>
+
+<h2>Browse (always free)</h2>
+<p class="note">Type a number like 0044, or a word from a title, a date, a place or a description. Pick a volume to narrow it.</p>
+<div class="row" style="display:flex;gap:8px;flex-wrap:wrap">
+<label for="q" class="skip">Browse by number, title, date or place</label>
+<input type="search" id="q" placeholder="Try: 0044, Rome, Egypt, plague, 1066" autocomplete="off" style="flex:1 1 260px" data-voice>
+<label for="vol" class="skip">Volume</label>
+<select id="vol" style="flex:0 1 320px"><option value="">All six volumes</option><option value="1">Vol. I: Deep Time to the First Villages</option><option value="2">Vol. II: Bronze and Iron</option><option value="3">Vol. III: Faiths and the Medieval World</option><option value="4">Vol. IV: Plague, Sail, and Reason</option><option value="5">Vol. V: Steam, Steel, and the Wars</option><option value="6">Vol. VI: The Cold Peace to Tomorrow</option></select>
+</div>
+
+<h2>Search every line of every poem</h2>
+<p class="note">This reads the full text of all 4,300 poems. <b>Your first 3 searches are free.</b> After that, a small library code keeps going, or you can search the free YAML files yourself.</p>
+<form class="row" id="sform"><label for="fq" class="skip">Words to find inside the poems</label><input type="search" id="fq" placeholder="Words that appear inside a poem, like: salt river grain" autocomplete="off" data-voice="submit"><button class="btn" type="submit" id="sgo">Search the poems</button></form>
+<p id="gate" class="note" role="status"></p>
+<div id="codebox" hidden class="card"><label for="code">Library code (from your Gumroad receipt)</label><input type="text" id="code" autocomplete="off" placeholder="paste your code"><p style="margin-top:10px"><button class="btn" type="button" id="csave">Save code</button> <button class="btn alt" type="button" id="cclear">Remove</button></p><p class="note">Your code stays on this device. We do not track you.</p></div>
+
+<div id="poem" class="card" hidden></div>
+<p id="count" class="note" role="status" aria-live="polite">Loading the library...</p>
+<ul id="list" class="poem-list"></ul>
+<p><button class="btn alt" type="button" id="prev">Previous 20</button> <button class="btn alt" type="button" id="next">Next 20</button></p>
+
+<h2>About this library</h2>
+<p>Each poem sits at one moment in the history of the world, with its date and place. Every one is a first draft, open to revision as the library grows. Over time it will grow beyond poetry into a record of historical fact, with each poem gaining an article that cites its sources.</p>
+<p class="note">Honest limit: these poems are creative work, not a history textbook. For sources, use the <a href="../research/index.html">Research center</a>.</p>
+</main>
+<footer class="site">NextXus HumanCodex Federation. Truth Before Comfort. Legacy Before Ego. Give Without Reward.<br>
+<a href="https://keywebco.github.io/nextxus-archives/">Archives</a> |
+<a href="https://keywebco.github.io/nextxus-research-hub/">Research Hub</a> |
+<a href="https://keywebco.github.io/nextxus-senate/">Senate</a> |
+<a href="https://keywebster.gumroad.com/">Gumroad</a></footer>
+
+<script src="../assets/voice.js"></script>
+<script src="library.js"></script>
+<script src="reader.js"></script>
+</body></html>
