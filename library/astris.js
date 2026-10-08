@@ -47,7 +47,7 @@
     if(a.hits.length){h+='<ul class="poem-list">'+a.hits.map(function(e){
       return '<li class="poem-row"><a href="#'+esc(e.n)+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+'</span></a><p>'+esc(e.x)+'</p></li>';}).join("")+'</ul>';}
     if(a.all&&a.all.length>a.hits.length)h+='<p><button class="btn alt" type="button" id="astall">Show all '+a.all.length+' in the list below</button></p>';
-    h+='<p class="note">Astris answers only from the library own entries. These are creative poems, not a history textbook.</p>';
+    h+='<p class="note">Astris answers only from the entries in this library. These are creative poems, not a history textbook.</p>';
     $("astout").innerHTML=h;
     if($("astall"))$("astall").addEventListener("click",function(){if(window.LivingLibrary)window.LivingLibrary.show(a.all);window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});});
   }
