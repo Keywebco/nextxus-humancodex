@@ -5,28 +5,28 @@
  "last": "4343",
  "volumes": {
   "vol-1.yaml": {
-   "bytes": 564655,
-   "sha256": "b57acdae5e925d368c393979c46e4f53f541cae52fd14bd2096eb4eab37ccd2d"
+   "bytes": 563649,
+   "sha256": "e50f8b4b227bd4c35993af5430b9294b80cfc2be2a07c8418f9d5815e45b16b2"
   },
   "vol-2.yaml": {
-   "bytes": 864092,
-   "sha256": "e9a9b9334cc98612a16b9fb697eeb632ac79b26c72e9709f5fc65bab7a2406b3"
+   "bytes": 862586,
+   "sha256": "7a3372050a021542e37d4651fdd32cee79751b02d02daaef219781677ffca5fd"
   },
   "vol-3.yaml": {
-   "bytes": 736928,
-   "sha256": "abe6e49330709788fb8cfc53f7e4cd9615ce7cdac0aa9153cacaccb545b39e9d"
+   "bytes": 735722,
+   "sha256": "d1e16bb7cf32f0581db5def4650d807797d25a46dfd6343f12bb26e7df3c78a1"
   },
   "vol-4.yaml": {
-   "bytes": 685764,
-   "sha256": "0a54e6c3363c964bf6bfe1f96cff95db161ec70be7b76dd097558165eff68a09"
+   "bytes": 684458,
+   "sha256": "7af4ad9c7228f2ec41ee4512ded98f09a1b03cb637fa63e2452a3f043127b462"
   },
   "vol-5.yaml": {
-   "bytes": 779073,
-   "sha256": "3e1d697d1e192bb5a957eee567543948164a92da5b2b2d5dd96dc37e2924346e"
+   "bytes": 777467,
+   "sha256": "0215a6f96a3f13e724442fe4568735cd83425c27a9f094cdcc1e7ceefb901b30"
   },
   "vol-6.yaml": {
-   "bytes": 692538,
-   "sha256": "b0018965dbff090707602884842c1d6745ad654e76981f0eb2b40c3b66f96858"
+   "bytes": 691132,
+   "sha256": "79f27ae10861d1385e5ddbdc0e7cbcf007f5366341bb6e01cf18a13a0853e11c"
   }
  },
  "eras": {
@@ -52,5 +52,6 @@
   "12": "The Wars",
   "13": "The Cold Peace",
   "14": "The Digital Beyond"
- }
+ },
+ "status": "published"
 }
