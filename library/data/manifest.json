@@ -5,28 +5,52 @@
  "last": "4343",
  "volumes": {
   "vol-1.yaml": {
-   "bytes": 538251,
-   "sha256": "17a0c5802c7516b4a677c98e9694bb22c5bd911e584e865c716c90b4af7a1c95"
+   "bytes": 564655,
+   "sha256": "b57acdae5e925d368c393979c46e4f53f541cae52fd14bd2096eb4eab37ccd2d"
   },
   "vol-2.yaml": {
-   "bytes": 824498,
-   "sha256": "7d81283b7e57fab425f6f52b1d2195809ebe42f1858d31a06259a28c1d9bd823"
+   "bytes": 864092,
+   "sha256": "e9a9b9334cc98612a16b9fb697eeb632ac79b26c72e9709f5fc65bab7a2406b3"
   },
   "vol-3.yaml": {
-   "bytes": 703829,
-   "sha256": "49817ad96970fb20134a58c8c9d63970410e77b10dffa7d8710ec3c6ed1a008c"
+   "bytes": 736928,
+   "sha256": "abe6e49330709788fb8cfc53f7e4cd9615ce7cdac0aa9153cacaccb545b39e9d"
   },
   "vol-4.yaml": {
-   "bytes": 644197,
-   "sha256": "0e4f148a012d5f948db5ba8ef78a7268f04b2052d411cbb21aaa8ad7af121f8c"
+   "bytes": 685764,
+   "sha256": "0a54e6c3363c964bf6bfe1f96cff95db161ec70be7b76dd097558165eff68a09"
   },
   "vol-5.yaml": {
-   "bytes": 736745,
-   "sha256": "be489f19142bc65dea0b3acb8a13a1f7e16f5872967e683aedd310e4864fb482"
+   "bytes": 779073,
+   "sha256": "3e1d697d1e192bb5a957eee567543948164a92da5b2b2d5dd96dc37e2924346e"
   },
   "vol-6.yaml": {
-   "bytes": 657141,
-   "sha256": "926b0b29f457bdb34b37d4e5e6067d1662de785bc0f9016421ea64f376d90a6d"
+   "bytes": 692538,
+   "sha256": "b0018965dbff090707602884842c1d6745ad654e76981f0eb2b40c3b66f96858"
   }
+ },
+ "eras": {
+  "01a": "Deep Time (early)",
+  "01b": "Deep Time (later)",
+  "02": "First Villages",
+  "03a": "Bronze Age (early)",
+  "03b": "Bronze Age (later)",
+  "04a": "Iron Age (early)",
+  "04b": "Iron Age (later)",
+  "05": "Classical World",
+  "06": "Empires of Faith",
+  "07a": "Medieval World (early)",
+  "07b": "Medieval World (later)",
+  "08a": "Plague and Rebirth (early)",
+  "08b": "Plague and Rebirth (later)",
+  "09a": "Sail and Gunpowder (early)",
+  "09b": "Sail and Gunpowder (later)",
+  "10a": "Reason and Revolution (early)",
+  "10b": "Reason and Revolution (later)",
+  "11a": "Steam and Steel (early)",
+  "11b": "Steam and Steel (later)",
+  "12": "The Wars",
+  "13": "The Cold Peace",
+  "14": "The Digital Beyond"
  }
 }

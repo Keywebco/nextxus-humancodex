@@ -1,9 +1,12 @@
-# Living Library, Vol. I: Deep Time to the First Villages
+# Living Library, Vol. 1: Deep Time to the First Villages
 # Entries 0044 to 0593. Free to download, print and share, forever.
-# Source of truth for the text: the HumanCodex Verse volumes. Each entry carries a SHA-256 of its poem text so any change can be detected.
+# Text source: the HumanCodex Verse collection (converted by Pontus). Every entry carries a SHA-256 of its poem text so any change can be detected.
+# Status "first draft" means the poem is open to revision. Numbers are permanent: new poems get numbers after 4343, nothing is ever renumbered.
 entries:
   - number: "0044"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Lake Walkers"
     date: "c. 4,200,000 BCE"
     region: "Kenya"
@@ -25,6 +28,8 @@ entries:
     sha256: "bd623333314fd6278849ec740ecbff1b15fe1af9c935c6fff346af9ffbc6a8dd"
   - number: "0045"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "A Jaw in the Mud"
     date: "c. 4,150,000 BCE"
     region: "Kenya"
@@ -42,6 +47,8 @@ entries:
     sha256: "571ae269afecf316d824281c4abc2fdd437ec6b7748ffe8849bbcd1e7f491449"
   - number: "0046"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Middle Awash Striders"
     date: "c. 4,100,000 BCE"
     region: "Ethiopia"
@@ -61,6 +68,8 @@ entries:
     sha256: "787cf0af8d85c79e3423127cc50830cdd724783998c8d2d77c8da0821629c31e"
   - number: "0047"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Night Nests"
     date: "c. 4,000,000 BCE"
     region: "Kenya"
@@ -78,6 +87,8 @@ entries:
     sha256: "ab679770cfecf6694e29aba51b74da47a02037251a4b9b6ac6c0632aea73f749"
   - number: "0048"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The First Long Journeys"
     date: "c. 3,950,000 BCE"
     region: "Kenya"
@@ -101,6 +112,8 @@ entries:
     sha256: "d2900ed651ba913dba44b8c7c0c138a1af42b098636010bf5b08573f2b0c60bb"
   - number: "0049"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Passing of the Torch"
     date: "c. 3,900,000 BCE"
     region: "Ethiopia"
@@ -122,6 +135,8 @@ entries:
     sha256: "be629e85891542b3e79a031e222309524a41e97d90921f2bc4045f0a7b0d85cd"
   - number: "0050"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Plain of Ash"
     date: "c. 3,800,000 BCE"
     region: "Tanzania"
@@ -143,6 +158,8 @@ entries:
     sha256: "e2f3e9ac87e8c4dda13d5926c4c534f88401b2696e7719dcc27155611658a117"
   - number: "0051"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "A Mother's Arms"
     date: "c. 3,750,000 BCE"
     region: "Ethiopia"
@@ -161,6 +178,8 @@ entries:
     sha256: "a10e8cba08230812fb383d924576c65bc6d2fc47cb4768dc4006d9e2fa83ab0e"
   - number: "0052"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Crossing at Laetoli"
     date: "c. 3,700,000 BCE"
     region: "Tanzania"
@@ -192,6 +211,8 @@ entries:
     sha256: "ed6075242a7d626e35cbc06f67d0a0e1324629c4aa13f5989288d8c8815e88e6"
   - number: "0053"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Smallest Footprints"
     date: "c. 3,700,000 BCE"
     region: "Tanzania"
@@ -213,6 +234,8 @@ entries:
     sha256: "54f1e818bd52636d913b6d41f785b3d73f5371613afe571a9a663f980fc6d08c"
   - number: "0054"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Rain on the Trail"
     date: "c. 3,680,000 BCE"
     region: "Tanzania"
@@ -232,6 +255,8 @@ entries:
     sha256: "444f0d08fe1b60be8171c2ef40be8bb0921bea70f97721e1eac804c45f745bb5"
   - number: "0055"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Second Party"
     date: "c. 3,660,000 BCE"
     region: "Tanzania"
@@ -255,6 +280,8 @@ entries:
     sha256: "e2cf53af1f0831aa6794bdef0eaed56cb54986739747879d790bdba459b71219"
   - number: "0056"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Little Foot"
     date: "c. 3,600,000 BCE"
     region: "South Africa"
@@ -276,6 +303,8 @@ entries:
     sha256: "294bd784c5cb50ad15ad51087471ece996c29bc7abf1346310409f726de2b918"
   - number: "0057"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Man-Stride"
     date: "c. 3,600,000 BCE"
     region: "Ethiopia"
@@ -298,6 +327,8 @@ entries:
     sha256: "dea05eed8280a1cfd9f1fc68bf82066ae221f3a35e5a93630890e9453f09001d"
   - number: "0058"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Flat-Faced One"
     date: "c. 3,500,000 BCE"
     region: "Kenya"
@@ -319,6 +350,8 @@ entries:
     sha256: "a54469f60decabc121e2c662afd742990843194cd84a754175a3a91a0c3801de"
   - number: "0059"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Laetoli of the East"
     date: "c. 3,470,000 BCE"
     region: "Ethiopia"
@@ -338,6 +371,8 @@ entries:
     sha256: "401e60689d4d96725d3b0f9632eb22de678a1731c4b48235fe3fca6c25a40660"
   - number: "0060"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Burtele Foot"
     date: "c. 3,400,000 BCE"
     region: "Ethiopia"
@@ -359,6 +394,8 @@ entries:
     sha256: "7a38f061e5ba355ef2fb459d379ece32c215ef03f44f1a9602dfb8e1a81d8263"
   - number: "0061"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Stone Breakers"
     date: "c. 3,300,000 BCE"
     region: "Kenya"
@@ -388,6 +425,8 @@ entries:
     sha256: "57b37e8419b179f7ca2b62e5459544e2d52c097879becab1ec931a0b1f9c35dd"
   - number: "0062"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Anvils of the River"
     date: "c. 3,300,000 BCE"
     region: "Kenya"
@@ -411,6 +450,8 @@ entries:
     sha256: "31fd8b232e5a2d4406f5974eabdbff33c53041b8ca001211f022c35a9700f645"
   - number: "0063"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Marked Rib"
     date: "c. 3,300,000 BCE"
     region: "Ethiopia"
@@ -440,6 +481,8 @@ entries:
     sha256: "db2a28c0bc281f8bf9b2c9bca971240cd5fb87b4d9dfd5d731c0cce5d2826302"
   - number: "0064"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Lucy"
     date: "c. 3,200,000 BCE"
     region: "Ethiopia"
@@ -469,6 +512,8 @@ entries:
     sha256: "4fe1881f4b694877f18cb9d8d1e5a66d22122b51f9febaaf3e66fe54794d799e"
   - number: "0065"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Little One"
     date: "c. 3,200,000 BCE"
     region: "Ethiopia"
@@ -490,6 +535,8 @@ entries:
     sha256: "905aab2a05381ead14300aefd6c2e95fd3f87d5c97064d44cce9b7ec2afc7abd"
   - number: "0066"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "A Scar on the Bone"
     date: "c. 3,150,000 BCE"
     region: "Ethiopia"
@@ -519,6 +566,8 @@ entries:
     sha256: "b45f04b1a88653d0624d8c6f8bcae32cc26ed794f3617e3d95478d843facc124"
   - number: "0067"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Golden Jaw"
     date: "c. 3,000,000 BCE"
     region: "Ethiopia"
@@ -540,6 +589,8 @@ entries:
     sha256: "b4d725a8b4de5f9877d65b8f21d657d5b3cc9898cabfa738993f7b40cc4ed0a3"
   - number: "0068"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Cave of Falling Bones"
     date: "c. 2,900,000 BCE"
     region: "South Africa"
@@ -561,6 +612,8 @@ entries:
     sha256: "3bc681212fc1e20d71531f4a1887de926648fcb6385107d8ed903058eee0fc73"
   - number: "0069"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Taung Child"
     date: "c. 2,800,000 BCE"
     region: "South Africa"
@@ -582,6 +635,8 @@ entries:
     sha256: "4761abe8d69772010e3d75b65378b405fdd12391149dc0fe9f53df2e0044137a"
   - number: "0070"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Lonely Jaw"
     date: "c. 2,800,000 BCE"
     region: "Ethiopia"
@@ -605,6 +660,8 @@ entries:
     sha256: "98bc303fba8d5cf877e281d94703a9515f5e489e73f0f15b5e005dc116dc9857"
   - number: "0071"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Oldowan Choppers"
     date: "c. 2,600,000 BCE"
     region: "Tanzania"
@@ -628,6 +685,8 @@ entries:
     sha256: "b6fb846bbe6a71b78f77154041212d30395c433449d2a91de40acbe1053e2b2e"
   - number: "0072"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Butcher's Floor"
     date: "c. 2,600,000 BCE"
     region: "Tanzania"
@@ -649,6 +708,8 @@ entries:
     sha256: "7de9fc321f488cfcf19dbb1d31edaff1ea816c55fa0c72f94ba2e9bde626b712"
   - number: "0073"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Kada Gona Flakes"
     date: "c. 2,550,000 BCE"
     region: "Ethiopia"
@@ -670,6 +731,8 @@ entries:
     sha256: "a21298951becd8d30cf5c84e322d40e90ac83fb62633943045ae76e07facff68"
   - number: "0074"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Nutcrackers"
     date: "c. 2,500,000 BCE"
     region: "South Africa"
@@ -693,6 +756,8 @@ entries:
     sha256: "141d5d65d7063036e009c0821cecde38b7b2904a232ef39662d537812b7415a0"
   - number: "0075"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Southern Frontier"
     date: "c. 2,450,000 BCE"
     region: "Malawi"
@@ -716,6 +781,8 @@ entries:
     sha256: "c7a06d1a1c4359122f5e52ccfba971dc9ecd7609f38bd5b910d4a98708495b7c"
   - number: "0076"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Handy Man"
     date: "c. 2,400,000 BCE"
     region: "Tanzania"
@@ -740,6 +807,8 @@ entries:
     sha256: "5158cecd7128bc1f2067bc5410e9026caf5b81620eed23a4f7263ac2a3c46162"
   - number: "0077"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Skilled Scavenger"
     date: "c. 2,330,000 BCE"
     region: "Tanzania"
@@ -763,6 +832,8 @@ entries:
     sha256: "fd6cc1ddaf03af18f9b00e2686ccc4c0bea5a6a0c6d82db683275588910d95e0"
   - number: "0078"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Workshop Floor"
     date: "c. 2,300,000 BCE"
     region: "Kenya"
@@ -790,6 +861,8 @@ entries:
     sha256: "f05423e79410d74ce91fc716ae54457a96cc802f4927b66dff6fa05a0e0b6071"
   - number: "0079"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Mrs. Ples"
     date: "c. 2,000,000 BCE"
     region: "South Africa"
@@ -811,6 +884,8 @@ entries:
     sha256: "38df2dff5356b30352e9c12ae32cf61df3748c2e09e0cc21f95647d096bf7361"
   - number: "0080"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Spring Child"
     date: "c. 1,980,000 BCE"
     region: "South Africa"
@@ -834,6 +909,8 @@ entries:
     sha256: "c50f5e3d187671ecc0538a2f3a9cf4562e317660d9eb99da93618663c220a859"
   - number: "0081"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Rise of Erectus"
     date: "c. 1,900,000 BCE"
     region: "Kenya"
@@ -856,6 +933,8 @@ entries:
     sha256: "0eac492fb8496f53787c5b23bd8ae5f75cf89f366865c525275dc0b23b1e8f87"
   - number: "0082"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The First Butcher's Knife"
     date: "c. 1,850,000 BCE"
     region: "Kenya"
@@ -879,6 +958,8 @@ entries:
     sha256: "3f46bcc3787d705410f16d65f11a184aa28bf2a10ca0085598c03a847d13cdd5"
   - number: "0083"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Gate of Dmanisi"
     date: "c. 1,800,000 BCE"
     region: "Georgia"
@@ -902,6 +983,8 @@ entries:
     sha256: "a7fa8d4fee61bddb921385161595bf5c8b12a8cb7529d17b1f360c047c2dbaa6"
   - number: "0084"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Toothless Old Man"
     date: "c. 1,780,000 BCE"
     region: "Georgia"
@@ -925,6 +1008,8 @@ entries:
     sha256: "2b25cc71dd2b05fdb0acaf7ab283362f6013626772a6b5c2437d9e4d9c8c5d6f"
   - number: "0085"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Handaxe Is Born"
     date: "c. 1,760,000 BCE"
     region: "Kenya"
@@ -948,6 +1033,8 @@ entries:
     sha256: "eea1a9f9e5cd9de39920d8b15fa41d76533d2c6e47301d5fb360a8ca314377e4"
   - number: "0086"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Two Kinds of Stone"
     date: "c. 1,750,000 BCE"
     region: "Tanzania"
@@ -971,6 +1058,8 @@ entries:
     sha256: "553aea03bd242296e851626d545ae316354bac64f9efe6d984c8eb957e96a6ad"
   - number: "0087"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Long-Legged Runner"
     date: "c. 1,700,000 BCE"
     region: "Kenya"
@@ -996,6 +1085,8 @@ entries:
     sha256: "114e19d4103a77c7fcc08f1c886ffa63fb9bc81c95de4cabaf10b730e3742ae8"
   - number: "0088"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Daka Brow"
     date: "c. 1,700,000 BCE"
     region: "Ethiopia"
@@ -1021,6 +1112,8 @@ entries:
     sha256: "0767f86c817e5a56f3356ab97695f5e4a4d37b702c083d03a526419e3e285f23"
   - number: "0089"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Home Base"
     date: "c. 1,650,000 BCE"
     region: "Kenya"
@@ -1046,6 +1139,8 @@ entries:
     sha256: "1b3d01869359523dddcfa943e76b6a822fab96dfbccf138240bca8986592ce7f"
   - number: "0090"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Turkana Boy"
     date: "c. 1,600,000 BCE"
     region: "Kenya"
@@ -1069,6 +1164,8 @@ entries:
     sha256: "7f3c2c21434d177089c28420f9a4a6108d9af4c7e59f9876069fd86d391f073a"
   - number: "0091"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Marrow Eaters"
     date: "c. 1,550,000 BCE"
     region: "Kenya"
@@ -1094,6 +1191,8 @@ entries:
     sha256: "13490732e8761931cd25d425f44876a617f505eb31a26d2ce4f90b4f44805982"
   - number: "0092"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Outward Road"
     date: "c. 1,500,000 BCE"
     region: "Kenya"
@@ -1121,6 +1220,8 @@ entries:
     sha256: "099af8cd5e8c05ba75153bf85b7efc1c3218ab1b43ff00f9d2333fc543761166"
   - number: "0093"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Ileret Footprints"
     date: "c. 1,500,000 BCE"
     region: "Kenya"
@@ -1144,6 +1245,8 @@ entries:
     sha256: "8a07ae6d6af031b671324f8ed29a465bb5f2a2e1757a2515ec212255589dab08"
   - number: "0094"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Teaching Hands"
     date: "c. 1,450,000 BCE"
     region: "Kenya"
@@ -1169,6 +1272,8 @@ entries:
     sha256: "4a1527f7f7135f37b2729845df7b42e9e737a16251eed45ea399bee70f2b357e"
   - number: "0095"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Konso Workshops"
     date: "c. 1,400,000 BCE"
     region: "Ethiopia"
@@ -1192,6 +1297,8 @@ entries:
     sha256: "3a998b0e27c1754cdc0ce747f19d3c17c1045fa01b716217071b2d42a9d45c2d"
   - number: "0096"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Rift Crossroads"
     date: "c. 1,300,000 BCE"
     region: "Kenya"
@@ -1215,6 +1322,8 @@ entries:
     sha256: "1dabd09a21d1db9fd82ff1a84590ac78209ce36d6c6325ff17b14caa17d2818d"
   - number: "0097"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The First Asian"
     date: "c. 1,200,000 BCE"
     region: "Java"
@@ -1238,6 +1347,8 @@ entries:
     sha256: "87f6958850553414952565103f767f36edf30b0d0ed2eea2b08834190d1acde3"
   - number: "0098"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Footsteps in the Cold"
     date: "c. 1,150,000 BCE"
     region: "Spain"
@@ -1263,6 +1374,8 @@ entries:
     sha256: "c79782ca0a4a335a98a7207632c689a007b415f4b81be35daf0da78fd5320e60"
   - number: "0099"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Wonderwerk Hearth"
     date: "c. 1,000,000 BCE"
     region: "South Africa"
@@ -1288,6 +1401,8 @@ entries:
     sha256: "a80c6932eb083f3e314c63954bae55239670f4c033a306d67c9d28572dc9fc1b"
   - number: "0100"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Java Man"
     date: "c. 1,000,000 BCE"
     region: "Java"
@@ -1309,6 +1424,8 @@ entries:
     sha256: "2b4782e40d6a60e89a8cce76f564bc65b55d23349e3be48dc84a3be12ca95136"
   - number: "0101"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Yuanmou Teeth"
     date: "c. 950,000 BCE"
     region: "China"
@@ -1332,6 +1449,8 @@ entries:
     sha256: "9fca7c2c57bf264fd8f652b243169cc32256d4793631221a43e0ae57a4dedbd4"
   - number: "0102"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Gran Dolina Kin"
     date: "c. 900,000 BCE"
     region: "Spain"
@@ -1355,6 +1474,8 @@ entries:
     sha256: "863647db429d8c14daf7d0fc82dcc387ff27d59b5a8007e210f7d5b23ff33cf6"
   - number: "0103"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Pioneer Man"
     date: "c. 850,000 BCE"
     region: "Spain"
@@ -1378,6 +1499,8 @@ entries:
     sha256: "a1bbcfbd3c39af9bdc32460204254be5d3ac22eb631aa797dc574dcb321d310b"
   - number: "0104"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Happisburgh Footprints"
     date: "c. 800,000 BCE"
     region: "England"
@@ -1401,6 +1524,8 @@ entries:
     sha256: "bf81e69acd9c5156874429369f15ab328f3721564a0ca286bc7a4726284576b6"
   - number: "0105"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Elephant Hunters"
     date: "c. 780,000 BCE"
     region: "The Levant"
@@ -1426,6 +1551,8 @@ entries:
     sha256: "2eef9de7eba11cddbef297ec652333639a0ba36adbb9a52389d7c5e0fabfe3f1"
   - number: "0106"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "Fire on the Lakeshore"
     date: "c. 780,000 BCE"
     region: "The Levant"
@@ -1449,6 +1576,8 @@ entries:
     sha256: "a65aa9744f48d72e54f2d12dd78bd30813974d8e10a57ac7d6ee2b4098231f13"
   - number: "0107"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Lantian Skull"
     date: "c. 700,000 BCE"
     region: "China"
@@ -1472,6 +1601,8 @@ entries:
     sha256: "ec1b8dc133bfdca315bc4f1b7115c87c520270c65f5dfacd94877e32a52b5fa0"
   - number: "0108"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Heidelberg People"
     date: "c. 650,000 BCE"
     region: "Germany"
@@ -1495,6 +1626,8 @@ entries:
     sha256: "9e016b09d4f591719810a8c8173ae29930657930f1017d52ca59248e38358555"
   - number: "0109"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Boxgrove Hunters"
     date: "c. 600,000 BCE"
     region: "England"
@@ -1520,6 +1653,8 @@ entries:
     sha256: "5b2dabc67e5c95b6cecf61cf9847c257592136b256e2090174fe1930bdb40567"
   - number: "0110"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Broken Hill Skull"
     date: "c. 580,000 BCE"
     region: "Zambia"
@@ -1543,6 +1678,8 @@ entries:
     sha256: "8128e191d456c0a5bd5bd50e3c96634a4003db302f936160314becfdc4037e90"
   - number: "0111"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Zhoukoudian Hearths"
     date: "c. 500,000 BCE"
     region: "China"
@@ -1566,6 +1703,8 @@ entries:
     sha256: "36594ebb6c650d94ffd93b2f917f3c8a8378b9e6bb97b7e92ab7c78fd344db2d"
   - number: "0112"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Herb Gatherers"
     date: "c. 500,000 BCE"
     region: "China"
@@ -1592,6 +1731,8 @@ entries:
     sha256: "039f9705a63d92047575b983eaa705afb65ca1727c667bd59e434ba20910361c"
   - number: "0113"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Terra Amata Huts"
     date: "c. 480,000 BCE"
     region: "France"
@@ -1617,6 +1758,8 @@ entries:
     sha256: "256b43a279eb9b796fd7bccb61d679a47d54473c36ac58b885cd0329eb8dbff4"
   - number: "0114"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Pit of Bones"
     date: "c. 450,000 BCE"
     region: "Spain"
@@ -1644,6 +1787,8 @@ entries:
     sha256: "e34781b2da878105df524a315590603d0c03909675413e187853ed719896a527"
   - number: "0115"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Clacton Spear"
     date: "c. 450,000 BCE"
     region: "England"
@@ -1667,6 +1812,8 @@ entries:
     sha256: "476bdc489aa999756c65c93e27fb67dc44c12df7b41bd3c53a21ac40ff6e0236"
   - number: "0116"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Mended Skull"
     date: "c. 430,000 BCE"
     region: "Spain"
@@ -1694,6 +1841,8 @@ entries:
     sha256: "cc35e477a7ae87670f1ea7c25b409f3fa3a1ce7f0e9371ca4ff11a42861aa072"
   - number: "0117"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Qesem Firekeepers"
     date: "c. 420,000 BCE"
     region: "The Levant"
@@ -1721,6 +1870,8 @@ entries:
     sha256: "c43baf0d4e684fcb4659a5300896cb48cdb338818cbd0ee8837f072f3a47a2e4"
   - number: "0118"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Schoeningen Spears"
     date: "c. 400,000 BCE"
     region: "Germany"
@@ -1748,6 +1899,8 @@ entries:
     sha256: "1dad7488893ad0166cf4943fe78e16a85a4134d3afcdc7fa0150be892bd66da4"
   - number: "0119"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Horse Hunt"
     date: "c. 400,000 BCE"
     region: "Germany"
@@ -1773,6 +1926,8 @@ entries:
     sha256: "66b9967281db0b2b29410901b7048615ceed541895941b1871496acce3928d0d"
   - number: "0120"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The First Long Blades"
     date: "c. 400,000 BCE"
     region: "England"
@@ -1800,6 +1955,8 @@ entries:
     sha256: "0814372dd54297bb89653068e0cb3591f3a33b90f56d312ee8a262a3e80f0b7b"
   - number: "0121"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Cooking Change"
     date: "c. 380,000 BCE"
     region: "East Africa"
@@ -1831,6 +1988,8 @@ entries:
     sha256: "47fa7bfff21cff11576539ffa040f6a94836d3222df0e25486ed7d9d73df13ae"
   - number: "0122"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Brittany Hearth"
     date: "c. 360,000 BCE"
     region: "France"
@@ -1856,6 +2015,8 @@ entries:
     sha256: "bcee2cfd9533493a16303aa97f9381b78b3f2fd03ea9f484df93c2d9ece416b3"
   - number: "0123"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Neanderthal Dawn"
     date: "c. 350,000 BCE"
     region: "Germany"
@@ -1881,6 +2042,8 @@ entries:
     sha256: "92f84d94075f5d2d61e3455328545941c5a40ba4e9b4d009fdb7dbeb1d73eef6"
   - number: "0124"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Tabun Hearth"
     date: "c. 340,000 BCE"
     region: "The Levant"
@@ -1906,6 +2069,8 @@ entries:
     sha256: "f6c13a2093eecf4f59c1e5bfbc6fcb1387d29219b5ab7863b8a4d888788bf00e"
   - number: "0125"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Kalambo Timbers"
     date: "c. 330,000 BCE"
     region: "Zambia"
@@ -1931,6 +2096,8 @@ entries:
     sha256: "8f9dae1ba42158914c37b14b4f3853cc41aad7b96b649a2e4e15be89603a5781"
   - number: "0126"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Olorgesailie Exchange"
     date: "c. 320,000 BCE"
     region: "Kenya"
@@ -1958,6 +2125,8 @@ entries:
     sha256: "2366cf1f1aa031bc27ab260da6d9a00a8c345f2eb40ab0b711946405c92fc327"
   - number: "0127"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Denisova Depths"
     date: "c. 315,000 BCE"
     region: "Siberia"
@@ -1985,6 +2154,8 @@ entries:
     sha256: "87197f0683ce9d46da17738a045c1c1b4fece021c5b240bcc283977ff83b62ed"
   - number: "0128"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Irhoud Faces"
     date: "c. 310,000 BCE"
     region: "Morocco"
@@ -2012,6 +2183,8 @@ entries:
     sha256: "13d7d4e6572300919d9a29b1d95d0f670152443e99b1295db927b47afa51c8d8"
   - number: "0129"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The First of Us"
     date: "c. 300,000 BCE"
     region: "Morocco"
@@ -2039,6 +2212,8 @@ entries:
     sha256: "c517671404fa6479d58c6e770793329368065ba69d0422c151850b361049ce5a"
   - number: "0130"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Blade Revolution"
     date: "c. 300,000 BCE"
     region: "Kenya"
@@ -2066,6 +2241,8 @@ entries:
     sha256: "50432b2dd3bc609f51d08cde5a97c4fd415f3e617ef75c51203c9cc34ec35e67"
   - number: "0131"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Gademotta Points"
     date: "c. 300,000 BCE"
     region: "Ethiopia"
@@ -2093,6 +2270,8 @@ entries:
     sha256: "9f9ec5d915cb88250dcdbc80b82772762333538e0b51f2b68c6a3d32663f620c"
   - number: "0132"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Pinnacle Point Shells"
     date: "c. 300,000 BCE"
     region: "South Africa"
@@ -2118,6 +2297,8 @@ entries:
     sha256: "959d1f13bb8aca3debcc26f8cf2e4f02b750b6d3f37f0ca3cf0a9a537969ab9e"
   - number: "0133"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Kept Blades"
     date: "c. 300,000 BCE"
     region: "The Levant"
@@ -2143,6 +2324,8 @@ entries:
     sha256: "4f4e70a075ddbf2d35036ebf9717d0be77d6b5d6cc34e25474a768d44adad17d"
   - number: "0134"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Neanderthal Nurseries"
     date: "c. 300,000 BCE"
     region: "Europe"
@@ -2168,6 +2351,8 @@ entries:
     sha256: "a43f8125078a21f9387c20bd9310deed0f6e8775ad66b071c10f343f7a5191ef"
   - number: "0135"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Second Crossing"
     date: "c. 300,000 BCE"
     region: "Georgia"
@@ -2193,6 +2378,8 @@ entries:
     sha256: "2202a54275a9d2853cb3696c7dc1ee26f025cd28939c155f32880639f2f27e8b"
   - number: "0136"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Zhoukoudian Winters"
     date: "c. 300,000 BCE"
     region: "China"
@@ -2218,6 +2405,8 @@ entries:
     sha256: "572695a4ffe0888130a159ed5cae025fd19c73a13f646ef39bfa8b8b5cae8750"
   - number: "0137"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Solo River People"
     date: "c. 300,000 BCE"
     region: "Java"
@@ -2241,6 +2430,8 @@ entries:
     sha256: "6541878b6aae1b05a8e9d759a57c0f7c0d600eafa69cd22382589ab7caf4b9b3"
   - number: "0138"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Eyasi Kin"
     date: "c. 300,000 BCE"
     region: "Tanzania"
@@ -2266,6 +2457,8 @@ entries:
     sha256: "306d154ab815406124c5e338627614119bc4e0a61f1d4a5a553f892546437a7e"
   - number: "0139"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Omo Forerunners"
     date: "c. 300,000 BCE"
     region: "Ethiopia"
@@ -2289,6 +2482,8 @@ entries:
     sha256: "a0d965cd7290348825e821365aef2460c6e9da5b40512f026ef16fc832501495"
   - number: "0140"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Florisbad Spring"
     date: "c. 300,000 BCE"
     region: "South Africa"
@@ -2313,6 +2508,8 @@ entries:
     sha256: "111e21d2f46b5a868748deebb2085debfd773632d41657e232f037bfebc3cc01"
   - number: "0141"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Fire Carriers"
     date: "c. 300,000 BCE"
     region: "The Levant"
@@ -2340,6 +2537,8 @@ entries:
     sha256: "5c4c8672d08e2d9a2aeb1249684759593d6664fc0748978aa6e9c1e4f3a523b4"
   - number: "0142"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Great Parting"
     date: "c. 300,000 BCE"
     region: "East Africa"
@@ -2369,6 +2568,8 @@ entries:
     sha256: "8f991ec0745d529b5f4d5a86ec82b592a2c2b4c96d493b373714f8ddd3eaa50d"
   - number: "0143"
     volume: 1
+    era_code: "01a"
+    era: "Deep Time (early)"
     title: "The Threshold"
     date: "c. 300,000 BCE"
     region: "Morocco"
@@ -2400,6 +2601,8 @@ entries:
     sha256: "5a72ae70aa93327f18957fad90ff9fcde1daa00a0f19212c230c3e9f885ce388"
   - number: "0144"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Florisbad Skull"
     date: "c. 295,000 BCE"
     region: "South Africa"
@@ -2422,6 +2625,8 @@ entries:
     sha256: "53f83b9db88f897d36f5c920a77bfec227ffb3a51496f58425dbcb2b37ab1ead"
   - number: "0145"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Long Lakeshore"
     date: "c. 290,000 BCE"
     region: "Kenya"
@@ -2449,6 +2654,8 @@ entries:
     sha256: "da779e606bda01ad4fdd54029a9c17802d99de60e4827ad8b7573a777c3a86ae"
   - number: "0146"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Obsidian Caravans"
     date: "c. 280,000 BCE"
     region: "Ethiopia"
@@ -2474,6 +2681,8 @@ entries:
     sha256: "330bfad9d57515cf921805dee9e0668beffba70c5fd01752ab16c03b3190a8d7"
   - number: "0147"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Red Stone"
     date: "c. 266,000 BCE"
     region: "Zambia"
@@ -2492,6 +2701,8 @@ entries:
     sha256: "ac23d0845fa86a23e56b0b50bc622a070c51150ec624bb4bd473a1c6daa49462"
   - number: "0148"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Watcher at the Spring"
     date: "c. 260,000 BCE"
     region: "South Africa"
@@ -2514,6 +2725,8 @@ entries:
     sha256: "7f45bff1416cf08d6a324e45bc003bc1d826fa6c5ebab610587d6312a56d7396"
   - number: "0149"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Cousin at Broken Hill"
     date: "c. 250,000 BCE"
     region: "Zambia"
@@ -2536,6 +2749,8 @@ entries:
     sha256: "1b899cfbf22ac5e53a33bea95c4654aaec33969dbfbd423832ebcc51eef0a0ef"
   - number: "0150"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Aterian Hunters"
     date: "c. 240,000 BCE"
     region: "Morocco"
@@ -2554,6 +2769,8 @@ entries:
     sha256: "b6e8712f68bb3697ee51fcd99a591b92056a25a5673850227076ffa5c58fb155"
   - number: "0151"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Omo Skulls"
     date: "c. 233,000 BCE"
     region: "Ethiopia"
@@ -2579,6 +2796,8 @@ entries:
     sha256: "31e38958cdad61637f7358535f089962b5cbd8d61d5f9d2b3621bc1f22955cf4"
   - number: "0152"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Mother of All"
     date: "c. 150,000 BCE"
     region: "Africa"
@@ -2604,6 +2823,8 @@ entries:
     sha256: "854d91ec8d13aa8effa5c0203a131d54ac329c8e933430d7008733705e7729ab"
   - number: "0153"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Skull in the Greek Cave"
     date: "c. 210,000 BCE"
     region: "Greece"
@@ -2625,6 +2846,8 @@ entries:
     sha256: "fb69f3eaef4ccb3fcb1252a404396e3ad6fdc362bf15787834befc7bf685c597"
   - number: "0154"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Misliya Jaw"
     date: "c. 195,000 BCE"
     region: "Israel"
@@ -2645,6 +2868,8 @@ entries:
     sha256: "14a5517c115377a87eea99fa3c2957a0719112a460001ff573bea678b8c75254"
   - number: "0155"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Shellfish Supper"
     date: "c. 164,000 BCE"
     region: "South Africa"
@@ -2668,6 +2893,8 @@ entries:
     sha256: "8fcaac057eb0b1e2d5076a92ebac931fcad6ad234e8e881a48d44c14e1db3b27"
   - number: "0156"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Herto Skulls"
     date: "c. 160,000 BCE"
     region: "Ethiopia"
@@ -2691,6 +2918,8 @@ entries:
     sha256: "f9bf7f86676cb72f94c6fe5bf61f265256fab1667ba5e2e31327de6a470cd5f7"
   - number: "0157"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Father of All"
     date: "c. 150,000 BCE"
     region: "Africa"
@@ -2715,6 +2944,8 @@ entries:
     sha256: "fba446b8ee394104341350ae7bfedddff415844678b501315ae0e3d995c65f97"
   - number: "0158"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Caves by the Sea"
     date: "c. 140,000 BCE"
     region: "Morocco"
@@ -2741,6 +2972,8 @@ entries:
     sha256: "52375697b59794db55862980e0a25236572cb8214f1e9cb53bb6d4365902b70a"
   - number: "0159"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Tabun Burial"
     date: "c. 130,000 BCE"
     region: "Israel"
@@ -2760,6 +2993,8 @@ entries:
     sha256: "c52e4d8bc6736976de0df67bdf893933de285d6bab5fa3f38a5482f340f08865"
   - number: "0160"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Skhul Dead"
     date: "c. 120,000 BCE"
     region: "Israel"
@@ -2782,6 +3017,8 @@ entries:
     sha256: "3055d13cd0620a30421d39df7e0b3a91696e62d94299a09eebf6f6975f4dd955"
   - number: "0161"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Necklace of the Sea"
     date: "c. 115,000 BCE"
     region: "Morocco"
@@ -2803,6 +3040,8 @@ entries:
     sha256: "1afebaaa85b85bc171c68766f7b9595fd469cc3974f3f4a0be0e562f8531f20d"
   - number: "0162"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Bone Harpoons"
     date: "c. 110,000 BCE"
     region: "Congo"
@@ -2824,6 +3063,8 @@ entries:
     sha256: "fbfcbb4d0605c26d987c3e8c7efb523ef106f74aaa191471dfca2ca938dc6f99"
   - number: "0163"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Second Wave"
     date: "c. 105,000 BCE"
     region: "Levant"
@@ -2846,6 +3087,8 @@ entries:
     sha256: "f35ef557bca5d3e39900e9c58f33c9099c429a4bdded2c75466ab2a227d3b83b"
   - number: "0164"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Paint Workshop"
     date: "c. 100,000 BCE"
     region: "South Africa"
@@ -2868,6 +3111,8 @@ entries:
     sha256: "a9814af7cfd36f787b259f111d050d7f00c4865a3ff59415e594ccc6d9aab71a"
   - number: "0165"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Boy with the Antlers"
     date: "c. 100,000 BCE"
     region: "Israel"
@@ -2892,6 +3137,8 @@ entries:
     sha256: "12a491c24d380226fd51fd7d3524a984757cc38bb0f5181a9da0e7f4e89891a5"
   - number: "0166"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Qafzeh Ochre"
     date: "c. 95,000 BCE"
     region: "Israel"
@@ -2915,6 +3162,8 @@ entries:
     sha256: "a70e6565af5d5b397d43ddcba19436e9b6b469787039a611f24614af4437bdf1"
   - number: "0167"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Engraved Stone"
     date: "c. 90,000 BCE"
     region: "South Africa"
@@ -2937,6 +3186,8 @@ entries:
     sha256: "f32cf3fbcb0c754ba28247c5e4a551dbb147713c76852583189211ee2f77db24"
   - number: "0168"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Teshik-Tash Child"
     date: "c. 85,000 BCE"
     region: "Uzbekistan"
@@ -2961,6 +3212,8 @@ entries:
     sha256: "3a8b03fdcadffde717ec2575157de39822a4da42cbe663780a4ebb29c14d3b28"
   - number: "0169"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Clothes"
     date: "c. 83,000 BCE"
     region: "Africa"
@@ -2984,6 +3237,8 @@ entries:
     sha256: "3ee5e496579b885aad2146b8104ac6d8c239f53ba0ba2a4d22e1b5d0b5de353c"
   - number: "0170"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Taforalt Beads"
     date: "c. 80,000 BCE"
     region: "Morocco"
@@ -3007,6 +3262,8 @@ entries:
     sha256: "ddffa772d9ed005385044647438ac2b851fdb51c54b1ff818b13f14f3ec39bbe"
   - number: "0171"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Bed"
     date: "c. 77,000 BCE"
     region: "South Africa"
@@ -3031,6 +3288,8 @@ entries:
     sha256: "a977bfc8664d21bcc32226dec97645145e581ac77f6a0997c8a927d89823d422"
   - number: "0172"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Beads of Blombos"
     date: "c. 75,000 BCE"
     region: "South Africa"
@@ -3056,6 +3315,8 @@ entries:
     sha256: "a8344c78bd9856fc4580c888849aa4edebdc6e2ce28247952e0459492ba5addc"
   - number: "0173"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Sky Goes Dark"
     date: "c. 74,000 BCE"
     region: "Sumatra"
@@ -3083,6 +3344,8 @@ entries:
     sha256: "0b98f0f0fc5cb3dbfb2b586c7220b6d2c99b9c311f5ac1c5d111135efa1a84fd"
   - number: "0174"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Still Bay Points"
     date: "c. 72,000 BCE"
     region: "South Africa"
@@ -3103,6 +3366,8 @@ entries:
     sha256: "df6c5b8c603a7a7cd522e09e4b7df042d71da1cb80d68d2f0a8e8c5847d74dd6"
   - number: "0175"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Howieson's Blades"
     date: "c. 71,000 BCE"
     region: "South Africa"
@@ -3124,6 +3389,8 @@ entries:
     sha256: "a727f98d7d206d6835c976f95d4d195980c0265faeb8ded2e7c7a25829a5adc1"
   - number: "0176"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Healer of Shanidar"
     date: "c. 70,000 BCE"
     region: "Iraq"
@@ -3153,6 +3420,8 @@ entries:
     sha256: "4ca152b24c8ccf11fc61fcc283437f52cf300fcfe288a26b20ba97bb75a2ba45"
   - number: "0177"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Great Crossing"
     date: "c. 65,000 BCE"
     region: "Australia"
@@ -3179,6 +3448,8 @@ entries:
     sha256: "d9fc12dcf8d63187da3d717f5fad0c7e680e0104847b9db05bd2499bdc636f11"
   - number: "0178"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Arrows"
     date: "c. 64,000 BCE"
     region: "South Africa"
@@ -3199,6 +3470,8 @@ entries:
     sha256: "69b451a22d6adf39fdab20773482ceee7055d17e4db66bcf4274bf05c1c8f4af"
   - number: "0179"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Ochre Quarries"
     date: "c. 63,000 BCE"
     region: "Australia"
@@ -3220,6 +3493,8 @@ entries:
     sha256: "27ad911bd3e0e5d67af53196d64454d012c7bf31dd0dce7732a6f741912892e4"
   - number: "0180"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Painted Eggs"
     date: "c. 60,000 BCE"
     region: "South Africa"
@@ -3245,6 +3520,8 @@ entries:
     sha256: "a0218585d1d884ea071ab87e468e027ecf5e0cb93314ed128b7ee1789b4bdf05"
   - number: "0181"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Old Man of La Chapelle"
     date: "c. 60,000 BCE"
     region: "France"
@@ -3270,6 +3547,8 @@ entries:
     sha256: "d44d94a548327d7af664a9a0d68f2212b8b61967b81aed3563ae4f6ffe069dc9"
   - number: "0182"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Meeting"
     date: "c. 58,000 BCE"
     region: "Middle East"
@@ -3298,6 +3577,8 @@ entries:
     sha256: "3e74a55af7ca905ffb0410acb6f6e6972088c263820a3c66bd40f660f299aba1"
   - number: "0183"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Kebara Burial"
     date: "c. 57,000 BCE"
     region: "Israel"
@@ -3321,6 +3602,8 @@ entries:
     sha256: "99efee6d640649059d3c49bd8d23d4e46693275f3e69da299e199579c617a4f1"
   - number: "0184"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Denisovan Thread"
     date: "c. 55,000 BCE"
     region: "Siberia"
@@ -3345,6 +3628,8 @@ entries:
     sha256: "9673db8e6d2afa68f6195c94d2fe8567f19e505c01d675100c7a5d07a5c61d84"
   - number: "0185"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The La Ferrassie Family"
     date: "c. 54,000 BCE"
     region: "France"
@@ -3370,6 +3655,8 @@ entries:
     sha256: "da057e474ca6898e8736e3e7ef7b90c00be5b01e26568dbc879bad3826153e3c"
   - number: "0186"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Green-Stone Bracelet"
     date: "c. 50,000 BCE"
     region: "Siberia"
@@ -3395,6 +3682,8 @@ entries:
     sha256: "b89b94cbe49e83bcf14803b1ce3266625c33978e033d4539cfba93650bfcaaa5"
   - number: "0187"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Warratyi Hearth"
     date: "c. 50,000 BCE"
     region: "Australia"
@@ -3420,6 +3709,8 @@ entries:
     sha256: "a01e04d331cf8ea9019e01f3722c22482b081501707fc115d10dbb5c70a380a7"
   - number: "0188"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Ranis Pioneers"
     date: "c. 48,000 BCE"
     region: "Germany"
@@ -3445,6 +3736,8 @@ entries:
     sha256: "19098e69b2620ed8ee665e4a0fd571a90a0598cf824d8bf34f4a8027b53eac61"
   - number: "0189"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Mungo Dead"
     date: "c. 47,000 BCE"
     region: "Australia"
@@ -3467,6 +3760,8 @@ entries:
     sha256: "ce66d7a9c1e57d60821a36287b97b057e99ba34fb9d593cc0859c7257984faaa"
   - number: "0190"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Okladnikov Hunters"
     date: "c. 46,000 BCE"
     region: "Siberia"
@@ -3492,6 +3787,8 @@ entries:
     sha256: "4b014a5f5b175509c4feefeaddec81a6d79da8ec4afe9a685225fe99f0bb299e"
   - number: "0191"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Pigs on the Wall"
     date: "c. 45,000 BCE"
     region: "Indonesia"
@@ -3516,6 +3813,8 @@ entries:
     sha256: "412f31f22e32058a70cbc656ab5e452d99afe5d620ce1ff9ce6c6aa0ae01001d"
   - number: "0192"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Bacho Kiro Hunters"
     date: "c. 45,000 BCE"
     region: "Bulgaria"
@@ -3541,6 +3840,8 @@ entries:
     sha256: "c3699a053d5de64d52e4c2ab8c706e0812f87761f4cab3c5f38288997d31d05c"
   - number: "0193"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Little People of Flores"
     date: "c. 44,000 BCE"
     region: "Indonesia"
@@ -3567,6 +3868,8 @@ entries:
     sha256: "e2a2160719f7223cd9228d89e59ad5afadd0d4451abfe06951e4164ecb02d29e"
   - number: "0194"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Woman of Zlatý Kůň"
     date: "c. 43,000 BCE"
     region: "Czechia"
@@ -3589,6 +3892,8 @@ entries:
     sha256: "72e3c4a255c7a42ef0fb9671b1a71599feb35f353d324f4ba8a4e4516ace7439"
   - number: "0195"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Eagle's Gift"
     date: "c. 43,000 BCE"
     region: "Croatia"
@@ -3612,6 +3917,8 @@ entries:
     sha256: "ba20c3e515349c6ce948cfb6596165f895bd91457ba74e2fcdf4e4bd53e024ac"
   - number: "0196"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Red Disks of El Castillo"
     date: "c. 42,000 BCE"
     region: "Spain"
@@ -3635,6 +3942,8 @@ entries:
     sha256: "37c8a882eb748e4fb93fbd47f0c2086a2b77d64d8d0db13f1009990d998dfccb"
   - number: "0197"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Oase Jaw"
     date: "c. 41,000 BCE"
     region: "Romania"
@@ -3659,6 +3968,8 @@ entries:
     sha256: "5c0bc879dd2e5cfce280930d247145ab10cecd36e2e0152c07ecf2bab22ad75c"
   - number: "0198"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Lion Man"
     date: "c. 40,000 BCE"
     region: "Germany"
@@ -3686,6 +3997,8 @@ entries:
     sha256: "7362e680b25b5a303f93e9c8c93df4d1d22dc604f5e5fd54b893009d4a9ce554"
   - number: "0199"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Bone Flute"
     date: "c. 40,000 BCE"
     region: "Germany"
@@ -3711,6 +4024,8 @@ entries:
     sha256: "48a58991dad78bfe68240ec8a6bd936a86f71267f87a0fb52b9077303e86fb56"
   - number: "0200"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Don River Camps"
     date: "c. 40,000 BCE"
     region: "Russia"
@@ -3736,6 +4051,8 @@ entries:
     sha256: "9bb58fd300b9be424f175a0fd9bcea88dbcb3298bb7e8413d828be7007d7093c"
   - number: "0201"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Ash That Changed Everything"
     date: "c. 39,300 BCE"
     region: "Italy"
@@ -3764,6 +4081,8 @@ entries:
     sha256: "97d409b6eb518081309e3f0f8def552cba0772e8d25ef2b4d11401bccfd114ef"
   - number: "0202"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Deep Skull of Niah"
     date: "c. 38,000 BCE"
     region: "Borneo"
@@ -3788,6 +4107,8 @@ entries:
     sha256: "58dba61696a5c1f73523ec07f403730f6cc2705567dc03f525ed642708092b7c"
   - number: "0203"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Red Lady of Paviland"
     date: "c. 37,000 BCE"
     region: "Wales"
@@ -3813,6 +4134,8 @@ entries:
     sha256: "6fef8c7ab7c0651ab742966fdfe4d096fcd580661c9d1d48fb89b0b021c025b6"
   - number: "0204"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Chauvet Lions"
     date: "c. 36,000 BCE"
     region: "France"
@@ -3840,6 +4163,8 @@ entries:
     sha256: "c25ada9565df7933d0b0960d80a055f6ce589330320e7969a72b1e4925bb3ee1"
   - number: "0205"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Edge of the Cold"
     date: "c. 35,000 BCE"
     region: "Siberia"
@@ -3864,6 +4189,8 @@ entries:
     sha256: "3c002c4106ce8f5b010ec92ecd1a8db7fb6c73ca8a4a949d13d906ca6a9183d9"
   - number: "0206"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Balangoda Hunters"
     date: "c. 34,000 BCE"
     region: "Sri Lanka"
@@ -3890,6 +4217,8 @@ entries:
     sha256: "84aa776c86c87377519754dcb5cfb77cf017a3e56485be4cc7d5e51a63bb8bb4"
   - number: "0207"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Clay Animals"
     date: "c. 32,000 BCE"
     region: "Czechia"
@@ -3916,6 +4245,8 @@ entries:
     sha256: "43a1a7eeb383cd66886f3436ea1105b0007fa403c0076a37956228efc648b585"
   - number: "0208"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Cosquer Descent"
     date: "c. 31,000 BCE"
     region: "France"
@@ -3942,6 +4273,8 @@ entries:
     sha256: "2da0264f3fb1e16a3abe006430ce860776c4520704e1dff6313c3c9b11273b0d"
   - number: "0209"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Venus of Willendorf"
     date: "c. 30,000 BCE"
     region: "Austria"
@@ -3968,6 +4301,8 @@ entries:
     sha256: "1f80756561ac0db3447e9933d6d744a9ea03f8e87ad58e7d709f274c86c397e2"
   - number: "0210"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Sungir Burials"
     date: "c. 30,000 BCE"
     region: "Russia"
@@ -3994,6 +4329,8 @@ entries:
     sha256: "7cf596c112a4e84c93295c887ed07f1a5d8db0752fe7ebb4f071a13cc71565c2"
   - number: "0211"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Bhimbetka Painters"
     date: "c. 30,000 BCE"
     region: "India"
@@ -4021,6 +4358,8 @@ entries:
     sha256: "657597dd862f1405b6bddf07926bb1e13a5dfad788f95db850f95f0f32467957"
   - number: "0212"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Upper Cave Dead"
     date: "c. 30,000 BCE"
     region: "China"
@@ -4046,6 +4385,8 @@ entries:
     sha256: "2d58359e52bfb7cc6d874f8d7115f0ee19c757b29a90fc1a7e46729df942aa17"
   - number: "0213"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Venus of Dolní Věstonice"
     date: "c. 29,000 BCE"
     region: "Czechia"
@@ -4072,6 +4413,8 @@ entries:
     sha256: "d9f026bf0cfad6dc2ec3f1209fda8c38199f1e4c5d122c9aa3c6d12b9ae9e1ee"
   - number: "0214"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Last Neanderthals"
     date: "c. 28,000 BCE"
     region: "Gibraltar"
@@ -4100,6 +4443,8 @@ entries:
     sha256: "1dd6c19bae0a41a7a0e8c889e58882533d3a2c1e9f8c9ef0930a9c0f79860f6a"
   - number: "0215"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Weavers"
     date: "c. 27,000 BCE"
     region: "Czechia"
@@ -4128,6 +4473,8 @@ entries:
     sha256: "78f146504d102e8b78c57986f1a884b7e2517eb7aab9ffbc1e03a132a4a34e86"
   - number: "0216"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Mal'ta Boy"
     date: "c. 26,000 BCE"
     region: "Siberia"
@@ -4154,6 +4501,8 @@ entries:
     sha256: "ccbb0ed265477bdf5a1911b60fa905a4b91b73e22046d3cde51237e7474167ac"
   - number: "0217"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Pech Merle Hands"
     date: "c. 25,000 BCE"
     region: "France"
@@ -4181,6 +4530,8 @@ entries:
     sha256: "98d6f0403cee760b81537cb6da6815bb68e9cf0766b3e2d6cb3cd55cf6057ea0"
   - number: "0218"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Lagar Velho Child"
     date: "c. 24,500 BCE"
     region: "Portugal"
@@ -4208,6 +4559,8 @@ entries:
     sha256: "c9d200e8749a74972493d35a4085bedab9d8b6618f3a1a81fda1609aa6c04633"
   - number: "0219"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Laurel Leaves"
     date: "c. 24,000 BCE"
     region: "France"
@@ -4233,6 +4586,8 @@ entries:
     sha256: "c8959ee646ec7e8f3320a67658ff5e94aa82ec921a2e7ed4dd3af32761f62ea4"
   - number: "0220"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Fishermen"
     date: "c. 23,000 BCE"
     region: "Israel"
@@ -4259,6 +4614,8 @@ entries:
     sha256: "160d5de4e505a117f48804488e4623fa8377d57a64d5c5d215b2015d93c9cc34"
   - number: "0221"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Shell Hooks"
     date: "c. 23,000 BCE"
     region: "Okinawa"
@@ -4285,6 +4642,8 @@ entries:
     sha256: "60492931eaede02bc8472a96c6e334fd94558a893609925457bf22e3b22dbfa7"
   - number: "0222"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Sewn World"
     date: "c. 22,000 BCE"
     region: "Siberia"
@@ -4313,6 +4672,8 @@ entries:
     sha256: "5bd78d3d7df768714ede6b483bf411e4d47f64035def98484137df9afb554a37"
   - number: "0223"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Parpalló Plaques"
     date: "c. 22,000 BCE"
     region: "Spain"
@@ -4339,6 +4700,8 @@ entries:
     sha256: "e63364bf9070c2aa987970223451a1a644e0350a7e213af6d9b32e17db127132"
   - number: "0224"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Counting Bone"
     date: "c. 20,000 BCE"
     region: "Congo"
@@ -4365,6 +4728,8 @@ entries:
     sha256: "8530bd3b8c2b37b3572e4ef8cec1a038b5fb6bb1b78457d512affba822b830eb"
   - number: "0225"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Great Ice"
     date: "c. 20,000 BCE"
     region: "Siberia"
@@ -4393,6 +4758,8 @@ entries:
     sha256: "32aec0dce698cac5b46948c2515cd8c59f40ddc69d72a58797077d54c92c27ce"
   - number: "0226"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Bridge of Grass"
     date: "c. 18,000 BCE"
     region: "Siberia"
@@ -4420,6 +4787,8 @@ entries:
     sha256: "7338eca6068a659f4f5a4cdc75970926bf7f32fc75e6d78c6880ccbe209947a5"
   - number: "0227"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Minatogawa People"
     date: "c. 18,000 BCE"
     region: "Okinawa"
@@ -4445,6 +4814,8 @@ entries:
     sha256: "ae5671335ba04c1a3c9e9f7c36be23e009d93c79cdedf601eecf5b0ba7f3ad8e"
   - number: "0228"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Hall of Bulls"
     date: "c. 17,000 BCE"
     region: "France"
@@ -4470,6 +4841,8 @@ entries:
     sha256: "57755a419c36eb23311a5ca5fc2e872d5dcf847e042674bc8eab47f8ae6ee5f0"
   - number: "0229"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Altamira Bison"
     date: "c. 16,500 BCE"
     region: "Spain"
@@ -4496,6 +4869,8 @@ entries:
     sha256: "1ca3ca5fa1c8332ec534a8edc33ecc00980a60a6822584ba74c7435198f636ea"
   - number: "0230"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Footprints at Monte Verde"
     date: "c. 16,000 BCE"
     region: "Chile"
@@ -4525,6 +4900,8 @@ entries:
     sha256: "df3641ba45504d66b50bb220725c60ee614238b04be1c8ecd5dd7b33abbe7b6c"
   - number: "0231"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Mammoth-Bone Houses"
     date: "c. 15,000 BCE"
     region: "Ukraine"
@@ -4551,6 +4928,8 @@ entries:
     sha256: "62b3dc2ee31d912af9907e765b000d10b072551f96b7287bd6ddfc0ce90566ce"
   - number: "0232"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Paisley Caves"
     date: "c. 14,800 BCE"
     region: "Oregon"
@@ -4579,6 +4958,8 @@ entries:
     sha256: "925e8a9fc9d0f36ece8168b425be5a3d3ff277b2a56ff4defe309729e4e7637f"
   - number: "0233"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Page-Ladson Hunters"
     date: "c. 14,500 BCE"
     region: "Florida"
@@ -4608,6 +4989,8 @@ entries:
     sha256: "30092d6cdb709b7f0f7ee81f407b4744b2e44b1e799141d0a9e12f02b2144f1a"
   - number: "0234"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Niaux Horses"
     date: "c. 14,500 BCE"
     region: "France"
@@ -4634,6 +5017,8 @@ entries:
     sha256: "e53aac3805f9e6c928e47e13368fc9a53bb311eda69cf21c2209b2f2be033c29"
   - number: "0235"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Dog"
     date: "c. 14,200 BCE"
     region: "Germany"
@@ -4661,6 +5046,8 @@ entries:
     sha256: "fa09cf0db9ae4e6762a5e7d69878f7ea96496e60bd89216f07b556d4b5b4c2b1"
   - number: "0236"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Clay Bison"
     date: "c. 14,000 BCE"
     region: "France"
@@ -4687,6 +5074,8 @@ entries:
     sha256: "b0e0b3e1e5a109e45fbfc531f2b9f2aa0c6916571373f20fc2dd9631950f8e90"
   - number: "0237"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Bread"
     date: "c. 14,000 BCE"
     region: "Jordan"
@@ -4714,6 +5103,8 @@ entries:
     sha256: "b305dba6875b6f146f2bfa4ad08d6058fcf088c7865f49001587eec826ffc4f5"
   - number: "0238"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Spear-Thrower"
     date: "c. 13,500 BCE"
     region: "France"
@@ -4742,6 +5133,8 @@ entries:
     sha256: "4769455b72e950dc807b21fd120ab1cd648c38f58d097052df42dade53314a9d"
   - number: "0239"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Clovis Points"
     date: "c. 13,200 BCE"
     region: "North America"
@@ -4769,6 +5162,8 @@ entries:
     sha256: "1fcc2f927086e02187391f2696a0eddd1ebacbeed576d19a156e9c719f39aa39"
   - number: "0240"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Anzick Child"
     date: "c. 13,000 BCE"
     region: "New Mexico"
@@ -4797,6 +5192,8 @@ entries:
     sha256: "3ad5528d7e6aa3771be883325dc18ed1e09d38601445a63e52b15823e0a92afb"
   - number: "0241"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Year the Cold Returned"
     date: "c. 12,900 BCE"
     region: "Global"
@@ -4826,6 +5223,8 @@ entries:
     sha256: "b2b9a485d8e2094012c552d8329f2c7f139c94c2af1ef2652d2a19cce31c9936"
   - number: "0242"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The Natufian Harvest"
     date: "c. 12,500 BCE"
     region: "Israel"
@@ -4858,6 +5257,8 @@ entries:
     sha256: "27367023a9681296b38a85c3c1a712d685c2b9282ca1f4d048bc8ad420843843"
   - number: "0243"
     volume: 1
+    era_code: "01b"
+    era: "Deep Time (later)"
     title: "The First Village"
     date: "c. 12,000 BCE"
     region: "Israel"
@@ -4891,6 +5292,8 @@ entries:
     sha256: "6d4a2b4d9060b466b2aa7a2e1154182bfb551b4cffdc705bfeadf43ef7e625f1"
   - number: "0244"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wild Wheat Harvest"
     date: "c. 12,000 BCE"
     region: "The Levant"
@@ -4914,6 +5317,8 @@ entries:
     sha256: "21c92874760a85e48f193ec5ad5511c2e00cc47a1e8501b51ee932862beed3d3"
   - number: "0245"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Gardeners of the Hills"
     date: "c. 11,800 BCE"
     region: "The Levant"
@@ -4929,6 +5334,8 @@ entries:
     sha256: "b78022fb1032701e464e95bda327d33aa3845823535ffd79f5c2a9919c71f092"
   - number: "0246"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Stone Houses on the Ridge"
     date: "c. 11,600 BCE"
     region: "The Levant"
@@ -4948,6 +5355,8 @@ entries:
     sha256: "db6685763183ae925b75673b2d1d13d009e06a2d77f3c67701ba75fd08441cbe"
   - number: "0247"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Loaf of Bread"
     date: "c. 11,400 BCE"
     region: "Jordan"
@@ -4968,6 +5377,8 @@ entries:
     sha256: "1308e9628bbd0cb697ccb10cd3234ba81aec0bd9e1dbc6bd841b2b5b5670813b"
   - number: "0248"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Shaman's Grave"
     date: "c. 11,200 BCE"
     region: "The Levant"
@@ -4991,6 +5402,8 @@ entries:
     sha256: "81b224af90102b711188ed291c621aad122dddacc1c021502f2a535edf18ef82"
   - number: "0249"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Beer"
     date: "c. 11,000 BCE"
     region: "The Levant"
@@ -5010,6 +5423,8 @@ entries:
     sha256: "13db824d41e202afe863258d774823a70ff0cb148d7703e73293202684a88176"
   - number: "0250"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Pillars Before Plows"
     date: "c. 11,000 BCE"
     region: "Anatolia"
@@ -5030,6 +5445,8 @@ entries:
     sha256: "1cb13eb7237c12c76f5958cbbd72d4fc1eaafcb75bda4b189dc0785dbd8953f6"
   - number: "0251"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Harvest Tools"
     date: "c. 10,900 BCE"
     region: "The Levant"
@@ -5051,6 +5468,8 @@ entries:
     sha256: "d376c61d517904ec7d3f5897853d46277b685bc09a9182e1446d6b5ca66ec97f"
   - number: "0252"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Tamed Wolf"
     date: "c. 10,800 BCE"
     region: "The Levant"
@@ -5072,6 +5491,8 @@ entries:
     sha256: "440300ba9929cf9a699a2c8f3d83bd1ef5790829fbc65f375dadff17dfe2f546"
   - number: "0253"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Feasts at the Cave Mouth"
     date: "c. 10,700 BCE"
     region: "The Levant"
@@ -5092,6 +5513,8 @@ entries:
     sha256: "e464bc6222c2921e1eac7ec63e1a026f0e9183ba425b9ddef4e36ffa0a50bbf4"
   - number: "0254"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Feasts That Raised the Stones"
     date: "c. 10,600 BCE"
     region: "Anatolia"
@@ -5114,6 +5537,8 @@ entries:
     sha256: "978f88781b6d9b66082f6493627aa46f2206576d1d287267a0c6fa4877e072ef"
   - number: "0255"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Figs"
     date: "c. 10,500 BCE"
     region: "The Levant"
@@ -5137,6 +5562,8 @@ entries:
     sha256: "ca9cdf62b1731dcb4dec27400a6fd6712ea40dde17d53e5543aa81c792920a12"
   - number: "0256"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Sickles of Abu Hureyra"
     date: "c. 10,400 BCE"
     region: "The Levant"
@@ -5158,6 +5585,8 @@ entries:
     sha256: "67a74ce8402d892b8380aff8750be8cbbbde5aa2343aa6ccbf096e32a68428b1"
   - number: "0257"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wild Rye Harvest"
     date: "c. 10,300 BCE"
     region: "The Levant"
@@ -5180,6 +5609,8 @@ entries:
     sha256: "8b8f040ffc0b975308bfa85a7c9e8b80d3debcecffa37808825b534ff97af888"
   - number: "0258"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Great Circles Rise"
     date: "c. 10,200 BCE"
     region: "Anatolia"
@@ -5201,6 +5632,8 @@ entries:
     sha256: "c50df969ac73fd2e9c527ccbeb802ed125a32cefd3481e3f9cac6677431a9484"
   - number: "0259"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Cold Snap That Made Farmers"
     date: "c. 10,100 BCE"
     region: "The Levant"
@@ -5222,6 +5655,8 @@ entries:
     sha256: "a4a7ea3ce31f5b6e39b4b435550765fec3cfd9164d65362c2f5320526f102a12"
   - number: "0260"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Planting the First Seeds"
     date: "c. 10,000 BCE"
     region: "The Levant"
@@ -5243,6 +5678,8 @@ entries:
     sha256: "cd24db8d8e653a7b3e2f5c318fa02c04c6acccc8d34ff72dac8bdfac38de8145"
   - number: "0261"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Pots"
     date: "c. 10,000 BCE"
     region: "Japan"
@@ -5264,6 +5701,8 @@ entries:
     sha256: "f60a5fe76eeab830feef3c16f2d5afed81ecde16dd6a6e0577b4da462159743a"
   - number: "0262"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Feasting Halls"
     date: "c. 9,900 BCE"
     region: "Anatolia"
@@ -5284,6 +5723,8 @@ entries:
     sha256: "4e2f4401e62fd2de29284227166eadcf8d3d69db54122648d37f89dbad949dd8"
   - number: "0263"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Goats on the Horizon"
     date: "c. 9,800 BCE"
     region: "The Zagros"
@@ -5304,6 +5745,8 @@ entries:
     sha256: "5dbd11c3cca62cdea3ab5fa861e8c9524df9dbbdbb686ddd9b444fe4e8fbbbf1"
   - number: "0264"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Weeds"
     date: "c. 9,700 BCE"
     region: "The Levant"
@@ -5324,6 +5767,8 @@ entries:
     sha256: "d078c14ce3365d512f1ba1446a46a2bcd38e3dc16d5f9cef336dbddb69361fb5"
   - number: "0265"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Gardeners of the Andes"
     date: "c. 9,700 BCE"
     region: "Peru"
@@ -5345,6 +5790,8 @@ entries:
     sha256: "0484b80b61bc70d8bc1d0a5dd01e3ca21b0cbacb903b7f3d85beba142d3c5a61"
   - number: "0266"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wild Grass That Would Feed Empires"
     date: "c. 9,600 BCE"
     region: "Mexico"
@@ -5367,6 +5814,8 @@ entries:
     sha256: "c28767e63652187ea61f7813f45ffd6feb3b5e1680a4ba339179a3678ce48d4a"
   - number: "0267"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Tower of Jericho"
     date: "c. 9,600 BCE"
     region: "The Levant"
@@ -5387,6 +5836,8 @@ entries:
     sha256: "3f2336f2bfbaa1b10d8fa780ff4ec41c0b7ca24440c0d8beda6eaf5fc0918dc7"
   - number: "0268"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Walls Against the World"
     date: "c. 9,500 BCE"
     region: "The Levant"
@@ -5406,6 +5857,8 @@ entries:
     sha256: "94de102d8ef0c00a8fb9af359687dcb51cb66c6be9bc36a5672ae6e12350622b"
   - number: "0269"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Carved Beasts Guard the Dead"
     date: "c. 9,500 BCE"
     region: "Anatolia"
@@ -5426,6 +5879,8 @@ entries:
     sha256: "7f932fdc620c0a09720a9df59ba54293565a7e6d62be43dd0b188654daf44b84"
   - number: "0270"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Einkorn Tamed"
     date: "c. 9,400 BCE"
     region: "The Levant"
@@ -5448,6 +5903,8 @@ entries:
     sha256: "06231b4450495d44f6e445b68a86681ebbd5f22d00a278fa7457d70b76d43296"
   - number: "0271"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Emmer Tamed"
     date: "c. 9,400 BCE"
     region: "The Levant"
@@ -5468,6 +5925,8 @@ entries:
     sha256: "5f4e0a7b5adab5cd93591d4d8ea9c69cc09dd7f850548fbb655f0b18e19fa2af"
   - number: "0272"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Barns"
     date: "c. 9,300 BCE"
     region: "The Levant"
@@ -5489,6 +5948,8 @@ entries:
     sha256: "785a8291472f144f6c262ca81d39a7e1f7c19f2a9a599991b7cf7685458ffc34"
   - number: "0273"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Mice Sail to a New Island"
     date: "c. 9,300 BCE"
     region: "Cyprus"
@@ -5511,6 +5972,8 @@ entries:
     sha256: "c9322638a6bbc89d0f2aaff08ac602db98f2fb09034cb0bcf1008fd8ce1abd49"
   - number: "0274"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Barley the Survivor"
     date: "c. 9,200 BCE"
     region: "The Levant"
@@ -5532,6 +5995,8 @@ entries:
     sha256: "75ad5f4ee49b26cd05a5dc525513a6ca22c37b280cb4799e8ba296ed854e96f5"
   - number: "0275"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Millet in the Yellow River Valley"
     date: "c. 9,200 BCE"
     region: "China"
@@ -5553,6 +6018,8 @@ entries:
     sha256: "6494919451de8cee372e41d17c83e60d881b0b7e1c178d2cb38d89ca17e02317"
   - number: "0276"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Peas in the Pot"
     date: "c. 9,100 BCE"
     region: "The Levant"
@@ -5572,6 +6039,8 @@ entries:
     sha256: "e3e852d5a4d80ab3767978afd721f7e3eb4efd414b7b258cc96e8c25806671df"
   - number: "0277"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Chickpeas Join the Table"
     date: "c. 9,100 BCE"
     region: "The Levant"
@@ -5591,6 +6060,8 @@ entries:
     sha256: "0827843999649db154c095567dd49a75b05cf12465a27c823e89ecbc51700cd6"
   - number: "0278"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Flax for Thread"
     date: "c. 9,000 BCE"
     region: "The Levant"
@@ -5610,6 +6081,8 @@ entries:
     sha256: "e1aeb98aa2f6ef7da65849a40171d9e4231895927a10c02477349ea99624dba3"
   - number: "0279"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Fields"
     date: "c. 9,000 BCE"
     region: "The Levant"
@@ -5630,6 +6103,8 @@ entries:
     sha256: "ed50a2f50e1962326f928fba00aa78a52156201a42f4b815a2c6f1c7d71fb54e"
   - number: "0280"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Squash Before Corn"
     date: "c. 9,000 BCE"
     region: "Mexico"
@@ -5650,6 +6125,8 @@ entries:
     sha256: "a0e9b354010caa535597c21ad4b0b74dbb8078c1dd32830894a2a43711c396fb"
   - number: "0281"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Pigs in the Pen"
     date: "c. 8,900 BCE"
     region: "Anatolia"
@@ -5670,6 +6147,8 @@ entries:
     sha256: "2b5a33951ba3117f148b2433c872fd5dcb3c04013ef73f711ce6a779a51f6cb9"
   - number: "0282"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wheat Spreads"
     date: "c. 8,800 BCE"
     region: "The Levant"
@@ -5689,6 +6168,8 @@ entries:
     sha256: "fd1d3c31b5864d664c17c3ac3783ed2792abb62fd16ea25fc62ce28d6db22934"
   - number: "0283"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Shepherds"
     date: "c. 8,800 BCE"
     region: "The Zagros"
@@ -5709,6 +6190,8 @@ entries:
     sha256: "51834493bf4ff854fbcfbb80440690ab825d33c0c2d633206467d582d504ac53"
   - number: "0284"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Sheep Follow the Goats"
     date: "c. 8,700 BCE"
     region: "The Levant"
@@ -5729,6 +6212,8 @@ entries:
     sha256: "52dbc5240de1c787ec2aafcf5e03e522fe9a7b1e60e199384a78258e14375296"
   - number: "0285"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Plastered Skulls"
     date: "c. 8,700 BCE"
     region: "Anatolia"
@@ -5749,6 +6234,8 @@ entries:
     sha256: "ecd8e0f60641f189503cc1746ce1cabc1d64984afafd9a2f1e8c8a06c96bcc46"
   - number: "0286"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Ovens"
     date: "c. 8,600 BCE"
     region: "The Levant"
@@ -5769,6 +6256,8 @@ entries:
     sha256: "996f33b77c97bd7d51486f836998905121ccae21ffd26de2eea6fefe86642a62"
   - number: "0287"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Bitter Lesson"
     date: "c. 8,600 BCE"
     region: "The Levant"
@@ -5789,6 +6278,8 @@ entries:
     sha256: "e123a9a6bbf65864f7277d2f5eb369e3a207c1881f8ba4c1e5ab256e13f181c0"
   - number: "0288"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Obsidian Highways"
     date: "c. 8,500 BCE"
     region: "Anatolia"
@@ -5807,6 +6298,8 @@ entries:
     sha256: "fab317f9ad5af428679ddf92abad95d8361edd61e27a664e39937c6f2a0b793a"
   - number: "0289"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Dogs Multiply"
     date: "c. 8,500 BCE"
     region: "The Levant"
@@ -5827,6 +6320,8 @@ entries:
     sha256: "db321178f53896002e5c428ec096a9725e4982f5ea1edbffe0be077296500d46"
   - number: "0290"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Farmers Sail West"
     date: "c. 8,500 BCE"
     region: "Greece"
@@ -5846,6 +6341,8 @@ entries:
     sha256: "d7dabb612d2d9f6d8731b1de5ffcfddcc2aece45b8a8ea9bc6495fbdd1e704f7"
   - number: "0291"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Cattle in the Corral"
     date: "c. 8,400 BCE"
     region: "The Levant"
@@ -5865,6 +6362,8 @@ entries:
     sha256: "19d8bfeaac074024c7759d6c6f7bfbebe612ff5b55701afd16af1dd25f65bfd1"
   - number: "0292"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Copper the Beautiful Metal"
     date: "c. 8,400 BCE"
     region: "Anatolia"
@@ -5884,6 +6383,8 @@ entries:
     sha256: "ef7b0bdfdc7742c27291a5bdc25a5b7d6de36553395183b63807a6c6ebef6a4f"
   - number: "0293"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Taro Gardens"
     date: "c. 8,400 BCE"
     region: "New Guinea"
@@ -5903,6 +6404,8 @@ entries:
     sha256: "e08783cedd6054d29ba94ed827e04a2f718d3d6afd44b7f3e2fabe021ff98e73"
   - number: "0294"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Village Grows Teeth"
     date: "c. 8,300 BCE"
     region: "The Levant"
@@ -5923,6 +6426,8 @@ entries:
     sha256: "5beec16b3858ad6be78cb90f7cc06f49aa0d76425080ff7b1dd61c4e7f7b17d7"
   - number: "0295"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "A Cold Snap Tests the Farmers"
     date: "c. 8,200 BCE"
     region: "The Levant"
@@ -5944,6 +6449,8 @@ entries:
     sha256: "e0a64a89e9afad8cca51f43a3152f8e7ef94153717731d682614d269c134dd2b"
   - number: "0296"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Rice"
     date: "c. 8,200 BCE"
     region: "China"
@@ -5964,6 +6471,8 @@ entries:
     sha256: "5a6cbf9ac5e618ababda9f7732783e0f26bbdafc069c9fbb840ef2c2dfa70d05"
   - number: "0297"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Linen"
     date: "c. 8,100 BCE"
     region: "The Levant"
@@ -5984,6 +6493,8 @@ entries:
     sha256: "5addb5bc0c2d6a7a9bf3e3c496b4fa4f1b99a632dbe81f28807335654a9e5d4d"
   - number: "0298"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Counting Tokens"
     date: "c. 8,000 BCE"
     region: "The Levant"
@@ -6003,6 +6514,8 @@ entries:
     sha256: "63b83178f7d9b67f4bc31f3732098913ed18eca15555cdf1e2bb6ee112a37a9d"
   - number: "0299"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Potatoes in the High Valleys"
     date: "c. 8,000 BCE"
     region: "The Andes"
@@ -6024,6 +6537,8 @@ entries:
     sha256: "e139937a2e423b5cda1653df8803e6fbf55050c5a414b019d2e9083e1662a440"
   - number: "0300"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Quinoa the Mother Grain"
     date: "c. 8,000 BCE"
     region: "The Andes"
@@ -6042,6 +6557,8 @@ entries:
     sha256: "235ae42498dbbcba95566804524bde7734cf116ebe8dc3114eb1809df18ac3be"
   - number: "0301"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Beans for Protein"
     date: "c. 8,000 BCE"
     region: "The Andes"
@@ -6062,6 +6579,8 @@ entries:
     sha256: "3426079e8e10fc609e4df7185f6d633bd57c1d85713a40e01d5580059e56473c"
   - number: "0302"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Sorghum in the Green Sahara"
     date: "c. 8,000 BCE"
     region: "Africa"
@@ -6081,6 +6600,8 @@ entries:
     sha256: "5e1416ea9d598c181b64f7a66cd27e6d9e6875f8c16118f8cafda302c933eeba"
   - number: "0303"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Teeth Tell the Story"
     date: "c. 7,900 BCE"
     region: "The Levant"
@@ -6100,6 +6621,8 @@ entries:
     sha256: "05f4d35979ccc016e2e6c4b24a7aa1ffcda06843f53c0e386e848c9d08606a7a"
   - number: "0304"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Mirror"
     date: "c. 7,900 BCE"
     region: "Anatolia"
@@ -6120,6 +6643,8 @@ entries:
     sha256: "0d8e3ac2101cd836a30b844d2832b2aed97410256a0c51fb8d3f4eab2a12fb55"
   - number: "0305"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Salt, the First Preservative"
     date: "c. 7,800 BCE"
     region: "The Levant"
@@ -6139,6 +6664,8 @@ entries:
     sha256: "4db9db21a6eb96eceec5bd6674cb25e67f78298215666cc4a7ba781b9958e5fa"
   - number: "0306"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Avocados in the Orchard"
     date: "c. 7,800 BCE"
     region: "Mexico"
@@ -6159,6 +6686,8 @@ entries:
     sha256: "ddc81a9af212ab17e8a7ea35fc8c49b9ce33c1d185cfab38563fecc25396fbe3"
   - number: "0307"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Painkiller"
     date: "c. 7,700 BCE"
     region: "The Levant"
@@ -6179,6 +6708,8 @@ entries:
     sha256: "dd9881a45b4281fa9de0cf0d81dfd7257026eccfb6ecb4cac93846dd4cfaa4da"
   - number: "0308"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "A Town of Six Thousand"
     date: "c. 7,600 BCE"
     region: "Anatolia"
@@ -6200,6 +6731,8 @@ entries:
     sha256: "5a16b54dbd312e3180bef4ae3a6ac568a62589b5f085d906e3b9b8ac5c4ed067"
   - number: "0309"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Leopards on the Walls"
     date: "c. 7,600 BCE"
     region: "Anatolia"
@@ -6219,6 +6752,8 @@ entries:
     sha256: "99af5f52299f061added0f0c263665f045b7e1ebd66254f9cd1ba846a4742935"
   - number: "0310"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Mother Among Lions"
     date: "c. 7,500 BCE"
     region: "Anatolia"
@@ -6238,6 +6773,8 @@ entries:
     sha256: "378416e8cc90094315accbb186b67e4287d7c9684546e27f0312a3600a2c53cc"
   - number: "0311"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Sleeping Above the Ancestors"
     date: "c. 7,500 BCE"
     region: "Anatolia"
@@ -6258,6 +6795,8 @@ entries:
     sha256: "6af3190ab100a5f0feff8e22cc3f75a5807b51ee01c433ccb0afae232b5eefb3"
   - number: "0312"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Map"
     date: "c. 7,400 BCE"
     region: "Anatolia"
@@ -6279,6 +6818,8 @@ entries:
     sha256: "7b2b575e94a2ae08f8ec0aafb983dd104e73ecd6c1cf418e707c9b12ecc37c34"
   - number: "0313"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Milk Enters the Diet"
     date: "c. 7,400 BCE"
     region: "The Levant"
@@ -6298,6 +6839,8 @@ entries:
     sha256: "62a47e2f2b03e3131d3aeab9d42e69735139fda8018771a21347f1fee02d4966"
   - number: "0314"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Danube Farmers"
     date: "c. 7,300 BCE"
     region: "The Balkans"
@@ -6317,6 +6860,8 @@ entries:
     sha256: "106be1c130ad62bc69bbd9bc797a7906a10432cc0c4ccfc4454552dec9b9e0fb"
   - number: "0315"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Llamas on the Trail"
     date: "c. 7,300 BCE"
     region: "The Andes"
@@ -6337,6 +6882,8 @@ entries:
     sha256: "a420b6f04bf87b36e0106f7bacf1f240439012c95f7ffdde1efb9412af7a4764"
   - number: "0316"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Alpacas for Wool"
     date: "c. 7,200 BCE"
     region: "The Andes"
@@ -6357,6 +6904,8 @@ entries:
     sha256: "19ee27e562b77ebdce60a4d514d9019d55d5a3ff97ad837d30f50d2108eb60d6"
   - number: "0317"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Surgeon's Drill"
     date: "c. 7,200 BCE"
     region: "Pakistan"
@@ -6376,6 +6925,8 @@ entries:
     sha256: "b281fb127589b9ab4cf33e8fee834cb78c28c8a6506b39ec9a5d3322c6445e42"
   - number: "0318"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Wheat Crosses the Indus"
     date: "c. 7,200 BCE"
     region: "Pakistan"
@@ -6397,6 +6948,8 @@ entries:
     sha256: "073d534cba27e655be4b6bca77abf8a1c7bd1c4d55a473cf0743008b38cf34b0"
   - number: "0319"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Millet Beer at Jiahu"
     date: "c. 7,200 BCE"
     region: "China"
@@ -6416,6 +6969,8 @@ entries:
     sha256: "adab77febcca6b424b4a56a1827c0cfe4806f9ca7bef13c055c0194686b95069"
   - number: "0320"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Olive Trees Planted"
     date: "c. 7,100 BCE"
     region: "The Levant"
@@ -6434,6 +6989,8 @@ entries:
     sha256: "4b902dea071c821c7b35cfee0e6fe9eaf88f5c26bc6037fbd4955e4bf90d547d"
   - number: "0321"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Potters' Revolution"
     date: "c. 7,000 BCE"
     region: "The Levant"
@@ -6453,6 +7010,8 @@ entries:
     sha256: "9fa6ed7b06ce3632b106fb9fb0acd0f4541c79bb18dc2d2fc68d9a978e775041"
   - number: "0322"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Cord-Marked Pots"
     date: "c. 7,000 BCE"
     region: "Japan"
@@ -6471,6 +7030,8 @@ entries:
     sha256: "893bef5a42a91bd282889f246c45f738fcfea20043b3161d405ecc5a125738e7"
   - number: "0323"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Draining the Swamp"
     date: "c. 7,000 BCE"
     region: "New Guinea"
@@ -6490,6 +7051,8 @@ entries:
     sha256: "80aac58e408951dbf351c829e76c03fbe532bb13bae9bf7006d2ebcd662f97ad"
   - number: "0324"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Grape Vines Tamed"
     date: "c. 6,900 BCE"
     region: "The Levant"
@@ -6509,6 +7072,8 @@ entries:
     sha256: "06c1c4baf97d4de49aaef77086e9c6023ffa363fc44ec68dbb69d44c0daccdd8"
   - number: "0325"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Date Palms Planted"
     date: "c. 6,900 BCE"
     region: "The Levant"
@@ -6529,6 +7094,8 @@ entries:
     sha256: "8ea9098393c86b8e288e17afd54cba51ec67d4c19392c5b97d6e17c0d22bfe59"
   - number: "0326"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Bulls of the Hunt"
     date: "c. 6,800 BCE"
     region: "Anatolia"
@@ -6549,6 +7116,8 @@ entries:
     sha256: "321adec0052f33884795a14c4b720e8769ed0b718080a12ddf4b346a8733a1c6"
   - number: "0327"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Beehives"
     date: "c. 6,800 BCE"
     region: "The Levant"
@@ -6569,6 +7138,8 @@ entries:
     sha256: "6d163c6a3279da98ec2e04635e733dc7ad97f95b4d37f421c71fb09894fd1416"
   - number: "0328"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Skull Cult"
     date: "c. 6,700 BCE"
     region: "The Levant"
@@ -6587,6 +7158,8 @@ entries:
     sha256: "fc9588c5f348265c7af1d65b16f113d7b6153f0235979f286edfb5d37b0ec79d"
   - number: "0329"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Cotton in the Valleys"
     date: "c. 6,700 BCE"
     region: "The Andes"
@@ -6605,6 +7178,8 @@ entries:
     sha256: "fc46693b7d8bf724ab861c137b25c055a75e875049abda7e2bf5349e0fb465e5"
   - number: "0330"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Ash Falls on the Fields"
     date: "c. 6,600 BCE"
     region: "The Levant"
@@ -6625,6 +7200,8 @@ entries:
     sha256: "3c4fadf8a580bda55e154d3c83ae71eb06729ea5eef3096d1f7072428b22041a"
   - number: "0331"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Standing Stones"
     date: "c. 6,600 BCE"
     region: "Brittany"
@@ -6644,6 +7221,8 @@ entries:
     sha256: "cf74d9329e4b8e55b4897aaab1fc3fd9f7f6ffec3c364f369c1fe0a54fab3c4a"
   - number: "0332"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Silk's First Threads"
     date: "c. 6,500 BCE"
     region: "China"
@@ -6663,6 +7242,8 @@ entries:
     sha256: "4d6fead26a5378ab3f60e0836fc4402afb53cad3c21e74d939f03fb345df7da4"
   - number: "0333"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Town Burns and Rises"
     date: "c. 6,400 BCE"
     region: "Anatolia"
@@ -6684,6 +7265,8 @@ entries:
     sha256: "f80dee1ae79b3597b9abac6e862f8aff7c63dd416b02196a06985da02cc85d8b"
   - number: "0334"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Fish Sauce"
     date: "c. 6,300 BCE"
     region: "The Levant"
@@ -6703,6 +7286,8 @@ entries:
     sha256: "a6f35dfdcdfcf745944f15aed4f0f00a5af48f43e95a25e60dff4dd6c4ce6f0a"
   - number: "0335"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Sea Takes the Villages"
     date: "c. 6,200 BCE"
     region: "The Levant"
@@ -6723,6 +7308,8 @@ entries:
     sha256: "2be94ee78cf38454801ddbb740126cda61c9798b03dca8a69937fc154d9efe70"
   - number: "0336"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Black Glass Workshops"
     date: "c. 6,200 BCE"
     region: "Anatolia"
@@ -6743,6 +7330,8 @@ entries:
     sha256: "6a67cb3ca84306d897293fc821f48930edb5d9b3c54e64a2528351afe26105c5"
   - number: "0337"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Great Flood Memory"
     date: "c. 6,100 BCE"
     region: "The Black Sea"
@@ -6763,6 +7352,8 @@ entries:
     sha256: "b03a2f4ab8da036f9423f8e01f16ddffa7c77ceced58678f05e8d5d57716dd29"
   - number: "0338"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Wine"
     date: "c. 6,000 BCE"
     region: "Georgia"
@@ -6783,6 +7374,8 @@ entries:
     sha256: "64b9f2c5c7a260997d621e17a1eba65fe45ea330cf4289d1fb71f851fe410b6b"
   - number: "0339"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Donkeys Carry the Load"
     date: "c. 6,000 BCE"
     region: "The Levant"
@@ -6802,6 +7395,8 @@ entries:
     sha256: "94b53d23a380a0cd56ce63ea783da8063c126c8a9bca2fae1bcca28108c177e8"
   - number: "0340"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Cattle Herders of the Green Sahara"
     date: "c. 5,900 BCE"
     region: "The Sahara"
@@ -6823,6 +7418,8 @@ entries:
     sha256: "205522d7647c0e4ba1e711fb2cb7d08b2dbcddf7b30c643c57c062fa20ad0993"
   - number: "0341"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Rice Paddies Take Shape"
     date: "c. 5,900 BCE"
     region: "China"
@@ -6844,6 +7441,8 @@ entries:
     sha256: "01814e5b6cc330a9ae8bce2e2dcbb7d0dde1efab4b66445a450deeb3092ca1c9"
   - number: "0342"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Copper Glows in the Fire"
     date: "c. 5,800 BCE"
     region: "The Balkans"
@@ -6864,6 +7463,8 @@ entries:
     sha256: "ec38b386bccd03dd52bdb1818b43510e5742256464387fa7272fa78495518cd1"
   - number: "0343"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Cheese"
     date: "c. 5,800 BCE"
     region: "The Levant"
@@ -6883,6 +7484,8 @@ entries:
     sha256: "49a43677b9086d4735308506aa749b8f35307fa7f48ee721e6802e4f3094f032"
   - number: "0344"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Looms in Every Home"
     date: "c. 5,700 BCE"
     region: "The Levant"
@@ -6902,6 +7505,8 @@ entries:
     sha256: "43733e3733075e53cd44cbd1c16b98eb82b6438ac26d35a6599fedb00e9b8881"
   - number: "0345"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Fishermen's Towns"
     date: "c. 5,700 BCE"
     region: "The Andes"
@@ -6922,6 +7527,8 @@ entries:
     sha256: "3c4584f0a8f6a14fbabfceb5cad08f144e7ba52b405933df7318e311ce23765b"
   - number: "0346"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Plow's Ancestor"
     date: "c. 5,600 BCE"
     region: "The Levant"
@@ -6942,6 +7549,8 @@ entries:
     sha256: "4b13b5a04c057caaa1fc42af8750ccfc40a481993fb73f38ac3c4157bbfa9a75"
   - number: "0347"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Watering the Desert"
     date: "c. 5,500 BCE"
     region: "Mesopotamia"
@@ -6963,6 +7572,8 @@ entries:
     sha256: "99ea7f30ec91ed167732c4df5c72177c493f24bcfe675536db6be0bc8f1f4de9"
   - number: "0348"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Sail"
     date: "c. 5,500 BCE"
     region: "Mesopotamia"
@@ -6981,6 +7592,8 @@ entries:
     sha256: "b5471639a3969b75d5d3f4b3c13606ea0d0383271b884b57d6697505f2881dae"
   - number: "0349"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Beer for the Masses"
     date: "c. 5,400 BCE"
     region: "The Levant"
@@ -7001,6 +7614,8 @@ entries:
     sha256: "725bd2a06679079cb6af47eb12b2aafef5dcf462663142dc7e4ebd5fae052d76"
   - number: "0350"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Copper Smiths"
     date: "c. 5,400 BCE"
     region: "The Balkans"
@@ -7021,6 +7636,8 @@ entries:
     sha256: "9a62f9926845fff91e2dba9df418105d45bd31acb5485f6080d17e0eece7ec65"
   - number: "0351"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Walled Towns Multiply"
     date: "c. 5,300 BCE"
     region: "The Levant"
@@ -7039,6 +7656,8 @@ entries:
     sha256: "016d5fbe2c47353930d30676a44cf7b3c1285e9861efc280e8a58f67bd08e1ed"
   - number: "0352"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Yams in the Forest"
     date: "c. 5,300 BCE"
     region: "Africa"
@@ -7059,6 +7678,8 @@ entries:
     sha256: "fd7d3098dc24b3b6febea6bacfed97de180491fc6344cb20c982683ace4c27cb"
   - number: "0353"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Longhouses"
     date: "c. 5,200 BCE"
     region: "Europe"
@@ -7078,6 +7699,8 @@ entries:
     sha256: "193eb767f295463c1387def8217aa8543a12e2b1eb2033e0d9c7474c71f075ea"
   - number: "0354"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Herders in the High Valleys"
     date: "c. 5,200 BCE"
     region: "The Alps"
@@ -7099,6 +7722,8 @@ entries:
     sha256: "49b39ec23bea9d3f61a4b1d30fc5a559edc27e3de2505dcf28a411947da3a337"
   - number: "0355"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Silk Cloth"
     date: "c. 5,100 BCE"
     region: "China"
@@ -7119,6 +7744,8 @@ entries:
     sha256: "d099ca26cf7bedae67179bd1453ca9192b06f354b61f43681425db9998ec5b2e"
   - number: "0356"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Temple Takes the Harvest"
     date: "c. 5,100 BCE"
     region: "Mesopotamia"
@@ -7138,6 +7765,8 @@ entries:
     sha256: "ce4c636866464dde58882d7d3dc3cc1d951f28630f19fd44c114f69571651327"
   - number: "0357"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Olive Press"
     date: "c. 5,000 BCE"
     region: "The Levant"
@@ -7158,6 +7787,8 @@ entries:
     sha256: "44929eb346d02606f31cf9837a08bfaeb2c3232270ea169dc6f1a9dfee720aec"
   - number: "0358"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Guinea Pigs in the Kitchen"
     date: "c. 5,000 BCE"
     region: "The Andes"
@@ -7178,6 +7809,8 @@ entries:
     sha256: "105cd4f60e16ef692564f1ed507a7384aae5bd7c3105d9c1069e1c6477944aed"
   - number: "0359"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wheel's First Turn"
     date: "c. 4,900 BCE"
     region: "Mesopotamia"
@@ -7198,6 +7831,8 @@ entries:
     sha256: "b71e57a5cec6ed14b53a4407064de0dcc62130a8ea9f53863a52aaaa531c6e14"
   - number: "0360"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Perfume"
     date: "c. 4,800 BCE"
     region: "The Levant"
@@ -7218,6 +7853,8 @@ entries:
     sha256: "6215116b5bd835e6bd2f694852ae37ad5bc8546040cd770506e11d378a62e300"
   - number: "0361"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Gold"
     date: "c. 4,800 BCE"
     region: "The Balkans"
@@ -7237,6 +7874,8 @@ entries:
     sha256: "decd498f8843412e0cfe3b3d5c3a795368f598ee072c06fb5e56ff27953e59ef"
   - number: "0362"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Rich Man's Grave"
     date: "c. 4,700 BCE"
     region: "The Balkans"
@@ -7256,6 +7895,8 @@ entries:
     sha256: "a7e872da13485084c73c5f2a13dd8774c6f5e37a4f7e269125a5902a49c208bc"
   - number: "0363"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Donkey Caravan"
     date: "c. 4,600 BCE"
     region: "The Levant"
@@ -7276,6 +7917,8 @@ entries:
     sha256: "03d03c1c0fa47b505993052177478e801ff6f87d235c323477cf172b4754dc18"
   - number: "0364"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Nile's First Farmers"
     date: "c. 4,600 BCE"
     region: "Egypt"
@@ -7296,6 +7939,8 @@ entries:
     sha256: "fcca642f7adf176cbb79a8767c8c7fa37fd63229473dc5b2fb93ed3cece8b3c9"
   - number: "0365"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Bread and Beer on the Nile"
     date: "c. 4,500 BCE"
     region: "Egypt"
@@ -7315,6 +7960,8 @@ entries:
     sha256: "cf04fd6740021923a5deb9ccb1ffacf9fc7a78ba14f6f78ffd2cecf655bf6edb"
   - number: "0366"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Counting Tokens Multiply"
     date: "c. 4,500 BCE"
     region: "Mesopotamia"
@@ -7335,6 +7982,8 @@ entries:
     sha256: "1bdf8bdd62fe56030d8f45f12990f6f2c938c50f8dd4361553104a6710793353"
   - number: "0367"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Wool From the Flock"
     date: "c. 4,400 BCE"
     region: "The Levant"
@@ -7354,6 +8003,8 @@ entries:
     sha256: "9ece6393086de308a1deb9db31efa918e88cb21c4627b3ceb719bbe3a850c654"
   - number: "0368"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Lacquer"
     date: "c. 4,400 BCE"
     region: "China"
@@ -7375,6 +8026,8 @@ entries:
     sha256: "fd90760447cf60438ac948b7a6fdc5e8df5bb51ae43edd549d26337ff772a208"
   - number: "0369"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Great Feasts"
     date: "c. 4,300 BCE"
     region: "The Andes"
@@ -7395,6 +8048,8 @@ entries:
     sha256: "dd9eca5355c31a6f25a8efa6f2c58416f6827ef22dfab63ce9938f7f18c63c89"
   - number: "0370"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The City Wall"
     date: "c. 4,300 BCE"
     region: "Mesopotamia"
@@ -7415,6 +8070,8 @@ entries:
     sha256: "ed6d6a10afb86bd028a5a1095748265d01c8c3be4b6441eaf1462a65c0528690"
   - number: "0371"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Copper Mines"
     date: "c. 4,200 BCE"
     region: "The Levant"
@@ -7435,6 +8092,8 @@ entries:
     sha256: "b38974b004bdecd3794399be21e1cf315ec081f909aec8b696d8f4d3a2887117"
   - number: "0372"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Scribe's Tokens"
     date: "c. 4,100 BCE"
     region: "Mesopotamia"
@@ -7456,6 +8115,8 @@ entries:
     sha256: "92c658a2c5595ae3e63c41d752530fa22eb2c096f2842527f09bb5e03ef055ee"
   - number: "0373"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Ox-Drawn Plow"
     date: "c. 4,000 BCE"
     region: "Mesopotamia"
@@ -7475,6 +8136,8 @@ entries:
     sha256: "1420ae62f8580449a3beae5aea4dbd181b79411c30c7b9407ab5a8908639073a"
   - number: "0374"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Horses on the Grass Sea"
     date: "c. 4,000 BCE"
     region: "The Steppe"
@@ -7495,6 +8158,8 @@ entries:
     sha256: "0d9b87e2c796a394a012d658edf5e84830e1c04d8e9fcfee418759c8961a7af8"
   - number: "0375"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First River Boats"
     date: "c. 3,900 BCE"
     region: "Egypt"
@@ -7515,6 +8180,8 @@ entries:
     sha256: "582c1431edca21f8345f48c7bc208fa007bd0e691195b76a1e30bd6636c046f5"
   - number: "0376"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Vineyards"
     date: "c. 3,900 BCE"
     region: "The Levant"
@@ -7535,6 +8202,8 @@ entries:
     sha256: "c08b53a683e780c40fa047f622ddebde85ed2c50d9afb7538aeb68825a9779cc"
   - number: "0377"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wheel, Improved"
     date: "c. 3,800 BCE"
     region: "Mesopotamia"
@@ -7555,6 +8224,8 @@ entries:
     sha256: "92b6d664909eb28034a21a7f81911e61170f8ec4b7e09f86db8febc0636ac624"
   - number: "0378"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Soap"
     date: "c. 3,800 BCE"
     region: "The Levant"
@@ -7575,6 +8246,8 @@ entries:
     sha256: "f5b91a1a930342f9e3bfdad2f704964a78e553c85fedc152b2d3c8304deaa6a6"
   - number: "0379"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Temple Builders"
     date: "c. 3,700 BCE"
     region: "Malta"
@@ -7595,6 +8268,8 @@ entries:
     sha256: "8a57796d0649fa6ce38162f185c5f721d06c59617b812a95e8010123bf21c234"
   - number: "0380"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Glass Begins as Jewelry"
     date: "c. 3,700 BCE"
     region: "The Levant"
@@ -7615,6 +8290,8 @@ entries:
     sha256: "39965c52a21de476efb56fa0eff98888ab57b0e47adc774e297d366dcc4caeb5"
   - number: "0381"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Wind Becomes an Engine"
     date: "c. 3,600 BCE"
     region: "Mesopotamia"
@@ -7635,6 +8312,8 @@ entries:
     sha256: "d5679f4b14b809e55981971b37abb2e0ca98f0f79b510e854f7b54d3bdd253e0"
   - number: "0382"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Mounds of the Andes"
     date: "c. 3,600 BCE"
     region: "The Andes"
@@ -7656,6 +8335,8 @@ entries:
     sha256: "54dc93d5b181120ff72b65c46885a3f4c02264ec4a46f5b8aab9d23f87d6bd76"
   - number: "0383"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Butter"
     date: "c. 3,600 BCE"
     region: "Europe"
@@ -7675,6 +8356,8 @@ entries:
     sha256: "f9c5496aefa2c6ffb93fdbf5459ecea90a8f3824e7c221f508da96f4f5b4eb63"
   - number: "0384"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Cylinder Seal"
     date: "c. 3,500 BCE"
     region: "Mesopotamia"
@@ -7694,6 +8377,8 @@ entries:
     sha256: "c6f6a6edd4e5062a51b51d524c0e88d2deda6547c96d5008328090e219551530"
   - number: "0385"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The City of Uruk"
     date: "c. 3,400 BCE"
     region: "Mesopotamia"
@@ -7715,6 +8400,8 @@ entries:
     sha256: "b95b70bb1c321f4d66f1addca161ee358910ff8ed2d41fd38cea6a50b4923767"
   - number: "0386"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Painted Tombs"
     date: "c. 3,400 BCE"
     region: "Egypt"
@@ -7735,6 +8422,8 @@ entries:
     sha256: "27b2861e2f7a8e2094d1402b54987065887a6b2f65857549b34bbc43d5a4236c"
   - number: "0387"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Iceman Walks"
     date: "c. 3,300 BCE"
     region: "The Alps"
@@ -7756,6 +8445,8 @@ entries:
     sha256: "bc6c1e11776b98d9cfabfcf3d9ad5a63ef4138ad234ed258bf8403186d596f08"
   - number: "0388"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Stonehenge's First Ditches"
     date: "c. 3,300 BCE"
     region: "Britain"
@@ -7775,6 +8466,8 @@ entries:
     sha256: "539c90c0fcc97dcf84643cc7876bdadd363ce62a90074bd1ad61e558224195cb"
   - number: "0389"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Wagon Rolls"
     date: "c. 3,300 BCE"
     region: "The Steppe"
@@ -7795,6 +8488,8 @@ entries:
     sha256: "ef7faf38c3986c7d2e130092a3590649de07b5a707451cee860e34f194471e42"
   - number: "0390"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Passage Tombs"
     date: "c. 3,200 BCE"
     region: "Ireland"
@@ -7815,6 +8510,8 @@ entries:
     sha256: "0d5c9d203e4fa66de9a8fef7c724c10bc521e8b16d683c85bf3616b508ef13a3"
   - number: "0391"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Crowns"
     date: "c. 3,200 BCE"
     region: "Egypt"
@@ -7834,6 +8531,8 @@ entries:
     sha256: "58f1149861f24bcd8332479584b337e6b71bb027b9a618d0213962a60b3a37b6"
   - number: "0392"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Bronze Is Born"
     date: "c. 3,200 BCE"
     region: "Mesopotamia"
@@ -7854,6 +8553,8 @@ entries:
     sha256: "f0b1496c290d10fb63c0074d54550ba7ddfee59a5a8e861d583653fe1e8d6648"
   - number: "0393"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Two Lands United"
     date: "c. 3,100 BCE"
     region: "Egypt"
@@ -7873,6 +8574,8 @@ entries:
     sha256: "1caaaeeb9102d6f4b1a19035597939a42c195c166d059ddccab3b5c80af66675"
   - number: "0394"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Olive Oil Goes to Sea"
     date: "c. 3,100 BCE"
     region: "The Levant"
@@ -7894,6 +8597,8 @@ entries:
     sha256: "f03b7887aff372ca4f8bf8f04c97d1319d36fed9d469fc3aa4826c8c0b9a948f"
   - number: "0395"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Jade Carvers"
     date: "c. 3,100 BCE"
     region: "China"
@@ -7915,6 +8620,8 @@ entries:
     sha256: "53ab3299d8ff395420c8e57c8413926dd7c23b35c8b563d225033f883898b614"
   - number: "0396"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Sail Barges on the Nile"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -7934,6 +8641,8 @@ entries:
     sha256: "aa4355dc2b907c1cf91ec0db8f70d5934ff89c251a03ff4c1192881e944a143a"
   - number: "0397"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Stairways for the Gods"
     date: "c. 3,000 BCE"
     region: "Mesopotamia"
@@ -7954,6 +8663,8 @@ entries:
     sha256: "6d5e307f5420e8ec153aedf8e41c62fc3f753cbb94cffab07230f2ca1cd07e6b"
   - number: "0398"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Bluestones' Journey"
     date: "c. 3,000 BCE"
     region: "Britain"
@@ -7975,6 +8686,8 @@ entries:
     sha256: "a6e92fa5472f507f21b41eb645e9847add11d97f88426e6e6074efef141b653e"
   - number: "0399"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Planned Streets"
     date: "c. 3,000 BCE"
     region: "The Indus"
@@ -7994,6 +8707,8 @@ entries:
     sha256: "145a9f11cbd7a5084f655a13423453158417cd48c7d97ef7b78f6d46509f3700"
   - number: "0400"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Cotton Sails the Coast"
     date: "c. 3,000 BCE"
     region: "The Andes"
@@ -8013,6 +8728,8 @@ entries:
     sha256: "e4e6abd58a452cee7a028c4ea896e0216e4ce609894d928979f793174d9ed235"
   - number: "0401"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Sahara Dries"
     date: "c. 3,000 BCE"
     region: "Africa"
@@ -8033,6 +8750,8 @@ entries:
     sha256: "368cdc0078a7a8294327063d3f135d0d59730e63222f70bb27764ade2773ec5d"
   - number: "0402"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Walled Towns on the Yellow River"
     date: "c. 3,000 BCE"
     region: "China"
@@ -8053,6 +8772,8 @@ entries:
     sha256: "3da77a5d3574320c254bbd552c632cb92158a59c898304bec4637e7ae477acfc"
   - number: "0403"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Edible Paycheck"
     date: "c. 3,000 BCE"
     region: "Mesopotamia"
@@ -8073,6 +8794,8 @@ entries:
     sha256: "0c61179f10df88aca8aad4c961b342d85f60f2ad3e379372a3982f4c7484548a"
   - number: "0404"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Cedar Trade"
     date: "c. 3,000 BCE"
     region: "The Levant"
@@ -8092,6 +8815,8 @@ entries:
     sha256: "e950d702b70a7a43bb3ac7e1d0e3fe06707a0c8323cdbb7526d49a1128e70119"
   - number: "0405"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Calendar"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -8111,6 +8836,8 @@ entries:
     sha256: "cec398adc5e0ec0d0bcf2a85f1fffe41dae9fba73dae662b407fce40a9c19037"
   - number: "0406"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Felt"
     date: "c. 3,000 BCE"
     region: "The Steppe"
@@ -8132,6 +8859,8 @@ entries:
     sha256: "b9183cdf59347968c1989a4f42ccfed3339eb69db7b7324b4b85c8b9d5ce5804"
   - number: "0407"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Maize Gets Its Cobs"
     date: "c. 3,000 BCE"
     region: "Mesoamerica"
@@ -8153,6 +8882,8 @@ entries:
     sha256: "7b500375dce0c71a6a3be8dde1edaa0ce6575bbdb8772b130d3134f105f13c4d"
   - number: "0408"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Terraces Climb the Hills"
     date: "c. 3,000 BCE"
     region: "The Andes"
@@ -8173,6 +8904,8 @@ entries:
     sha256: "2056b5b816beff0ddda3c31a5905e55f968e21570344eb200ea7ee2ce6d763ef"
   - number: "0409"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Banana's Voyage"
     date: "c. 3,000 BCE"
     region: "New Guinea"
@@ -8194,6 +8927,8 @@ entries:
     sha256: "b8c174ff4bae50044981af2de9e9291ebd7385ddf99e45cc0b3e17ef2c76b188"
   - number: "0410"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Clay Watchers"
     date: "c. 3,000 BCE"
     region: "Japan"
@@ -8215,6 +8950,8 @@ entries:
     sha256: "3e607ee7e80525d21842672c834c23e57a62903d7ab756742096c46120a9f82a"
   - number: "0411"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Northern Gold"
     date: "c. 3,000 BCE"
     region: "Europe"
@@ -8235,6 +8972,8 @@ entries:
     sha256: "2a5a7d294df2943a7eb12c8047855878d0c903b09b045b281a3b2faf1b91be4c"
   - number: "0412"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Gold in the Southern Nile"
     date: "c. 3,000 BCE"
     region: "Africa"
@@ -8255,6 +8994,8 @@ entries:
     sha256: "0afc260436eaefede230e69224e3adc948e4fe88e78d07ab0e624eb2a5a3ab67"
   - number: "0413"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Fired Brick"
     date: "c. 3,000 BCE"
     region: "The Indus"
@@ -8276,6 +9017,8 @@ entries:
     sha256: "4db110f74c97d6f60911e9f9cdc3ee51ad7802800267fcf7018f15da28001f1a"
   - number: "0414"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Color of Kings"
     date: "c. 3,000 BCE"
     region: "The Levant"
@@ -8295,6 +9038,8 @@ entries:
     sha256: "ba4443022277315235ecc6bd9a94f0e04a92c58777e7f5a8fb2bb3f3561f7a3f"
   - number: "0415"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Mummies"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -8316,6 +9061,8 @@ entries:
     sha256: "74ead9d4d3a62fe2cd72bcba69ef89cd91e2ed91cda9475d3cd0b4a0398027d9"
   - number: "0416"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Cloth of the Americas"
     date: "c. 3,000 BCE"
     region: "The Andes"
@@ -8336,6 +9083,8 @@ entries:
     sha256: "38a383d6ed591a673b94bf6b54124948b590981160902b22ff244e6b37616fad"
   - number: "0417"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Silk Villages"
     date: "c. 3,000 BCE"
     region: "China"
@@ -8356,6 +9105,8 @@ entries:
     sha256: "6b38a3541923f92baaf193661ade4ac0e4df9cb6be2f7c50ec424a76ffaee833"
   - number: "0418"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Gold in Wessex"
     date: "c. 3,000 BCE"
     region: "Britain"
@@ -8375,6 +9126,8 @@ entries:
     sha256: "32cfdae914a4be6bdf19d4f588b22f08b44ba478f780aab0811cddaeae0b86f6"
   - number: "0419"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Drink of the Grass Sea"
     date: "c. 3,000 BCE"
     region: "The Steppe"
@@ -8395,6 +9148,8 @@ entries:
     sha256: "92894f4526d933aea1a8c07db20d412bc49e9b3100963f3ba2d390b23cce28da"
   - number: "0420"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Contracts"
     date: "c. 3,000 BCE"
     region: "Mesopotamia"
@@ -8415,6 +9170,8 @@ entries:
     sha256: "2dd46f14caa2a948a00cbc49676f9bba19d66792b845edfff37515a2ab2d190c"
   - number: "0421"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Surgeons"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -8436,6 +9193,8 @@ entries:
     sha256: "738b8f8a0737414a2fc9c654defc4d624169552a03467e8e896f4742fbbab8ad"
   - number: "0422"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Harps"
     date: "c. 3,000 BCE"
     region: "The Levant"
@@ -8456,6 +9215,8 @@ entries:
     sha256: "7df7a0db738f37686c4c74c1afb100c17fe7a1e47f28e11112bf0f876e4b186e"
   - number: "0423"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Pods of the Gods"
     date: "c. 3,000 BCE"
     region: "Mesoamerica"
@@ -8476,6 +9237,8 @@ entries:
     sha256: "64b46f6667c7c1bd74d68b868d8bbe9b302f2185310431407ffb814fdc09acf4"
   - number: "0424"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Potatoes Feed the Coast"
     date: "c. 3,000 BCE"
     region: "The Andes"
@@ -8496,6 +9259,8 @@ entries:
     sha256: "2e3c6139779cf88182c07029f283c00cfd4d9e8db44a9c3a7b0446112124bc64"
   - number: "0425"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Drums"
     date: "c. 3,000 BCE"
     region: "Africa"
@@ -8516,6 +9281,8 @@ entries:
     sha256: "8123c074420a3606cedfd5c2f0c346059d3e5d5dca8981d891e58aaf0f3db6c8"
   - number: "0426"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Forest Falls to the Furrow"
     date: "c. 3,000 BCE"
     region: "Europe"
@@ -8537,6 +9304,8 @@ entries:
     sha256: "2092c0d1179818dc1b3c1e94097c613736a167c8d94554c81b70e11c8eb45a8a"
   - number: "0427"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Rice Moves Inland"
     date: "c. 3,000 BCE"
     region: "China"
@@ -8558,6 +9327,8 @@ entries:
     sha256: "b8baba0ed88ab02e916867eacfd15932abb386f9337fdbf1fec2f4ca099598d0"
   - number: "0428"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Jade for the Dead"
     date: "c. 3,000 BCE"
     region: "Japan"
@@ -8579,6 +9350,8 @@ entries:
     sha256: "34bbb92ad227b4ba220d8655db60d34d31fcf229317238c8d44e6c9dc5169ab5"
   - number: "0429"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Honesty You Can Hold"
     date: "c. 3,000 BCE"
     region: "The Indus"
@@ -8600,6 +9373,8 @@ entries:
     sha256: "d093f0c43e34322907f02f9c17a3164400b792e5cb673327701544c4239d0491"
   - number: "0430"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Anchors"
     date: "c. 3,000 BCE"
     region: "The Levant"
@@ -8620,6 +9395,8 @@ entries:
     sha256: "0899a1765810d5d059e6ab03cc97bd2e42b595ef92a9b31a8b66de74d45c8811"
   - number: "0431"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Pictures Become Writing"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -8641,6 +9418,8 @@ entries:
     sha256: "bc8e574607bb6806d314971c5cc7e61bc39840eb6118ae41d08f76d1ff80a0c7"
   - number: "0432"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Reading the Sky"
     date: "c. 3,000 BCE"
     region: "Mesopotamia"
@@ -8661,6 +9440,8 @@ entries:
     sha256: "5794d6397e810122fee5ac334a4dbd8fd50eb8c24b1e5876f5bf4b6d8cc4f342"
   - number: "0433"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Timber Circles"
     date: "c. 3,000 BCE"
     region: "Britain"
@@ -8681,6 +9462,8 @@ entries:
     sha256: "cb9e8a644f55f70ccf7b24c248b04f03b4557596a8d90eef0da970f94beaaf1f"
   - number: "0434"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Bent Bow"
     date: "c. 3,000 BCE"
     region: "The Steppe"
@@ -8701,6 +9484,8 @@ entries:
     sha256: "ad4ccfa94556823a5a4208939ce409fb4e63e698211281733c98124bf540142c"
   - number: "0435"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Last Portrait of Green"
     date: "c. 3,000 BCE"
     region: "The Sahara"
@@ -8722,6 +9507,8 @@ entries:
     sha256: "64c069ee871b52fd9fceaa09ee14eda551548ae91b555699df329088cf8a0776"
   - number: "0436"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Rubber"
     date: "c. 3,000 BCE"
     region: "Mesoamerica"
@@ -8743,6 +9530,8 @@ entries:
     sha256: "0a3f4fca01ee80fb0c5df56444ab36993cd956a3d17801c607f5316bf3d80f37"
   - number: "0437"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Knots That Count"
     date: "c. 3,000 BCE"
     region: "The Andes"
@@ -8764,6 +9553,8 @@ entries:
     sha256: "565014d42342e75f9ae2f8727e70697d7fdd30bf107c08dce932f0b30c38a8f4"
   - number: "0438"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Potter's Wheel"
     date: "c. 3,000 BCE"
     region: "China"
@@ -8784,6 +9575,8 @@ entries:
     sha256: "8d0c6631e49599cdc8d5dc3c32cd552b86b4c75e5cd98c18ab603153233af96e"
   - number: "0439"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The First Markets"
     date: "c. 3,000 BCE"
     region: "The Levant"
@@ -8804,6 +9597,8 @@ entries:
     sha256: "52fce6d372f0db8fb8e7708f6932a8d5abc0cc35697aee9f9367ff7591194107"
   - number: "0440"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Pyramid's Ancestors"
     date: "c. 3,000 BCE"
     region: "Egypt"
@@ -8825,6 +9620,8 @@ entries:
     sha256: "4be26b0f5f3ad486bf3e6f2c9f43581eb034c1517e0733ca1cc4d8a76d9cb511"
   - number: "0441"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "Taming the Flood"
     date: "c. 3,000 BCE"
     region: "Mesopotamia"
@@ -8846,6 +9643,8 @@ entries:
     sha256: "5a77f714ed05e9e7648cc8fbf5fec7e81700d5d9ee9efff07ae77df229e8730e"
   - number: "0442"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Warrior's Axe"
     date: "c. 3,000 BCE"
     region: "Europe"
@@ -8866,6 +9665,8 @@ entries:
     sha256: "e4489115131ced24cbc47f9b5afe2eabe2852d10a6fbe00bfa22b5d46d9dc1c6"
   - number: "0443"
     volume: 1
+    era_code: "02"
+    era: "First Villages"
     title: "The Village Age Ends"
     date: "c. 3,000 BCE"
     region: "The World"
@@ -8890,6 +9691,8 @@ entries:
     sha256: "af3631e85180460614ff72b6f9e23877d16b7fbfb086cc014208d042db907e3b"
   - number: "0444"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Fleet Buried in the Sand"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -8909,6 +9712,8 @@ entries:
     sha256: "92d309c13718e587a1d34722d062f24929580f7628a27b0f780a62fd4dae2a52"
   - number: "0445"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Beer for the Afterlife"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -8929,6 +9734,8 @@ entries:
     sha256: "7fbd7f2dfb4c21fafc379d7580b7485c9462aa0bc18601b7c68e7e20dd90911d"
   - number: "0446"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Great City"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -8948,6 +9755,8 @@ entries:
     sha256: "eff728300f83af46b2a0429e8b10592bdb1fe000a9008674dd9d27d99e18e2e5"
   - number: "0447"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Paper from the River"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -8967,6 +9776,8 @@ entries:
     sha256: "24cd569245f5a0cdc428b32921bc6895d6af6fd7b0ad7286d87fde7817fe7b1f"
   - number: "0448"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Stone Houses Against the Wind"
     date: "c. 3000 BCE"
     region: "Orkney"
@@ -8987,6 +9798,8 @@ entries:
     sha256: "b6449dc65cf82666c4229d28bdccf969f818d894fb3de75e7d0a4e5bf0e5eb07"
   - number: "0449"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Temple That Never Moved"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9007,6 +9820,8 @@ entries:
     sha256: "393e9719de3250dc60d019dbe67b999d7c4eee7ab1abd13aa1a657891c264974"
   - number: "0450"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Kings of the North"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9027,6 +9842,8 @@ entries:
     sha256: "4ac0e09d0ab6019e8dba2e671031ba0479f60613b9acda0ba549f3957cda15c3"
   - number: "0451"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "A Town Above the Plain"
     date: "c. 3000 BCE"
     region: "Anatolia"
@@ -9048,6 +9865,8 @@ entries:
     sha256: "674438213e0e3e07856ea4d8e6df0babe61ce0dbfb62203ee49563d7e516c8c7"
   - number: "0452"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Walls in the Sun"
     date: "c. 3000 BCE"
     region: "Iberia"
@@ -9068,6 +9887,8 @@ entries:
     sha256: "b0c62271b4ed7809a142f4ac8a9e8353cd4f7486fad0bb789a0457297e167ebc"
   - number: "0453"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Temples on the Hill"
     date: "c. 3000 BCE"
     region: "Levant"
@@ -9088,6 +9909,8 @@ entries:
     sha256: "2010441016a2f1748dd5fc5db0f82cb196818cd9bf78f33679352de596bfcfff"
   - number: "0454"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Counting by Sixties"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9107,6 +9930,8 @@ entries:
     sha256: "bb44cc3a776de51a566b649ff2f9373d98bc44c2386066a7d67eb1805ab6d417"
   - number: "0455"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Game of Passing"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9127,6 +9952,8 @@ entries:
     sha256: "873b537e90b3442041d9b02501f26b7cf0e739c464de68275b4900a67edfa822"
   - number: "0456"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Wheels on the Grass Sea"
     date: "c. 3000 BCE"
     region: "Steppe"
@@ -9145,6 +9972,8 @@ entries:
     sha256: "157bc1c5c0e7755a78bce266f424c40e425c8c9ea911a79c9adab16650f9015a"
   - number: "0457"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Horse Learns the Bridle"
     date: "c. 3000 BCE"
     region: "Steppe"
@@ -9164,6 +9993,8 @@ entries:
     sha256: "9eaf792e401688f7dfcbc3ffaf6538842f361143e349880ceda1bbe2aadfd9ca"
   - number: "0458"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Cloth White as Moonlight"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9183,6 +10014,8 @@ entries:
     sha256: "d025fbde3e12d5b8d92dbd1a9ba211fb85f39c8d1c80383eed527eb11ee96f9d"
   - number: "0459"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Canals of the Gods"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9202,6 +10035,8 @@ entries:
     sha256: "64f3ee8626f540ab16c1987589fb05bb29fc501c325820a5065fb7bc8293ed15"
   - number: "0460"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "A Signature in Stone"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9221,6 +10056,8 @@ entries:
     sha256: "dc01dd631811d18836fa7e3416039c0b3999c9149f46613842b3a9005fba2ffd"
   - number: "0461"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Tree of Life"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9240,6 +10077,8 @@ entries:
     sha256: "d5d4417895d36f2e7ef598baec1d9b726a82aafe7ed60b106afc121f3d321104"
   - number: "0462"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Sails"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9260,6 +10099,8 @@ entries:
     sha256: "f9728bd6bfe81a502a9c950b9ede1b031d7b68736275184f51718430b2c3691a"
   - number: "0463"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Coiled Serpent"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9279,6 +10120,8 @@ entries:
     sha256: "f7b66435fcef1a4b73cfda5ee5fc3ddad6aecf01e73dcc1e941212b3b12f0480"
   - number: "0464"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Eyes Lined with Kohl"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9299,6 +10142,8 @@ entries:
     sha256: "335f6b52e71ef6923a81ee8c690140e576d4e4b6f071bd8ac77021d033514ca0"
   - number: "0465"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Fishing City"
     date: "c. 3000 BCE"
     region: "Peru"
@@ -9319,6 +10164,8 @@ entries:
     sha256: "f41efa5090d89a187d2fa6358e78998d53773763e239a2e831bcc819131c96ac"
   - number: "0466"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Ditch"
     date: "c. 3000 BCE"
     region: "Britain"
@@ -9340,6 +10187,8 @@ entries:
     sha256: "4b2e24cd8d6bb3a36ff02984decac249128771f5583cf47298d69b926002959c"
   - number: "0467"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Dams of Liangzhu"
     date: "c. 3000 BCE"
     region: "China"
@@ -9358,6 +10207,8 @@ entries:
     sha256: "dcb680edf52eb0e13c4c8888c877ed1ba9e69c1a4bc0b5e19af4ff24db356b59"
   - number: "0468"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Queen Who Ruled Alone"
     date: "c. 3000 BCE"
     region: "Egypt"
@@ -9377,6 +10228,8 @@ entries:
     sha256: "87507937a28b8d7dd42dee49af0bc609f5281bb77127b08a26b021f9ab25d654"
   - number: "0469"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The City Spreads Its Net"
     date: "c. 3000 BCE"
     region: "Mesopotamia"
@@ -9396,6 +10249,8 @@ entries:
     sha256: "015b872bb68fb88f865761116d86612ee2edc16ae0675fa4f1d52471fd98442c"
   - number: "0470"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Ledger of Barley"
     date: "c. 2950 BCE"
     region: "Mesopotamia"
@@ -9416,6 +10271,8 @@ entries:
     sha256: "3bc604ba148ea6927b3d808e7864113ed0af43b0be51f409898d6ec50f962069"
   - number: "0471"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Three Hundred Sixty-Five Days"
     date: "c. 2900 BCE"
     region: "Egypt"
@@ -9435,6 +10292,8 @@ entries:
     sha256: "6c071c2781de3e5a382020f36fed37325531b9611f6fcc16af2f28014552e133"
   - number: "0472"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Burned Towns"
     date: "c. 2900 BCE"
     region: "Ukraine"
@@ -9454,6 +10313,8 @@ entries:
     sha256: "2d83ae3b41efebe7673438af11a31244909aa2628bca3c3dd452ae633b94ee09"
   - number: "0473"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Houses for the Dead"
     date: "c. 2900 BCE"
     region: "Egypt"
@@ -9473,6 +10334,8 @@ entries:
     sha256: "f75a3292224e9f8ac70ec1171b53dc59e196d8a512f5df93bde5afd73aa8beda"
   - number: "0474"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The House of Heaven"
     date: "c. 2900 BCE"
     region: "Mesopotamia"
@@ -9493,6 +10356,8 @@ entries:
     sha256: "9b844d50600928d04f48e6cb3cea33cd8438d6ce68798d57a8445e68bcd22cca"
   - number: "0475"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Fire in the Wadi"
     date: "c. 2850 BCE"
     region: "Levant"
@@ -9513,6 +10378,8 @@ entries:
     sha256: "75b7bf7c433bc544ff2b0c0014818e554193e8efaaf7cb3f5f4c7aee778965db"
   - number: "0476"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Battle-Axe People"
     date: "c. 2850 BCE"
     region: "Europe"
@@ -9535,6 +10402,8 @@ entries:
     sha256: "99cd0aced1636ce1bed67340954d0ef4005d576a62781a7f3a66242e01f677de"
   - number: "0477"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Fat Goddesses of Stone"
     date: "c. 2800 BCE"
     region: "Malta"
@@ -9555,6 +10424,8 @@ entries:
     sha256: "226125120b4b0ec29575f442833c1ed6df7b609ef970769c2ef954fc9e73b08c"
   - number: "0478"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Great Mound"
     date: "c. 2800 BCE"
     region: "Orkney"
@@ -9577,6 +10448,8 @@ entries:
     sha256: "59c56a288b799a9829834d0ebc6a03ef9a7da86d144e898338fbaf0377386275"
   - number: "0479"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Silver of Sumer"
     date: "c. 2800 BCE"
     region: "Mesopotamia"
@@ -9598,6 +10471,8 @@ entries:
     sha256: "2f0b60b283e4c4c7d3e541b4c02f3bd359985b39d361a0bd8c1d364b653817fc"
   - number: "0480"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Blue That Never Fades"
     date: "c. 2800 BCE"
     region: "Egypt"
@@ -9618,6 +10493,8 @@ entries:
     sha256: "692dd9454c323f265a6e848f237d1300e03247dc4fa10c365f4dd547a2cb8807"
   - number: "0481"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The God Owns the Fields"
     date: "c. 2800 BCE"
     region: "Mesopotamia"
@@ -9640,6 +10517,8 @@ entries:
     sha256: "1cfe81e8f37e3c931c3027962a3f4d52b7ceb7ab04e68c10b85ab0451e06b667"
   - number: "0482"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Walled Mounds"
     date: "c. 2750 BCE"
     region: "Indus"
@@ -9659,6 +10538,8 @@ entries:
     sha256: "bbdc8f5975988182a5463d926c43f9ab4bc7e2627399828fcaed14a81353635b"
   - number: "0483"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Temple of a Thousand Eyes"
     date: "c. 2750 BCE"
     region: "Mesopotamia"
@@ -9680,6 +10561,8 @@ entries:
     sha256: "a47d50787803e6f32d715d393d28c337ef3e3eae05113a4488c13a7454b50ad4"
   - number: "0484"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Stairway to the Sky"
     date: "c. 2700 BCE"
     region: "Egypt"
@@ -9700,6 +10583,8 @@ entries:
     sha256: "1400c264f832695b8f9742ff0eadb6f19927532ae8860eec7aed68f2288f263f"
   - number: "0485"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Wall of Uruk"
     date: "c. 2700 BCE"
     region: "Mesopotamia"
@@ -9720,6 +10605,8 @@ entries:
     sha256: "0d5a4c29ced24f6b334ca691b9796d6398bd20333ea305cc3b73045f86f99c0f"
   - number: "0486"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Eggshell Cups"
     date: "c. 2700 BCE"
     region: "China"
@@ -9740,6 +10627,8 @@ entries:
     sha256: "b1dc1694c094221cb6a79289ed1f6d0e745eafd928cece08bedb4291ff0a6366"
   - number: "0487"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Two Lands, One Crown"
     date: "c. 2700 BCE"
     region: "Egypt"
@@ -9760,6 +10649,8 @@ entries:
     sha256: "adce5820aa30c5005b984b4d1a8de916a5399ab4600b3e8b29089f760e25cb78"
   - number: "0488"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Dam That Broke"
     date: "c. 2700 BCE"
     region: "Egypt"
@@ -9782,6 +10673,8 @@ entries:
     sha256: "813b2c2363088e625000be5393c1f1dcd64577f6013b406d513f64d1137c8866"
   - number: "0489"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Turquoise and Copper"
     date: "c. 2700 BCE"
     region: "Egypt"
@@ -9803,6 +10696,8 @@ entries:
     sha256: "a1c3036274b7c6254c7f08291012abf27e6f3936e88991605f7cf7644e5b39e2"
   - number: "0490"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Rope Stretchers"
     date: "c. 2700 BCE"
     region: "Egypt"
@@ -9824,6 +10719,8 @@ entries:
     sha256: "4d068e1881ab8fd092177fa63aeec1dfceb20c5e4669696dd57a0f3b8c426b7d"
   - number: "0491"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Keeping the Body"
     date: "c. 2650 BCE"
     region: "Egypt"
@@ -9844,6 +10741,8 @@ entries:
     sha256: "33175a4460b04b6afe07ef80ef2205cbbd826f8a980ec3c38c6990464d2fdf82"
   - number: "0492"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Death Pits of Ur"
     date: "c. 2650 BCE"
     region: "Mesopotamia"
@@ -9865,6 +10764,8 @@ entries:
     sha256: "517ae9b8894cd64701e6450157fdbf03be47982608636254629e4bbb7aec27fd"
   - number: "0493"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Quarries of Aswan"
     date: "c. 2650 BCE"
     region: "Egypt"
@@ -9887,6 +10788,8 @@ entries:
     sha256: "831acb8bf86e80c34ed9b487fb27fdba5b2a0642820534518c6ed0934f3a0e3f"
   - number: "0494"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Pyramid That Changed Its Mind"
     date: "c. 2620 BCE"
     region: "Egypt"
@@ -9907,6 +10810,8 @@ entries:
     sha256: "64047fabebaff2b050120d244efb9167eebec675537ad12eb15a2810edfd2cc2"
   - number: "0495"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First True Pyramid"
     date: "c. 2620 BCE"
     region: "Egypt"
@@ -9928,6 +10833,8 @@ entries:
     sha256: "11c9923cdf0ef5af06cde23a7b3a56bc2c9d1fa66e90cce9da03a1fb334ef503"
   - number: "0496"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "War and Feast"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -9949,6 +10856,8 @@ entries:
     sha256: "0a9b608ba946878ce18b883cb6ca2937b4fbfe10fad37ddc101eedec25ff85be"
   - number: "0497"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Queen in the Gold Headdress"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -9970,6 +10879,8 @@ entries:
     sha256: "82183d389ba61583cc27ae6e2f6d4265c7e8ba4cc15be97d10a5a71a80b54225"
   - number: "0498"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Music in the Tomb"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -9991,6 +10902,8 @@ entries:
     sha256: "13b85a7847d6fc90d654fbec96ce13eb2889002a179de7645bb6fd85302f9d08"
   - number: "0499"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Game of Twenty Squares"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -10013,6 +10926,8 @@ entries:
     sha256: "e8d5d8699416cd256b5c63c51b9a98409ec8ec0fc1f38ce70ffc779be922bf9c"
   - number: "0500"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The City Without War"
     date: "c. 2600 BCE"
     region: "Peru"
@@ -10035,6 +10950,8 @@ entries:
     sha256: "833a40c42721355e34e3d93be14c66934ee8f7ff807b311e947da992c42350c4"
   - number: "0501"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Stairways of the Supe Valley"
     date: "c. 2600 BCE"
     region: "Peru"
@@ -10056,6 +10973,8 @@ entries:
     sha256: "ae63301662c7b2637f8eb3752c1ae144e1b058a2bcaec328bf83888d7c1e34c7"
   - number: "0502"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Condor-Bone Flutes"
     date: "c. 2600 BCE"
     region: "Peru"
@@ -10076,6 +10995,8 @@ entries:
     sha256: "a35a668d86a97c2360a08f8f6c7041a7766befd3f6f964203d5c2278b50d6124"
   - number: "0503"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Baskets of Stone"
     date: "c. 2600 BCE"
     region: "Peru"
@@ -10096,6 +11017,8 @@ entries:
     sha256: "7cac6ccdab969444ff6b2c3272c33cab8903c9eebb65f8ddfcd1ec615d7db7da"
   - number: "0504"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Dentist"
     date: "c. 2600 BCE"
     region: "Egypt"
@@ -10115,6 +11038,8 @@ entries:
     sha256: "8e21a5e74edc748d653eba9f78253e212c1213dfe43341561cfa21782a8ef388"
   - number: "0505"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Cedar Harbor"
     date: "c. 2600 BCE"
     region: "Levant"
@@ -10134,6 +11059,8 @@ entries:
     sha256: "59445807689b8708ec19fcf77b3a0ea36fd0ef1a18077705e2ff57c324856746"
   - number: "0506"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Tavern Keeper Who Became Queen"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -10154,6 +11081,8 @@ entries:
     sha256: "24f6b8849679abad673a8c54ee19f4f58ac0b4efef91ba0d4fe2aa24ebaba2b0"
   - number: "0507"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Advice from Before the Flood"
     date: "c. 2600 BCE"
     region: "Mesopotamia"
@@ -10174,6 +11103,8 @@ entries:
     sha256: "925e87dd63b2289fbb299ce6e077dc68af80a3b353f23301c2a919eb95cc24c9"
   - number: "0508"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Script Nobody Can Read"
     date: "c. 2600 BCE"
     region: "Indus"
@@ -10194,6 +11125,8 @@ entries:
     sha256: "d9a11dfd1dda0bf7b074296903d8eb96b80ed036d8631a534f97d09899bc44c5"
   - number: "0509"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Sun Disks of Alaca"
     date: "c. 2600 BCE"
     region: "Anatolia"
@@ -10214,6 +11147,8 @@ entries:
     sha256: "fd0ab84a2cf62718fe2efecbb89092aac6669cec109ff6a9546d31b94322a635"
   - number: "0510"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Great Granary"
     date: "c. 2600 BCE"
     region: "Indus"
@@ -10234,6 +11169,8 @@ entries:
     sha256: "5568476544c79f9b6dd1e26a8823671d71dda25f23ea7be410e5b7278d67c0a1"
   - number: "0511"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Harbor of the Red Sea"
     date: "c. 2550 BCE"
     region: "Egypt"
@@ -10255,6 +11192,8 @@ entries:
     sha256: "dab40a095eca40776902cc15274952dd79709e5f8d3a3799e218b1746cb541ff"
   - number: "0512"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Great Sphinx"
     date: "c. 2550 BCE"
     region: "Egypt"
@@ -10275,6 +11214,8 @@ entries:
     sha256: "cda4df439846c41dda5b4c3c38b68fcf88bcd2cd251ddfd12a3200c2d7d48ef2"
   - number: "0513"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Feeding Ten Thousand"
     date: "c. 2550 BCE"
     region: "Egypt"
@@ -10295,6 +11236,8 @@ entries:
     sha256: "2ee1ed2e5a429110ffeecda2d5afaf7168ca9850e0950ee8ee0a715172a9f42a"
   - number: "0514"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Cretans"
     date: "c. 2550 BCE"
     region: "Crete"
@@ -10316,6 +11259,8 @@ entries:
     sha256: "d020e9097541a053b193f2c5473a57a0d29ba19eac876d5668d01b873de66643"
   - number: "0515"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Tombs Like Beehives"
     date: "c. 2550 BCE"
     region: "Crete"
@@ -10337,6 +11282,8 @@ entries:
     sha256: "6d339be99029327c14d1975995c5e534be5f4f83936dceebc92616763e91f418"
   - number: "0516"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Carved Stone of Jiroft"
     date: "c. 2550 BCE"
     region: "Iran"
@@ -10358,6 +11305,8 @@ entries:
     sha256: "004df52756a258743acfc7ae2fa11c5825261854a789cc9ada5e870990a42c84"
   - number: "0517"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Seeds in the Furrow"
     date: "c. 2550 BCE"
     region: "Mesopotamia"
@@ -10377,6 +11326,8 @@ entries:
     sha256: "1b734a00c2a1f81d7255d8cf3d833542b67c1c743f08bfe87ac10a4e38ebc6a9"
   - number: "0518"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Metalworkers of Shahdad"
     date: "c. 2550 BCE"
     region: "Iran"
@@ -10396,6 +11347,8 @@ entries:
     sha256: "189b9386d37de5c625f81b25594b795f78af60cc342c39990afa7ea0f4e58561"
   - number: "0519"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Streets Like a Chessboard"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10416,6 +11369,8 @@ entries:
     sha256: "f41a23bf73be98510dbb95ce8688194e4824b87377dbf8a5a78cc5cfa6810ad3"
   - number: "0520"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Bath of the Priests"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10436,6 +11391,8 @@ entries:
     sha256: "0dc728c47116cc7ba5877b48cdc002bad42c721b34163f5ac4b9bb05eeefae84"
   - number: "0521"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The City That Washed Itself"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10456,6 +11413,8 @@ entries:
     sha256: "d6083a8e7cbdae19e0af4df123d99652a7b2f2a5cdcb17685d3d3bcf8d17cd1f"
   - number: "0522"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Seven Hundred Wells"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10476,6 +11435,8 @@ entries:
     sha256: "d33cd53bc045af2aac3ff8318144fd3c00fd3de9537cb651a28c02ed36cdd452"
   - number: "0523"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The City That Caught the Rain"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10497,6 +11458,8 @@ entries:
     sha256: "2d732392e0cee4a865d998658d8da8badd1233cc1575a28d6536250fc1bae69a"
   - number: "0524"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Sixteen to One"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10517,6 +11480,8 @@ entries:
     sha256: "eeae241cd59e0e31e0a4c82d2d8cfa333810a517c48c79986633fd315131ab49"
   - number: "0525"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Unicorn Stamp"
     date: "c. 2500 BCE"
     region: "Indus"
@@ -10537,6 +11502,8 @@ entries:
     sha256: "8f81e50b8324627ff91a4d21572616641af433d01e1ca55cb177fc3952f331f5"
   - number: "0526"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Tin Mountain"
     date: "c. 2500 BCE"
     region: "Anatolia"
@@ -10557,6 +11524,8 @@ entries:
     sha256: "b74541949b370bcd4623a2c175d9d32b5fc495045583dafe68f05ef75c87e2cc"
   - number: "0527"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Blue Stones from the Roof of the World"
     date: "c. 2500 BCE"
     region: "Mesopotamia"
@@ -10578,6 +11547,8 @@ entries:
     sha256: "4e8f035bd8cbca1a66fc5d173d53905088702ff4952f6e041286125d112092c4"
   - number: "0528"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Island of Copper Ships"
     date: "c. 2500 BCE"
     region: "Arabia"
@@ -10599,6 +11570,8 @@ entries:
     sha256: "e62e7775bf083dd27934288fef71e7c4a38c033785c278e57a29398ebdc44509"
   - number: "0529"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "A Jug a Day"
     date: "c. 2500 BCE"
     region: "Mesopotamia"
@@ -10619,6 +11592,8 @@ entries:
     sha256: "bde3aa313bafed812b5e5d3488008e2c940a643da1d6b7a8600a37b2d5ba5386"
   - number: "0530"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The People of the Bell Cups"
     date: "c. 2500 BCE"
     region: "Europe"
@@ -10640,6 +11615,8 @@ entries:
     sha256: "9253962c8455adac5c2cdf089f47edffb8dd44f50dbc1e5aff2d780fefb15da2"
   - number: "0531"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Kingdom Up the Nile"
     date: "c. 2500 BCE"
     region: "Nubia"
@@ -10660,6 +11637,8 @@ entries:
     sha256: "bdc42a080026d40f47288f92da04fcb1b23e076bbfd8cf1eec41982e0d771b39"
   - number: "0532"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Gold of the Desert"
     date: "c. 2500 BCE"
     region: "Nubia"
@@ -10680,6 +11659,8 @@ entries:
     sha256: "75076bb3f83f52bd4897b429ede2e614d6ccd5f6e78b7500ce141661043d7219"
   - number: "0533"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Jade Kingdom"
     date: "c. 2500 BCE"
     region: "China"
@@ -10700,6 +11681,8 @@ entries:
     sha256: "905f5ef1fdf7141f1c6c95bb4fe1fc43340977d6d141db0e987cb66d087f8a6a"
   - number: "0534"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Stele of the Vultures"
     date: "c. 2450 BCE"
     region: "Mesopotamia"
@@ -10721,6 +11704,8 @@ entries:
     sha256: "348ba04ba7e6a0e86dbeb3c491103194885a34cc097b884be383574e17d1fe9c"
   - number: "0535"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Ships to Punt"
     date: "c. 2450 BCE"
     region: "Egypt"
@@ -10742,6 +11727,8 @@ entries:
     sha256: "22a628349f533eaaef0d1f156a806599d5695e64ce86d11e4b9abb337e0b706f"
   - number: "0536"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Courtyards of the Sun"
     date: "c. 2400 BCE"
     region: "Egypt"
@@ -10762,6 +11749,8 @@ entries:
     sha256: "7bbfe8c0b2bb577a5eaf68eb3d9d8fd45df1d111c2367f0541437bff6e7ddafa"
   - number: "0537"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Stone That Remembered Kings"
     date: "c. 2400 BCE"
     region: "Egypt"
@@ -10783,6 +11772,8 @@ entries:
     sha256: "a0e4de0ec494f4b307f47d6c22280cbb29970766ba372b034c8e502790156098"
   - number: "0538"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Teachings of Ptahhotep"
     date: "c. 2400 BCE"
     region: "Egypt"
@@ -10805,6 +11796,8 @@ entries:
     sha256: "33d949df736793292ce5de2b4ea7ce81bbef3c0b0b19338f1c000565bc63ce65"
   - number: "0539"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Bread, Beer, and Geese"
     date: "c. 2400 BCE"
     region: "Egypt"
@@ -10827,6 +11820,8 @@ entries:
     sha256: "21ae599a9aaa2c82b00e83e7e291e9c1d7fa6e4ff5984c5500507382ede6a1bd"
   - number: "0540"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Dockyard by the Sea"
     date: "c. 2400 BCE"
     region: "Indus"
@@ -10847,6 +11842,8 @@ entries:
     sha256: "d404ad53fc922b6a19865c404eba005e0cc3949cac3e510151a079f9af468652"
   - number: "0541"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The White Harvest"
     date: "c. 2400 BCE"
     region: "Indus"
@@ -10868,6 +11865,8 @@ entries:
     sha256: "15880d9ac19eb21bdc37244c9115b4659248935b65cb171b450f144b1223d55a"
   - number: "0542"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The City at the Mountain's Door"
     date: "c. 2400 BCE"
     region: "Iran"
@@ -10889,6 +11888,8 @@ entries:
     sha256: "20abee8565211cd6418babd6ae2e13a3d0436b3441db561f8cd3715275e0ce75"
   - number: "0543"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "A Thousand Carnelian Beads"
     date: "c. 2400 BCE"
     region: "Indus"
@@ -10909,6 +11910,8 @@ entries:
     sha256: "f31c116c37d1b575f1f62a0b65a26c2cff060782b2fe25c6a795483a32d4cee8"
   - number: "0544"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Gold of Troy"
     date: "c. 2400 BCE"
     region: "Anatolia"
@@ -10930,6 +11933,8 @@ entries:
     sha256: "43602a358250d3eb28e7c3eec283d9fadb664f0f3cb690c10c2cd3fc913f2104"
   - number: "0545"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "King of the Land"
     date: "c. 2350 BCE"
     region: "Mesopotamia"
@@ -10950,6 +11955,8 @@ entries:
     sha256: "067c8cc97207bfaf5b13fc9f2bfbdaa82710e13e99c152f3e6104f7d3417eaf2"
   - number: "0546"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Law for the Poor"
     date: "c. 2350 BCE"
     region: "Mesopotamia"
@@ -10971,6 +11978,8 @@ entries:
     sha256: "f3548f5ab1f8ef02073b4af3c7baedb35100ae5c80c3e93161c0f8bf18029805"
   - number: "0547"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Library of Clay"
     date: "c. 2350 BCE"
     region: "Syria"
@@ -10991,6 +12000,8 @@ entries:
     sha256: "ccd4f3463d7616e0ab5b83bd322a7a05a8fc490444cd3aa6cc95eb812d0c85ea"
   - number: "0548"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Words Carved Against Death"
     date: "c. 2350 BCE"
     region: "Egypt"
@@ -11012,6 +12023,8 @@ entries:
     sha256: "99c16143b30b54b0e28e5047da4826dff3d2d276a5e60922981e3fccd8970705"
   - number: "0549"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Cupbearer Who Took the World"
     date: "c. 2334 BCE"
     region: "Mesopotamia"
@@ -11032,6 +12045,8 @@ entries:
     sha256: "129d900724c9710faa3b0c407d8b5bab40104394915e34c518f2801352d73793"
   - number: "0550"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "An Empire of Governors"
     date: "c. 2320 BCE"
     region: "Mesopotamia"
@@ -11054,6 +12069,8 @@ entries:
     sha256: "c4c090bf81d34140644b3043992ad6dc2625e2f617a2c20bde2e82a732090fd3"
   - number: "0551"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Named Poet"
     date: "c. 2300 BCE"
     region: "Mesopotamia"
@@ -11074,6 +12091,8 @@ entries:
     sha256: "82ce194b2cd654a0f57bb59e939625361805a6aad66fe91453c2e448298e4b5a"
   - number: "0552"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The King Who Became a God"
     date: "c. 2300 BCE"
     region: "Mesopotamia"
@@ -11095,6 +12114,8 @@ entries:
     sha256: "17589a69e4de6269adf586d36d34df878a0797cdc7ad6c37b314e8cc16e250fe"
   - number: "0553"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Oasis Cities"
     date: "c. 2300 BCE"
     region: "Central Asia"
@@ -11116,6 +12137,8 @@ entries:
     sha256: "077bc02e4a1092692c5ff669fae21e189365c42f1117b90c1b976765fc63cbe7"
   - number: "0554"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Tin Meets Copper"
     date: "c. 2300 BCE"
     region: "Mesopotamia"
@@ -11138,6 +12161,8 @@ entries:
     sha256: "494e41f93376ab591c92a4300da2ed4703e24b6cdb796b3be260cc9bd3d0aa21"
   - number: "0555"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Archer from the Alps"
     date: "c. 2300 BCE"
     region: "Britain"
@@ -11159,6 +12184,8 @@ entries:
     sha256: "a82f87d6302a841bd2511b0a058d2049128a0022b55dcee59b9f6cb731237403"
   - number: "0556"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Metalworkers of Bohemia"
     date: "c. 2300 BCE"
     region: "Europe"
@@ -11180,6 +12207,8 @@ entries:
     sha256: "067261c61a3b07a187fce78ee7113697f8aa4b47cccad832c2c1921f024100bf"
   - number: "0557"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Black Land's Copper"
     date: "c. 2300 BCE"
     region: "Arabia"
@@ -11202,6 +12231,8 @@ entries:
     sha256: "d43f2b9ebd795e78feddbe74f158356bdabbcb5b5fd081d241b9ee0e6b337a59"
   - number: "0558"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Ships from Meluhha"
     date: "c. 2300 BCE"
     region: "Mesopotamia"
@@ -11223,6 +12254,8 @@ entries:
     sha256: "9ac6a586437d76ccc590bc313ae9c0a57d3e00b0c26c86be140ca3e161a5e188"
   - number: "0559"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Boats Sewn with Rope"
     date: "c. 2300 BCE"
     region: "Arabia"
@@ -11243,6 +12276,8 @@ entries:
     sha256: "836123999674f33fcd63ba611ea1d5239c9ca058beee9d8508b4eee96a9866d4"
   - number: "0560"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Girl Who Danced in Bronze"
     date: "c. 2300 BCE"
     region: "Indus"
@@ -11264,6 +12299,8 @@ entries:
     sha256: "3c9124eb8440a9c2ab9bbc12c05ed7ebf1495b9263b43d944079f05c29867d68"
   - number: "0561"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Ninety-Year King"
     date: "c. 2280 BCE"
     region: "Egypt"
@@ -11285,6 +12322,8 @@ entries:
     sha256: "538c1b14cb636597d84aaf46b180bf5be9a2e0d9375d0bd97c25d66a7e9e3563"
   - number: "0562"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Four Journeys to Yam"
     date: "c. 2270 BCE"
     region: "Egypt"
@@ -11308,6 +12347,8 @@ entries:
     sha256: "07826c7997e088955b2977bd1758f11c8d95453810b19fb4c83902937a92b8b8"
   - number: "0563"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Barbarians from the Hills"
     date: "c. 2250 BCE"
     region: "Mesopotamia"
@@ -11329,6 +12370,8 @@ entries:
     sha256: "d920cce80fa97c9cc11d62ad3e0e8547bc2697a3e61c273b3ab61bd4365798cd"
   - number: "0564"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Great Drying"
     date: "c. 2200 BCE"
     region: "Mesopotamia"
@@ -11351,6 +12394,8 @@ entries:
     sha256: "c9fa5f8535916ee1903f04d1e7a9f373ec5729f3c0fceb4bade97ecf9276f149"
   - number: "0565"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Far Colony"
     date: "c. 2200 BCE"
     region: "Central Asia"
@@ -11374,6 +12419,8 @@ entries:
     sha256: "84313038e0627e78776e3a294108ad1f0daf336f330aab4c4adbf09073d86874"
   - number: "0566"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Priest-King of Mohenjo-daro"
     date: "c. 2200 BCE"
     region: "Indus"
@@ -11396,6 +12443,8 @@ entries:
     sha256: "7aa2db72c615cca5942aff6cdd8ebcd58a55be37264d8cbc35dcaf1fddfc2ccf"
   - number: "0567"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "When the Nile Ran Low"
     date: "c. 2180 BCE"
     region: "Egypt"
@@ -11418,6 +12467,8 @@ entries:
     sha256: "b2727e4f2085cea50f9ae2921348125d34944b1a43aec119e2189db80d0e9cb5"
   - number: "0568"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Dreamer King"
     date: "c. 2150 BCE"
     region: "Mesopotamia"
@@ -11439,6 +12490,8 @@ entries:
     sha256: "e6944103ab802ea7faf7e95ec9d6ab4ebe7ed388325f798604c6eff4c12fea80"
   - number: "0569"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Twenty Statues of Diorite"
     date: "c. 2150 BCE"
     region: "Mesopotamia"
@@ -11460,6 +12513,8 @@ entries:
     sha256: "ea7fc10a1fa2fee934a9b04038901295d5629102aec5b262fd2da4208ac295fb"
   - number: "0570"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Lawgiver of Ur"
     date: "c. 2120 BCE"
     region: "Mesopotamia"
@@ -11480,6 +12535,8 @@ entries:
     sha256: "8e266b3283818dfc60b2a5cb41fbc7efa47f47f00f25505ac57133233b20dcec"
   - number: "0571"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Oldest Law Code"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11501,6 +12558,8 @@ entries:
     sha256: "d3e2c358dfa1b7508ecff5415302ab11486bd7921725effd09d6e63a69a4f428"
   - number: "0572"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Stairway of Baked Brick"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11523,6 +12582,8 @@ entries:
     sha256: "e5010a09cf24c3146826d492b7566e5ff0cc90780a14c632ca162ad9760a240a"
   - number: "0573"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Kings Before the Flood"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11546,6 +12607,8 @@ entries:
     sha256: "6100368365c3bc140ffdb2f3d0ec4ff6ad895a257fdf9b3764ee4fafe15ffe51"
   - number: "0574"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Runner King"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11566,6 +12629,8 @@ entries:
     sha256: "b82a4286966e36a3428f505fb9a18dbdd84de035833eed944397378a8e6feb29"
   - number: "0575"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Tablet House"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11588,6 +12653,8 @@ entries:
     sha256: "0af24d56ca670e33ce3026ebefb6537365ae4e6728975fe0dfd0c7907d7296d0"
   - number: "0576"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Doctor's Tablet"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11609,6 +12676,8 @@ entries:
     sha256: "d30c5b8ef80182303d40673e1c3fb302e9fdd233bd9898a0cb390e4537f66b6a"
   - number: "0577"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The First Chariots"
     date: "c. 2100 BCE"
     region: "Steppe"
@@ -11631,6 +12700,8 @@ entries:
     sha256: "c1059b2d185d19fbc330dd3e178d132a506744fcef5d17aaf71b452b30c11b4c"
   - number: "0578"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Observatory of Rammed Earth"
     date: "c. 2100 BCE"
     region: "China"
@@ -11652,6 +12723,8 @@ entries:
     sha256: "b4d8f63b5055bd894c45ab86862a7ae8b09f9543520df9f0e2a95bb9606656e2"
   - number: "0579"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Walls of Pounded Earth"
     date: "c. 2100 BCE"
     region: "China"
@@ -11673,6 +12746,8 @@ entries:
     sha256: "de3f5e9c4434ab15fe4fbad95ebef8784c6279a8dec714316fecf0184193c30d"
   - number: "0580"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Thirty-Six Stars"
     date: "c. 2100 BCE"
     region: "Egypt"
@@ -11693,6 +12768,8 @@ entries:
     sha256: "b479b618e0c436df1caa79632dc5fc1d1d0f00e06d01a4ffbd40b364d325f837"
   - number: "0581"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The King Weds the Goddess"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11714,6 +12791,8 @@ entries:
     sha256: "44d6292bafd77e455a0f82adb037d72009183ad33c2112b00f803b1ab46f6fd8"
   - number: "0582"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The People from the West"
     date: "c. 2100 BCE"
     region: "Mesopotamia"
@@ -11736,6 +12815,8 @@ entries:
     sha256: "292d0a5e9eb037ba74b37e78c68a063021dc8e67eb403a4d6c8061ae3553d6df"
   - number: "0583"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Lament of a Sage"
     date: "c. 2100 BCE"
     region: "Egypt"
@@ -11758,6 +12839,8 @@ entries:
     sha256: "5499e12ad3b662d2ed6a548068c68ce2ec2d9d6185f28d3f885b14e6c344ba4b"
   - number: "0584"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Second Unifier"
     date: "c. 2055 BCE"
     region: "Egypt"
@@ -11779,6 +12862,8 @@ entries:
     sha256: "e55cf791e605b490787da8a1867f25fdfdb0c8d0d95877430f844715daad6f84"
   - number: "0585"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Temple Against the Cliffs"
     date: "c. 2050 BCE"
     region: "Egypt"
@@ -11800,6 +12885,8 @@ entries:
     sha256: "38d45fb26eb4894adb2be83dcd62a03bd2e35ad60e52820ec26f3f807d715871"
   - number: "0586"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Farmer's Almanac"
     date: "c. 2000 BCE"
     region: "Mesopotamia"
@@ -11822,6 +12909,8 @@ entries:
     sha256: "6ab92f3e8c82b0c05ded419523b6b7922dd4011390696bfbd8816236e37c907b"
   - number: "0587"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Debate of Sheep and Grain"
     date: "c. 2000 BCE"
     region: "Mesopotamia"
@@ -11843,6 +12932,8 @@ entries:
     sha256: "335be641afc57d0bac71f4a3a48692820b30b8c0eb1174d8df73af6553fd50f7"
   - number: "0588"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Shipwrecked Sailor"
     date: "c. 2000 BCE"
     region: "Egypt"
@@ -11865,6 +12956,8 @@ entries:
     sha256: "8f6bbaa370d6cd706d82adbb5afa650f3881ddb2cabbfe0bfba9ca1ca37397e9"
   - number: "0589"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "Ur Falls, Isin Rises"
     date: "c. 2004 BCE"
     region: "Mesopotamia"
@@ -11887,6 +12980,8 @@ entries:
     sha256: "5dba1e3c165f62d4e9bf68fadfbfa278cb2af166f8c70bcc5e76d76b6a10ae85"
   - number: "0590"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The World's Oldest Love Song"
     date: "c. 2000 BCE"
     region: "Mesopotamia"
@@ -11909,6 +13004,8 @@ entries:
     sha256: "ca15a4c05e59b615fc923b6fde70c3994f71685b37373b95e9085e0f1a1bb847"
   - number: "0591"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Lament for Ur"
     date: "c. 2000 BCE"
     region: "Mesopotamia"
@@ -11932,6 +13029,8 @@ entries:
     sha256: "9dfc349323962eff54569fe03579f5f223ef2e8f3d41150785bdc8dabc6db042"
   - number: "0592"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Palace Rises at Knossos"
     date: "c. 2000 BCE"
     region: "Crete"
@@ -11954,6 +13053,8 @@ entries:
     sha256: "5205ddc44cec2bddc1bc4cfaf5ebbe2ceb6526117ce34daeea851d5fc1b6c107"
   - number: "0593"
     volume: 1
+    era_code: "03a"
+    era: "Bronze Age (early)"
     title: "The Merchant Colony"
     date: "c. 2000 BCE"
     region: "Anatolia"
@@ -11971,7 +13072,6 @@ entries:
       the largest private archive of the ancient world.
       Business letters, mostly. Complaints about late shipments.
       Four thousand years, and commerce still sounds the same.
-      End of Volume I — continued in Volume II
     description: "I drank with Assyrian merchants in Kanesh's counting house — tin weighed out, silver weighed in, twenty thousand clay tablets of business as usual."
     status: "first draft"
-    sha256: "1434f1f2ae16c943a655a7c8415ed0c06ea0a4b7e69a8e791a8c23f69f590d4b"
+    sha256: "0d39ee60a1bb1cee4fbaa7796a187f359de328b43aa8cbee4161e56aab82845a"

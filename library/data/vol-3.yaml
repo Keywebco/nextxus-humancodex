@@ -1,9 +1,12 @@
-# Living Library, Vol. III: Faiths and the Medieval World
+# Living Library, Vol. 3: Faiths and the Medieval World
 # Entries 1394 to 2043. Free to download, print and share, forever.
-# Source of truth for the text: the HumanCodex Verse volumes. Each entry carries a SHA-256 of its poem text so any change can be detected.
+# Text source: the HumanCodex Verse collection (converted by Pontus). Every entry carries a SHA-256 of its poem text so any change can be detected.
+# Status "first draft" means the poem is open to revision. Numbers are permanent: new poems get numbers after 4343, nothing is ever renumbered.
 entries:
   - number: "1394"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Counting Every Soul"
     date: "2 CE"
     region: "China"
@@ -25,6 +28,8 @@ entries:
     sha256: "138323a4f59193a2e61f0e8927778a5cca7472415bad74d07ffb84196070a71d"
   - number: "1395"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Heir Who Wasn't"
     date: "4 CE"
     region: "Rome"
@@ -46,6 +51,8 @@ entries:
     sha256: "6d90a7b86f2b673ba4ab74ea12dfa47ee27a38114135c57c821c35cc2ee3cc2f"
   - number: "1396"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "A Census and a Revolt"
     date: "6 CE"
     region: "Judea"
@@ -67,6 +74,8 @@ entries:
     sha256: "b58acb98b2673305c20a0112f9cc5f71c13ab8ab8bf539758afb467b39fe749f"
   - number: "1397"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Wang Mang Takes the Throne"
     date: "9 CE"
     region: "China"
@@ -88,6 +97,8 @@ entries:
     sha256: "4cb6f4abc48d7a0b012ef243cd71b8f9cb580359555c42188e33bca990893cf1"
   - number: "1398"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Three Legions Lost in the Forest"
     date: "9 CE"
     region: "Germany"
@@ -110,6 +121,8 @@ entries:
     sha256: "f1f4c3cd793d8cb64fc958e7288b9c7b532bcdfc18101de21b2adbdf8be1822d"
   - number: "1399"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Strabo Maps the Known World"
     date: "10 CE"
     region: "Rome"
@@ -131,6 +144,8 @@ entries:
     sha256: "c609dd725f88a48d8c2467bc381ab82cba9b5b00d95bafaedfb9d6752e1d0ee1"
   - number: "1400"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The First Emperor Dies"
     date: "14 CE"
     region: "Rome"
@@ -152,6 +167,8 @@ entries:
     sha256: "26251d9b6f50921adb971602d31e7f1222c1bcc8be37fd4d1230afee828fdf0c"
   - number: "1401"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Poet Dies in Exile"
     date: "17 CE"
     region: "Rome"
@@ -174,6 +191,8 @@ entries:
     sha256: "5e2268fc097650a42939bf714ab29b85e95dae5edee711eacb485ec8b1b44d20"
   - number: "1402"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Germanicus, the People's Prince"
     date: "19 CE"
     region: "Rome"
@@ -195,6 +214,8 @@ entries:
     sha256: "d46fa63e770ca099d127d8b21ec68b732955a241e5cf812ee0b219174a26a86f"
   - number: "1403"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Red Eyebrows Rise"
     date: "23 CE"
     region: "China"
@@ -216,6 +237,8 @@ entries:
     sha256: "098506af97c2f191184377b53a537303a1ae4d9d42b0cd898ea482b739c9d432"
   - number: "1404"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Han Restored"
     date: "25 CE"
     region: "China"
@@ -237,6 +260,8 @@ entries:
     sha256: "6df27c802c14095c4b45a9ce00bd4af82c3d77977685d6d63a1a437f3f91c11e"
   - number: "1405"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Pontius Pilate Arrives"
     date: "26 CE"
     region: "Judea"
@@ -258,6 +283,8 @@ entries:
     sha256: "281953c5b0ec09680e569e0387e0aa604b14f7766039655879210cb21b0db30b"
   - number: "1406"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Sejanus Falls"
     date: "31 CE"
     region: "Rome"
@@ -280,6 +307,8 @@ entries:
     sha256: "a193d3734f4e2eac0ca0d908c624dd8f78a1f055315db3bcdf826c279a825a89"
   - number: "1407"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Money Panic"
     date: "33 CE"
     region: "Rome"
@@ -302,6 +331,8 @@ entries:
     sha256: "2651e9bd4b1658537dbbc20eda8d1830ba845c6fa449a5bb0b917959bbad7f1b"
   - number: "1408"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Caligula Takes the Crown"
     date: "37 CE"
     region: "Rome"
@@ -323,6 +354,8 @@ entries:
     sha256: "aabb947d6361b921651f8d63045e015ec8d4c798dfb1ad7f7f3f6a74a3818a86"
   - number: "1409"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Emperor Who Would Be God"
     date: "39 CE"
     region: "Rome"
@@ -345,6 +378,8 @@ entries:
     sha256: "bdd8fe3de55c867c938ff7cbf8f6a60ce104cc9a115981b07e6505bf354ed8cf"
   - number: "1410"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Claudius, Found Behind a Curtain"
     date: "41 CE"
     region: "Rome"
@@ -367,6 +402,8 @@ entries:
     sha256: "205d2b92872e0ef624d1b8af5ac72a4003fe42dbabed14a2a93601ea60137fff"
   - number: "1411"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rome Invades Britain"
     date: "43 CE"
     region: "Britain"
@@ -388,6 +425,8 @@ entries:
     sha256: "d7bca3d6b6a9ac89570739f1e827e0add716f0cb99c04faa10af39e957b458a5"
   - number: "1412"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Apostle James Dies"
     date: "44 CE"
     region: "Judea"
@@ -410,6 +449,8 @@ entries:
     sha256: "6b90b3694710f6946c495a2a583d36a22ce375596c7ec576a14deb7c1846c8bc"
   - number: "1413"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Stupa at Amaravati"
     date: "45 CE"
     region: "India"
@@ -432,6 +473,8 @@ entries:
     sha256: "1e971ea01ddf4a00bd4ce9b55d37a2d2e169e3d12d71abf367e4df2ea7aa2f20"
   - number: "1414"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Philosopher in the Palace"
     date: "46 CE"
     region: "Rome"
@@ -454,6 +497,8 @@ entries:
     sha256: "c664c60a8e9ebee978a846857fc750b9fd191ddf8b547d8b1d86db556b05b7e7"
   - number: "1415"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Healer's Handbook"
     date: "50 CE"
     region: "India"
@@ -475,6 +520,8 @@ entries:
     sha256: "370c88026a50bd0862f0d566816a481ae966b7620159ba61cabee4f766df3c1d"
   - number: "1416"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Thomas Comes to Malabar"
     date: "52 CE"
     region: "India"
@@ -497,6 +544,8 @@ entries:
     sha256: "bfdceaeef7830f7e086d29129dbdd471f08743f29164a1ba2b66f363a5816350"
   - number: "1417"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Nero Takes the Throne"
     date: "54 CE"
     region: "Rome"
@@ -519,6 +568,8 @@ entries:
     sha256: "232af8dc05cc18a5f88decbf9b0b2a9b3be6ff716696bd07d42ff1f8e969c1cc"
   - number: "1418"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Paul's Letters"
     date: "57 CE"
     region: "Corinth"
@@ -541,6 +592,8 @@ entries:
     sha256: "6d209726eac98a95d7841727e46fba8adc1fc193df5527f189124ff02fe48f5e"
   - number: "1419"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The White Horse Temple"
     date: "59 CE"
     region: "China"
@@ -563,6 +616,8 @@ entries:
     sha256: "a2ca35b14376da939930d461757baf76b85ec463dc95a444eaba9dd85c2bd81d"
   - number: "1420"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Boudica's Revolt"
     date: "60 CE"
     region: "Britain"
@@ -584,6 +639,8 @@ entries:
     sha256: "ad3f076ab3e4b68249c816e9f29deaca1d28e7fda8a7dd27a17a9418a1182dd1"
   - number: "1421"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Philosopher Ordered to Die"
     date: "62 CE"
     region: "Rome"
@@ -606,6 +663,8 @@ entries:
     sha256: "ae6749c94b2e17655b35b9f4d6919f825861da0197f20790245a8c07da9f2857"
   - number: "1422"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rome Burns"
     date: "64 CE"
     region: "Rome"
@@ -628,6 +687,8 @@ entries:
     sha256: "5c2d8450e6d0a1f4390dd26727ae3ae0eb84be60ed3df789e183e93da599d1e4"
   - number: "1423"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Peter and Paul Die"
     date: "64 CE"
     region: "Rome"
@@ -649,6 +710,8 @@ entries:
     sha256: "e8b3502d9d6b442c7d84b99dc7c21c5584b25c65de6a5109ad35a8b7b5b0418a"
   - number: "1424"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Poet-Conspirator"
     date: "65 CE"
     region: "Rome"
@@ -671,6 +734,8 @@ entries:
     sha256: "5d0f208d9543a39c2be5739ddcbf4fc0cba666c0299b275be8cecadbccc0f74b"
   - number: "1425"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Year of Four Emperors"
     date: "68 CE"
     region: "Rome"
@@ -692,6 +757,8 @@ entries:
     sha256: "e37631a47ec0e8467710225c6141aa3e2ace13ed7e6bc2c5b73d5a13832057ab"
   - number: "1426"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Masada Holds Out"
     date: "73 CE"
     region: "Judea"
@@ -714,6 +781,8 @@ entries:
     sha256: "ed0e3deabdb535a9ca554c94b4b6daa884020b9de807a4711426c0cf1bce51c1"
   - number: "1427"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Temple of Peace"
     date: "75 CE"
     region: "Rome"
@@ -735,6 +804,8 @@ entries:
     sha256: "4246694ebbbbbb83654aca3ded7e192115c59ab9b649a0a6a223e66ad6208dc6"
   - number: "1428"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Pliny's Great Encyclopedia"
     date: "77 CE"
     region: "Rome"
@@ -756,6 +827,8 @@ entries:
     sha256: "3c9700724c03bff25732da2b6db5c25c37796144a9437b67ece40aea58c51abd"
   - number: "1429"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Mountain Eats Two Cities"
     date: "79 CE"
     region: "Italy"
@@ -777,6 +850,8 @@ entries:
     sha256: "ecf362e173d28a4f450054c3360925a12c17e3f0339d6d89978285867842b631"
   - number: "1430"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Colosseum Opens"
     date: "80 CE"
     region: "Rome"
@@ -799,6 +874,8 @@ entries:
     sha256: "471d5de4b2da25124f7aebf516f1f8570efc7b45c9d1019759dd7b445e0a4050"
   - number: "1431"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Domitian's Terror Begins"
     date: "81 CE"
     region: "Rome"
@@ -822,6 +899,8 @@ entries:
     sha256: "9824d873ef943beca6062d0d76cce985ea8ddfb315d5d004d1a5a5dacd3d1f37"
   - number: "1432"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Agricola's Northern March"
     date: "83 CE"
     region: "Britain"
@@ -844,6 +923,8 @@ entries:
     sha256: "3d487d2e3d9c961050366d77ffe044b5227789e1033ea3182dfb5c9dbd5a4f5b"
   - number: "1433"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Rabbis at Yavneh"
     date: "90 CE"
     region: "Judea"
@@ -867,6 +948,8 @@ entries:
     sha256: "6ce7144ba25e4124a37fc873ce4930e857faa2cfe55db0e98f4f1f4f983c2cc0"
   - number: "1434"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Vine Edict"
     date: "92 CE"
     region: "Rome"
@@ -889,6 +972,8 @@ entries:
     sha256: "9145413f813c245fce9fc01d0622eae917f8f346a8073495e4e444e061104f06"
   - number: "1435"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Ban Chao's Far Frontier"
     date: "94 CE"
     region: "Central Asia"
@@ -911,6 +996,8 @@ entries:
     sha256: "47bc441590d5098dd2ead2cb77de7517501c9b12c330985cedba64133cc5b16d"
   - number: "1436"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Senate Strikes Back"
     date: "96 CE"
     region: "Rome"
@@ -932,6 +1019,8 @@ entries:
     sha256: "34a56ff61336864e63ad6b80125f5b7f8c23c3d944479fcfbb71c787a9efbfba"
   - number: "1437"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Old Man Emperor"
     date: "97 CE"
     region: "Rome"
@@ -954,6 +1043,8 @@ entries:
     sha256: "bb63f24f94b34273ed1bb0e4d0f90e8aba2e0d4b9a960efd696e1bddde326793"
   - number: "1438"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Trajan Takes Power"
     date: "98 CE"
     region: "Rome"
@@ -977,6 +1068,8 @@ entries:
     sha256: "395fa21fa0cf22158916e2379f18f249d998d788fc385f45628f878e2d3b9078"
   - number: "1439"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Octagon Builders"
     date: "c. 100 CE"
     region: "North America"
@@ -999,6 +1092,8 @@ entries:
     sha256: "133dd7201c119e7dd79ea702c27d88719bf122a959a9c2794aac32ed2daf1f4c"
   - number: "1440"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Dacian Wars Begin"
     date: "101 CE"
     region: "Dacia"
@@ -1022,6 +1117,8 @@ entries:
     sha256: "ebb0f5c3ebc63069845fd30fbde51e02ecb291f47c11a7e608005d39833a6af0"
   - number: "1441"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Bread for the Poor Children"
     date: "103 CE"
     region: "Rome"
@@ -1044,6 +1141,8 @@ entries:
     sha256: "b88ac50c784afccf899d8aa694c1ef59988eb13561c52d3c6db2875a5bd773ac"
   - number: "1442"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Cai Lun's Paper"
     date: "105 CE"
     region: "China"
@@ -1066,6 +1165,8 @@ entries:
     sha256: "bbf2f0321bf60e8a1c17aaddd9201295d793caa4e8528fabe143fb758bf3ffb3"
   - number: "1443"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Bridge Over the Danube"
     date: "105 CE"
     region: "Danube"
@@ -1089,6 +1190,8 @@ entries:
     sha256: "be94b446ee1aab55c0d68ba26985e8972cf75e2617c50a936c7a169b94494b1c"
   - number: "1444"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rome Takes Petra"
     date: "106 CE"
     region: "Arabia"
@@ -1112,6 +1215,8 @@ entries:
     sha256: "ce9acfec6cc6845aea739917cdf5ff8aed9b0a7f845504d7d7c11a860e04679e"
   - number: "1445"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Ignatius Goes to the Lions"
     date: "107 CE"
     region: "Syria"
@@ -1135,6 +1240,8 @@ entries:
     sha256: "6b3a46cc08ce2ae0aa67af87c49418710f542744c2caf362ed8c1ffd99db0f0e"
   - number: "1446"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Trajan's Market"
     date: "108 CE"
     region: "Rome"
@@ -1157,6 +1264,8 @@ entries:
     sha256: "e10bc04e227b46fd214fee2fe9ebee01a911abacec462691ec3faff9ec646983"
   - number: "1447"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Pliny Writes About Christians"
     date: "110 CE"
     region: "Bithynia"
@@ -1180,6 +1289,8 @@ entries:
     sha256: "15ffadce80721f6cbdca78474a79a5dd5544bd5af01b42a732ca3e39414f8177"
   - number: "1448"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Column of Victories"
     date: "112 CE"
     region: "Rome"
@@ -1202,6 +1313,8 @@ entries:
     sha256: "2c614692ad85c5afe8e31e4c27e146927689e0c0a5e1c369bd078cb9aad147f2"
   - number: "1449"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Trajan Takes the East"
     date: "114 CE"
     region: "Armenia"
@@ -1225,6 +1338,8 @@ entries:
     sha256: "519ef08346e349f07bab21bcc7c79d6abaef751ee3045cf431b54d45273688a7"
   - number: "1450"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Revolt in the East"
     date: "116 CE"
     region: "Mesopotamia"
@@ -1248,6 +1363,8 @@ entries:
     sha256: "6758b16beb1eff5f810bc0debed49d0ad5e00120f6b2e770a3b943befb544b97"
   - number: "1451"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Hadrian Inherits the World"
     date: "117 CE"
     region: "Rome"
@@ -1272,6 +1389,8 @@ entries:
     sha256: "0c96b011ba6e9e31d07abbff144a40962209203a3498976f090fd1e59ed3d0af"
   - number: "1452"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Pantheon's Dome"
     date: "118 CE"
     region: "Rome"
@@ -1295,6 +1414,8 @@ entries:
     sha256: "763cd61371dc232162711d32fbcc5c6adbe16b9a7491af1f65c00a170b01e21a"
   - number: "1453"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Hadrian's Wall"
     date: "122 CE"
     region: "Britain"
@@ -1318,6 +1439,8 @@ entries:
     sha256: "e56dd0dc29e468e89c22b39f0e98a9a1f2632b0e62d1516a767b94954c71cea9"
   - number: "1454"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Hadrian in Athens"
     date: "124 CE"
     region: "Greece"
@@ -1341,6 +1464,8 @@ entries:
     sha256: "33457d78114ffbe070612b9878788cf7e4bd933e02b14a66dbd6eacd7603953a"
   - number: "1455"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Kanishka's Golden Age"
     date: "127 CE"
     region: "India"
@@ -1365,6 +1490,8 @@ entries:
     sha256: "dee902886feb73d1da0c93a5a9dfe1c9d1dcaeecfc7916541e73b495823c498e"
   - number: "1456"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Antinous Drowns"
     date: "130 CE"
     region: "Egypt"
@@ -1389,6 +1516,8 @@ entries:
     sha256: "9a5a304ac09c5b898902b99f28fc073fd1852294ee85f51431c2a510a60517c5"
   - number: "1457"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Earthquake Machine"
     date: "132 CE"
     region: "China"
@@ -1411,6 +1540,8 @@ entries:
     sha256: "e9dc6128d15b76a7f0daeb4ed3095d9180274bcb4d206dd97d243ca0ead8252d"
   - number: "1458"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Bar Kokhba Rises"
     date: "132 CE"
     region: "Judea"
@@ -1433,6 +1564,8 @@ entries:
     sha256: "b42375339e396092cd68511559e4150fc7ea041ccbb0f9f9b0ef64925db19a4b"
   - number: "1459"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Revolt Crushed"
     date: "135 CE"
     region: "Judea"
@@ -1455,6 +1588,8 @@ entries:
     sha256: "256f021a57e00a729b3148e4dcff13f1c1a1bc1c3c6de3411695a78e6986300a"
   - number: "1460"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Good Emperors' Handoff"
     date: "138 CE"
     region: "Rome"
@@ -1478,6 +1613,8 @@ entries:
     sha256: "b898bef895a1efea2d2bdaf520bea05acaf220048cfdea6bb2a792af618abfd6"
   - number: "1461"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Marcion's Challenge"
     date: "144 CE"
     region: "Rome"
@@ -1501,6 +1638,8 @@ entries:
     sha256: "99b29aca7240d355fe0c799c059cfded7972774ea4f42c66790d8952286d360a"
   - number: "1462"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Almagest"
     date: "148 CE"
     region: "Egypt"
@@ -1523,6 +1662,8 @@ entries:
     sha256: "58ec4011695aaec8f6a8138a6809cd6de6f32930f212540e307c585d5ed9bece"
   - number: "1463"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Ptolemy's Map of the World"
     date: "150 CE"
     region: "Egypt"
@@ -1545,6 +1686,8 @@ entries:
     sha256: "9bd79708ae129dfa75376dd95664923758927f8088781957ba334ed6866f5c07"
   - number: "1464"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Shepherd's Visions"
     date: "155 CE"
     region: "Rome"
@@ -1568,6 +1711,8 @@ entries:
     sha256: "749dc8dfe2963cbf0d1970713b73a19334c0c7ec9673cc5601fa21ace3434111"
   - number: "1465"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Marcus Aurelius Takes the Throne"
     date: "161 CE"
     region: "Rome"
@@ -1591,6 +1736,8 @@ entries:
     sha256: "ab07e88fac5c9e54558090c676b0d7ffa12b9908fad01c3a6a3b49767b8a14c1"
   - number: "1466"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Antonine Plague"
     date: "165 CE"
     region: "Rome"
@@ -1614,6 +1761,8 @@ entries:
     sha256: "ecc1030819043aaa79abfed4b704a029ea7c908ec5df5cd3a68d3465a1803997"
   - number: "1467"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Romans Reach China"
     date: "166 CE"
     region: "China"
@@ -1637,6 +1786,8 @@ entries:
     sha256: "960fce616255da0caa3a745cac72bc7cf96b9325789dbfc08041337cfd9e8910"
   - number: "1468"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Galen, Doctor to Emperors"
     date: "170 CE"
     region: "Rome"
@@ -1659,6 +1810,8 @@ entries:
     sha256: "daaf9c3e909005568683a7caeb312e9ce8467f8664d5ff6e8b0c88c7e6e16673"
   - number: "1469"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Rain Miracle"
     date: "172 CE"
     region: "Rome"
@@ -1681,6 +1834,8 @@ entries:
     sha256: "35211fddf8a3db22bbd3a72b20824d866a357b79d0ca9f884d2fa38c514239c5"
   - number: "1470"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Martyrs of Lyon"
     date: "177 CE"
     region: "Gaul"
@@ -1704,6 +1859,8 @@ entries:
     sha256: "c9cac645ebf2323e24db431c40c0c6393ec9d96fa18d1cd003239db472fb27b7"
   - number: "1471"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Meditations"
     date: "178 CE"
     region: "Rome"
@@ -1727,6 +1884,8 @@ entries:
     sha256: "d2c596991e6a28f77ae1842d72640e3d1d64f46f83e446616cf6debc0e517317"
   - number: "1472"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Philosopher-Emperor Dies"
     date: "180 CE"
     region: "Rome"
@@ -1749,6 +1908,8 @@ entries:
     sha256: "58394b0b55ab86eb84f642bee5b1e15c5e664b97c654419422b97d1dec7aec80"
   - number: "1473"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Yellow Turbans Rise"
     date: "184 CE"
     region: "China"
@@ -1771,6 +1932,8 @@ entries:
     sha256: "ba54d34ab9e3f33c2c6ddbdda8cf2689c1cb4c7f7f761fbe0df754de62aada3c"
   - number: "1474"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Dong Zhuo Seizes the Capital"
     date: "189 CE"
     region: "China"
@@ -1792,6 +1955,8 @@ entries:
     sha256: "d8cae3d37f3d4525025f8e267b2f97d5bd9ccf325288290af954760d63761d65"
   - number: "1475"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Gladiator Emperor"
     date: "190 CE"
     region: "Rome"
@@ -1814,6 +1979,8 @@ entries:
     sha256: "2b502d486558ba5a4ca9fdc727da439b52702c9fc87ae2db5c65e78be02126b9"
   - number: "1476"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Commodus Is Strangled"
     date: "192 CE"
     region: "Rome"
@@ -1835,6 +2002,8 @@ entries:
     sha256: "b6b4eca7a98214980a0f5344cab6c61cd6721e6517cbba657a4e6df20ef0aa3d"
   - number: "1477"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Year of Five Emperors"
     date: "193 CE"
     region: "Rome"
@@ -1858,6 +2027,8 @@ entries:
     sha256: "d539c13fef0fe808dd26ac9baf65cccdcb9893670a6d4aaf4f09aa97c128145c"
   - number: "1478"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Severus Crushes His Rival"
     date: "197 CE"
     region: "Gaul"
@@ -1880,6 +2051,8 @@ entries:
     sha256: "f4f0e8e7bacac366bcd1b0dfda358316ba7fbd91ee38ea5b5f066127c20e9907"
   - number: "1479"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Mishnah Is Written"
     date: "200 CE"
     region: "Judea"
@@ -1903,6 +2076,8 @@ entries:
     sha256: "9fba27beff062a5770bc94eb6060f530f9441e05c5914c1ee1fbdca71f8ff1bb"
   - number: "1480"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Desert Father"
     date: "202 CE"
     region: "Egypt"
@@ -1926,6 +2101,8 @@ entries:
     sha256: "8bd4d543dfd8a58d2f5c1429356eb827717041cd08e5c2dc841c7da688cd0f9c"
   - number: "1481"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Battle of Red Cliffs"
     date: "208 CE"
     region: "China"
@@ -1949,6 +2126,8 @@ entries:
     sha256: "cc1f72bbda433c77b4cf6e1ee0603bc7da51ff49e118172cc547e8240190567e"
   - number: "1482"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Citizenship for Everyone"
     date: "212 CE"
     region: "Rome"
@@ -1971,6 +2150,8 @@ entries:
     sha256: "c6b733ded5602ccdc8c60c2f99aaad1ad7fd0b80e74704751af1609868ded86c"
   - number: "1483"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Caracalla's Eastern War"
     date: "216 CE"
     region: "Parthia"
@@ -1993,6 +2174,8 @@ entries:
     sha256: "b64d624e715009ac7e77f5d99aaffdc1a35616e383205cea449e4620b85b841b"
   - number: "1484"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Great Baths"
     date: "216 CE"
     region: "Rome"
@@ -2015,6 +2198,8 @@ entries:
     sha256: "e4d81924b57061d873677f37d89ab854d2c585d631a0768c9527cd0497c719c0"
   - number: "1485"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Teenage Sun-Priest Emperor"
     date: "218 CE"
     region: "Rome"
@@ -2038,6 +2223,8 @@ entries:
     sha256: "ac9b242e801f5053f5397bc90e8def94b998d2ec7598fab8078f02255c18fe93"
   - number: "1486"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Boy Emperor Murdered"
     date: "222 CE"
     region: "Rome"
@@ -2060,6 +2247,8 @@ entries:
     sha256: "c91bdbc93e8d5993416598e92bd43d119a29b67d34be58e083f89e223b0ba874"
   - number: "1487"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Sassanids Rise"
     date: "224 CE"
     region: "Persia"
@@ -2082,6 +2271,8 @@ entries:
     sha256: "4cdba38143f33ba063c21f07341fee93534ce8d2e29f754f6bab20d167e033be"
   - number: "1488"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Three Kingdoms"
     date: "230 CE"
     region: "China"
@@ -2105,6 +2296,8 @@ entries:
     sha256: "3c3b9b6af02cd84f9da1dbd99a92af177d314afcb927277b70524d0f2488af4b"
   - number: "1489"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Barracks Emperors Begin"
     date: "235 CE"
     region: "Rome"
@@ -2128,6 +2321,8 @@ entries:
     sha256: "0fd79fc2df7059a3fdbe63983119454bd37cab9a9c8dcca3b5387ebe5ce3a122"
   - number: "1490"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Shapur Crowns Himself"
     date: "240 CE"
     region: "Persia"
@@ -2151,6 +2346,8 @@ entries:
     sha256: "cb02e41716ace393002a482e3607ee864bcd648e62e8469147ab2e620ea92245"
   - number: "1491"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Philip the Arab"
     date: "244 CE"
     region: "Rome"
@@ -2174,6 +2371,8 @@ entries:
     sha256: "39dc081ef9499b4b972f1552969143ca0d12cc09d0c087bc8dcf85f704eec536"
   - number: "1492"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rome's Thousandth Birthday"
     date: "248 CE"
     region: "Rome"
@@ -2197,6 +2396,8 @@ entries:
     sha256: "8d62095c81ef51bf31e6cfe10639a3125f27d6763ecdfdbd2cf18adb81051cba"
   - number: "1493"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Plague of Cyprian"
     date: "249 CE"
     region: "Rome"
@@ -2221,6 +2422,8 @@ entries:
     sha256: "094fc4b059824cc4594b88af32da9bf1244f3acb79cc47e5df1dd8e617d75a3f"
   - number: "1494"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Decius Hunts the Christians"
     date: "250 CE"
     region: "Rome"
@@ -2245,6 +2448,8 @@ entries:
     sha256: "079bcdc7f2a29f30b71e948069e1a6f32c897d88dabe809462ad33bc8b0e8fba"
   - number: "1495"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Cyprian Writes on Unity"
     date: "251 CE"
     region: "Carthage"
@@ -2268,6 +2473,8 @@ entries:
     sha256: "9da56dbf3acf780d7f29da68835f6e40a6c940588e5adc0476fe33c882f6dfee"
   - number: "1496"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Church at Dura-Europos"
     date: "256 CE"
     region: "Syria"
@@ -2290,6 +2497,8 @@ entries:
     sha256: "d39bbf046cb871c8332adc1434e1477b60a7abc6a6fc9ee978a1fd73226a2043"
   - number: "1497"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Valerian's Persecution"
     date: "257 CE"
     region: "Rome"
@@ -2313,6 +2522,8 @@ entries:
     sha256: "d7f28556e680c38e6839d3b7b11039fbfc4818e135ca0b0700deb068d9e9ba02"
   - number: "1498"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Gallic Empire"
     date: "259 CE"
     region: "Gaul"
@@ -2335,6 +2546,8 @@ entries:
     sha256: "b022856b25532a6d420d85d17094e91da2844512fa1721002c75ecb3a31ab9bb"
   - number: "1499"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "An Emperor in Chains"
     date: "260 CE"
     region: "Persia"
@@ -2357,6 +2570,8 @@ entries:
     sha256: "d0dcb05dd90c40397f72791244381733a7fb6a7ecbf67eb4900658dd91aeb346"
   - number: "1500"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Goths Sack Athens"
     date: "267 CE"
     region: "Greece"
@@ -2380,6 +2595,8 @@ entries:
     sha256: "9b0728b8c2388cde3951621403191aaabc835c73590720f66ad9e0f4bddc67c3"
   - number: "1501"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Antony Goes Deeper"
     date: "270 CE"
     region: "Egypt"
@@ -2403,6 +2620,8 @@ entries:
     sha256: "3165bb7dfe89f27d18da2b6f006633710595b338b49838368a5726fde24a47d4"
   - number: "1502"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Zenobia's Empire"
     date: "270 CE"
     region: "Palmyra"
@@ -2427,6 +2646,8 @@ entries:
     sha256: "856039887ce1ce59d71ba7ff572344374b30026382d23391bd095a7a36874e6f"
   - number: "1503"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Aurelian Crushes Zenobia"
     date: "272 CE"
     region: "Palmyra"
@@ -2450,6 +2671,8 @@ entries:
     sha256: "a223575956622c717c8c5a0d9137b4dabbd3c01f31886296db48779342608c84"
   - number: "1504"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Sun God's Birthday"
     date: "274 CE"
     region: "Rome"
@@ -2473,6 +2696,8 @@ entries:
     sha256: "6ca3a9a23aef651e8abaf476a6bb53758b3607a888476852a8d42fc458d6e28c"
   - number: "1505"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Aurelian's Walls"
     date: "275 CE"
     region: "Rome"
@@ -2496,6 +2721,8 @@ entries:
     sha256: "c5e265695c0f2b02f52f38a3410af69a64251373872c3c0eebccd708aa03eca9"
   - number: "1506"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "China Reunited — Briefly"
     date: "280 CE"
     region: "China"
@@ -2518,6 +2745,8 @@ entries:
     sha256: "7da2fb988306182f77f339d15e6f0fa29aa3e177339224a9f65cbdd9cc6c4525"
   - number: "1507"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Diocletian Takes Power"
     date: "284 CE"
     region: "Rome"
@@ -2542,6 +2771,8 @@ entries:
     sha256: "a43810573889a986879370469afc6f8ba451094966fa674e97dd07e209632395"
   - number: "1508"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Empire Splits in Two"
     date: "286 CE"
     region: "Rome"
@@ -2565,6 +2796,8 @@ entries:
     sha256: "1fabecd2e00b7fe19aa4f843b78c06f2198a07e98d706db3b9e62a932eebf1e8"
   - number: "1509"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rule of Four"
     date: "293 CE"
     region: "Rome"
@@ -2588,6 +2821,8 @@ entries:
     sha256: "fa889fb4bb156b863ebaacf5c9769c750c5bb9209bc80a6825baf6982cb406a2"
   - number: "1510"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Britain Retaken"
     date: "296 CE"
     region: "Britain"
@@ -2612,6 +2847,8 @@ entries:
     sha256: "55222ec0e179fe6183189b150de8986dfa0bfb8c7e96be40332a74037e9eeb4a"
   - number: "1511"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Peace With Persia"
     date: "298 CE"
     region: "Persia"
@@ -2636,6 +2873,8 @@ entries:
     sha256: "bd41cacda5c57dbce5cb55f298ba1078aa21583855c56b1c009f8c21cb790e3c"
   - number: "1512"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The First Christian Nation"
     date: "301 CE"
     region: "Armenia"
@@ -2660,6 +2899,8 @@ entries:
     sha256: "055c79e6e14d5a4525de3056b7758e30ef29c74f114254734ffee523f9f4807a"
   - number: "1513"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Price Edict"
     date: "301 CE"
     region: "Rome"
@@ -2681,6 +2922,8 @@ entries:
     sha256: "1c5adc8aabe9bfcc37bf3dbc56fc386e782660ce848299d924c87d19f7801592"
   - number: "1514"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Great Persecution"
     date: "303 CE"
     region: "Rome"
@@ -2704,6 +2947,8 @@ entries:
     sha256: "00b90dd51568e88d8d96c8fc1956825b68937ddf6d0fd669d3d772bb4d6b09f1"
   - number: "1515"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "An Emperor Retires"
     date: "305 CE"
     region: "Rome"
@@ -2728,6 +2973,8 @@ entries:
     sha256: "3e70564ff8b3660c89b1aa11cd6e8dc5909a9a9004e2153135bf8a89f3edeebf"
   - number: "1516"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Constantine Proclaimed"
     date: "306 CE"
     region: "Britain"
@@ -2752,6 +2999,8 @@ entries:
     sha256: "0ca55cf5cc2e079f4af89cf309c2d5e57a6bb1c650875a7e04aa01d596b235e5"
   - number: "1517"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Milvian Bridge"
     date: "312 CE"
     region: "Rome"
@@ -2776,6 +3025,8 @@ entries:
     sha256: "c7f4b888fdaffe524e8041e5a7f062bcea6eaa73e308cff2e5a995af13e84e4e"
   - number: "1518"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Edict of Milan"
     date: "313 CE"
     region: "Milan"
@@ -2798,6 +3049,8 @@ entries:
     sha256: "43acfaa4fc2bbabeb294ad8a59808fc081e489f02f7e1c7c0aa6e474c36a835e"
   - number: "1519"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Bishops Meet at Arles"
     date: "314 CE"
     region: "Gaul"
@@ -2821,6 +3074,8 @@ entries:
     sha256: "307658f23c73a2835c79e368c47323941b71e9d50b010012ed85ba9344e0494f"
   - number: "1520"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Luoyang Falls"
     date: "316 CE"
     region: "China"
@@ -2843,6 +3098,8 @@ entries:
     sha256: "f7234152bfd7ae56ed9e66a52dc6317b62d0ffa45d725267be451bec3736e867"
   - number: "1521"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Guptas Rise"
     date: "320 CE"
     region: "India"
@@ -2867,6 +3124,8 @@ entries:
     sha256: "6d25fcdf7bcff7e822d36b34d1b36133802a03bef5a1940bb9342f4ef713a6bf"
   - number: "1522"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The First Monastery"
     date: "320 CE"
     region: "Egypt"
@@ -2890,6 +3149,8 @@ entries:
     sha256: "3ebe56a70bd8da0d6e0d5af2af4598ec947cbd9fa01265afa89d33158f1ae7ba"
   - number: "1523"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Sunday Becomes Rest Day"
     date: "321 CE"
     region: "Rome"
@@ -2912,6 +3173,8 @@ entries:
     sha256: "f4d7c8954d5eb83e27ee17c8ff2002ef0ca9909154735a3b8cc0c3822fd2398a"
   - number: "1524"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Constantine Wins It All"
     date: "324 CE"
     region: "Rome"
@@ -2934,6 +3197,8 @@ entries:
     sha256: "7a93be27863ccc28acfc72d52da6fedc46b1a7b864a1efe64681d7d589517276"
   - number: "1525"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Council of Nicaea"
     date: "325 CE"
     region: "Nicaea"
@@ -2957,6 +3222,8 @@ entries:
     sha256: "606f61ae786325830d935340f36f6d3a598c10c41f31adf34ee8451e1c5a3e54"
   - number: "1526"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Helena Finds the Cross"
     date: "326 CE"
     region: "Jerusalem"
@@ -2979,6 +3246,8 @@ entries:
     sha256: "4a312e53db163610ed8652103fed73f5e46d579135adf2c0e9d834a05bb14cad"
   - number: "1527"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Constantinople Is Born"
     date: "330 CE"
     region: "Byzantium"
@@ -3002,6 +3271,8 @@ entries:
     sha256: "dbfea2255c5e79727734cf0dd9bb7983bd63d69cc506fd727cd469ceec94c428"
   - number: "1528"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Aksum Turns Christian"
     date: "330 CE"
     region: "Ethiopia"
@@ -3026,6 +3297,8 @@ entries:
     sha256: "ef739b4a47861282f364b5e6ac41a143d99d50311d9adfaeb6a27623f37117e7"
   - number: "1529"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Eusebius Writes History"
     date: "331 CE"
     region: "Rome"
@@ -3050,6 +3323,8 @@ entries:
     sha256: "d8b9596ca0b0eb63e0255f735fdee45f34c9eeb0484178d6c7c3fe6bce1f67d8"
   - number: "1530"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Samudragupta's March"
     date: "335 CE"
     region: "India"
@@ -3072,6 +3347,8 @@ entries:
     sha256: "1f31a67c5ff3f0f96c959da128f4aff1e7739d50e7335ab65323e0b3b1adae11"
   - number: "1531"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The First Christmas"
     date: "336 CE"
     region: "Rome"
@@ -3095,6 +3372,8 @@ entries:
     sha256: "f356fc640afbb9d1186fb94bd9cc6ea8db2ba9bdcf2a735dec3204dee1c8c963"
   - number: "1532"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Constantine Is Baptized"
     date: "337 CE"
     region: "Rome"
@@ -3119,6 +3398,8 @@ entries:
     sha256: "6ef87a07db2975d78dfd614693ac5c50f399a6e4c6195c0b5af4771f7da1494f"
   - number: "1533"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Shapur's Persecution"
     date: "340 CE"
     region: "Persia"
@@ -3143,6 +3424,8 @@ entries:
     sha256: "217d3c9533a0a969f6a04859583fe6e9633bdb33d17c122e4eb5cde27e314704"
   - number: "1534"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Real Saint Nicholas"
     date: "343 CE"
     region: "Asia Minor"
@@ -3166,6 +3449,8 @@ entries:
     sha256: "7e16c3acdda55f9316a3ef2582dd9e0a3a9bee10b53046ba3666878c3132e9f4"
   - number: "1535"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Gothic Bible"
     date: "350 CE"
     region: "Goths"
@@ -3190,6 +3475,8 @@ entries:
     sha256: "4326e296ec3a1daa64f7d3b58c5588e6467cc29cff2a2fe69ca27965d51c8484"
   - number: "1536"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine Is Born"
     date: "354 CE"
     region: "North Africa"
@@ -3214,6 +3501,8 @@ entries:
     sha256: "60d8630ba120bca2a618c37ac284c6b5c4087d661f4d55a9f4edc39827879a75"
   - number: "1537"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Julian Wins at Strasbourg"
     date: "357 CE"
     region: "Gaul"
@@ -3237,6 +3526,8 @@ entries:
     sha256: "7fee194b03e12be1a44ae96360799206b11c93d5770ca30ddfe8145a447042e5"
   - number: "1538"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Desert Mothers"
     date: "360 CE"
     region: "Egypt"
@@ -3260,6 +3551,8 @@ entries:
     sha256: "38f0b68f2e8fd8f66da1805ab1272003884a2b2b3b5840dfef513824b29454fe"
   - number: "1539"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Julian the Apostate"
     date: "361 CE"
     region: "Rome"
@@ -3283,6 +3576,8 @@ entries:
     sha256: "5a7b392962378d6c3681ddbabb3f0a3094c1df8a13d59761575efe493bcb4729"
   - number: "1540"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Julian Dies in Persia"
     date: "363 CE"
     region: "Persia"
@@ -3307,6 +3602,8 @@ entries:
     sha256: "3f630155f2c8dac48d2260e1647e58f966159717d1a46a0ec28a9c8a76e58121"
   - number: "1541"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Great Tsunami"
     date: "365 CE"
     region: "Mediterranean"
@@ -3330,6 +3627,8 @@ entries:
     sha256: "340e7cb6870d39b667d3c14c8c5a9c47f099ce457b318872735c63394399447a"
   - number: "1542"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Mogao Caves Begin"
     date: "366 CE"
     region: "China"
@@ -3354,6 +3653,8 @@ entries:
     sha256: "c17e9f54a9153a8d9a18a758e7c10717f829c6daef74f65d42b2fb149b72d427"
   - number: "1543"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Huns Arrive"
     date: "370 CE"
     region: "Steppe"
@@ -3378,6 +3679,8 @@ entries:
     sha256: "906a5c74ef029b072cbdb4b8f9274b68ed80e09717b9787ce9eb2438549c91f6"
   - number: "1544"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Buddhism Reaches Korea"
     date: "372 CE"
     region: "Korea"
@@ -3400,6 +3703,8 @@ entries:
     sha256: "fdf1ebab1a6a869757298a8f94d6e8d7357439a9abae25f990d0148a6af17f34"
   - number: "1545"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Valentinian's Rage"
     date: "375 CE"
     region: "Rome"
@@ -3424,6 +3729,8 @@ entries:
     sha256: "3a0a32a668caccd9784755b28a1a16e95f897f5fb5734a5fb38dd2e72f0a6219"
   - number: "1546"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Goths Beg for Shelter"
     date: "376 CE"
     region: "Danube"
@@ -3447,6 +3754,8 @@ entries:
     sha256: "34794b854c5aeacff66e22c2eecc8330f94f5cf5afa9db7ba730b6e2b5bbcb9e"
   - number: "1547"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Adrianople"
     date: "378 CE"
     region: "Adrianople"
@@ -3468,6 +3777,8 @@ entries:
     sha256: "0e7a62384537a53b5a089ad5209abb83175a94227235663cb7109cc516046476"
   - number: "1548"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Theodosius Takes the East"
     date: "379 CE"
     region: "Rome"
@@ -3492,6 +3803,8 @@ entries:
     sha256: "04f477650a957c218eb48c110d0937200066385234abfd9f813e4fde191b2aa3"
   - number: "1549"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Christianity Becomes Official"
     date: "380 CE"
     region: "Rome"
@@ -3513,6 +3826,8 @@ entries:
     sha256: "38e05e72c91a5c870ac811711cbf98ea44cb636fc30e90d80a74d8e3d65b198b"
   - number: "1550"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Second Great Council"
     date: "381 CE"
     region: "Constantinople"
@@ -3537,6 +3852,8 @@ entries:
     sha256: "e4c87417ec43cd74ee16fda3792f100589a79c78c22276a21be9a22a28ef655c"
   - number: "1551"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Altar of Victory Removed"
     date: "382 CE"
     region: "Rome"
@@ -3558,6 +3875,8 @@ entries:
     sha256: "2714a91eba5f3a74a272c8a7636dee4fa8bca30454e37ff5c6244cef03f3e3cd"
   - number: "1552"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Battle of Fei River"
     date: "383 CE"
     region: "China"
@@ -3581,6 +3900,8 @@ entries:
     sha256: "91b83466c809d7bb9b463150ddbef51d4dffe2ab0dde823cb3f357a0f2cdf525"
   - number: "1553"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Buddhism in Baekje"
     date: "384 CE"
     region: "Korea"
@@ -3605,6 +3926,8 @@ entries:
     sha256: "b1a506b831b4bec0ea10813839926972fc7f999018e8e3fc9620ca286625cad0"
   - number: "1554"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Northern Wei Rise"
     date: "386 CE"
     region: "China"
@@ -3628,6 +3951,8 @@ entries:
     sha256: "f1d0f96b152ce253d53b7be1043d7c2fc818e35c7f027cd1c1ccf3629f5859d6"
   - number: "1555"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine Is Baptized"
     date: "387 CE"
     region: "Milan"
@@ -3651,6 +3976,8 @@ entries:
     sha256: "64fc8cb907460c06ad0e2e73f7c0cad0fccb7b115a9e00e8f256622596651b57"
   - number: "1556"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Emperor Does Penance"
     date: "390 CE"
     region: "Milan"
@@ -3674,6 +4001,8 @@ entries:
     sha256: "5bb72cc74b01ce19fe33eb01a9e182d2ea75d61fd2c9f5e95227eaefd82796a2"
   - number: "1557"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Serapeum Falls"
     date: "391 CE"
     region: "Alexandria"
@@ -3698,6 +4027,8 @@ entries:
     sha256: "d9adb38f24c71d3135619948be8fa71cd9e4ac4bea441f987c0e38bf7bc709fb"
   - number: "1558"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Gwanggaeto Takes the Throne"
     date: "391 CE"
     region: "Korea"
@@ -3721,6 +4052,8 @@ entries:
     sha256: "a94337caeb95a046af79f73ef863a19078c296d8b8515f38b08f86fd2062ff0d"
   - number: "1559"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Last Olympic Games"
     date: "393 CE"
     region: "Greece"
@@ -3742,6 +4075,8 @@ entries:
     sha256: "5e8ea0f82ea56949e09f5c6fb7284967f0207f5d9174f6d9a44c2924b6b63b12"
   - number: "1560"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Last Pagan Stand"
     date: "394 CE"
     region: "Rome"
@@ -3766,6 +4101,8 @@ entries:
     sha256: "bf748d6b0fe9917bffbf3d92d8a5d183d0433a9bc765d65eac3c634618900093"
   - number: "1561"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Theodosius Dies Divided"
     date: "395 CE"
     region: "Rome"
@@ -3789,6 +4126,8 @@ entries:
     sha256: "cb536bdf0b876ed482a0f925a620352a2f12373941ee18e1868dffa356ee5fbd"
   - number: "1562"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine's Confessions"
     date: "397 CE"
     region: "North Africa"
@@ -3813,6 +4152,8 @@ entries:
     sha256: "989d91ffcb918122cfa74139af8e5a43494a8ebff43a2664053587f4ae40aede"
   - number: "1563"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Faxian Sets Out"
     date: "399 CE"
     region: "China"
@@ -3835,6 +4176,8 @@ entries:
     sha256: "c2bfe105d74c12aee7192239fb1815596b2785f121f6bbf5f1f00daad2f854e5"
   - number: "1564"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Kalidasa Sings"
     date: "400 CE"
     region: "India"
@@ -3858,6 +4201,8 @@ entries:
     sha256: "7457d48779f6e0d556e9e1da50419e89543bcab8d8a736146fbda6bbd28ff12a"
   - number: "1565"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Kumarajiva Translates"
     date: "401 CE"
     region: "China"
@@ -3882,6 +4227,8 @@ entries:
     sha256: "1f4aefd18dbd514df2afd0a39a2f099cb39470132d2e57f6ebb5644da0f96d58"
   - number: "1566"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Capital Moves to Ravenna"
     date: "402 CE"
     region: "Italy"
@@ -3906,6 +4253,8 @@ entries:
     sha256: "09c8611e52bcb8466616bc48f425a253a35e3b4572beb54081d2e26d7486bed1"
   - number: "1567"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Last Gladiator Games"
     date: "404 CE"
     region: "Rome"
@@ -3930,6 +4279,8 @@ entries:
     sha256: "4b62dc183e0bbe555917a22a75457652ce3a122544f3db4ae259f68f92557521"
   - number: "1568"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "An Alphabet for Armenia"
     date: "405 CE"
     region: "Armenia"
@@ -3954,6 +4305,8 @@ entries:
     sha256: "3ae51582ccf56aded3b00279a872ac74aaf6c77162aa4b29542e86c5f09a9992"
   - number: "1569"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Jerome's Bible"
     date: "405 CE"
     region: "Bethlehem"
@@ -3977,6 +4330,8 @@ entries:
     sha256: "4a5b2142a210fedaa4a49013163d41dd50bddc02d7db6c200fa09dfdd544793f"
   - number: "1570"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Barbarians Cross the Rhine"
     date: "406 CE"
     region: "Rhine"
@@ -4000,6 +4355,8 @@ entries:
     sha256: "8d6e78200bcd320595af7fff8e40e00d7e980f64df69f867cdba077318316084"
   - number: "1571"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Rome Abandons Britain"
     date: "407 CE"
     region: "Britain"
@@ -4022,6 +4379,8 @@ entries:
     sha256: "094453d9ad0bd22f0896d3734ab7194f46d15f2db3b98c3b89f3938cc6de3e44"
   - number: "1572"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Theodosian Walls"
     date: "408 CE"
     region: "Constantinople"
@@ -4045,6 +4404,8 @@ entries:
     sha256: "eaa3db4f030c7d267ffd618822c7390d1937c1dfce6d501a8c0a5c064ec2afb4"
   - number: "1573"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Alaric Sacks Rome"
     date: "410 CE"
     region: "Rome"
@@ -4068,6 +4429,8 @@ entries:
     sha256: "55ae641efeab226e9dc42222a786e20c89bcf6443d15d6c8f41d12d8cb93c9eb"
   - number: "1574"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine Against the Donatists"
     date: "411 CE"
     region: "North Africa"
@@ -4091,6 +4454,8 @@ entries:
     sha256: "4cae63875aa9cf91c05243e76be91279e6e0e041ed11f157a3f56b2f43d861cc"
   - number: "1575"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The City of God Begun"
     date: "413 CE"
     region: "North Africa"
@@ -4115,6 +4480,8 @@ entries:
     sha256: "1d1b5de567a4e9487e2ff8f66ef0b9188aff2827bf99910b9ce10679ee64189f"
   - number: "1576"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Hypatia Is Murdered"
     date: "414 CE"
     region: "Alexandria"
@@ -4139,6 +4506,8 @@ entries:
     sha256: "5d9fde717fb33cfc002e9b6d1e7ee38ad90235dcaf3f5a14afc0fb7123a610f0"
   - number: "1577"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Visigoth Kingdom"
     date: "418 CE"
     region: "Gaul"
@@ -4160,6 +4529,8 @@ entries:
     sha256: "d80ae9ff1562fcc9a04712321b031043a86525b0a79b1f1810786dbe7b0c924d"
   - number: "1578"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Liu Song Dynasty"
     date: "420 CE"
     region: "China"
@@ -4184,6 +4555,8 @@ entries:
     sha256: "21a83e718723b3426264c8313faf4d5ee81c4d0f472ee063e85d1f29399e706f"
   - number: "1579"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Patrick Returns"
     date: "422 CE"
     region: "Ireland"
@@ -4208,6 +4581,8 @@ entries:
     sha256: "92616bedadb3e0bc402a1829a6c23a199915608c1963dfd1ebfa556581a09b6c"
   - number: "1580"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Persian Church Declared"
     date: "425 CE"
     region: "Persia"
@@ -4231,6 +4606,8 @@ entries:
     sha256: "c30dc70bf90690982fc08bc21121c7957709ebc444f24c1d45aa676d9ef2844b"
   - number: "1581"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Copan Is Founded"
     date: "426 CE"
     region: "Maya"
@@ -4254,6 +4631,8 @@ entries:
     sha256: "1acd41795d30f7690d625d9755732120a137960d4cc1a6a17494b622f2c89a03"
   - number: "1582"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Vandals Cross to Africa"
     date: "429 CE"
     region: "North Africa"
@@ -4278,6 +4657,8 @@ entries:
     sha256: "2eed9c2958b2a52e46314212115a9641099f15b74099a5c3b41d10e3d0611f78"
   - number: "1583"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine Dies"
     date: "430 CE"
     region: "North Africa"
@@ -4301,6 +4682,8 @@ entries:
     sha256: "90d6aa933a700147e5086461e2d8afe344f26bf095aa829cfe80f430ae143c3d"
   - number: "1584"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Council of Ephesus"
     date: "431 CE"
     region: "Ephesus"
@@ -4324,6 +4707,8 @@ entries:
     sha256: "6eca6ac6db5689208302b776e66ca9a99d7a4ee749df746fa503d1d020d52c12"
   - number: "1585"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Ilopango Erupts"
     date: "431 CE"
     region: "Central America"
@@ -4345,6 +4730,8 @@ entries:
     sha256: "52d21a182e11ca3cae7a425758e302dbc7f2b740fb27d0e32d739a73b2b2d35f"
   - number: "1586"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Santa Maria Maggiore"
     date: "432 CE"
     region: "Rome"
@@ -4368,6 +4755,8 @@ entries:
     sha256: "a256ce5472b8fa2bf5540364229c33e495b02b6cce891a1cc41df25533e7d486"
   - number: "1587"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Attila Takes Power"
     date: "434 CE"
     region: "Steppe"
@@ -4392,6 +4781,8 @@ entries:
     sha256: "9a30c5636a3227054dbfa6c438c1cb682223b43ec1855e8fe61adaf295c97852"
   - number: "1588"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Great Cycle Turns"
     date: "435 CE"
     region: "Maya"
@@ -4416,6 +4807,8 @@ entries:
     sha256: "7d7d590a32d62b52f245fec163792fff1387e173e534653dd8638f7bd1f1d67c"
   - number: "1589"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Theodosian Code"
     date: "438 CE"
     region: "Constantinople"
@@ -4439,6 +4832,8 @@ entries:
     sha256: "ca10eaaa2195119f8dca39a568d061f57c393f777526ffc88c779abc329eb754"
   - number: "1590"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Carthage Falls"
     date: "439 CE"
     region: "North Africa"
@@ -4462,6 +4857,8 @@ entries:
     sha256: "a52cbdb762ffbd427d1eec17ec40bded8d8f24e9b8a27e910c4f8611a9530443"
   - number: "1591"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Leo the Great"
     date: "440 CE"
     region: "Rome"
@@ -4485,6 +4882,8 @@ entries:
     sha256: "0e6d743fe6b818b90238a4b4949ba09950930f92954996e76ca14ecd5dcae5e3"
   - number: "1592"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Attila's First Invasion"
     date: "441 CE"
     region: "Balkans"
@@ -4508,6 +4907,8 @@ entries:
     sha256: "221ea6028fe1377bb22d3983220495663347d6161883ac35ab42464098fb4ab4"
   - number: "1593"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Iron Pillar"
     date: "444 CE"
     region: "India"
@@ -4532,6 +4933,8 @@ entries:
     sha256: "b84543193e854d3618d2db7f8e868b2df155995ad2a141def49d5fc8ead9a048"
   - number: "1594"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Saxons Land"
     date: "449 CE"
     region: "Britain"
@@ -4556,6 +4959,8 @@ entries:
     sha256: "6dd9e97977975402948e646eabd847059c4ad54488479d89e45d5db99075d8fe"
   - number: "1595"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Kama Sutra"
     date: "450 CE"
     region: "India"
@@ -4580,6 +4985,8 @@ entries:
     sha256: "5a55d26b10681c37c9501f41269c4a663fee1cd4bf124da26d4164c24630e8ce"
   - number: "1596"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Attila Turned Back"
     date: "451 CE"
     region: "Gaul"
@@ -4604,6 +5011,8 @@ entries:
     sha256: "063663c5fbd0a26a6aa789e15c133f355cdd90a8806188dc4eddec611d6e631f"
   - number: "1597"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Council of Chalcedon"
     date: "451 CE"
     region: "Chalcedon"
@@ -4628,6 +5037,8 @@ entries:
     sha256: "0852c47228bfcb4f27ea3ffca568ecd7409458666b668df8f45be591b38ae21a"
   - number: "1598"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Leo Meets Attila"
     date: "452 CE"
     region: "Italy"
@@ -4652,6 +5063,8 @@ entries:
     sha256: "702777e7bc9672925d357c3ad90d8c319a3381b2103d55ace9dad431cecdfffc"
   - number: "1599"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Attila Dies"
     date: "453 CE"
     region: "Steppe"
@@ -4676,6 +5089,8 @@ entries:
     sha256: "7952c003d466d37497ef0507a203c4e1c804b72e70e57d74cdb5356f38befa07"
   - number: "1600"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Vandals Sack Rome"
     date: "455 CE"
     region: "Rome"
@@ -4697,6 +5112,8 @@ entries:
     sha256: "e15b9fad7fa6a10e3860eee782ce942cb95483453defb364b7809952e40cbdcd"
   - number: "1601"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Skandagupta Holds the Line"
     date: "455 CE"
     region: "India"
@@ -4720,6 +5137,8 @@ entries:
     sha256: "608adea367012314732d1eb02ff438bd01590bdb155f15464d2fba91303b1ffe"
   - number: "1602"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Leo's Long Reign Ends"
     date: "461 CE"
     region: "Rome"
@@ -4744,6 +5163,8 @@ entries:
     sha256: "d82676e2d5700f44007fc631392560be2aef67fba1ddd9956fea7c85b4ff896b"
   - number: "1603"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Yungang Caves"
     date: "465 CE"
     region: "China"
@@ -4768,6 +5189,8 @@ entries:
     sha256: "2556325db88800bdf91d962eebfa1b5d984bf84af5bc3d8c5c8882d5da06d2e5"
   - number: "1604"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Great Armada Fails"
     date: "468 CE"
     region: "North Africa"
@@ -4792,6 +5215,8 @@ entries:
     sha256: "c0f0a2153ba533eb0058bbac4d47b4ac037343a3003a75a1bf391f4cff682feb"
   - number: "1605"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Vesuvius Erupts Again"
     date: "472 CE"
     region: "Italy"
@@ -4815,6 +5240,8 @@ entries:
     sha256: "50fa884fccae5274874d03ccedefeef460f62687b51dffefadbc3cb2b2b2510b"
   - number: "1606"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Simeon on His Pillar"
     date: "475 CE"
     region: "Syria"
@@ -4839,6 +5266,8 @@ entries:
     sha256: "cadd57e945edd475c498ba53830567e1abe28fa1385e44791e9c63229ad4e8a8"
   - number: "1607"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "A Star-Counter Is Born"
     date: "476 CE"
     region: "India"
@@ -4863,6 +5292,8 @@ entries:
     sha256: "175e1bb94cfe336353433477dd567547ac12c9a5e0a0778081866241347e727a"
   - number: "1608"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Equal-Field System"
     date: "480 CE"
     region: "China"
@@ -4887,6 +5318,8 @@ entries:
     sha256: "8e6c835f6c2eeb21c4a3b61853027e743d5dbbb0dbc275015b26caf7a56b749a"
   - number: "1609"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Benedict Is Born"
     date: "480 CE"
     region: "Italy"
@@ -4910,6 +5343,8 @@ entries:
     sha256: "51137ff2694ef45b56322fd56e529610e89d1f65aa24f3d9e01d4b72b1f11887"
   - number: "1610"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The King Dies in Battle"
     date: "484 CE"
     region: "Persia"
@@ -4934,6 +5369,8 @@ entries:
     sha256: "00ef6ab5b2a29127f86cd5b8248a6d66314554a76d54c34b6e71e748128ff29d"
   - number: "1611"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Giant's Tomb"
     date: "486 CE"
     region: "Japan"
@@ -4958,6 +5395,8 @@ entries:
     sha256: "0181edecfe869a846956e31fd4d0e0a9be393dcefa33b662058349a18a856937"
   - number: "1612"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Marib Dam Holds"
     date: "490 CE"
     region: "Yemen"
@@ -4979,6 +5418,8 @@ entries:
     sha256: "97ba12bf16020040634e95fc50ddbea1b5edf8e2ed898438dce80e6a70248d4f"
   - number: "1613"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Two Swords"
     date: "492 CE"
     region: "Rome"
@@ -5003,6 +5444,8 @@ entries:
     sha256: "34a297cac4c9b028fe93962eaa80c833576bcb3d1f1a3379bdc86577db9fb907"
   - number: "1614"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Luoyang the New Capital"
     date: "493 CE"
     region: "China"
@@ -5026,6 +5469,8 @@ entries:
     sha256: "9e6d7ca78d48e21a6091b04dcef8ff2ef18355f8d97d49695c40e8e6c0915a9b"
   - number: "1615"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Theodoric Takes Italy"
     date: "493 CE"
     region: "Italy"
@@ -5050,6 +5495,8 @@ entries:
     sha256: "821504ee8a6cc04bd466a14c8503c29024cdab68a4d37330cdd5c4a9a5c726dd"
   - number: "1616"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Shaolin Temple"
     date: "495 CE"
     region: "China"
@@ -5073,6 +5520,8 @@ entries:
     sha256: "0e373f4bc445c1e3a86b2d65c90ea1fc20b913e280ff439b741d4d60cc1060ad"
   - number: "1617"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Clovis Is Baptized"
     date: "496 CE"
     region: "Gaul"
@@ -5094,6 +5543,8 @@ entries:
     sha256: "ad139d9334c6df9a1589700bf2b764eae2b5735319e70aabd10e87b8e14d4edc"
   - number: "1618"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Earth's True Measure"
     date: "499 CE"
     region: "India"
@@ -5117,6 +5568,8 @@ entries:
     sha256: "1285144af944a96b12c22002943a914ac92b93c11dc9f89d9d46265d4ff2f1f9"
   - number: "1619"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Voyagers Find Hawaii"
     date: "500 CE"
     region: "Polynesia"
@@ -5141,6 +5594,8 @@ entries:
     sha256: "cf4ab9702911e19128aa239f09c0ab913ef0ea9a7fe322baa9a1effabd83fb36"
   - number: "1620"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Mazdakite Rising"
     date: "502 CE"
     region: "Persia"
@@ -5165,6 +5620,8 @@ entries:
     sha256: "cc1f2c50c99c909467a7773ef887293c685b13b82d537d6dc7e09de204f23d5a"
   - number: "1621"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Varahamihira's Stars"
     date: "505 CE"
     region: "India"
@@ -5188,6 +5645,8 @@ entries:
     sha256: "7a159c61bcfb51aa8bd96529c37e4b8cfec2b77bcd485a5f223177fbca06e346"
   - number: "1622"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Clovis Takes Aquitaine"
     date: "507 CE"
     region: "Gaul"
@@ -5211,6 +5670,8 @@ entries:
     sha256: "daac68f352b2278137c3b522d78b7761aa9d10832a4274ab1adc3698c0d416a5"
   - number: "1623"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Mecca's New Master"
     date: "508 CE"
     region: "Arabia"
@@ -5235,6 +5696,8 @@ entries:
     sha256: "267057711d6dbff0cb7670255b5dc65b35fbcf57aef3f4af0931ce148481ed8d"
   - number: "1624"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Wall Across Thrace"
     date: "512 CE"
     region: "Thrace"
@@ -5259,6 +5722,8 @@ entries:
     sha256: "da39d4b98c58752df8457a0d4b925e5215ce5ca7de64c352fa66c0c1b4bb0078"
   - number: "1625"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Mihirakula the Cruel"
     date: "515 CE"
     region: "India"
@@ -5280,6 +5745,8 @@ entries:
     sha256: "e9885e727b70c747bcbd8d0181b0a949e0326f272251eb7606fcc4cf660fffec"
   - number: "1626"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Justin Takes the Throne"
     date: "518 CE"
     region: "Constantinople"
@@ -5303,6 +5770,8 @@ entries:
     sha256: "95f7a31ac31b15769ef728e86009a1d2649520a33d4b44e9f0c5055b9d6da1f7"
   - number: "1627"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Bodhidharma Arrives"
     date: "520 CE"
     region: "China"
@@ -5326,6 +5795,8 @@ entries:
     sha256: "fc95ec0975813314955d6d0effa3a91ab5b0924e151224aff8404df1121fc4aa"
   - number: "1628"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Consul's Last Games"
     date: "521 CE"
     region: "Constantinople"
@@ -5347,6 +5818,8 @@ entries:
     sha256: "36dff93cff45e2988aea1f6ae7ffee4eb1c55a1ed6f054916ac4dfea977cf8bb"
   - number: "1629"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Martyrs of Najran"
     date: "523 CE"
     region: "Arabia"
@@ -5371,6 +5844,8 @@ entries:
     sha256: "1ca8f335c83fbed26e8fb782832c1f5e7a20565ffc1d0628f76f836398553f98"
   - number: "1630"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Boethius Writes in Prison"
     date: "524 CE"
     region: "Italy"
@@ -5392,6 +5867,8 @@ entries:
     sha256: "59962d3cd0b7ea1ce0c6e87e90f1a1b44b28b804217871eb150591857d4bf2b5"
   - number: "1631"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Aksum Invades Arabia"
     date: "525 CE"
     region: "Yemen"
@@ -5415,6 +5892,8 @@ entries:
     sha256: "fa81375eaa2f98f4a01107c7ceda7c83cd4e7a86b19f14294436886cde6a9785"
   - number: "1632"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Earthquake"
     date: "526 CE"
     region: "Antioch"
@@ -5439,6 +5918,8 @@ entries:
     sha256: "5212c520e6a504954abd3aedf2edf08a85aedc3bec4dba256cccec50d38dddcb"
   - number: "1633"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Justinian Takes Power"
     date: "527 CE"
     region: "Constantinople"
@@ -5463,6 +5944,8 @@ entries:
     sha256: "95d69adcd56726d6b7b538b1c6d42d8dd6f07ab2405945ac4c5bac5ec4865b2d"
   - number: "1634"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Silla Turns Buddhist"
     date: "528 CE"
     region: "Korea"
@@ -5487,6 +5970,8 @@ entries:
     sha256: "aedb4ff847a29ccd722fc5ec7962c1e56093f30cee8314167ee8914b54709e3a"
   - number: "1635"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Monte Cassino"
     date: "529 CE"
     region: "Italy"
@@ -5508,6 +5993,8 @@ entries:
     sha256: "ef1cef1481f0da2dca3c81595c103c45719d78d627a5bbef93fc7c6617f76256"
   - number: "1636"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Academy Closes"
     date: "529 CE"
     region: "Athens"
@@ -5532,6 +6019,8 @@ entries:
     sha256: "beaf1c1556f909518f2c41c9d0e36bb7690e97b42204b44c7156d5b80ecb6574"
   - number: "1637"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Belisarius's First Command"
     date: "530 CE"
     region: "Persia"
@@ -5554,6 +6043,8 @@ entries:
     sha256: "6f37bd7ea1bd5c723f35f1c1fd668781ac1e0f2e4be9fcb8a3288fb257474172"
   - number: "1638"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Khosrow the Just"
     date: "531 CE"
     region: "Persia"
@@ -5578,6 +6069,8 @@ entries:
     sha256: "96f0e9eb792c59933e0b731603b9ddb987e8edc98f94830fbdf5f9f42e5785c9"
   - number: "1639"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Nika Riots"
     date: "532 CE"
     region: "Constantinople"
@@ -5602,6 +6095,8 @@ entries:
     sha256: "0affabb62cb090b929ca8591d3cfadecd3553ab8a5adce4c818c28fcfcaa4abb"
   - number: "1640"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Belisarius Takes Africa"
     date: "533 CE"
     region: "North Africa"
@@ -5626,6 +6121,8 @@ entries:
     sha256: "edefe83f2fa266334ab54dbed1da1636940481c1eff615869cb3af83b7bd2338"
   - number: "1641"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Justinian's Code"
     date: "534 CE"
     region: "Constantinople"
@@ -5649,6 +6146,8 @@ entries:
     sha256: "b9fcebc48558ca0e9a8e19520c02b43f54aa312d7dad90d6412658775d6ca73f"
   - number: "1642"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Gothic War Begins"
     date: "535 CE"
     region: "Italy"
@@ -5673,6 +6172,8 @@ entries:
     sha256: "adefc6db4216ffdef45f2199a4559d23ddeed2060568b4a9a387317cfd7d2552"
   - number: "1643"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Year Without Summer"
     date: "536 CE"
     region: "Worldwide"
@@ -5694,6 +6195,8 @@ entries:
     sha256: "dff99e217fa7829c180f23dddcb787b7cba5d94c426e446867215966eb6f374e"
   - number: "1644"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Hagia Sophia Rises"
     date: "537 CE"
     region: "Constantinople"
@@ -5718,6 +6221,8 @@ entries:
     sha256: "c85593490c6eb2f585c4f9a30c1a2f66b2c4ad538dc1ed753c6f96642dcf3332"
   - number: "1645"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Antioch Falls"
     date: "540 CE"
     region: "Syria"
@@ -5741,6 +6246,8 @@ entries:
     sha256: "f16d467cd23d7c2030042df45411ff4e1135dac6b32ba83ebf96724e0ce1e238"
   - number: "1646"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Plague of Justinian"
     date: "541 CE"
     region: "Egypt"
@@ -5765,6 +6272,8 @@ entries:
     sha256: "e474a8a4f0d4788ed3446b352fafb2ffa68279403959d2a65a065f7ab8ce4e94"
   - number: "1647"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The City of the Dying"
     date: "542 CE"
     region: "Constantinople"
@@ -5789,6 +6298,8 @@ entries:
     sha256: "da555ba0ddd3ae5b36eb0ff82510b36272cce20a80201238aa7bc03d7006c1a1"
   - number: "1648"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Missionaries to the South"
     date: "543 CE"
     region: "Nubia"
@@ -5812,6 +6323,8 @@ entries:
     sha256: "ec38dbe3ad5fdace9bf33774f4c7995ab3e188f517e2b2282f714da33bdaa28c"
   - number: "1649"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Five-Year Truce"
     date: "544 CE"
     region: "Constantinople"
@@ -5836,6 +6349,8 @@ entries:
     sha256: "1bcfc10ed9efe362e865566b31767e5b080c86977636c540188dd00daaca76d1"
   - number: "1650"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Nalanda's Rise"
     date: "545 CE"
     region: "India"
@@ -5857,6 +6372,8 @@ entries:
     sha256: "05a6980f48136d3d4b9e5396ac38cae91c4245f0187e24ab2f944de6aa07b338"
   - number: "1651"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Clonmacnoise Founded"
     date: "546 CE"
     region: "Ireland"
@@ -5880,6 +6397,8 @@ entries:
     sha256: "5ec1928650bda01b36c76a180048ae9d53a8bb51841abc9abc1124b66d97e931"
   - number: "1652"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Totila Takes Rome"
     date: "546 CE"
     region: "Italy"
@@ -5904,6 +6423,8 @@ entries:
     sha256: "7e8a0aad682438632fe4f7f5243cab9015143649da6ea039a46e6a596cda5e16"
   - number: "1653"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "San Vitale's Mosaics"
     date: "547 CE"
     region: "Ravenna"
@@ -5927,6 +6448,8 @@ entries:
     sha256: "f24fdc532673e42d5052fcc68ec015704997bf8b6530ac21d80e80fbe7209013"
   - number: "1654"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Theodora Dies"
     date: "548 CE"
     region: "Constantinople"
@@ -5951,6 +6474,8 @@ entries:
     sha256: "3ea885d8ae713b89cc095d4123bb01f704210f688ea6197df1923d73b7c078f7"
   - number: "1655"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The City of the Gods Burns"
     date: "550 CE"
     region: "Mexico"
@@ -5972,6 +6497,8 @@ entries:
     sha256: "479e02e283f68e07003e03ef504e0b4d0a5126176d44da87aac3d7afea91a5a1"
   - number: "1656"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Beirut's Earthquake"
     date: "551 CE"
     region: "Lebanon"
@@ -5996,6 +6523,8 @@ entries:
     sha256: "b63ca23476d1c452a0fdd4fbee13ff9cededa33c3105eeb73b9a54078fb044d8"
   - number: "1657"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Silkworm Smugglers"
     date: "552 CE"
     region: "Constantinople"
@@ -6019,6 +6548,8 @@ entries:
     sha256: "30dc7267d5b9e8e4085eb5a9c3bdfd263d9d82afeefd8e81226134c1a24df66d"
   - number: "1658"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Buddha Comes to Japan"
     date: "552 CE"
     region: "Japan"
@@ -6042,6 +6573,8 @@ entries:
     sha256: "9eea4fc8819d243b5a094cdcf454a3f7b360423db77a7e63b6e58a43246493de"
   - number: "1659"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Fifth Council"
     date: "553 CE"
     region: "Constantinople"
@@ -6065,6 +6598,8 @@ entries:
     sha256: "2042d438df3e76d2e817b6abb95b7a17a34d226049cef4b3632b95e639a44e4a"
   - number: "1660"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Italy Retaken — at a Price"
     date: "554 CE"
     region: "Italy"
@@ -6086,6 +6621,8 @@ entries:
     sha256: "fa48bb7395edeb62bc0293d606573055a9a775b785523a9d512b3b501a311f87"
   - number: "1661"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Nazca Lines Complete"
     date: "555 CE"
     region: "Peru"
@@ -6110,6 +6647,8 @@ entries:
     sha256: "a434e44c5ac950e123f664d7051d89903034a3b2a88a65e7bb8ea9e2832f05d5"
   - number: "1662"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Dome Falls — and Rises"
     date: "557 CE"
     region: "Constantinople"
@@ -6134,6 +6673,8 @@ entries:
     sha256: "88578edc6c80ba1b28f63927e99f7af31e007fab2e48706e694febe9c3d5025a"
   - number: "1663"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Avars Arrive"
     date: "558 CE"
     region: "Steppe"
@@ -6157,6 +6698,8 @@ entries:
     sha256: "b52557550a9deda589f6e979926cfa0bc1a806bf3f1d42a26a5fc9065c63096a"
   - number: "1664"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Hanging Poems"
     date: "560 CE"
     region: "Arabia"
@@ -6181,6 +6724,8 @@ entries:
     sha256: "5914c8bd5be192f501e09f7a42703071111146110d39436dfa0aa5fe84bf44b5"
   - number: "1665"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Fifty Years' Peace"
     date: "562 CE"
     region: "Persia"
@@ -6202,6 +6747,8 @@ entries:
     sha256: "8b7f195dc52336d5ab06658771805d7d41235be3bc6d4caba5755d9161b46987"
   - number: "1666"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Columba's Island"
     date: "563 CE"
     region: "Scotland"
@@ -6226,6 +6773,8 @@ entries:
     sha256: "3ceac455837a23bc6e362f361efcbe14bb5eca6b1f89ccd2d6e478d8d5ec5998"
   - number: "1667"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Justinian Dies"
     date: "565 CE"
     region: "Constantinople"
@@ -6250,6 +6799,8 @@ entries:
     sha256: "546f601aef0b27c996ec50827bfaea797cbe99a45213aec54df69029e75786e5"
   - number: "1668"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Lombards Invade"
     date: "568 CE"
     region: "Italy"
@@ -6274,6 +6825,8 @@ entries:
     sha256: "910f5b9b6df0eba108085aa075e7524eade54cc737db3eeaac0406a626f34838"
   - number: "1669"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Abraha Marches on Mecca"
     date: "569 CE"
     region: "Arabia"
@@ -6297,6 +6850,8 @@ entries:
     sha256: "5e43f49a08d4e10abfcc75ee4ef3835a7eb0231a53664664a584ad9b031d12bb"
   - number: "1670"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Year of the Elephant"
     date: "570 CE"
     region: "Arabia"
@@ -6321,6 +6876,8 @@ entries:
     sha256: "1ab86b5dc52daef99dfc2db3dd89aedcd972bfa53b8739ed676aaf6c784f2e88"
   - number: "1671"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Hospital at Gondeshapur"
     date: "571 CE"
     region: "Persia"
@@ -6345,6 +6902,8 @@ entries:
     sha256: "fdb63329f2f99478b724ba0bf90e5ce0aa45fce2c149e402505cf66da9d6d63a"
   - number: "1672"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "War Returns"
     date: "572 CE"
     region: "Persia"
@@ -6368,6 +6927,8 @@ entries:
     sha256: "8517519f6b6939eb37e4bf7e903495318d334d9dec9ece37da01aa3340304a9c"
   - number: "1673"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Marib Dam Breaks"
     date: "575 CE"
     region: "Arabia"
@@ -6391,6 +6952,8 @@ entries:
     sha256: "4b0737b5489b5a8f86d8ef823fc059bb80cc6b8569a494fff657673c1eed01de"
   - number: "1674"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Northern Zhou Triumph"
     date: "577 CE"
     region: "China"
@@ -6414,6 +6977,8 @@ entries:
     sha256: "2aed258d6c2da9a6b7429849c9590a1768cb995c26d71b056f011669065d180b"
   - number: "1675"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Tiberius Takes the Crown"
     date: "578 CE"
     region: "Constantinople"
@@ -6435,6 +7000,8 @@ entries:
     sha256: "748ad77d498f38fd22ae5c78c76731a107463c2223b0a89ddc947dca07474b27"
   - number: "1676"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Sui Dynasty"
     date: "581 CE"
     region: "China"
@@ -6458,6 +7025,8 @@ entries:
     sha256: "62fc4aa611c20a4dff4ed0e42b3cede48e506fcd17dcbe1a7bb73d500d2c89b9"
   - number: "1677"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Maurice the Soldier"
     date: "582 CE"
     region: "Constantinople"
@@ -6482,6 +7051,8 @@ entries:
     sha256: "28903cad3007f9ed21ce5b320e32c0cfc0a3a06818a774be26c7e240212a1ae5"
   - number: "1678"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Chilperic's End"
     date: "584 CE"
     region: "Gaul"
@@ -6506,6 +7077,8 @@ entries:
     sha256: "4652bf732a4708ad9cb9827cdb18bad1619c1de4be4e1fbfba6c15d7408c3ec0"
   - number: "1679"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Visigoths Unite Spain"
     date: "585 CE"
     region: "Spain"
@@ -6528,6 +7101,8 @@ entries:
     sha256: "5be0f9494861f0151fc173c4808912ed67fbf684b640fb95f0b35e18c62b7007"
   - number: "1680"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Reccared Turns Catholic"
     date: "586 CE"
     region: "Spain"
@@ -6551,6 +7126,8 @@ entries:
     sha256: "4b98aaf465ca3f94443895adfeab1dcaeb9a1863467d9db4b599c2ab37229a53"
   - number: "1681"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Bahram's Revolt"
     date: "587 CE"
     region: "Persia"
@@ -6574,6 +7151,8 @@ entries:
     sha256: "b90642012d3b54bf759e41c5f4323e0408b6a1ef6fb7ab32fe93148c394a9cdc"
   - number: "1682"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "China Reunited"
     date: "589 CE"
     region: "China"
@@ -6598,6 +7177,8 @@ entries:
     sha256: "411fd760a3a66e79b349630c2c6453f6210102c18d2faba4b42b65da16049632"
   - number: "1683"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Gregory the Great"
     date: "590 CE"
     region: "Rome"
@@ -6619,6 +7200,8 @@ entries:
     sha256: "749e26be57e7b66e6dd077e16dbfc823f774330d9d69d8650a955daf24af5549"
   - number: "1684"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Khosrow Restored"
     date: "591 CE"
     region: "Persia"
@@ -6640,6 +7223,8 @@ entries:
     sha256: "6e228e8c74d8c36f7203745b8e6e5fa6765a53894b71b07649f4d55a06181dc0"
   - number: "1685"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "An Empress Takes the Throne"
     date: "592 CE"
     region: "Japan"
@@ -6664,6 +7249,8 @@ entries:
     sha256: "c50c4b1d8500c4b09819696dc69028828bc7e113344a9f32a5b6f6fd56160a28"
   - number: "1686"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Maurice's Balkan Wars"
     date: "593 CE"
     region: "Balkans"
@@ -6685,6 +7272,8 @@ entries:
     sha256: "4ae5651407a04b7f87a737335aeaed9948bd4d55b44d84bc485f0d2c750ddc27"
   - number: "1687"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "A Marriage at Mecca"
     date: "595 CE"
     region: "Arabia"
@@ -6706,6 +7295,8 @@ entries:
     sha256: "ad89c62b685847a703ccb9cfc1d0d5c49137e477963e3ec9d504bbeaa8406c79"
   - number: "1688"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Augustine's Mission"
     date: "596 CE"
     region: "England"
@@ -6730,6 +7321,8 @@ entries:
     sha256: "be2980fc6b94a818efb92f37008bb35248a8e1cfa79d44c8b2354a5b1addeed0"
   - number: "1689"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Canterbury Founded"
     date: "597 CE"
     region: "England"
@@ -6751,6 +7344,8 @@ entries:
     sha256: "e63efec7b8a0bc2727c994276f29542b215888db232b5485b71c136d62ef77d2"
   - number: "1690"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Goguryeo Holds the Line"
     date: "598 CE"
     region: "Korea"
@@ -6772,6 +7367,8 @@ entries:
     sha256: "951e481302bea18c572b9e3079d8313197d7c6ffd8657f4b98ec08194e898b8b"
   - number: "1691"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Turk Khaganate Splits"
     date: "599 CE"
     region: "Steppe"
@@ -6796,6 +7393,8 @@ entries:
     sha256: "53e02d1e9c3a26bb2aa65fcee2a777bdf2c9d9189b83e2c023eddf588c16e2a7"
   - number: "1692"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "Palenque Rising"
     date: "600 CE"
     region: "Maya"
@@ -6820,6 +7419,8 @@ entries:
     sha256: "af10c130464ec7b0db06fc082327391bc58d8061598c973932649c1d0be34074"
   - number: "1693"
     volume: 3
+    era_code: "06"
+    era: "Empires of Faith"
     title: "The Ancient World Closes"
     date: "600 CE"
     region: "Constantinople"
@@ -6841,6 +7442,8 @@ entries:
     sha256: "7ae3dd89477e2e11a4caba7facc7d9838c6c146feccd6e87c84af0a6456465c7"
   - number: "1694"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The City That Fell Silent"
     date: "600 CE"
     region: "Mesoamerica"
@@ -6861,6 +7464,8 @@ entries:
     sha256: "bcec84595688bd5b431c4e9835d3c6d982f67583d55f4aa8a03e80212391d1dd"
   - number: "1695"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Trusted Trader"
     date: "601 CE"
     region: "Arabia"
@@ -6882,6 +7487,8 @@ entries:
     sha256: "ef5619068aebc370527d90d286039da01d25c60c871016e1eeb7187d456448df"
   - number: "1696"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Centurion's Coup"
     date: "602 CE"
     region: "Byzantium"
@@ -6902,6 +7509,8 @@ entries:
     sha256: "15067bbf501923eb0c81f52673f44406ab69f3e3c15be09d0759980a364689fd"
   - number: "1697"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "A King Is Born"
     date: "603 CE"
     region: "Maya Lands"
@@ -6922,6 +7531,8 @@ entries:
     sha256: "21bc814075fcc7a0223ca47387946abc6bdd061f987219b9deffa7d389fef6ee"
   - number: "1698"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Seventeen Articles"
     date: "604 CE"
     region: "Japan"
@@ -6943,6 +7554,8 @@ entries:
     sha256: "8629fe6b01874acf8be9bf7d6fa5b90c09868c408d8d3170a5692eea3fa6e340"
   - number: "1699"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Last Letter of Gregory"
     date: "604 CE"
     region: "Rome"
@@ -6964,6 +7577,8 @@ entries:
     sha256: "6a4d156553fe35ba3ae00afc8c5fd6b1886d48b4f22ee53a8426dca9d505f1b5"
   - number: "1700"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "A Million Hands on the Canal"
     date: "605 CE"
     region: "China"
@@ -6987,6 +7602,8 @@ entries:
     sha256: "fb401e8dc9532c0cdbc3a42d3dd67ded80ee332aa3e209c9aee6f6f7e7e074a3"
   - number: "1701"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Boy King of Thanesar"
     date: "606 CE"
     region: "India"
@@ -7009,6 +7626,8 @@ entries:
     sha256: "523f500d4ccda60c28bfb3ff384485bb95248d5b3b6e0dc2e68301622e7ff5fc"
   - number: "1702"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Envoy to the Sui"
     date: "607 CE"
     region: "Japan"
@@ -7030,6 +7649,8 @@ entries:
     sha256: "b3fe91838228d3a7f89618b47920e2c2d2fda0e2bc6ac9b9b0b7486ecc8a52ba"
   - number: "1703"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Wall Against the Sui"
     date: "608 CE"
     region: "Korea"
@@ -7052,6 +7673,8 @@ entries:
     sha256: "6f66f34a7543adf992715ea5ca34e4c8cc96fa282a53ce2193e4a7b215b7edfb"
   - number: "1704"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Heraclius Takes the Helm"
     date: "610 CE"
     region: "Byzantium"
@@ -7073,6 +7696,8 @@ entries:
     sha256: "e9a32b2e3e01fa8d134adeef5eb6e7a9535b2487f204e95fc59a4b583b6a2590"
   - number: "1705"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The River Runs Red"
     date: "612 CE"
     region: "Korea"
@@ -7094,6 +7719,8 @@ entries:
     sha256: "330007783b8d786cf8b5bafd90901cb78b56cf25ca297b113d704fa27b91260a"
   - number: "1706"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Canal Turns Bitter"
     date: "613 CE"
     region: "China"
@@ -7115,6 +7742,8 @@ entries:
     sha256: "a5c84fd611007fa1e07c1451d653fb00aac08254698940a9981716cdb7fd152c"
   - number: "1707"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The City Changes Hands"
     date: "614 CE"
     region: "Jerusalem"
@@ -7140,6 +7769,8 @@ entries:
     sha256: "eb5a0348ee4afae12e3c7b5f85af58870d49e391e98df8cab944ab357e7e2fe8"
   - number: "1708"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Crossing to Abyssinia"
     date: "615 CE"
     region: "Arabia"
@@ -7162,6 +7793,8 @@ entries:
     sha256: "e814903960a821855e1c3c89587b583b55073572a5169c29b31a5f7761a1041c"
   - number: "1709"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Shrinking Empire"
     date: "616 CE"
     region: "Byzantium"
@@ -7184,6 +7817,8 @@ entries:
     sha256: "27c8feaa6113e294d3b5e12df7619efb171f9fb3d25ecd6a5f9d97792fece19f"
   - number: "1710"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Old General Rebels"
     date: "617 CE"
     region: "China"
@@ -7206,6 +7841,8 @@ entries:
     sha256: "a4890b1c12f7edc3e5b6138f07b9f550e960a1a28d25779c8cb7c57b4695ef53"
   - number: "1711"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Tang Begins"
     date: "618 CE"
     region: "China"
@@ -7227,6 +7864,8 @@ entries:
     sha256: "6ab08c0a4d3940555d4b853e5a287227147b5dbd37221ea828d102f38fc5158c"
   - number: "1712"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Counting the People"
     date: "619 CE"
     region: "China"
@@ -7247,6 +7886,8 @@ entries:
     sha256: "26e30b5e2cba156e2e1ab91a90f2395908ef352a0065b2cfdb70a570f8a01f60"
   - number: "1713"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Night Journey"
     date: "620 CE"
     region: "Arabia"
@@ -7272,6 +7913,8 @@ entries:
     sha256: "767dd8275f86d59aa8d3334e53c18e3d604c47ced5af373cfcb6d5143561e317"
   - number: "1714"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Pledges at Aqaba"
     date: "621 CE"
     region: "Arabia"
@@ -7296,6 +7939,8 @@ entries:
     sha256: "21d7df73d29a71306e182824a37a5855b5699c83b21647d6a1d27c7143e46baf"
   - number: "1715"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Hijra"
     date: "622 CE"
     region: "Arabia"
@@ -7319,6 +7964,8 @@ entries:
     sha256: "954808fe0906b60f96d2d8b0861943e19c52e157b5a1acca12fb4bfe48902e3b"
   - number: "1716"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The City of the Charter"
     date: "623 CE"
     region: "Medina"
@@ -7342,6 +7989,8 @@ entries:
     sha256: "893c144e8a08b692bf3c94a544d964f680e8d209c5d28206e0bc684c5954ff03"
   - number: "1717"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Wells of Badr"
     date: "624 CE"
     region: "Arabia"
@@ -7364,6 +8013,8 @@ entries:
     sha256: "e3f453747ce37f2d11dce835ccc30094ccef43cab32a02675caac05be6422f93"
   - number: "1718"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Hill of Uhud"
     date: "625 CE"
     region: "Arabia"
@@ -7387,6 +8038,8 @@ entries:
     sha256: "065d84edbd7462dab141fcead1e14c5a188c0f3f28fbfbbee0ae3ecf14acc4a6"
   - number: "1719"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Walls Hold"
     date: "626 CE"
     region: "Byzantium"
@@ -7410,6 +8063,8 @@ entries:
     sha256: "6acab6967cd71e806f7b4fb65a52aac05619e23b86ce4803f33cc866a320dff7"
   - number: "1720"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Trench"
     date: "627 CE"
     region: "Arabia"
@@ -7434,6 +8089,8 @@ entries:
     sha256: "8f7cba23b7dd6139cc0382b9bc31a72294c7797d9db88b8cb3bc2fb4f8dad788"
   - number: "1721"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Truce of Hudaybiyyah"
     date: "628 CE"
     region: "Arabia"
@@ -7456,6 +8113,8 @@ entries:
     sha256: "ff144de476714bebf007a0ad51475925577358d0e64ca3ca3e094d26eb666e78"
   - number: "1722"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Cross Comes Home"
     date: "629 CE"
     region: "Byzantium"
@@ -7481,6 +8140,8 @@ entries:
     sha256: "533d39b0887adb36909551b5ee377ed85dae45baa7b5922f7cade8cdf4384f56"
   - number: "1723"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Mecca Opens Its Gates"
     date: "630 CE"
     region: "Arabia"
@@ -7504,6 +8165,8 @@ entries:
     sha256: "e14a4109d0db586e85a16e5a38d94d3d549341d92907a009d38da141fda54d44"
   - number: "1724"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Year of Delegations"
     date: "631 CE"
     region: "Arabia"
@@ -7527,6 +8190,8 @@ entries:
     sha256: "ce408183882b3cd7cf9772d3e8b181efdc02c2f0a1950438a0a05355e32b7a13"
   - number: "1725"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Farewell Sermon"
     date: "632 CE"
     region: "Arabia"
@@ -7550,6 +8215,8 @@ entries:
     sha256: "3f35c82dcb10ed120e34ab080bdeaf17f4a2dd6ecfd1fd6b2ef7819dc683511d"
   - number: "1726"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The First Successor"
     date: "632 CE"
     region: "Arabia"
@@ -7574,6 +8241,8 @@ entries:
     sha256: "d467b4583268592854adebb3e4b410be65ba987f36ffcda1f425349565d3adfb"
   - number: "1727"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Sword of God"
     date: "633 CE"
     region: "Mesopotamia"
@@ -7598,6 +8267,8 @@ entries:
     sha256: "3d1995f29f54adf231d3bd3618447c4b88e241829f23a509f1cb57c7324b477a"
   - number: "1728"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Just Caliph"
     date: "634 CE"
     region: "Arabia"
@@ -7622,6 +8293,8 @@ entries:
     sha256: "e9b587306e583a9eb4b017a043d166ff86deeffb653d8a9d7eb1b0187239426b"
   - number: "1729"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Damascus Falls"
     date: "635 CE"
     region: "Syria"
@@ -7646,6 +8319,8 @@ entries:
     sha256: "9dd45e0d846745d335256f17304b4ea5b73b21d42d00bf7f8301ab0f5a12f01a"
   - number: "1730"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Day of Yarmouk"
     date: "636 CE"
     region: "Syria"
@@ -7668,6 +8343,8 @@ entries:
     sha256: "9795dc0226f8206c5e8902a224552e6e2fcff2ee8be0a026167bbff15125091d"
   - number: "1731"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Elephants of Qadisiyya"
     date: "636 CE"
     region: "Mesopotamia"
@@ -7691,6 +8368,8 @@ entries:
     sha256: "f00624bed73fdc55854681ab7d2e1c7fc731aeab9ee78121dc7f746d7d7de0d0"
   - number: "1732"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Caliph Walks In"
     date: "637 CE"
     region: "Jerusalem"
@@ -7717,6 +8396,8 @@ entries:
     sha256: "0d60f63e019cc3881f191cc27297305a2e425b1b8cb4cc9c6a3f559d793b86c5"
   - number: "1733"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Road to Alexandria"
     date: "640 CE"
     region: "Egypt"
@@ -7740,6 +8421,8 @@ entries:
     sha256: "53cea1e3ccce67787417726fb44e5721a086f457c3d9c7dff538db3c9f323248"
   - number: "1734"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Alexandria Surrenders"
     date: "641 CE"
     region: "Egypt"
@@ -7763,6 +8446,8 @@ entries:
     sha256: "78ced9cf3c082739f13e596e62f1afbfa25a06a0419222d380b5a972440c42ba"
   - number: "1735"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Victory of Victories"
     date: "642 CE"
     region: "Persia"
@@ -7786,6 +8471,8 @@ entries:
     sha256: "41c00b1a0a4bf2e544e1d648c32b9f323fa200b65ce1de9c716b655c1ebf6cdd"
   - number: "1736"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Pilgrim Comes Home"
     date: "643 CE"
     region: "China"
@@ -7809,6 +8496,8 @@ entries:
     sha256: "c3929b4066d461fcf116a94d286eb252de1be745b2af1fa56eba44ea124d472e"
   - number: "1737"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Caliph Is Stabbed"
     date: "644 CE"
     region: "Arabia"
@@ -7831,6 +8520,8 @@ entries:
     sha256: "044d5943641ee27c5967bc276309d7e474f5603916f519d4d421a6f1992c1962"
   - number: "1738"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Taika Reform"
     date: "645 CE"
     region: "Japan"
@@ -7854,6 +8545,8 @@ entries:
     sha256: "853bef6f28b7fbc106511b1beac2cffe31c22baa347f83d28abf62519337a26f"
   - number: "1739"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Emperor's Eulogy"
     date: "646 CE"
     region: "China"
@@ -7877,6 +8570,8 @@ entries:
     sha256: "5e4b66cba443f86ca58911ebb853f17be0e416b38075e3814499cbd9f0c75468"
   - number: "1740"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Harsha's Last Assembly"
     date: "647 CE"
     region: "India"
@@ -7899,6 +8594,8 @@ entries:
     sha256: "9e937f727a4e16af16bdfb09b6a787c916f54ea3b855a1b3986b406f818abb9f"
   - number: "1741"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Queen's General"
     date: "647 CE"
     region: "Korea"
@@ -7924,6 +8621,8 @@ entries:
     sha256: "0980d8059c30be0ae92db531e0f910d75b1f5370035281d7db13b716710a477d"
   - number: "1742"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Good Emperor Dies"
     date: "649 CE"
     region: "China"
@@ -7948,6 +8647,8 @@ entries:
     sha256: "7e1c298afa59f7e44c6c39b971f184b4cf4d815d9c669147c0f980214fd238dd"
   - number: "1743"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Khazars Rise"
     date: "650 CE"
     region: "Steppe"
@@ -7972,6 +8673,8 @@ entries:
     sha256: "c1fcbce5672f640360dc9fdc4180fac532a953543f0d138a5abd7decdb01ee8f"
   - number: "1744"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Last Shah Falls"
     date: "651 CE"
     region: "Persia"
@@ -7995,6 +8698,8 @@ entries:
     sha256: "d5a81f435db2e81cc41b7c3326b59b56a754bfdca012c5fbe31a3ede5788b805"
   - number: "1745"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Book Is Fixed"
     date: "651 CE"
     region: "Arabia"
@@ -8019,6 +8724,8 @@ entries:
     sha256: "09455761fa227a2329de2ba1c11eb3762c10320d1d6e7414bf83f8c77e8ae556"
   - number: "1746"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Empress in Waiting"
     date: "653 CE"
     region: "China"
@@ -8043,6 +8750,8 @@ entries:
     sha256: "0bf429a64d2199f78a78c93a1f4c9c0310ef2a1c036bd139d79628621a7cc58f"
   - number: "1747"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Battle of the Masts"
     date: "655 CE"
     region: "Byzantium"
@@ -8064,6 +8773,8 @@ entries:
     sha256: "83fcf4c97f24cca421bfe8ccd6efbdbf76afe5295cafbe5d6c746f64d3ee7f65"
   - number: "1748"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Camel's Day"
     date: "656 CE"
     region: "Arabia"
@@ -8086,6 +8797,8 @@ entries:
     sha256: "1f1d63ed7010d1f01a595ef850b9761626b36bd269477fda970a1e18f1e92508"
   - number: "1749"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Arbitration at Siffin"
     date: "657 CE"
     region: "Syria"
@@ -8110,6 +8823,8 @@ entries:
     sha256: "f7935dca047d716a2daa7ba6a8f29d760c7aa5b63be26de93c8278378f56db3e"
   - number: "1750"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Western March"
     date: "658 CE"
     region: "China"
@@ -8133,6 +8848,8 @@ entries:
     sha256: "33b2ff1c047a5c6e6607dd0d8758a21c41c044341f3660ac1487ffbe112ce1eb"
   - number: "1751"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Baekje Falls"
     date: "660 CE"
     region: "Korea"
@@ -8156,6 +8873,8 @@ entries:
     sha256: "45a53c428a0d07e8bb3d92a75391e5a95181449ba65cd1971ec66c152a420dd6"
   - number: "1752"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Dagger in Kufa"
     date: "661 CE"
     region: "Arabia"
@@ -8178,6 +8897,8 @@ entries:
     sha256: "293e48f13116a8b408eb1ba25ef15f473327615968000519831e8c28d71db196"
   - number: "1753"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Battle of Baekgang"
     date: "663 CE"
     region: "Korea"
@@ -8200,6 +8921,8 @@ entries:
     sha256: "7bf6dfb486d6b9dcc8a38362c8df9d8225469967e6acc113df0ab0ebe6b11a37"
   - number: "1754"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Whitby Chooses Rome"
     date: "664 CE"
     region: "Britain"
@@ -8222,6 +8945,8 @@ entries:
     sha256: "edbdb7d84d6ae86407aa942021b7463254d452e012ab2f7979ca5bac68fd2ea8"
   - number: "1755"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Pilgrim Dies"
     date: "664 CE"
     region: "China"
@@ -8245,6 +8970,8 @@ entries:
     sha256: "e0e14ad8375fd54f15ee21aa2aebaa806bdb3d98c294de1f2c3f917a4d8dfa05"
   - number: "1756"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Iron Governor"
     date: "666 CE"
     region: "Arabia"
@@ -8270,6 +8997,8 @@ entries:
     sha256: "1da61c1c6c925a27eceb831a9d4f0c93a14dad088b8d68d079f7bc0dc1e0ed48"
   - number: "1757"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Silla Unites the Peninsula"
     date: "668 CE"
     region: "Korea"
@@ -8294,6 +9023,8 @@ entries:
     sha256: "95b6fa5595725f5f2251b8867542c67c35d0806e618536ec634c81b635c6108e"
   - number: "1758"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The First Siege Sails"
     date: "669 CE"
     region: "Arabia"
@@ -8319,6 +9050,8 @@ entries:
     sha256: "b5b2171aaf433750a7f78327f21264112b31d2b8d2d9de1f290e6c2a8143b26c"
   - number: "1759"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The City of Kairouan"
     date: "670 CE"
     region: "North Africa"
@@ -8342,6 +9075,8 @@ entries:
     sha256: "86ad2c3fcd28339820edf7f55510d39898ade51c1e769714b272625e593cf322"
   - number: "1760"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Sea Pilgrim"
     date: "671 CE"
     region: "India"
@@ -8365,6 +9100,8 @@ entries:
     sha256: "f7135a240fd28e1afbc9d6ce6938df9ec62cf382e1dbb37f7dbd67e125132719"
   - number: "1761"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Venerable Child"
     date: "672 CE"
     region: "Britain"
@@ -8390,6 +9127,8 @@ entries:
     sha256: "2832e14d2037c19a10294662fad3c204f9b634bf4b89cc6ed6593127c856832d"
   - number: "1762"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Fire on the Water"
     date: "673 CE"
     region: "Byzantium"
@@ -8413,6 +9152,8 @@ entries:
     sha256: "09875e45aaec65f0dbfb82ebef8b244ace6f3837980f06f80a8529f671facfeb"
   - number: "1763"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Long Siege Begins"
     date: "674 CE"
     region: "Byzantium"
@@ -8434,6 +9175,8 @@ entries:
     sha256: "001c157ad0ff4a192172797cd9da7a30b877a588a648b5df287d15afd1639640"
   - number: "1764"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Satirists' War"
     date: "676 CE"
     region: "Arabia"
@@ -8458,6 +9201,8 @@ entries:
     sha256: "3eca0637596ca34813606be740d60b2001924b18f01c8951d9a7c25307d2e498"
   - number: "1765"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Siege Breaks"
     date: "678 CE"
     region: "Byzantium"
@@ -8482,6 +9227,8 @@ entries:
     sha256: "807c5d7819ada83a44e4106e4d49af3fd3bfc3da722dce5a257d42203e53a67c"
   - number: "1766"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Bulgars Cross the Danube"
     date: "679 CE"
     region: "Steppe"
@@ -8504,6 +9251,8 @@ entries:
     sha256: "e43c6d9578cacdb549fe8088ef53deb034cf72706a37a67fe3b3104a598e0c5d"
   - number: "1767"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Field of Karbala"
     date: "680 CE"
     region: "Arabia"
@@ -8529,6 +9278,8 @@ entries:
     sha256: "56bb18e032bf77a1ec6ff89c58b678dde40fd3c281299223f24ab85b0eb35ffc"
   - number: "1768"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Bulgaria Is Recognized"
     date: "681 CE"
     region: "Balkans"
@@ -8551,6 +9302,8 @@ entries:
     sha256: "2f152de378a4ac738461beb263559008cb0df85bd397c0def454849b8b141412"
   - number: "1769"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Kaaba Burns"
     date: "683 CE"
     region: "Arabia"
@@ -8576,6 +9329,8 @@ entries:
     sha256: "74af4d644b3577afb81683b4eb0e30207f89d12537239dbc8a589a24f88b011f"
   - number: "1770"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Tide Turns at Tahuda"
     date: "683 CE"
     region: "North Africa"
@@ -8598,6 +9353,8 @@ entries:
     sha256: "4a99b0151fb2807fbd08ef7ab16e38b4dfe9062648bd682c1884e82f33ac2dc3"
   - number: "1771"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Marwanids Take Hold"
     date: "685 CE"
     region: "Arabia"
@@ -8622,6 +9379,8 @@ entries:
     sha256: "a927ff3d6c84106c9b3e0f0c238eeb5945389713506925a8172fae77b08b4003"
   - number: "1772"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Avenger of Karbala"
     date: "686 CE"
     region: "Mesopotamia"
@@ -8646,6 +9405,8 @@ entries:
     sha256: "e0599b998911ba89edf40c5f8130dd5a677890f1eda6e43526610d37a1aee30d"
   - number: "1773"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Emperor's Bargain"
     date: "688 CE"
     region: "Byzantium"
@@ -8670,6 +9431,8 @@ entries:
     sha256: "140de8cbebf53b08edc4d42c6402d30ce44410326270321d51e4e6ca34583bad"
   - number: "1774"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Law Is Written"
     date: "689 CE"
     region: "Japan"
@@ -8693,6 +9456,8 @@ entries:
     sha256: "f1a66879e3fcd1b58e80584bc95a0d89b78f72317d4db29e8c10d73aa3f8ad7f"
   - number: "1775"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Woman on the Throne"
     date: "690 CE"
     region: "China"
@@ -8718,6 +9483,8 @@ entries:
     sha256: "6edaa0988b34e1c140259fa32807c8c29f0ecd2790393171acdaa45bf48a87bb"
   - number: "1776"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Dome Rises"
     date: "691 CE"
     region: "Jerusalem"
@@ -8743,6 +9510,8 @@ entries:
     sha256: "0cbc57291a60683bb36a6634869ebabd947cc4b9080dafc2bc2c2e01b7fd2fd9"
   - number: "1777"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Siege of Mecca Ends"
     date: "692 CE"
     region: "Arabia"
@@ -8767,6 +9536,8 @@ entries:
     sha256: "d185ab3340527835be4f61c6e7dc4656c4c66dc07b55416989fd05282eac09c3"
   - number: "1778"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Iron Chancellor"
     date: "694 CE"
     region: "Mesopotamia"
@@ -8793,6 +9564,8 @@ entries:
     sha256: "2aada509a1485ddc759550cc5d76543578fd6803cf521d3dc527ab35fd52919e"
   - number: "1779"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Emperor Deposed"
     date: "695 CE"
     region: "Byzantium"
@@ -8819,6 +9592,8 @@ entries:
     sha256: "3c1b37061f5068d8fff72f222b4491714e38d2c86888e3c80e34124fa223b2fd"
   - number: "1780"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Coins Change"
     date: "696 CE"
     region: "Arabia"
@@ -8842,6 +9617,8 @@ entries:
     sha256: "5a4e855277ca94a3a87087648afa7e97fe97f6ec1921ddc588d741c14b14aee6"
   - number: "1781"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The End of Byzantine Africa"
     date: "698 CE"
     region: "North Africa"
@@ -8865,6 +9642,8 @@ entries:
     sha256: "15cbe7d0ee9ef3d6de37cbefa38f46d6e7b2112edce2de8aaf326287341d93a2"
   - number: "1782"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Road to the Oxus"
     date: "699 CE"
     region: "Central Asia"
@@ -8888,6 +9667,8 @@ entries:
     sha256: "01193609154433a73df24afe86c271c9a347463e4312e9574fc00fdf27f7fa9e"
   - number: "1783"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Song of Beowulf"
     date: "700 CE"
     region: "Britain"
@@ -8912,6 +9693,8 @@ entries:
     sha256: "0eedea64a4bddd7799cbf7c83be8dd30e32a9885f11b26af6195cce5dd44921f"
   - number: "1784"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "A Poet Is Born"
     date: "701 CE"
     region: "China"
@@ -8936,6 +9719,8 @@ entries:
     sha256: "a6d1d38751d488b995c367c503bba563a830f4e4c16e845407a96201541a0944"
   - number: "1785"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Taiho Code"
     date: "701 CE"
     region: "Japan"
@@ -8961,6 +9746,8 @@ entries:
     sha256: "e6aea2d64450c01afc27010ae0178630d8d2d9fe5f1f503e22637da7b2a63912"
   - number: "1786"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Warrior Queen Falls"
     date: "703 CE"
     region: "North Africa"
@@ -8986,6 +9773,8 @@ entries:
     sha256: "fc850decc72818053694192ee0b99dfbf1e07836d6085a9b7c6a8eb0fc6c4ac9"
   - number: "1787"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Builder Caliph"
     date: "705 CE"
     region: "Arabia"
@@ -9010,6 +9799,8 @@ entries:
     sha256: "a19a206791f015f04c8105813eb2cb67c381c649d7d732224dd80cd1988e11da"
   - number: "1788"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Great Mosque Rises"
     date: "706 CE"
     region: "Syria"
@@ -9033,6 +9824,8 @@ entries:
     sha256: "5b9d21a887aa4247c1ffb1e416b2193709896d27bc7396140ca16ac775087ddc"
   - number: "1789"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Musa's Harbor"
     date: "709 CE"
     region: "North Africa"
@@ -9056,6 +9849,8 @@ entries:
     sha256: "99354090f010a9648ce29d2a074bd9359ab9ca500a11759f6f6eaedfbb0f8e31"
   - number: "1790"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Cities Beyond the River"
     date: "709 CE"
     region: "Central Asia"
@@ -9079,6 +9874,8 @@ entries:
     sha256: "c69d0fc810c8cceb436610b4cd3d024ef6c08a588cefc0d84eb4f0c4ce349200"
   - number: "1791"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Nara, the First Capital"
     date: "710 CE"
     region: "Japan"
@@ -9102,6 +9899,8 @@ entries:
     sha256: "4987e3822d9230d42c66041ff38b2b6bb977ad56de10acd0dc7f13f51e50ac14"
   - number: "1792"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Landing at Gibraltar"
     date: "711 CE"
     region: "Spain"
@@ -9125,6 +9924,8 @@ entries:
     sha256: "d56ebf60803526b1bf65d4e4c13af0688a0f7477134e381c1839f9227dbde7c3"
   - number: "1793"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Indus Frontier"
     date: "712 CE"
     region: "India"
@@ -9148,6 +9949,8 @@ entries:
     sha256: "a542c330fce8f5104be61a4b1dfa4428d357a00341105a8b490ffbeb6939775a"
   - number: "1794"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Kojiki Is Written"
     date: "712 CE"
     region: "Japan"
@@ -9171,6 +9974,8 @@ entries:
     sha256: "383d33dfb60d309f3d55ea0e0dab01468becb56a87743df45f0210b9b4c036ea"
   - number: "1795"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Bright Emperor"
     date: "713 CE"
     region: "China"
@@ -9195,6 +10000,8 @@ entries:
     sha256: "db3739d90723f04f2071f7e8e72f03f0e2227abfaac7ac6033378e07d979143f"
   - number: "1796"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Frontier General Falls"
     date: "715 CE"
     region: "Central Asia"
@@ -9220,6 +10027,8 @@ entries:
     sha256: "78ff1d60780193e7abdaf38809ffaeab29cd1540bb75ba918217e1f65f66d945"
   - number: "1797"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Second Great Siege"
     date: "717 CE"
     region: "Byzantium"
@@ -9244,6 +10053,8 @@ entries:
     sha256: "408b3d848cdc22cbd58b9e3b3b54581ea1a974f85f36764a6c2e8419dbadb47e"
   - number: "1798"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Winter That Saved an Empire"
     date: "718 CE"
     region: "Byzantium"
@@ -9269,6 +10080,8 @@ entries:
     sha256: "524729cc2042ec64f27add37aa7468e8285dc6accd81e425b66adb526f185680"
   - number: "1799"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Nihon Shoki"
     date: "720 CE"
     region: "Japan"
@@ -9291,6 +10104,8 @@ entries:
     sha256: "59308ca94c24adc3e040f7ac5531d4f79669f3e6dcbd4c646b935c48c3355ea3"
   - number: "1800"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Poet of Sorrow Is Born"
     date: "722 CE"
     region: "China"
@@ -9316,6 +10131,8 @@ entries:
     sha256: "d540b8f45cc40dfd2194596272918c53ced7b268c4f6fbc3e2df8c39fa3752c9"
   - number: "1801"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Oak of Thor Falls"
     date: "723 CE"
     region: "Germania"
@@ -9339,6 +10156,8 @@ entries:
     sha256: "f7c489d5307dbefa48cdbb2caae78b6ba5f41648dc405650c49056ef347d7547"
   - number: "1802"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Water Clock of Yi Xing"
     date: "725 CE"
     region: "China"
@@ -9363,6 +10182,8 @@ entries:
     sha256: "1f0de01479b7d19fd0458501622c89160c4974b2e68d4016bc6467d5f511953e"
   - number: "1803"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Iconoclasm Begins"
     date: "726 CE"
     region: "Byzantium"
@@ -9386,6 +10207,8 @@ entries:
     sha256: "9fe4968f8c04df269bc9097951b24bcbd062627cccb27d422a54bb122cfbaa05"
   - number: "1804"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Numbers Travel West"
     date: "727 CE"
     region: "India"
@@ -9410,6 +10233,8 @@ entries:
     sha256: "c06754ff6ea381adbec219bff15267fa5aa6a2aaa049adfce64ba9bf7b45b91c"
   - number: "1805"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Weeping Preacher"
     date: "728 CE"
     region: "Arabia"
@@ -9434,6 +10259,8 @@ entries:
     sha256: "6b44cb19d2afab635d0632ddf5a52cbff297cbaa407ffaa3d520de21ea842d8a"
   - number: "1806"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Examination Hall"
     date: "729 CE"
     region: "China"
@@ -9457,6 +10284,8 @@ entries:
     sha256: "09dafff4012c359181edb9c5850457c66aff77487a6d1a84413d73973582af73"
   - number: "1807"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Mad Calligrapher"
     date: "730 CE"
     region: "China"
@@ -9480,6 +10309,8 @@ entries:
     sha256: "83e3ba6c8f10b75bd60a199afc056f8e66a4cd294675221e82eb4043502726af"
   - number: "1808"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Khazar Bride"
     date: "732 CE"
     region: "Byzantium"
@@ -9503,6 +10334,8 @@ entries:
     sha256: "ce576fcee9f33fbcc2f7bca818e48ec7c7b70eceb147f44edabbe861c2fc6228"
   - number: "1809"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Hammer at Tours"
     date: "732 CE"
     region: "Francia"
@@ -9526,6 +10359,8 @@ entries:
     sha256: "d8bb99bc222e4d7e773d0a40e88356e4815a4822439f4d33e987b53054729121"
   - number: "1810"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Last Satirist"
     date: "732 CE"
     region: "Arabia"
@@ -9550,6 +10385,8 @@ entries:
     sha256: "3d6882395dfa9ee2d471117394cf5796ffc25930789d616a859312c2d27831e7"
   - number: "1811"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Wise Khagan Dies"
     date: "734 CE"
     region: "Steppe"
@@ -9571,6 +10408,8 @@ entries:
     sha256: "ed2a973df1f2dc782a323226c03c6ab44ab0b61e8e28b3df6177d8e8644febff"
   - number: "1812"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Smallpox Year"
     date: "735 CE"
     region: "Japan"
@@ -9596,6 +10435,8 @@ entries:
     sha256: "d166ce3fa89c5f7df4e483d16d80933f71162e08825694c5c5739edef0fad7c8"
   - number: "1813"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Kingless Years"
     date: "737 CE"
     region: "Francia"
@@ -9621,6 +10462,8 @@ entries:
     sha256: "7e75472f9168d77ae6d541ce2d84e2c0c026dfd2a492e6f67163b7eaa3bf8541"
   - number: "1814"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Revolt of Zayd"
     date: "740 CE"
     region: "Arabia"
@@ -9646,6 +10489,8 @@ entries:
     sha256: "88d531dae781463b543265c75bb16f5ec70e5bec080cd229c70a5a574d5eec39"
   - number: "1815"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Hammer's Sons"
     date: "741 CE"
     region: "Francia"
@@ -9671,6 +10516,8 @@ entries:
     sha256: "6618c147d1a882957e5839cfa48ef9cafebea9c3bd53ab266c344e1881162e7b"
   - number: "1816"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Great Buddha Is Decreed"
     date: "743 CE"
     region: "Japan"
@@ -9693,6 +10540,8 @@ entries:
     sha256: "1fd9ffa6616ed5469fa1181b203fd13accd16e2b25fdfb312612010ec3d0799c"
   - number: "1817"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Caliphate Unravels"
     date: "744 CE"
     region: "Arabia"
@@ -9717,6 +10566,8 @@ entries:
     sha256: "6a30ad545e98f0f0845abccd2c69f0e7b75bd8bbd7f462be65e9b9f822313ebd"
   - number: "1818"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Three Poets, One Wine Shop"
     date: "744 CE"
     region: "China"
@@ -9740,6 +10591,8 @@ entries:
     sha256: "01a2fbcd6cb12a7757df73d488ce2c6dc1a343d665bc06d28413f8ff317c3f32"
   - number: "1819"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Uyghurs Rise"
     date: "745 CE"
     region: "Steppe"
@@ -9764,6 +10617,8 @@ entries:
     sha256: "65f05fdb55746fcfc7aea6da166ec18d4dade186fd6e6cc78e5a9459ae371564"
   - number: "1820"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Black Banners"
     date: "747 CE"
     region: "Central Asia"
@@ -9786,6 +10641,8 @@ entries:
     sha256: "4b2ad004f3440b20600dd30ff2ee76e63380509bb683690cac51186538d99e17"
   - number: "1821"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The River of Blood"
     date: "750 CE"
     region: "Mesopotamia"
@@ -9811,6 +10668,8 @@ entries:
     sha256: "1512eed2934ec97dcb1127f538756091273aa2327956819e744142c667d4b55a"
   - number: "1822"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Paper Prisoners"
     date: "751 CE"
     region: "Central Asia"
@@ -9836,6 +10695,8 @@ entries:
     sha256: "5925ed9c7995d829a191034772fc78fe7675bd01549d1042ff9dca8bcf58cd58"
   - number: "1823"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Eye-Opening"
     date: "752 CE"
     region: "Japan"
@@ -9859,6 +10720,8 @@ entries:
     sha256: "393a634ea99e200bdd037d9e2094d03ea7252bf9a3f8ce570f39e3389f270867"
   - number: "1824"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Donation of Pepin"
     date: "753 CE"
     region: "Italy"
@@ -9882,6 +10745,8 @@ entries:
     sha256: "d87459c8b648385fae0ef7a19cbcacd92c2b32a06a03b7a40a2384732351d80e"
   - number: "1825"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The General Turns His Coat"
     date: "754 CE"
     region: "China"
@@ -9904,6 +10769,8 @@ entries:
     sha256: "a39aaea41be55ac79ead8ff28ed0db026a4e731119c9c422242b24a947f460d6"
   - number: "1826"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "An Lushan Rebels"
     date: "755 CE"
     region: "China"
@@ -9929,6 +10796,8 @@ entries:
     sha256: "10ef883e2bdf32e807fc6cb704560b97708f77522d76718ad310a59ec9695f4b"
   - number: "1827"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Falcon of Andalusia"
     date: "756 CE"
     region: "Spain"
@@ -9952,6 +10821,8 @@ entries:
     sha256: "c940d5b781aee62946381fe6b32cbdf35c7f2e89343a24e57f4784c7b430f2a2"
   - number: "1828"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "A Grammar Is Born"
     date: "760 CE"
     region: "Persia"
@@ -9975,6 +10846,8 @@ entries:
     sha256: "466a172cf90b33278814e504ff012076d6d9d2b0076b11cb4ecdf63ffa30e66c"
   - number: "1829"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Round City"
     date: "762 CE"
     region: "Mesopotamia"
@@ -10000,6 +10873,8 @@ entries:
     sha256: "23a8e661870e6ec3a7ec0ecae267511538332831f53b11d42c8544510c3500b5"
   - number: "1830"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Brick Towers of Sambor"
     date: "763 CE"
     region: "Cambodia"
@@ -10024,6 +10899,8 @@ entries:
     sha256: "0282a048785b855c888726d5de02d24d3c634cd69aa79b5408a5b6805bba2ae1"
   - number: "1831"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Schoolmaster of York"
     date: "767 CE"
     region: "Britain"
@@ -10049,6 +10926,8 @@ entries:
     sha256: "b397a9c99e3d917f609f110bc5df5ac3d836f819065af20ce17972bd595ddbd4"
   - number: "1832"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Charlemagne Takes the Crown"
     date: "768 CE"
     region: "Francia"
@@ -10071,6 +10950,8 @@ entries:
     sha256: "1e9de33d393fb3dfde0fc445f8e1cae7aaf98470ae08b0fef8622d87a27fdb7b"
   - number: "1833"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Sole King"
     date: "771 CE"
     region: "Francia"
@@ -10093,6 +10974,8 @@ entries:
     sha256: "498f03d9c6813b598d9df7df378df90ba22bdafd2bb238103ac6a53674dd44e1"
   - number: "1834"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Elephant Kings"
     date: "775 CE"
     region: "India"
@@ -10117,6 +11000,8 @@ entries:
     sha256: "3b49ce0e49b895391584eb22aa168826b92c6a018be09d0949d50839b409d4ba"
   - number: "1835"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Empress Regent"
     date: "780 CE"
     region: "Byzantium"
@@ -10140,6 +11025,8 @@ entries:
     sha256: "b8d315b2b960656ab79a53e2373ea3adfc3cf2ed156552fb20d698542dd14461"
   - number: "1836"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Day of the Saxons"
     date: "782 CE"
     region: "Saxony"
@@ -10163,6 +11050,8 @@ entries:
     sha256: "a6212472a030237a32e8df99ef3ececb1979ca8a78900b25831beef5aafc91cd"
   - number: "1837"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Thousand-and-One-Night Caliph"
     date: "786 CE"
     region: "Arabia"
@@ -10186,6 +11075,8 @@ entries:
     sha256: "b6ca50ce4fbe6c4156ba65b5008232bd59016510dc3a53ba8e71d7bbfaa01bc2"
   - number: "1838"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Icons Return"
     date: "787 CE"
     region: "Byzantium"
@@ -10211,6 +11102,8 @@ entries:
     sha256: "fe33977051a43e5e867601bb285864132a6784782c446fbc32e1731c922de298"
   - number: "1839"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The First Dragon Ships"
     date: "789 CE"
     region: "Britain"
@@ -10234,6 +11127,8 @@ entries:
     sha256: "4f941e878a215b655235e317f96e711b0aef1e8839f884bc0cec64aa937d7db2"
   - number: "1840"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The People's Poet"
     date: "790 CE"
     region: "China"
@@ -10257,6 +11152,8 @@ entries:
     sha256: "45dc3358d15d4f05f4dd610edb997b22b4f29e6d9429515dbea4907a097feac5"
   - number: "1841"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Lindisfarne"
     date: "793 CE"
     region: "Britain"
@@ -10279,6 +11176,8 @@ entries:
     sha256: "e4273121ed57ca379a81b844faffc902f0e9a24f71d9de1ab823183e36a52bce"
   - number: "1842"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Christmas Crown"
     date: "800 CE"
     region: "Rome"
@@ -10301,6 +11200,8 @@ entries:
     sha256: "79f9b0a933407ecc08a348dbc02ab1f75b78d64e3345e4adbbc1b0e83b0555d3"
   - number: "1843"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The God-King"
     date: "802 CE"
     region: "Cambodia"
@@ -10325,6 +11226,8 @@ entries:
     sha256: "d642e77f656b4bb4a11b3da500836433d7ab75e5531da1cff14cc0b9863a41e8"
   - number: "1844"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Monks Sail East"
     date: "804 CE"
     region: "Japan"
@@ -10347,6 +11250,8 @@ entries:
     sha256: "d0bbe4ea1a68d794090b0608a96264fdf103fa9dbb6169e539f651716083ddc1"
   - number: "1845"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Book of Kells"
     date: "806 CE"
     region: "Britain"
@@ -10371,6 +11276,8 @@ entries:
     sha256: "8f807ab36a6a3c1f731f38c5fa8f0b2cb1175cf47fc0395b3a362f756fe8151c"
   - number: "1846"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Caliph Dies at Tus"
     date: "809 CE"
     region: "Arabia"
@@ -10395,6 +11302,8 @@ entries:
     sha256: "4209321354f06cf9bd4536c5c93a40615e7304a1c76d94cdd2ec1404b67225a0"
   - number: "1847"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Emperor's Skull"
     date: "811 CE"
     region: "Balkans"
@@ -10419,6 +11328,8 @@ entries:
     sha256: "de94631d463aa66efb7c5086dbbdbd035e76ea9216cc6fcb6239a270d9584e53"
   - number: "1848"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Al-Ma'mun Takes Baghdad"
     date: "813 CE"
     region: "Arabia"
@@ -10442,6 +11353,8 @@ entries:
     sha256: "d217c765bcac16ca1b7f0031b64219e5b138a09b73ee73b9c3707fd7cfdb9fa2"
   - number: "1849"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Man of Algebra"
     date: "820 CE"
     region: "Arabia"
@@ -10465,6 +11378,8 @@ entries:
     sha256: "9373a7a9fe135cfbb41f7152d42ddd766ae9c30520f7b108b13921dc830ee84e"
   - number: "1850"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Philosopher of Baghdad"
     date: "825 CE"
     region: "Arabia"
@@ -10487,6 +11402,8 @@ entries:
     sha256: "4ded7001e1c3a3197a0c2f1a1733c48abe9aa4bdf388e1e3d8b779ed97b4b26b"
   - number: "1851"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Observatory"
     date: "829 CE"
     region: "Arabia"
@@ -10511,6 +11428,8 @@ entries:
     sha256: "ae1a7adee4a2affa50081f0e74d2d39744e944cc99335f86a448c733fd326c39"
   - number: "1852"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Pyramid Opened"
     date: "832 CE"
     region: "Egypt"
@@ -10534,6 +11453,8 @@ entries:
     sha256: "4dc62ddafe027fc36a66e3756b10820cf3cc215f3880e25a8797b56f8b93d911"
   - number: "1853"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Sack of Amorium"
     date: "838 CE"
     region: "Byzantium"
@@ -10558,6 +11479,8 @@ entries:
     sha256: "30a2e74908bff5fa3683de252f5d0b9687bcab7df61a21fd5d4fc1bf8dad63ac"
   - number: "1854"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Uyghurs Fall"
     date: "840 CE"
     region: "Steppe"
@@ -10582,6 +11505,8 @@ entries:
     sha256: "92efe3fd3e0f745c2dee75b6f9e39b1f79435b449aa1f26c1fdd5fb1641bf5f9"
   - number: "1855"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Empire Split Three Ways"
     date: "843 CE"
     region: "Francia"
@@ -10604,6 +11529,8 @@ entries:
     sha256: "b50d1282d696adf52352dd457cdf521b9e97e81abb0e4f6ce845fb852f2252a8"
   - number: "1856"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Emperor Against the Monks"
     date: "845 CE"
     region: "China"
@@ -10626,6 +11553,8 @@ entries:
     sha256: "996859024ab7061dc5a26504d0add1fc99d4e10f1c43b6e34f05a5452c9e4574"
   - number: "1857"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Library of Cordoba"
     date: "848 CE"
     region: "Spain"
@@ -10648,6 +11577,8 @@ entries:
     sha256: "14268c9d4c259b71df1cea643d62e853ed7bf34e93e200803fc42d3f9c5ffdf3"
   - number: "1858"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Star-Catcher"
     date: "850 CE"
     region: "Arabia"
@@ -10669,6 +11600,8 @@ entries:
     sha256: "f31510e2ea4ef15173c587bccf0bb7707b444b4bc37a055b98b3e478837f2660"
   - number: "1859"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Boy Who Would Be Great"
     date: "859 CE"
     region: "Britain"
@@ -10691,6 +11624,8 @@ entries:
     sha256: "2376259fd06674466f3e95e44610ae8004a505b576dea8a7707f41b0307e27d0"
   - number: "1860"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Call of the Varangians"
     date: "862 CE"
     region: "Russia"
@@ -10714,6 +11649,8 @@ entries:
     sha256: "5a9165161a823a883c39bfadec32f653ba70b8cad76d9277d7127af11f060ef6"
   - number: "1861"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Slavic Letters"
     date: "863 CE"
     region: "Moravia"
@@ -10738,6 +11675,8 @@ entries:
     sha256: "e349000d4dc3c554d41e26c18f5cc958ff5dc03a87f5d8a4938957084cd7cbb1"
   - number: "1862"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Baptism of Boris"
     date: "864 CE"
     region: "Bulgaria"
@@ -10761,6 +11700,8 @@ entries:
     sha256: "c75b95c00a584fde56b379b343988f229d4847c7dec350d6868a12d3ed43a499"
   - number: "1863"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Diamond Sutra"
     date: "868 CE"
     region: "China"
@@ -10784,6 +11725,8 @@ entries:
     sha256: "6a25a75bf4b9910a7527628432b6df20c6b9fd7d8f6ad1b67dcd9a996868c634"
   - number: "1864"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "Alfred at Edington"
     date: "878 CE"
     region: "Britain"
@@ -10808,6 +11751,8 @@ entries:
     sha256: "2d45167762275ed5fefa4eaf3c547ad25c399eeda66452ac3c2852c31f39015d"
   - number: "1865"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Siege of Paris"
     date: "885 CE"
     region: "Francia"
@@ -10832,6 +11777,8 @@ entries:
     sha256: "3b5dfa15de1605ea635bc9c3737af1fb1b330e219ba16c1a535bba5c77207ce9"
   - number: "1866"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The King Is Dead"
     date: "899 CE"
     region: "Britain"
@@ -10856,6 +11803,8 @@ entries:
     sha256: "5deed04bd36845fc49d5c957790208b28ab4863d2cade2fce90231d2bdd1c60d"
   - number: "1867"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Abbey of Cluny"
     date: "910 CE"
     region: "Francia"
@@ -10879,6 +11828,8 @@ entries:
     sha256: "26f7ab895a2fa3c24d2873fa53eb4a0462a7560c58beebe84f6c06ff04dd5770"
   - number: "1868"
     volume: 3
+    era_code: "07a"
+    era: "Medieval World (early)"
     title: "The Caliph of the West"
     date: "929 CE"
     region: "Spain"
@@ -10902,6 +11853,8 @@ entries:
     sha256: "2b7775fe2368e8933721963ef274d32dccd0702724815bb9f72f30f40aa2da6a"
   - number: "1869"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Surgeon of Córdoba"
     date: "950 CE"
     region: "Iberia"
@@ -10925,6 +11878,8 @@ entries:
     sha256: "9a6aff982b492438282e4a41125b598acf1f0b328192a97c00fdf9da203180c2"
   - number: "1870"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Tide Turns at Takkolam"
     date: "952 CE"
     region: "South India"
@@ -10945,6 +11900,8 @@ entries:
     sha256: "a3009869cc211ffabf440cbfe186da4b5fde991be80a2dbdb2773d70bf54dc1f"
   - number: "1871"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Last King of York"
     date: "954 CE"
     region: "England"
@@ -10967,6 +11924,8 @@ entries:
     sha256: "fcdb7c59a05a414da98c0d876b2e62c79b28cf0825e2968ea0f58e9f040bcede"
   - number: "1872"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The City of a Thousand Churches"
     date: "956 CE"
     region: "Armenia"
@@ -10990,6 +11949,8 @@ entries:
     sha256: "8054987641a9c68398d6892d5c1e777543e825254c2b72c116da11e1266107a8"
   - number: "1873"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Purple-Born Scholar"
     date: "959 CE"
     region: "Byzantium"
@@ -11015,6 +11976,8 @@ entries:
     sha256: "e7dcab52fbc6d10cb4b4ae84b1d05d412f77d92898c02018ad8cd7f6a952a262"
   - number: "1874"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Yellow Robe"
     date: "960 CE"
     region: "China"
@@ -11038,6 +12001,8 @@ entries:
     sha256: "22105fe6336bb419774aaae75e81aabad044d8d219b8c9c8673f0296128f1307"
   - number: "1875"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Otto's Crown"
     date: "962 CE"
     region: "Germany"
@@ -11060,6 +12025,8 @@ entries:
     sha256: "64495a56564c4f8458294fc3fd5090af8fe9e4260c12b3cdbd2782875b96ea48"
   - number: "1876"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Women's Words in Kana"
     date: "964 CE"
     region: "Japan"
@@ -11083,6 +12050,8 @@ entries:
     sha256: "8dd46de3ff96745e7f032ddf493a103e39bd838e04d3af54e94951311a4bac6d"
   - number: "1877"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Salt Road"
     date: "966 CE"
     region: "Sahara"
@@ -11106,6 +12075,8 @@ entries:
     sha256: "d37a259cf2604917fafc0bb9f03a3b5d3ce3fb03f999ae96876135b69319010e"
   - number: "1878"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Victorious City"
     date: "969 CE"
     region: "Egypt"
@@ -11130,6 +12101,8 @@ entries:
     sha256: "8db6e19ebf2cd073d339a0f202e6514db1971abd6602f631cb34fde3f4b8e9e3"
   - number: "1879"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Dai Co Viet Is Born"
     date: "971 CE"
     region: "Vietnam"
@@ -11153,6 +12126,8 @@ entries:
     sha256: "e9f4289bbf6e74e7c2011f799052fb0772592b8f8e1c01273ccb62510f638dec"
   - number: "1880"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The First Christian King"
     date: "973 CE"
     region: "Poland"
@@ -11177,6 +12152,8 @@ entries:
     sha256: "84e0dc1863f7a3bd3489344e905b152bd6c61ebb5564291e52ebc2336527667a"
   - number: "1881"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Book Hospital"
     date: "975 CE"
     region: "Baghdad"
@@ -11200,6 +12177,8 @@ entries:
     sha256: "a05e59926efc896a83270591d82e8238011e69c472ee1229b9af4ee16527dee5"
   - number: "1882"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Poet of Kings Arrives"
     date: "977 CE"
     region: "Persia"
@@ -11224,6 +12203,8 @@ entries:
     sha256: "b44092b8517968dd230f08d9ff2eaf18ff9ccffedc6ddda161e57a5162ca501e"
   - number: "1883"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Song Unites the South"
     date: "979 CE"
     region: "China"
@@ -11247,6 +12228,8 @@ entries:
     sha256: "ad53714c93f5ed5753f8831f05985d5ad4e29dcde1eadd5b7f04569ef4c657c3"
   - number: "1884"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "A Boy Named Ibn Sina"
     date: "980 CE"
     region: "Central Asia"
@@ -11270,6 +12253,8 @@ entries:
     sha256: "2523117f9d6e1a26880d9d2684b65b20c5eab9fb9476db5bce1dc2e50263b0c2"
   - number: "1885"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Erik's Green Land"
     date: "981 CE"
     region: "Greenland"
@@ -11296,6 +12281,8 @@ entries:
     sha256: "92b6b79e70f98cf8d899d1c9a6766016ed8b5905e3b8f431583d3983aa22d2ff"
   - number: "1886"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Feathered Serpent City"
     date: "985 CE"
     region: "Mexico"
@@ -11322,6 +12309,8 @@ entries:
     sha256: "99ad5474469326841ede1b8412fcbf55864bb6e9f7de24b57de6e0c0a1987a71"
   - number: "1887"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Bjarni's Drift"
     date: "985 CE"
     region: "North Atlantic"
@@ -11347,6 +12336,8 @@ entries:
     sha256: "e7220e7e148de7891f34194de5faf0a1e18cdbebd48c93affa7e13ff7b26ee55"
   - number: "1888"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Baptism of Rus"
     date: "988 CE"
     region: "Kiev"
@@ -11371,6 +12362,8 @@ entries:
     sha256: "230f9a5ca131883221f48e4e5a2d0d2989420fd6288fa8b1ad53aa512487dc96"
   - number: "1889"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Great Mound Builders"
     date: "990 CE"
     region: "North America"
@@ -11396,6 +12389,8 @@ entries:
     sha256: "0a075bd7197ac31d669ebef2c3279ce80123212a4de9b25b8932c866b58cde99"
   - number: "1890"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Sea Bride"
     date: "992 CE"
     region: "Venice"
@@ -11419,6 +12414,8 @@ entries:
     sha256: "f2403a012dbc1e7ac462280063383120584e6b728dfa20ef5cd80b7a1e0a8203"
   - number: "1891"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Cross Comes North"
     date: "996 CE"
     region: "Norway"
@@ -11442,6 +12439,8 @@ entries:
     sha256: "706c08e629e112e26005b709382be9e6b900aecb980aaceb859268d9e9a07726"
   - number: "1892"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Viking Wolves Return"
     date: "997 CE"
     region: "England"
@@ -11466,6 +12465,8 @@ entries:
     sha256: "45672004aa3ca31c12408b86ba7c967b1fb68eef956cd24046154ba865b33caf"
   - number: "1893"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Terror of the Year 1000"
     date: "999 CE"
     region: "Christendom"
@@ -11490,6 +12491,8 @@ entries:
     sha256: "2c374bd1420853571ef3d8b527a9c9918049b5d4b4f8c30d8a7311b59bd165d8"
   - number: "1894"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Leif's Vinland"
     date: "1000 CE"
     region: "North America"
@@ -11514,6 +12517,8 @@ entries:
     sha256: "3d7fa9bcdbb32dce3b229eb26284d5395ad93a62b88c1aa656107c66a3f194a7"
   - number: "1895"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "St Brice's Day"
     date: "1002 CE"
     region: "England"
@@ -11538,6 +12543,8 @@ entries:
     sha256: "50a8d671a6899805cbe5322f628ad67cf0a09a0be3f6e578d0cadf146bbebcc4"
   - number: "1896"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Peace Bought With Silk"
     date: "1004 CE"
     region: "China"
@@ -11563,6 +12570,8 @@ entries:
     sha256: "fe31bedf107be781db35ff1697ad91ad925e84960469bcfae7abae6e245cf3e3"
   - number: "1897"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Brightest Star"
     date: "1006 CE"
     region: "Skies"
@@ -11584,6 +12593,8 @@ entries:
     sha256: "288e458f27505fe0d58e3a3fe2d3ed193e6b1bfd29c0a5d516c65f66ce80cf34"
   - number: "1898"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Holy Sepulchre Falls"
     date: "1009 CE"
     region: "Jerusalem"
@@ -11607,6 +12618,8 @@ entries:
     sha256: "4263a00daa477cb48fb909294e67b3e3723702c8a00886d86fc56e49f81f173f"
   - number: "1899"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Book of Kings Finished"
     date: "1010 CE"
     region: "Persia"
@@ -11631,6 +12644,8 @@ entries:
     sha256: "acbebb191f23eddc14815db8a9675ab740393e79dbcf60f0da7e269fc61350fb"
   - number: "1900"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Gold of Wagadu"
     date: "1012 CE"
     region: "West Africa"
@@ -11653,6 +12668,8 @@ entries:
     sha256: "5a339528cae25a212b2a566a561c2fd4309451de7e755e8a157e776d2950dc11"
   - number: "1901"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Clontarf"
     date: "1014 CE"
     region: "Ireland"
@@ -11675,6 +12692,8 @@ entries:
     sha256: "c5df5661e9a41d490da000cd7b4c0212571637b17b916479eb096a062c76ccf0"
   - number: "1902"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Cnut's North Sea Empire"
     date: "1015 CE"
     region: "England"
@@ -11699,6 +12718,8 @@ entries:
     sha256: "d5d70275ce0af7e94a14d667100f7c4c67ed5e556a4c077158c95f9bd8e7a470"
   - number: "1903"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The End of the First Empire"
     date: "1018 CE"
     region: "Bulgaria"
@@ -11723,6 +12744,8 @@ entries:
     sha256: "a3767f8b5553f4c9723d837be36344752d7afe5195cb74a783a98e520245f9c5"
   - number: "1904"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Druze Dawn"
     date: "1021 CE"
     region: "Levant"
@@ -11749,6 +12772,8 @@ entries:
     sha256: "249826afdd3905632058f5d74809dba769536655fbdf9015dbb8f3f4b018f91f"
   - number: "1905"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Light-Bender"
     date: "1023 CE"
     region: "Egypt"
@@ -11775,6 +12800,8 @@ entries:
     sha256: "138c0127affd7001a48e6e470f17e147be1df45fc7379eed85aca3859d41eda0"
   - number: "1906"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of the Bulgar-Slayer"
     date: "1025 CE"
     region: "Byzantium"
@@ -11799,6 +12826,8 @@ entries:
     sha256: "3c784140072f5a625a49ba4314d8fe4b275b53156ca6219d0ed9cf531a9de2cd"
   - number: "1907"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Wheel of Time"
     date: "1027 CE"
     region: "Tibet"
@@ -11824,6 +12853,8 @@ entries:
     sha256: "2bbb5f77b4f036d4092298534bbc6a892b2719b7da38676986f5440ca2c26b76"
   - number: "1908"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Canon Is Written"
     date: "1029 CE"
     region: "Persia"
@@ -11850,6 +12881,8 @@ entries:
     sha256: "de9d01a5ff6a7308d95f310289aa428fc1965a5193f44848787c0006be537b78"
   - number: "1909"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Idol-Breaker"
     date: "1030 CE"
     region: "Punjab"
@@ -11874,6 +12907,8 @@ entries:
     sha256: "c988ecef468ea8dce8ae93066643623de9dacfe08a0addd740883e4a7dbd3557"
   - number: "1910"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Caliphate Splinters"
     date: "1031 CE"
     region: "Iberia"
@@ -11899,6 +12934,8 @@ entries:
     sha256: "a348c406a6d8b5a7eecdfb35cc782dfa4335a570945b0b28b0b3f13a670b9630"
   - number: "1911"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Cluny's Third Church"
     date: "1033 CE"
     region: "France"
@@ -11923,6 +12960,8 @@ entries:
     sha256: "8e84e22290b2a35ebc78e0fd9cf7bb89b4cc6a7c33a2af9fd0f215e829d2ea60"
   - number: "1912"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of Cnut"
     date: "1035 CE"
     region: "England"
@@ -11948,6 +12987,8 @@ entries:
     sha256: "f7efd6a68c8cf9a076db87cbc6b603f980e9bcd0c40ced86939ae5a0d2dc495b"
   - number: "1913"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of the Prince of Physicians"
     date: "1037 CE"
     region: "Persia"
@@ -11971,6 +13012,8 @@ entries:
     sha256: "55f9e169061db3a325ea837ef3188859c6af22f0cae316097e220e9c70a38164"
   - number: "1914"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Movable Type"
     date: "1040 CE"
     region: "China"
@@ -11998,6 +13041,8 @@ entries:
     sha256: "491c8e7662b7c4c05d5b767d328ab881fe983fdff17eeec3ed200d708f63eb01"
   - number: "1915"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Macbeth Takes the Throne"
     date: "1042 CE"
     region: "Scotland"
@@ -12021,6 +13066,8 @@ entries:
     sha256: "7cb96bf838fb5f00ab78a4821cdd5a0fa7f67759ecab6b9a8f5bbda2f714cbbf"
   - number: "1916"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Fire-Drug"
     date: "1044 CE"
     region: "China"
@@ -12045,6 +13092,8 @@ entries:
     sha256: "2f7cedd9a1c9a1d6a8d2d8c04f910f8fe84915805985318e059bb441a2252e7f"
   - number: "1917"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Three Popes, One Throne"
     date: "1046 CE"
     region: "Rome"
@@ -12072,6 +13121,8 @@ entries:
     sha256: "068eb0386adfdf728ee5548943d621828715eb863640cd61584d4239b26a0aea"
   - number: "1918"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Tentmaker's Stars"
     date: "1048 CE"
     region: "Persia"
@@ -12100,6 +13151,8 @@ entries:
     sha256: "0f3149eb07c058bc30cd3205fbc9d2e3b350caf0fa4ea613d21907fb0dc4c647"
   - number: "1919"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Chaco's Great Houses"
     date: "1050 CE"
     region: "North America"
@@ -12127,6 +13180,8 @@ entries:
     sha256: "dcb9d7773622bb8b4f2e9e5fbe0b2b7521298c0df032ad1808e7d52fecd528ad"
   - number: "1920"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Jade Astronomer's Map"
     date: "1052 CE"
     region: "China"
@@ -12152,6 +13207,8 @@ entries:
     sha256: "b686769a53a595e37e568e6549448f067609a069d56d7431a6b9df4df1b3e2c2"
   - number: "1921"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Crab Star"
     date: "1054 CE"
     region: "Skies"
@@ -12176,6 +13233,8 @@ entries:
     sha256: "15fffb0caee57d86bd11cd4b255cc0ed11da5005b9b1c801dd42357c45918aec"
   - number: "1922"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Great Schism"
     date: "1054 CE"
     region: "Christendom"
@@ -12202,6 +13261,8 @@ entries:
     sha256: "b7619ee54e61028212df816a690e3c83d88bd86c5c6f771e0f990ab6e2494a85"
   - number: "1923"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Macbeth Falls"
     date: "1057 CE"
     region: "Scotland"
@@ -12228,6 +13289,8 @@ entries:
     sha256: "6bc11b0a9306724bf184ed750fd9f82607b45205200bd86c062924905180e193"
   - number: "1924"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Almoravid Call"
     date: "1060 CE"
     region: "West Africa"
@@ -12253,6 +13316,8 @@ entries:
     sha256: "2c4ab8c80883d43d433a84e2ab979c9a79021f96b60e2f6884232b1cd89fc3a3"
   - number: "1925"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Alp Arslan's Bow"
     date: "1063 CE"
     region: "Seljuk Lands"
@@ -12277,6 +13342,8 @@ entries:
     sha256: "75ff609dcb4822213e9a80a7d65e1a05c0bc48b2880ad481e2e39c50b1f0242e"
   - number: "1926"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Comet of Conquest"
     date: "1066 CE"
     region: "Skies"
@@ -12302,6 +13369,8 @@ entries:
     sha256: "017ee5d7748bb3e659cbb73cbcb5e122f08a54000ec4b308fb967f7cb2b6c0ab"
   - number: "1927"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Norman Yoke"
     date: "1066 CE"
     region: "England"
@@ -12326,6 +13395,8 @@ entries:
     sha256: "16adcdb05ec17934eaf7954bce967efcf3a2e57996c6c7cd8e4fb98502236730"
   - number: "1928"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Reformer's Gamble"
     date: "1068 CE"
     region: "China"
@@ -12350,6 +13421,8 @@ entries:
     sha256: "cd26cfd80a968636b0bf65fe1167769aff5bf8bebf5ef3123b15f1dcf4217f7b"
   - number: "1929"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Manzikert"
     date: "1071 CE"
     region: "Anatolia"
@@ -12375,6 +13448,8 @@ entries:
     sha256: "29a8000bec9aa1c966e5306c9b3ba76699600c0dd0dacc2021062939a61e4ce8"
   - number: "1930"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Gregory's Revolution"
     date: "1073 CE"
     region: "Rome"
@@ -12399,6 +13474,8 @@ entries:
     sha256: "768cf9bc93b3573917e859776a3053f4bb33743a49b1e94f61e127060182f478"
   - number: "1931"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Kulothunga's Reign"
     date: "1075 CE"
     region: "South India"
@@ -12422,6 +13499,8 @@ entries:
     sha256: "3d21e540dcfa4e2d0536fd711ef3ae0e7388286a9bb14163915de9a08f632599"
   - number: "1932"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Koumbi Saleh Falls"
     date: "1076 CE"
     region: "West Africa"
@@ -12447,6 +13526,8 @@ entries:
     sha256: "a03fa9e9a06312881cf962ab605ea4167f279e5f1fb680afca3457c47df9c3d9"
   - number: "1933"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Canossa"
     date: "1077 CE"
     region: "Germany"
@@ -12472,6 +13553,8 @@ entries:
     sha256: "4d449febaa387a066735f76305d1d6ae5dd9932d24e83f8a965f03100c37f49a"
   - number: "1934"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Komnenian Dawn"
     date: "1081 CE"
     region: "Byzantium"
@@ -12497,6 +13580,8 @@ entries:
     sha256: "757c5954c641ccb173f27931700fcbae80348fb7f13b0918dbe156ed9c1feb30"
   - number: "1935"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Toledo Falls"
     date: "1085 CE"
     region: "Iberia"
@@ -12522,6 +13607,8 @@ entries:
     sha256: "e544ed7186c81e93fb97af6e003c27ef74f9df80c79fa3c0234e76d9b0a7e808"
   - number: "1936"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Domesday Book"
     date: "1086 CE"
     region: "England"
@@ -12545,6 +13632,8 @@ entries:
     sha256: "e4273313bb45a4c51034ba224e3e7c7b7cd9e4811cf8f9f942ddb781e6934741"
   - number: "1937"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Conqueror Dies"
     date: "1087 CE"
     region: "England"
@@ -12569,6 +13658,8 @@ entries:
     sha256: "624ed3124a295a22c12214dbd79e4057cbb38bdffcb5bd807ceb223ac1e3fb5f"
   - number: "1938"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The First University"
     date: "1088 CE"
     region: "Italy"
@@ -12592,6 +13683,8 @@ entries:
     sha256: "8a369bede89b604e25e3c888a5969ad8ef9db2bd4f8b93411293ad469e066090"
   - number: "1939"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Assassins' Mountain"
     date: "1090 CE"
     region: "Persia"
@@ -12618,6 +13711,8 @@ entries:
     sha256: "f35aa1236062a74c19207c45bae024907e435d5d3d55c776aa0389d6761337fe"
   - number: "1940"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of Nizam al-Mulk"
     date: "1092 CE"
     region: "Seljuk Lands"
@@ -12643,6 +13738,8 @@ entries:
     sha256: "5cf2572b3d21490fb858a4e7f9f7b12876874ae6be70c619450dbc17ef1b4029"
   - number: "1941"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "God Wills It"
     date: "1095 CE"
     region: "France"
@@ -12669,6 +13766,8 @@ entries:
     sha256: "2738e528115a1fdaf77ea07b8deece5296fecbe578503786d88cd14617dd9983"
   - number: "1942"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The People's Crusade"
     date: "1096 CE"
     region: "Rhineland"
@@ -12694,6 +13793,8 @@ entries:
     sha256: "fcddc0085f9e26755d47c277036809c73a5b50164259e0af6d56a62775cae261"
   - number: "1943"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Antioch Taken"
     date: "1098 CE"
     region: "Syria"
@@ -12720,6 +13821,8 @@ entries:
     sha256: "ff91861736df6eb9b7c33ec198a3e88406dfbbd448a489456f44c1a48f403c62"
   - number: "1944"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Charter of Liberties"
     date: "1100 CE"
     region: "England"
@@ -12748,6 +13851,8 @@ entries:
     sha256: "43aa3f93a2fb463fc30c6a6eec15142a01ba63f067915915b27609c82610d195"
   - number: "1945"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Crusader Kingdom"
     date: "1100 CE"
     region: "Jerusalem"
@@ -12775,6 +13880,8 @@ entries:
     sha256: "a90b5f0098f8d71d8f75897e04fe9cd8fc9eebc1d993f4c93daf7a92b8098fcc"
   - number: "1946"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Acre Falls to the Franks"
     date: "1104 CE"
     region: "Holy Land"
@@ -12800,6 +13907,8 @@ entries:
     sha256: "4fdc908096d32ab9a19b9979ce3fe72b48095753d6d37a5bce42535076655313"
   - number: "1947"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Tinchebray"
     date: "1106 CE"
     region: "England"
@@ -12824,6 +13933,8 @@ entries:
     sha256: "b32bf67b40316798b8d7d3d0830a6affc06b962fff0d1d8bc9f57aaccbcfee22"
   - number: "1948"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Fat King"
     date: "1108 CE"
     region: "France"
@@ -12851,6 +13962,8 @@ entries:
     sha256: "f201fd7a6efe31f7bd49478040c6435f6c3323e44b0776059891f5b5410f39aa"
   - number: "1949"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Painter Emperor"
     date: "1110 CE"
     region: "China"
@@ -12876,6 +13989,8 @@ entries:
     sha256: "e8ff743a8a75fbac8218fc84b3fef4b4aeea49a6cad864ce1960126f1571f274"
   - number: "1950"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Builder King"
     date: "1113 CE"
     region: "Cambodia"
@@ -12901,6 +14016,8 @@ entries:
     sha256: "bf5381de88e6d9055f72d9d55a03378c0fc0679749aeee5e1a128f72d15e0887"
   - number: "1951"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Clairvaux"
     date: "1115 CE"
     region: "France"
@@ -12927,6 +14044,8 @@ entries:
     sha256: "9ec03eb0ae19dda28cf6ab10ad89aebdc1a8a8b7d52b27df69fd02217fa5a7cc"
   - number: "1952"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Poor Knights"
     date: "1118 CE"
     region: "Jerusalem"
@@ -12954,6 +14073,8 @@ entries:
     sha256: "5f213e806b9d16c7090f7ffa8bb31f7e66b36ed662a409776a5a0d485b82193b"
   - number: "1953"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Field of Blood"
     date: "1119 CE"
     region: "Holy Land"
@@ -12978,6 +14099,8 @@ entries:
     sha256: "afe4cf19346b5c0f32b354313c3549ff283eb40d313a4527ed5348235fa2349e"
   - number: "1954"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The White Ship"
     date: "1120 CE"
     region: "England"
@@ -13003,6 +14126,8 @@ entries:
     sha256: "b373f3d7f4e79c1fa5d81d0e4fe8f9c28d1bdf285e8d23cbc8189272a7e72647"
   - number: "1955"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Concordat of Worms"
     date: "1122 CE"
     region: "Germany"
@@ -13030,6 +14155,8 @@ entries:
     sha256: "0f5988a2bde36c9c4fc96280f8c8ec6bd77d42c4568f49d3ef49edf69e4cb81a"
   - number: "1956"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Almohad Spark"
     date: "1124 CE"
     region: "North Africa"
@@ -13056,6 +14183,8 @@ entries:
     sha256: "0b2604595a0d5ae78c6653162b1cde6fdb6bb5c421a27c1684c38a7b77703b66"
   - number: "1957"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Jingkang Shame"
     date: "1126 CE"
     region: "China"
@@ -13083,6 +14212,8 @@ entries:
     sha256: "66725cee48242ee6fd619b2594c6578b4ab90d052b34ca91b5bd443f80eb5728"
   - number: "1958"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Southern Song"
     date: "1127 CE"
     region: "China"
@@ -13108,6 +14239,8 @@ entries:
     sha256: "18b0a31d1c7bef82b8abbb4261b8a4d2aa8f2d2c74ceb04463bc09e9b07f067d"
   - number: "1959"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Roger Crowned"
     date: "1130 CE"
     region: "Sicily"
@@ -13133,6 +14266,8 @@ entries:
     sha256: "f1ff052f3eb8ef63f1921b941917b5a9e243b2914edb92fb01f41962470fd5a5"
   - number: "1960"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Hildegard's Visions"
     date: "1132 CE"
     region: "Germany"
@@ -13159,6 +14294,8 @@ entries:
     sha256: "5f9addba01eef2ba27c62b97a80c26bb8faabc73065ca69e63dbaa331b9d3a85"
   - number: "1961"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Anarchy Begins"
     date: "1135 CE"
     region: "England"
@@ -13184,6 +14321,8 @@ entries:
     sha256: "bece331c172d550cdf73254c50eeeb60605a79f317788cfdf8e2dfac601003f3"
   - number: "1962"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Eleanor's Dowry"
     date: "1137 CE"
     region: "France"
@@ -13208,6 +14347,8 @@ entries:
     sha256: "223f89c8c0df7584f31d1576edb21395a9039366d70f6a72b37e5c7871906803"
   - number: "1963"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Ourique"
     date: "1139 CE"
     region: "Portugal"
@@ -13235,6 +14376,8 @@ entries:
     sha256: "51d0bb062d6cc8c4f68181b3e283dd7a26ea4edf6f8dcbf226e4bf5336a84465"
   - number: "1964"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Lover Condemned"
     date: "1140 CE"
     region: "France"
@@ -13261,6 +14404,8 @@ entries:
     sha256: "7dfe2bccf53175c3493cc42fd70bafa1883ddaff7a178914b3730763ca9179dd"
   - number: "1965"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The First Qur'an in Latin"
     date: "1143 CE"
     region: "Spain"
@@ -13287,6 +14432,8 @@ entries:
     sha256: "6be1448b23e1a1fc295bc2f86003959858615658d2f792d8aa22d980c63e22b3"
   - number: "1966"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Edessa Falls"
     date: "1144 CE"
     region: "Holy Land"
@@ -13313,6 +14460,8 @@ entries:
     sha256: "97afddc1833b1096bc635de963383e0f6996ccfd0ec340559b6e624d31fbd70e"
   - number: "1967"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Bernard Preaches War"
     date: "1146 CE"
     region: "France"
@@ -13339,6 +14488,8 @@ entries:
     sha256: "892fda3cae4b242dc958e62233796e544d78aee08279a520f3c7b198eef6ff0d"
   - number: "1968"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Damascus Holds"
     date: "1148 CE"
     region: "Holy Land"
@@ -13363,6 +14514,8 @@ entries:
     sha256: "a65c579a8777262c27b80c4b7ddf4f9c5bd90579f1843554e859c3f2e4b1bfcc"
   - number: "1969"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Angkor Wat Rises"
     date: "1150 CE"
     region: "Cambodia"
@@ -13390,6 +14543,8 @@ entries:
     sha256: "7d4b311b241bf54203d4488ce7c5630d6c0caac5f38769aafb4363767c2478ab"
   - number: "1970"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Eleanor Remarries"
     date: "1152 CE"
     region: "France"
@@ -13419,6 +14574,8 @@ entries:
     sha256: "5fa7407e0f1cccf73a7ccd7c1f49d05d2ab183a09e6aa12ef0f828bcee43633d"
   - number: "1971"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Treaty of Winchester"
     date: "1153 CE"
     region: "England"
@@ -13446,6 +14603,8 @@ entries:
     sha256: "cef976474a80acc9a3dc0ce7c7ae1beee413344657fcfb8d2cb50b35432e2558"
   - number: "1972"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Henry Plantagenet Crowned"
     date: "1154 CE"
     region: "England"
@@ -13476,6 +14635,8 @@ entries:
     sha256: "544248fb70f8b9cdd24d335edf4278171bd1227bd851e309358ea1685c934bae"
   - number: "1973"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Munich Founded"
     date: "1158 CE"
     region: "Germany"
@@ -13501,6 +14662,8 @@ entries:
     sha256: "d6dd1f569ae3ba18ef58b75213516035aab74d72b2f06743778ea75fb350b4d3"
   - number: "1974"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Great Canoes"
     date: "1160 CE"
     region: "Pacific"
@@ -13526,6 +14689,8 @@ entries:
     sha256: "6b1bdfa9242b7de202352596a8e565dc09ec1672ab384ed8d3d996b315e1a985"
   - number: "1975"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Boy Temujin"
     date: "1162 CE"
     region: "Mongolia"
@@ -13554,6 +14719,8 @@ entries:
     sha256: "2e8bf53200b8bc18b2dd1a0c08246e47bdf5b7aaf74ea289a082e6419cbcc01c"
   - number: "1976"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Notre-Dame Begins"
     date: "1163 CE"
     region: "France"
@@ -13580,6 +14747,8 @@ entries:
     sha256: "6b4ab3f5a5d6d14e9d29bd4ae2026601aa62e581383c11b3e4facbf4cb8760a1"
   - number: "1977"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Hanseatic Spark"
     date: "1167 CE"
     region: "Northern Europe"
@@ -13607,6 +14776,8 @@ entries:
     sha256: "efe8789f7807b21746a36956ca58eda2afdacb5d3cbd9455c8d56dc4962aa1e5"
   - number: "1978"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Normans Land"
     date: "1169 CE"
     region: "Ireland"
@@ -13633,6 +14804,8 @@ entries:
     sha256: "61118f76835addf2cf0b0c59831ac1942a19d8c9a6ae382fe93175c9a1f2489b"
   - number: "1979"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Murder in the Cathedral"
     date: "1170 CE"
     region: "England"
@@ -13659,6 +14832,8 @@ entries:
     sha256: "6de06c658efecabc9d8cf2d3ce80e79adfb352792a4971ded611b9eeab3bfe2a"
   - number: "1980"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Saladin Takes Egypt"
     date: "1171 CE"
     region: "Egypt"
@@ -13685,6 +14860,8 @@ entries:
     sha256: "7acb04f167dfe1f235ce5704a554872c2095d421f96dc7c6f6cd2637c45c2cd6"
   - number: "1981"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Saladin's Damascus"
     date: "1174 CE"
     region: "Syria"
@@ -13712,6 +14889,8 @@ entries:
     sha256: "cca5e3dd5c98e7799d9e2e7b922e52dc8f07e4c46f1f66368db62ef7c6015527"
   - number: "1982"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Myriokephalon"
     date: "1176 CE"
     region: "Anatolia"
@@ -13739,6 +14918,8 @@ entries:
     sha256: "83f001c4ee7c67ea333204dc92a6c25603b293863588ff37f700568bd087b8a7"
   - number: "1983"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Taira Ascendant"
     date: "1178 CE"
     region: "Japan"
@@ -13767,6 +14948,8 @@ entries:
     sha256: "3a1130a84cc27ca8ade0c2a4b54ae841dc7e3eb58a1a2cfb1520402b9ccaf838"
   - number: "1984"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Philip Augustus Crowned"
     date: "1180 CE"
     region: "France"
@@ -13794,6 +14977,8 @@ entries:
     sha256: "a9aa6ff595d4b08e6cb6372bd7b918d154cc4cb629fbdbb30b9343e76ebe6ebb"
   - number: "1985"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Genpei Storm Gathers"
     date: "1182 CE"
     region: "Japan"
@@ -13823,6 +15008,8 @@ entries:
     sha256: "2b96f0f6b826384e611ce36f830f644f19165d8ca249b9172b242c4c20a41084"
   - number: "1986"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The New Jerusalem"
     date: "1184 CE"
     region: "Ethiopia"
@@ -13849,6 +15036,8 @@ entries:
     sha256: "44d4d28138e20997b02764ec01d624a6637ea76cf068b8579c57cabf7debfdfc"
   - number: "1987"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Dan-no-ura"
     date: "1185 CE"
     region: "Japan"
@@ -13875,6 +15064,8 @@ entries:
     sha256: "2720f50d83244ede15c2da78a404d0205372f8d4c17758db05b1be832b96911a"
   - number: "1988"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Hattin"
     date: "1187 CE"
     region: "Holy Land"
@@ -13901,6 +15092,8 @@ entries:
     sha256: "c61ccf8b7349f592b985d648fbcbd32da6d8920417564fdfe640c110a7ebc4d1"
   - number: "1989"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Third Crusade"
     date: "1189 CE"
     region: "Europe"
@@ -13929,6 +15122,8 @@ entries:
     sha256: "365819c033cd09c0e1da0180628abaad09dfe8aa2f021d8f6c73b059a6fb03b6"
   - number: "1990"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Emperor Drowns"
     date: "1190 CE"
     region: "Holy Land"
@@ -13957,6 +15152,8 @@ entries:
     sha256: "af5760234bbf3ef871bb203bddf53b819de1082b6d33cb890e27269c7be8ebc5"
   - number: "1991"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Acre Retaken"
     date: "1191 CE"
     region: "Holy Land"
@@ -13985,6 +15182,8 @@ entries:
     sha256: "6df1330adb1394986956d89f9d8179cddabc1c63e94974aa4aa9af6fb216cb0c"
   - number: "1992"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The First Shogun"
     date: "1192 CE"
     region: "Japan"
@@ -14012,6 +15211,8 @@ entries:
     sha256: "25cbe17fa271112769c0858f1401a791333b92d87631b32b125aedeee43eba06"
   - number: "1993"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Truce of Jaffa"
     date: "1192 CE"
     region: "Holy Land"
@@ -14038,6 +15239,8 @@ entries:
     sha256: "54ab3b945e2b2211805e0687d3d8df15ce58375dc35f64b8bf37ae0ed1c7f472"
   - number: "1994"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of Saladin"
     date: "1193 CE"
     region: "Syria"
@@ -14063,6 +15266,8 @@ entries:
     sha256: "ef8f1ad23d81d8ec4a57dba757d3e977119b0e34032c0d575a66c25d52e48bde"
   - number: "1995"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Cahokia at Its Peak"
     date: "1200 CE"
     region: "North America"
@@ -14091,6 +15296,8 @@ entries:
     sha256: "3f8b7c571bdab12177421716867b3a95b01cdaa742103bee917afe048c73a470"
   - number: "1996"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Fourth Crusade"
     date: "1202 CE"
     region: "Europe"
@@ -14118,6 +15325,8 @@ entries:
     sha256: "76baee450d228dc0a45722b08d456899c57963fa39bb4028267c3a5d8f17a4d6"
   - number: "1997"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Sack of the Queen of Cities"
     date: "1204 CE"
     region: "Constantinople"
@@ -14145,6 +15354,8 @@ entries:
     sha256: "cc22770e00107d9905651c44a567b2d9f1d2a361da462afc982640f3dd3b82ec"
   - number: "1998"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Slave Dynasty"
     date: "1206 CE"
     region: "India"
@@ -14171,6 +15382,8 @@ entries:
     sha256: "108bf28699f1b4330b1a5845d8d57ed6e502589add74a049a269777b8050c0bf"
   - number: "1999"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Albigensian Crusade"
     date: "1209 CE"
     region: "France"
@@ -14198,6 +15411,8 @@ entries:
     sha256: "554e7a26a1dd95a85875146db188384cc7bffc8472613155de4d7ef0031987f6"
   - number: "2000"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Las Navas de Tolosa"
     date: "1212 CE"
     region: "Spain"
@@ -14224,6 +15439,8 @@ entries:
     sha256: "8276d263a7111d07b19631f2ab61728595f114cba5e8c3d3d48d37a416c4065f"
   - number: "2001"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Children's Crusade"
     date: "1212 CE"
     region: "Europe"
@@ -14249,6 +15466,8 @@ entries:
     sha256: "f0847ae1cd35556043cb5f8b7fe9d5563711eb33cdb0804af0233ed21e9c127a"
   - number: "2002"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Magna Carta"
     date: "1215 CE"
     region: "England"
@@ -14273,6 +15492,8 @@ entries:
     sha256: "0ce03b871291e7ff8710d417214656a127d5ca3f37c9ca0564400dbdaece9dbd"
   - number: "2003"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Fifth Crusade"
     date: "1217 CE"
     region: "Egypt"
@@ -14300,6 +15521,8 @@ entries:
     sha256: "fc8c73cde79510cc48f0588328699cfb91e972e1dcedf80decd7e6f2914c0a26"
   - number: "2004"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Mongol Storm Breaks"
     date: "1219 CE"
     region: "Central Asia"
@@ -14327,6 +15550,8 @@ entries:
     sha256: "f49451fad4532ccb25cc767c5cd4b3f2e8ded856713cc53fe70496633b6da018"
   - number: "2005"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Karakorum Founded"
     date: "1220 CE"
     region: "Mongolia"
@@ -14354,6 +15579,8 @@ entries:
     sha256: "f23b48013223ccbe9879842855a16dc277bab9e9f25e4f15d23e3bf809045d54"
   - number: "2006"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Lalibela's Churches Stand"
     date: "1221 CE"
     region: "Ethiopia"
@@ -14381,6 +15608,8 @@ entries:
     sha256: "571d2ffb2425b996fef87a0577bad448e8414d52a2e95272e9aa1c6620d3d43b"
   - number: "2007"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Lion King Rises"
     date: "1225 CE"
     region: "Mali"
@@ -14408,6 +15637,8 @@ entries:
     sha256: "c7765a6b21a55e60ade679dfe8f6c892f828b4c386d190a86ebe52352f48e16f"
   - number: "2008"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of Genghis Khan"
     date: "1227 CE"
     region: "Mongolia"
@@ -14436,6 +15667,8 @@ entries:
     sha256: "ccdf56f9704d153004d2f7e83232a0b46812f4daf2b4dc897b0042f6310d0a22"
   - number: "2009"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Frederick's Crusade"
     date: "1228 CE"
     region: "Italy"
@@ -14468,6 +15701,8 @@ entries:
     sha256: "d3e7d5374425abb9773c7f206056f22fa7875dbdaa3b6fcc37d5a159ceaffb07"
   - number: "2010"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Castile and Leon United"
     date: "1230 CE"
     region: "Spain"
@@ -14496,6 +15731,8 @@ entries:
     sha256: "0ab7a46cc288edcd05d4bf3edf2966d4c2693dc88ff0b40cac22e66a5c34efb6"
   - number: "2011"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Samurai Law Code"
     date: "1232 CE"
     region: "Japan"
@@ -14523,6 +15760,8 @@ entries:
     sha256: "09325b83ca1be6a3139f0f861204c1dbee553220764b6275b3d2dca48abf2d2c"
   - number: "2012"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Kirina"
     date: "1235 CE"
     region: "Mali"
@@ -14549,6 +15788,8 @@ entries:
     sha256: "5ba22792b6de70b8ebc1836a3ebe5b136af620676e139812b4639758ed15ca1b"
   - number: "2013"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Córdoba Retaken"
     date: "1236 CE"
     region: "Spain"
@@ -14577,6 +15818,8 @@ entries:
     sha256: "995a41bc82ff0fc5ff44e78def1d9a238f1c06c26c66f0e7b203e0195f0ddb0d"
   - number: "2014"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Mongols Come West"
     date: "1237 CE"
     region: "Russia"
@@ -14603,6 +15846,8 @@ entries:
     sha256: "0b095affcb0712c9123c01fe50eae3d055fa67cd35065592a7e8b54e72fa7a6d"
   - number: "2015"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Kiev Falls"
     date: "1240 CE"
     region: "Russia"
@@ -14630,6 +15875,8 @@ entries:
     sha256: "bdadb34e1fcee213c7aa5fb4bc3e86c047f6fcdb7e421e2fd079b297d2d9926e"
   - number: "2016"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Mongols Turn Back"
     date: "1241 CE"
     region: "Europe"
@@ -14658,6 +15905,8 @@ entries:
     sha256: "f98c39c96f2387a7e55257b7ff86ec721909aa6c38fc42d692f836b12c49e479"
   - number: "2017"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Battle on the Ice"
     date: "1242 CE"
     region: "Russia"
@@ -14684,6 +15933,8 @@ entries:
     sha256: "1da1cb0d9d7624a33a2d69c854da4bdc3d51594bc5a316bc52c8663d2e392fd2"
   - number: "2018"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Jerusalem Lost for Good"
     date: "1244 CE"
     region: "Holy Land"
@@ -14711,6 +15962,8 @@ entries:
     sha256: "fd34339c0f5c465ff1dc3864448ee61dc2a0b4e9fd3ab63eb1681201a6030270"
   - number: "2019"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Friar's Embassy"
     date: "1245 CE"
     region: "Mongolia"
@@ -14740,6 +15993,8 @@ entries:
     sha256: "55ca97a59e0ce1e24fd9a528c17f44b353d7005803a5fab4aba71654e2a27eff"
   - number: "2020"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Slave Kings"
     date: "1250 CE"
     region: "Egypt"
@@ -14769,6 +16024,8 @@ entries:
     sha256: "60bc77160f9d0e17e44d160ff1f7d15ebfb63690994536c930f284a72c431a74"
   - number: "2021"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Mongke's Census"
     date: "1251 CE"
     region: "Mongolia"
@@ -14797,6 +16054,8 @@ entries:
     sha256: "73ee8ce899a97df03e9be4aaf9f20bfffc0b55fa6eed081654c3dbe4dc6bc4c9"
   - number: "2022"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Sorbonne's Seed"
     date: "1253 CE"
     region: "France"
@@ -14824,6 +16083,8 @@ entries:
     sha256: "f30b264937a0a999c4954bebcf365adf03ff6835c89d1b66d5d261442a0a5548"
   - number: "2023"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Traveler Is Born"
     date: "1254 CE"
     region: "Italy"
@@ -14852,6 +16113,8 @@ entries:
     sha256: "f6582174e1a300fc8171b1aa992af3de4c0f8be5d65be6b3b7622870413b2e4b"
   - number: "2024"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Mongols Repelled"
     date: "1257 CE"
     region: "Vietnam"
@@ -14880,6 +16143,8 @@ entries:
     sha256: "817e6d4ee1c0181c2964cfd51bf361080d858bc7280fdcf5f7b8f607e08265b1"
   - number: "2025"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Ain Jalut"
     date: "1260 CE"
     region: "Holy Land"
@@ -14906,6 +16171,8 @@ entries:
     sha256: "fa55c447724f2b35c8d74bdc0fb486655db26e617c878bd3725312a9f1c45075"
   - number: "2026"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The City Retaken"
     date: "1261 CE"
     region: "Constantinople"
@@ -14934,6 +16201,8 @@ entries:
     sha256: "d9af5fe388cec44cf17449c2d01b0de0adf6a6d84702872f40d44cc48011d5bb"
   - number: "2027"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The First Parliament"
     date: "1264 CE"
     region: "England"
@@ -14962,6 +16231,8 @@ entries:
     sha256: "48db1659eaebeae0b062597365ff83f9b750a0a2116ea7e897d5b2cf8a70ca7e"
   - number: "2028"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Dante Is Born"
     date: "1265 CE"
     region: "Italy"
@@ -14989,6 +16260,8 @@ entries:
     sha256: "154bc39213fcf0d40080f94b1c68c06a82adcd5b8549217f87b39b176f250cca"
   - number: "2029"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Baybars Takes Antioch"
     date: "1268 CE"
     region: "Holy Land"
@@ -15014,6 +16287,8 @@ entries:
     sha256: "5e31871d9f69ae551ce27ba22f91b930c770aaa8bf83d87d41933bae76e44be1"
   - number: "2030"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Solomonic Restoration"
     date: "1270 CE"
     region: "Ethiopia"
@@ -15042,6 +16317,8 @@ entries:
     sha256: "f4c6296bca2b7168c84fb4306c7f6112db6195a723fb7efbeaf785780efd3a43"
   - number: "2031"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Polos Depart"
     date: "1271 CE"
     region: "Venice"
@@ -15070,6 +16347,8 @@ entries:
     sha256: "956a9280512fdc30ddee7e4e033de756611bf55fbc545da5c95d2ac0075d8a44"
   - number: "2032"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Divine Wind"
     date: "1274 CE"
     region: "Japan"
@@ -15101,6 +16380,8 @@ entries:
     sha256: "03d44d6f8819d2fb0533825a643786f1994d16a0dfe876a5bd490069e325190c"
   - number: "2033"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Marco at the Khan's Court"
     date: "1275 CE"
     region: "China"
@@ -15130,6 +16411,8 @@ entries:
     sha256: "2ab13fc0af37632fd1b79a8667cd8a933fc3d0cd59e1bf86e75158ae158dc9be"
   - number: "2034"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Yuan Dynasty"
     date: "1279 CE"
     region: "China"
@@ -15158,6 +16441,8 @@ entries:
     sha256: "2eb147cd256b0485b6d2b7f371df90b16f251ab468c1bd517b57f109d8774cf6"
   - number: "2035"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Great Zimbabwe Rises"
     date: "1280 CE"
     region: "Africa"
@@ -15185,6 +16470,8 @@ entries:
     sha256: "3865a0e25367f8e7e8398a6edcdd98f000279350077c6b9be9730f215075e69c"
   - number: "2036"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Second Divine Wind"
     date: "1281 CE"
     region: "Japan"
@@ -15216,6 +16503,8 @@ entries:
     sha256: "f394dcc773e6685d32d34430716419cebeac2d93b4c126137c9dc75f56203176"
   - number: "2037"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Ring of Stone"
     date: "1283 CE"
     region: "Wales"
@@ -15243,6 +16532,8 @@ entries:
     sha256: "b9602ff487f106328219050a4f6c8308a7f5b9bce197d366abe7a814cffa2016"
   - number: "2038"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Kilwa's Golden Age"
     date: "1285 CE"
     region: "East Africa"
@@ -15271,6 +16562,8 @@ entries:
     sha256: "6e6573a4d4421d264eea881a26f32f9e12b9b4a83ba97007b6e289f448978a68"
   - number: "2039"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Grand Canal Reborn"
     date: "1288 CE"
     region: "China"
@@ -15299,6 +16592,8 @@ entries:
     sha256: "cbed3cd2dfadf6140d8c17c50cef7746ede56ed880dfc00b7ba45007716ae63d"
   - number: "2040"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Expulsion"
     date: "1290 CE"
     region: "England"
@@ -15327,6 +16622,8 @@ entries:
     sha256: "f9aa91ae0a4ca6c53e3d3f9c3a80e4ecdf2aedbf713224fafe6a71445baea30d"
   - number: "2041"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Acre Falls"
     date: "1291 CE"
     region: "Holy Land"
@@ -15354,6 +16651,8 @@ entries:
     sha256: "93053b00927dc08b1d8626c7f4b9fe0a1baeb608ffff23286c60f92542a4cf89"
   - number: "2042"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "Death of Kublai Khan"
     date: "1294 CE"
     region: "China"
@@ -15381,6 +16680,8 @@ entries:
     sha256: "229c3c5aa45b0b901fb85151e8a0867a1524ed71f1bad71c7fa9c3f5061d5bbf"
   - number: "2043"
     volume: 3
+    era_code: "07b"
+    era: "Medieval World (later)"
     title: "The Million Dictated"
     date: "1298 CE"
     region: "Italy"
@@ -15406,7 +16707,6 @@ entries:
       a Genoese sailor named Columbus
       would carry it, annotated, across the Atlantic,
       looking for the Khan.
-      End of Volume III — continued in Volume IV.
     description: "Prisoner in Genoa, Marco Polo dictates his travels to Rustichello — The Million, the book the scoffers call lies, that will sit annotated on Columbus's shelf two centuries later."
     status: "first draft"
-    sha256: "97493fcacfb4f828f0cae6d2fcb7a053fe390b46f2bfb1efe8a7b0b25238ab99"
+    sha256: "45d41a255e52f709aff6ead123806d7e52dfca38bd66f987112df6ed7c308b4c"

@@ -6,6 +6,7 @@
   function $(id){return document.getElementById(id);}
   function esc(t){var d=document.createElement("div");d.textContent=t==null?"":String(t);return d.innerHTML;}
   function fold(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+  var ERA={"01a":"Deep Time (early)","01b":"Deep Time (later)","02":"First Villages","03a":"Bronze Age (early)","03b":"Bronze Age (later)","04a":"Iron Age (early)","04b":"Iron Age (later)","05":"Classical World","06":"Empires of Faith","07a":"Medieval World (early)","07b":"Medieval World (later)","08a":"Plague and Rebirth (early)","08b":"Plague and Rebirth (later)","09a":"Sail and Gunpowder (early)","09b":"Sail and Gunpowder (later)","10a":"Reason and Revolution (early)","10b":"Reason and Revolution (later)","11a":"Steam and Steel (early)","11b":"Steam and Steel (later)","12":"The Wars","13":"The Cold Peace","14":"The Digital Beyond"};
   var LIST=[],SEARCH=null,VOL={1:"Deep Time to the First Villages",2:"Bronze and Iron",3:"Faiths and the Medieval World",4:"Plague, Sail, and Reason",5:"Steam, Steel, and the Wars",6:"The Cold Peace to Tomorrow"};
   var PAGE=0,SIZE=20,CUR=[];
   var API="https://ring-of-12-api.onrender.com";
@@ -14,7 +15,7 @@
   function hdr(){var h={"Content-Type":"application/json"};try{var o=localStorage.getItem("nx_owner_token");if(o)h["x-owner-token"]=o;}catch(e){}return h;}
 
   function row(e){
-    return '<li class="poem-row"><a href="#'+e.n+'" data-n="'+e.n+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+'</span></a><p>'+esc(e.x)+'</p></li>';
+    return '<li class="poem-row"><a href="#'+e.n+'" data-n="'+e.n+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+'</span></a><p>'+esc(e.x)+'</p></li>';
   }
   function show(list){
     CUR=list;PAGE=0;draw();
@@ -27,9 +28,9 @@
   }
   function filterBrowse(){
     var v=$("vol").value,q=fold($("q").value).trim();
-    var out=LIST.filter(function(e){return (!v||String(e.v)===v);});
+    var er=$("era").value;var out=LIST.filter(function(e){return (!v||String(e.v)===v)&&(!er||e.e===er);});
     if(/^\d{1,4}$/.test(q)){var n=q.padStart(4,"0");out=out.filter(function(e){return e.n===n;});}
-    else if(q){out=out.filter(function(e){return fold(e.t+" "+e.d+" "+e.r+" "+e.x).indexOf(q)>=0;});}
+    else if(q){out=out.filter(function(e){return fold(e.t+" "+e.d+" "+e.r+" "+e.x+" "+(ERA[e.e]||"")).indexOf(q)>=0;});}
     show(out);
   }
 
@@ -43,7 +44,7 @@
       var blk=txt.slice(i,j);
       var p=blk.indexOf("poem: |\n");var d=blk.indexOf("\n    description:");
       var poem=blk.slice(p+8,d).split("\n").map(function(l){return l.replace(/^      /,"");}).join("\n").trim();
-      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">This is a first draft. Every poem in the library is open to revision.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
+      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">This is a first draft. Every poem in the library is open to revision.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       $("close").addEventListener("click",function(){box.hidden=true;history.replaceState(null,"","#");});
       box.scrollIntoView({behavior:"smooth",block:"start"});
     }catch(err){box.innerHTML='<p class="note">Could not open that poem: '+esc(err.message)+'. The raw files are on the <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">free download page</a>.</p>';}
@@ -71,7 +72,7 @@
   async function init(){
     try{LIST=await jget("data/list.json");}catch(e){$("list").innerHTML='<li class="note">The library list did not load. The raw YAML is still free to download below.</li>';return;}
     show(LIST);
-    $("vol").addEventListener("change",filterBrowse);
+    $("vol").addEventListener("change",filterBrowse);$("era").addEventListener("change",filterBrowse);
     $("q").addEventListener("input",filterBrowse);
     $("prev").addEventListener("click",function(){PAGE--;draw();window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});});
     $("next").addEventListener("click",function(){PAGE++;draw();window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});});
@@ -79,7 +80,7 @@
     $("sform").addEventListener("submit",async function(ev){
       ev.preventDefault();var q=$("fq").value.trim();if(!q)return;
       var b=$("sgo");b.disabled=true;var hits=await inquire(q);b.disabled=false;
-      if(hits){$("q").value="";$("vol").value="";show(hits);$("count").textContent=hits.length+" poem"+(hits.length===1?"":"s")+" contain every word you typed.";window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});}
+      if(hits){$("q").value="";$("vol").value="";$("era").value="";show(hits);$("count").textContent=hits.length+" poem"+(hits.length===1?"":"s")+" contain every word you typed.";window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});}
     });
     $("csave").addEventListener("click",async function(){var c=$("code").value.trim();if(!c)return;try{localStorage.setItem("nx_library_code",c);}catch(e){}$("gate").textContent="Code saved on this device. Search again.";});
     $("cclear").addEventListener("click",function(){try{localStorage.removeItem("nx_library_code");}catch(e){}$("code").value="";$("gate").textContent="Code removed from this device.";});
