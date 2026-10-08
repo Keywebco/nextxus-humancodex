@@ -9,10 +9,8 @@
   var ERA={"01a":"Deep Time (early)","01b":"Deep Time (later)","02":"First Villages","03a":"Bronze Age (early)","03b":"Bronze Age (later)","04a":"Iron Age (early)","04b":"Iron Age (later)","05":"Classical World","06":"Empires of Faith","07a":"Medieval World (early)","07b":"Medieval World (later)","08a":"Plague and Rebirth (early)","08b":"Plague and Rebirth (later)","09a":"Sail and Gunpowder (early)","09b":"Sail and Gunpowder (later)","10a":"Reason and Revolution (early)","10b":"Reason and Revolution (later)","11a":"Steam and Steel (early)","11b":"Steam and Steel (later)","12":"The Wars","13":"The Cold Peace","14":"The Digital Beyond"};
   var LIST=[],SEARCH=null,VOL={1:"Deep Time to the First Villages",2:"Bronze and Iron",3:"Faiths and the Medieval World",4:"Plague, Sail, and Reason",5:"Steam, Steel, and the Wars",6:"The Cold Peace to Tomorrow"};
   var PAGE=0,SIZE=20,CUR=[];
-  var API="https://ring-of-12-api.onrender.com";
 
   async function jget(u){var r=await fetch(u);if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}
-  function hdr(){var h={"Content-Type":"application/json"};try{var o=localStorage.getItem("nx_owner_token");if(o)h["x-owner-token"]=o;var d=localStorage.getItem("nx_library_device");if(d)h["x-library-device"]=d;}catch(e){}return h;}
 
   function row(e){
     return '<li class="poem-row"><a href="#'+e.n+'" data-n="'+e.n+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+'</span></a><p>'+esc(e.x)+'</p></li>';
@@ -50,23 +48,14 @@
     }catch(err){box.innerHTML='<p class="note">Could not open that poem: '+esc(err.message)+'. The raw files are on the <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">free download page</a>.</p>';}
   }
 
-  /* ----- full-text search across every line of every poem: the gated "inquiry" ----- */
+  /* ----- full-text search across every line of every poem. Free and unlimited: it runs in your browser from the files on this site,
+   * so it keeps working with no server, no key and nobody tending it. (The old server gate is dormant in the ring-of-12-api repo.) ----- */
   async function inquire(q){
-    var st=$("gate");st.textContent="Checking your free inquiries...";
-    var code=""; try{code=localStorage.getItem("nx_library_code")||"";}catch(e){}
-    var r;
-    try{
-      r=await fetch(API+"/library/inquire",{method:"POST",headers:hdr(),body:JSON.stringify({code:code})});
-    }catch(e){st.textContent="The inquiry service is not reachable right now. Browsing and opening poems still work, and the full YAML is free to download.";return null;}
-    var b={};try{b=await r.json();}catch(e){}
-    if(r.status===402){st.innerHTML='Your 3 free full-text inquiries are used. Enter your Supporter Key below to keep searching, or download the free YAML and search it yourself. Browsing by number, title, date and region stays free.';$("codebox").hidden=false;return null;}
-    if(r.status===401||r.status===403){st.textContent=b.message||"That key was not accepted.";$("codebox").hidden=false;return null;}
-    if(!r.ok){st.textContent=b.message||"The inquiry service had a problem. Try again in a moment.";return null;}
-    if(b.device){try{localStorage.setItem("nx_library_device",b.device);}catch(e){}}
-    st.textContent=b.unlimited?"Supporter Key accepted. Unlimited inquiries.":"Free inquiries left: "+b.remaining+" of "+b.limit+".";
-    if(!SEARCH){try{SEARCH=await jget("data/search.json");}catch(e){st.textContent="Could not load the search data.";return null;}}
+    var st=$("gate");st.textContent="Searching...";
+    if(!SEARCH){try{SEARCH=await jget("data/search.json");}catch(e){st.textContent="Could not load the search data. The full YAML is free to download below.";return null;}}
     var terms=fold(q).split(/\s+/).filter(Boolean);
     var hits=[];for(var i=0;i<SEARCH.length;i++){var s=SEARCH[i],ok=true;for(var k=0;k<terms.length;k++){if(s.indexOf(terms[k])<0){ok=false;break;}}if(ok)hits.push(LIST[i]);}
+    st.textContent="";
     return hits;
   }
 
@@ -83,9 +72,6 @@
       var b=$("sgo");b.disabled=true;var hits=await inquire(q);b.disabled=false;
       if(hits){$("q").value="";$("vol").value="";$("era").value="";show(hits);$("count").textContent=hits.length+" poem"+(hits.length===1?"":"s")+" contain every word you typed.";window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});}
     });
-    $("csave").addEventListener("click",async function(){var c=$("code").value.trim();if(!c)return;try{localStorage.setItem("nx_library_code",c);}catch(e){}$("gate").textContent="Key saved on this device. Search again.";});
-    $("cclear").addEventListener("click",function(){try{localStorage.removeItem("nx_library_code");localStorage.removeItem("nx_library_device");}catch(e){}$("code").value="";$("gate").textContent="Key removed from this device.";});
-    try{$("code").value=localStorage.getItem("nx_library_code")||"";}catch(e){}
     var m=/^#(\d{4})$/.exec(location.hash);if(m)openPoem(m[1]);
   }
   init();
