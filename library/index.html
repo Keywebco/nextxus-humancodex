@@ -21,8 +21,9 @@
 <p class="lead">4,300 poems, one for each moment in the history of the world, from deep time to tomorrow. Read them free. Download them free. Print them free. Forever.</p>
 <figure style="margin:14px 0"><img src="images/library-banner.jpg" alt="A spiral of glowing bookshelves in space around a great open book, with a pyramid, a steamship, a trilobite and a starship drifting through the galaxy" width="1600" height="685" style="width:100%;height:auto;border-radius:10px"></figure>
 <div class="card" style="margin:14px 0"><b>Watch: the Galactic Living Library.</b>
-<p><a class="btn" href="https://youtu.be/HCFR7R6HHX4" rel="noopener">Play the video on YouTube</a></p>
-<p class="note">The video opens on YouTube only when you choose to play it. Nothing from YouTube loads on this page.</p></div>
+<div id="vid" style="position:relative;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden;margin-top:8px">
+<button type="button" id="vplay" aria-label="Play the Galactic Living Library video" style="all:unset;cursor:pointer;display:block;width:100%;height:100%;position:relative"><img src="https://i.ytimg.com/vi/HCFR7R6HHX4/hqdefault.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover;opacity:.85"><span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.3rem;font-weight:700;color:#fff;background:rgba(0,0,0,.25)">&#9654; Play video</span></button></div>
+<p class="note">A few seconds, with text. It loads from YouTube only when you press play. <a href="https://youtu.be/HCFR7R6HHX4" rel="noopener">Open on YouTube</a></p></div>
 
 <div class="card" style="margin:14px 0"><b>The raw files are free.</b> Six plain text files, one per volume. <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">Download them from GitHub</a>. They are meant to be copied, printed and shared.</div>
 
@@ -68,5 +69,6 @@
 
 <script src="../assets/voice.js"></script>
 <script src="library.js"></script>
+<script>document.getElementById("vplay").addEventListener("click",function(){var v=document.getElementById("vid");v.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/HCFR7R6HHX4?autoplay=1&rel=0" title="Galactic Living Library" style="width:100%;height:100%;border:0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';});</script>
 <script src="reader.js"></script>
 </body></html>
