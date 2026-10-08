@@ -1,0 +1,32 @@
+{
+ "name": "Living Library",
+ "entries": 4300,
+ "first": "0044",
+ "last": "4343",
+ "volumes": {
+  "vol-1.yaml": {
+   "bytes": 538251,
+   "sha256": "17a0c5802c7516b4a677c98e9694bb22c5bd911e584e865c716c90b4af7a1c95"
+  },
+  "vol-2.yaml": {
+   "bytes": 824498,
+   "sha256": "7d81283b7e57fab425f6f52b1d2195809ebe42f1858d31a06259a28c1d9bd823"
+  },
+  "vol-3.yaml": {
+   "bytes": 703829,
+   "sha256": "49817ad96970fb20134a58c8c9d63970410e77b10dffa7d8710ec3c6ed1a008c"
+  },
+  "vol-4.yaml": {
+   "bytes": 644197,
+   "sha256": "0e4f148a012d5f948db5ba8ef78a7268f04b2052d411cbb21aaa8ad7af121f8c"
+  },
+  "vol-5.yaml": {
+   "bytes": 736745,
+   "sha256": "be489f19142bc65dea0b3acb8a13a1f7e16f5872967e683aedd310e4864fb482"
+  },
+  "vol-6.yaml": {
+   "bytes": 657141,
+   "sha256": "926b0b29f457bdb34b37d4e5e6067d1662de785bc0f9016421ea64f376d90a6d"
+  }
+ }
+}
