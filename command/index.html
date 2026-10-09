@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Command page | NextXus HumanCodex</title>
+<style>
+body{margin:0;background:#0b1020;color:#f3ecd2;font:20px/1.5 system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:18px}
+h1{font-size:1.7rem;margin:.2em 0}
+.card{background:#141a30;border:2px solid #d4af37;border-radius:12px;padding:14px;margin:14px 0}
+label{display:block;font-weight:700;margin:.6em 0 .2em}
+input,select,textarea,button{font:inherit;width:100%;box-sizing:border-box;padding:12px;border-radius:8px;border:2px solid #7a6a2a;background:#0b1020;color:#f3ecd2}
+button{background:#d4af37;color:#0b1020;font-weight:800;cursor:pointer;margin-top:10px}
+button.alt{background:#0b1020;color:#f3ecd2}
+button:disabled{opacity:.5;cursor:wait}
+.note{opacity:.85;font-size:.9rem}
+pre,.out{white-space:pre-wrap;background:#0b1020;border-radius:8px;padding:10px;border:1px solid #3a4266}
+a{color:#f3d77a}
+.ok{color:#8fe3a0;font-weight:700}.bad{color:#ff9a9a;font-weight:700}
+</style>
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-999px">Skip to main content</a>
+<main id="main">
+<p><a href="../index.html">Back to the Commons</a></p>
+<h1>Command page</h1>
+<p class="note">Say what you want built. Nothing goes live from here. It always lands on a review branch, and only Roger's word merges it. Only Roger or a representative he has authorized can use this page.</p>
+
+<div class="card">
+<label for="tok">Your key</label>
+<input id="tok" type="password" autocomplete="off" placeholder="Paste your key once. It stays on this device.">
+<button class="alt" id="check" type="button">Check my key and the server</button>
+<p id="stat" class="note" role="status"></p>
+</div>
+
+<div class="card" id="step1">
+<h2 style="margin-top:0">Step 1. Say what you want</h2>
+<label for="repo">Which site</label>
+<select id="repo"></select>
+<label for="order">Your order, in plain words</label>
+<textarea id="order" rows="5" placeholder="Example: put the library banner at the top of the Commons home page, under the heading."></textarea>
+<button id="plan" type="button">Ask the foreman to restate it</button>
+<p id="p1" class="note" role="status"></p>
+</div>
+
+<div class="card" id="step2" hidden>
+<h2 style="margin-top:0">Step 2. Is this what you meant?</h2>
+<div class="out" id="understood"></div>
+<p><b>Files it would touch:</b></p><div class="out" id="files"></div>
+<p><b>Steps:</b></p><div class="out" id="steps"></div>
+<p id="risk" class="note"></p>
+<button id="confirm" type="button">Yes, that is what I meant. Build it on a review branch.</button>
+<button class="alt" id="cancel" type="button">No. Let me say it again.</button>
+<p id="p2" class="note" role="status"></p>
+</div>
+
+<div class="card" id="step3" hidden>
+<h2 style="margin-top:0">Step 3. Review</h2>
+<div class="out" id="result"></div>
+</div>
+</main>
+<script>
+(function(){
+var API="https://ring-of-12-api.onrender.com";
+var $=function(i){return document.getElementById(i);};
+var PLAN=null;
+try{$("tok").value=localStorage.getItem("nx_build_token")||"";}catch(e){}
+function hdr(){return {"Content-Type":"application/json","x-build-token":$("tok").value.trim()};}
+async function call(path,opts){
+  var wake=setTimeout(function(){$("stat").textContent="The server is waking up. The first request of the day can take about a minute. Please wait.";},4000);
+  try{
+    var r=await fetch(API+path,Object.assign({headers:hdr()},opts||{}));
+    var b={};try{b=await r.json();}catch(e){}
+    return {status:r.status,body:b};
+  }catch(e){return {status:0,body:{message:"Could not reach the server. Try again in a minute."}};}
+  finally{clearTimeout(wake);}
+}
+$("check").addEventListener("click",async function(){
+  try{localStorage.setItem("nx_build_token",$("tok").value.trim());}catch(e){}
+  $("stat").textContent="Checking...";
+  var r=await call("/build/status");
+  if(r.status===200){
+    $("stat").innerHTML='<span class="ok">Key accepted. You are: '+r.body.who+'.</span> Model calls today: '+r.body.callsToday+' of '+r.body.dailyCap+'. '+(r.body.canWrite&&r.body.canThink?'The builder is ready.':'<span class="bad">The server is missing a key it needs, so it cannot build yet.</span>');
+    var s=$("repo");s.innerHTML="";r.body.repos.forEach(function(x){var o=document.createElement("option");o.value=x;o.textContent=x.replace("Keywebco/","");s.appendChild(o);});
+  }else if(r.status===401){$("stat").innerHTML='<span class="bad">That key was not accepted.</span> Nothing was done.';}
+  else{$("stat").textContent=r.body.message||("Problem: "+r.status);}
+});
+$("plan").addEventListener("click",async function(){
+  $("p1").textContent="The foreman is reading your order...";$("plan").disabled=true;
+  var r=await call("/build/plan",{method:"POST",body:JSON.stringify({repo:$("repo").value,order:$("order").value})});
+  $("plan").disabled=false;
+  if(r.status!==200){$("p1").innerHTML='<span class="bad">'+(r.body.message||r.body.error||("Problem "+r.status))+'</span>';return;}
+  PLAN=r.body;$("p1").textContent="";
+  $("understood").textContent=PLAN.understood+((PLAN.questions&&PLAN.questions.length)?"\n\nQuestions: "+PLAN.questions.join("; "):"");
+  $("files").textContent=(PLAN.files.length?PLAN.files.join("\n"):"(none chosen)");
+  $("steps").textContent=(PLAN.steps||[]).map(function(s,i){return (i+1)+". "+s;}).join("\n");
+  $("risk").textContent="Risk: "+(PLAN.risk||"not stated");
+  $("step2").hidden=false;$("step3").hidden=true;
+});
+$("cancel").addEventListener("click",function(){PLAN=null;$("step2").hidden=true;$("order").focus();});
+$("confirm").addEventListener("click",async function(){
+  if(!PLAN||!PLAN.files.length){$("p2").textContent="No files were chosen. Say it again with more detail.";return;}
+  $("p2").textContent="Confirmed. Building on a review branch. This can take a minute...";$("confirm").disabled=true;
+  var c=await call("/build/confirm",{method:"POST",body:JSON.stringify({planId:PLAN.planId})});
+  if(c.status!==200){$("p2").innerHTML='<span class="bad">'+(c.body.message||c.body.error)+'</span>';$("confirm").disabled=false;return;}
+  var r=await call("/build/make",{method:"POST",body:JSON.stringify({planId:PLAN.planId})});
+  $("confirm").disabled=false;
+  if(r.status===200){
+    $("p2").textContent="";$("step3").hidden=false;
+    $("result").innerHTML='<span class="ok">Built on a review branch. Nothing is live.</span><br><br>'+r.body.summary+'<br><br>Files changed: '+r.body.files.join(", ")+'<br><br><a href="'+r.body.review+'" rel="noopener">Open the review on GitHub</a><br><br>When you are happy, tell the Catalyst: merge.';
+  }else{$("p2").innerHTML='<span class="bad">'+(r.body.message||r.body.error||("Problem "+r.status))+'</span> Nothing was merged.';}
+});
+})();
+</script>
+</body>
+</html>
