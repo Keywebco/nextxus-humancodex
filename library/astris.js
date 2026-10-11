@@ -36,7 +36,7 @@
     if(/^\s*(0\d{3}|\d{1,3}|#\d{1,4})\s*$/.test(q)){var n=q.trim().replace("#","").padStart(4,"0"),e=LIST.filter(function(x){return x.n===n;})[0];
       return e?{msg:"Entry "+esc(n)+" is here.",hits:[e]}:{msg:"I have no entry "+esc(n)+". The library runs from 0044 to 4343.",hits:[]};}
     if(!ts.length)return {msg:"Tell me a place, a time, a thing or a feeling, and I will look it up. Try: plague, Egypt, 1066, the first cities.",hits:[]};
-    var sc=[];for(var i=0;i<LIST.length;i++){var r=score(i,ts,q);if(s>0)sc.push([s,i]);}
+    var sc=[];for(var i=0;i<LIST.length;i++){var s=score(i,ts,q);if(s>0)sc.push([s,i]);}
     sc.sort(function(a,b){return b[0]-a[0]||a[1]-b[1];});
     if(!sc.length)return {msg:"The library does not cover that yet. I would rather say so than guess. Try fewer words, a place, or a date. The Research center may have what you need.",hits:[]};
     var top=sc.slice(0,5).map(function(p){return LIST[p[1]];}),all=sc.map(function(p){return LIST[p[1]].n;});
