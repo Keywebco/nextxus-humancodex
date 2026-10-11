@@ -1,1 +1,81 @@
-LyogQXN0cmlzLCBLZWVwZXIgb2YgdGhlIEdhbGFjdGljIFJlY29yZC4gUnVucyBlbnRpcmVseSBpbiB0aGUgYnJvd3NlciBmcm9tIHRoZSBsaWJyYXJ5J3Mgb3duIGZpbGVzLgogKiBTZWFyY2ggcnVucyBlbnRpcmVseSBpbiB0aGUgYnJvd3NlciwgZnJlZSwgbm8ga2V5LCBubyB0cmFja2luZy4gQSBzaG9ydCBzcG9rZW4gYW5zd2VyIGlzIGFkZGVkIGJ5IHRoZSBSaW5nIG9mIDEyIHNlcnZlciB3aGVuIGl0IGlzIGF3YWtlIChmcmVlIGZvciB0aGUgZmlyc3Qgd2VlaywgdGhlbiBhIHN1YnNjcmlwdGlvbik7IHRoZSBwbGFpbiBzZWFyY2ggbmV2ZXIgZGVwZW5kcyBvbiBpdC4KICogU2hlIG5ldmVyIGludmVudHMgaGlzdG9yeS4gSWYgdGhlIGxpYnJhcnkgZG9lcyBub3QgY292ZXIgc29tZXRoaW5nLCBzaGUgc2F5cyBzby4gKi8KKGZ1bmN0aW9uKCl7CiAgInVzZSBzdHJpY3QiOwogIGZ1bmN0aW9uICQoaWQpe3JldHVybiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCk7fQogIGZ1bmN0aW9uIGVzYyh0KXt2YXIgZD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTtkLnRleHRDb250ZW50PXQ9PW51bGw/IiI6U3RyaW5nKHQpO3JldHVybiBkLmlubmVySFRNTDt9CiAgZnVuY3Rpb24gZm9sZChzKXtyZXR1cm4gU3RyaW5nKHN8fCIiKS5ub3JtYWxpemUoIk5GRCIpLnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCIiKS50b0xvd2VyQ2FzZSgpO30KICB2YXIgU1RPUD0iYSBhbiBhbmQgYXJlIGFzIGF0IGJlIGJ1dCBieSBkbyBkb2VzIGZvciBmcm9tIGhhcyBoYXZlIGhvdyBpIGluIGlzIGl0IGl0cyBtZSBteSBvZiBvbiBvciBwbGVhc2Ugc2hvdyB0ZWxsIHRoZSB0aGVtIHRoZXJlIHRoZXNlIHRoaXMgdG8gd2FzIHdlcmUgd2hhdCB3aGVuIHdoZXJlIHdoaWNoIHdobyB3aHkgd2l0aCBhYm91dCBhbnkgZmluZCBnaXZlIHNvbWUgc29tZXRoaW5nIHBvZW1zIHBvZW0gZW50cmllcyBlbnRyeSBlcmEgZXJhcyB5ZWFyIHllYXJzIi5zcGxpdCgiICIpOwogIHZhciBMSVNUPW51bGwsU0VBUkNIPW51bGwsRVJBPXt9OwogIGFzeW5jIGZ1bmN0aW9uIGxvYWQoKXsKICAgIGlmKExJU1QpcmV0dXJuIHRydWU7CiAgICB0cnl7CiAgICAgIHZhciByPWF3YWl0IFByb21pc2UuYWxsKFtmZXRjaCgiZGF0YS9saXN0Lmpzb24iKSxmZXRjaCgiZGF0YS9zZWFyY2guanNvbiIpLGZldGNoKCJkYXRhL21hbmlmZXN0Lmpzb24iKV0pOwogICAgICBMSVNUPWF3YWl0IHJbMF0uanNvbigpO1NFQVJDSD1hd2FpdCByWzFdLmpzb24oKTtFUkE9KGF3YWl0IHJbMl0uanNvbigpKS5lcmFzfHx7fTtyZXR1cm4gdHJ1ZTsKICAgIH1jYXRjaChlKXtyZXR1cm4gZmFsc2U7fQogIH0KICBmdW5jdGlvbiB0ZXJtcyhxKXsKICAgIHJldHVybiBmb2xkKHEpLnJlcGxhY2UoL1teYS16MC05XHNdL2csIiAiKS5zcGxpdCgvXHMrLykuZmlsdGVyKGZ1bmN0aW9uKHcpe3JldHVybiB3JiZTVE9QLmluZGV4T2Yodyk8MCYmKHcubGVuZ3RoPjF8fC9cZC8udGVzdCh3KSk7fSk7CiAgfQogIGZ1bmN0aW9uIHNjb3JlKGksdHMscSl7CiAgICB2YXIgZT1MSVNUW2ldLGhlYWQ9Zm9sZChlLnQrIiAiK2UucisiICIrKEVSQVtlLmVdfHwiIikrIiAiK2UuZCksZGVzYz1mb2xkKGUueCksYm9keT1TRUFSQ0hbaV18fCIiLHM9MCxoaXQ9MDsKICAgIGZvcih2YXIgaz0wO2s8dHMubGVuZ3RoO2srKyl7CiAgICAgIHZhciB0PXRzW2tdLGg9ZmFsc2UscmU9bmV3IFJlZ0V4cCgiKF58W15hLXowLTldKSIrdC5yZXBsYWNlKC9bLiorP14ke30oKXxbXF1cXF0vZywiXFwkJiIpKyJzPyhbXmEtejAtOV18JCkiKTsKICAgICAgaWYocmUudGVzdChoZWFkKSl7cys9NjtoPXRydWU7fQogICAgICBpZihyZS50ZXN0KGRlc2MpKXtzKz0zO2g9dHJ1ZTt9CiAgICAgIGlmKGJvZHkuaW5kZXhPZih0KT49MCl7cys9MTtoPXRydWU7fQogICAgICBpZihoKWhpdCsrOwogICAgfQogICAgaWYoIXRzLmxlbmd0aHx8aGl0PT09MClyZXR1cm4gMDsKICAgIGlmKGhpdD09PXRzLmxlbmd0aClzKz00OwogICAgcmV0dXJuIHM7CiAgfQogIGZ1bmN0aW9uIGFuc3dlcigxKXsKICAgIHZhciB0cz10ZXJtcyhxKTsKICAgIGlmKC9eXHMqKDBcZHszfXxcZHsxLDN9fCNcZHsxLDR9KVxzKiQvLnRlc3QocSkpe3ZhciBuPXEudHJpbSgpLnJlcGxhY2UoIiMiLCIiKS5wYWRTdGFydCg0LCIwIiksZT1MSVNULmZpbHRlcihmdW5jdGlvbih4KXtyZXR1cm4geC5uPT09bjt9KVswXTsKICAgICAgcmV0dXJuIGU/e21zZzoiRW50cnkgIitlc2MobikrIiBpcyBoZXJlLiIsaGl0czpbZV19Onttc2c6IkkgaGF2ZSBubyBlbnRyeSAiK2VzYyhuKSsiLiBUaGUgbGlicmFyeSBydW5zIGZyb20gMDA0NCB0byA0MzQzLiIsaGl0czpbXX07fQogICAgaWYoIXRzLmxlbmd0aClyZXR1cm4ge21zZzoiVGVsbCBtZSBhIHBsYWNlLCBhIHRpbWUsIGEgdGhpbmcgb3IgYSBmZWVsaW5nLCBhbmQgSSB3aWxsIGxvb2sgaXQgdXAuIFRyeTogcGxhZ3VlLCBFZ3lwdCwgMTA2NiwgdGhlIGZpcnN0IGNpdGllcy4iLGhpdHM6W119OwogICAgdmFyIHNjPVtdO2Zvcih2YXIgaT0wO2k8TElTVC5sZW5ndGg7aSsrKXt2YXIgcj1zY29yZShpLHRzLHEpO2lmKHM+MClzYy5wdXNoKFtzLGldKTt9CiAgICBzYy5zb3J0KGZ1bmN0aW9uKGEsYil7cmV0dXJuIGJbMF0tYVswXXx8YVsxXS1iWzFdO30pOwogICAgaWYoIXNjLmxlbmd0aClyZXR1cm4ge21zZzoiVGhlIGxpYnJhcnkgZG9lcyBub3QgY292ZXIgdGhhdCB5ZXQuIEkgd291bGQgcmF0aGVyIHNheSBzbyB0aGFuIGd1ZXNzLiBUcnkgZmV3ZXIgd29yZHMsIGEgcGxhY2UsIG9yIGEgZGF0ZS4gVGhlIFJlc2VhcmNoIGNlbnRlciBtYXkgaGF2ZSB3aGF0IHlvdSBuZWVkLiIsaGl0czpbXX07CiAgICB2YXIgdG9wPXNjLnNsaWNlKDAsNSkubWFwKGZ1bmN0aW9uKHApe3JldHVybiBMSVNUW3BbMV1dO30pLGFsbD1zYy5tYXAoZnVuY3Rpb24ocCl7cmV0dXJuIExJU1RbcFsxXV0ubjt9KTsKICAgIHJldHVybiB7bXNnOiJJIGZvdW5kICIrc2MubGVuZ3RoKyIgZW50ciIrKHNjLmxlbmd0aD09PTE/InkiOiJpZXMiKSsiIHRoYXQgdG91Y2ggb24gdGhhdC4gVGhlIGNsb3Nlc3QgIisodG9wLmxlbmd0aD09PTE/ImlzIjoiYXJlIikrIjoiLGhpdHM6dG9wLGFsbDphbGx9OwogIH0KICBmdW5jdGlvbiByZW5kZXIoYSl7CiAgICB2YXIgaD0nPHA+JythLm1zZysnPC9wPic7CiAgICBpZihhLmhpdHMubGVuZ3RoKXtoKz0nPHVsIGNsYXNzPSJwb2VtLWxpc3QiPicrYS5oaXRzLm1hcChmdW5jdGlvbihlKXsKICAgICAgcmV0dXJuICc8bGkgY2xhc3M9InBvZW0tcm93Ij48YSBocmVmPSIjJytlc2MoZS5uKSsnIj48c3BhbiBjbGFzcz0icG4iPicrZXNjKGUubikrJzwvc3Bhbj48c3BhbiBjbGFzcz0icHQiPicrZXNjKGUudCkrJzwvc3Bhbj48c3BhbiBjbGFzcz0icG0iPicrZXNjKGUuZCkrJyB8ICcrZXNjKGUucikrJyB8ICcrZXNjKEVSQVtlLmVdfHwiIikrJzwvc3Bhbj48L2E+PHA+Jytlc2MoZS54KSsnPC9wPjwvbGk+Jzt9KS5qb2luKCIiKSsnPC91bD4nO30KICAgIGlmKGEuYWxsJiZhLmFsbC5sZW5ndGg+YS5oaXRzLmxlbmd0aCloKz0nPHA+PGJ1dHRvbiBjbGFzcz0iYnRuIGFsdCIgdHlwZT0iYnV0dG9uIiBpZD0iYXN0YWxsIj5TaG93IGFsbCAnK2EuYWxsLmxlbmd0aCsnIGluIHRoZSBsaXN0IGJlbG93PC9idXR0b24+PC9wPic7CiAgICBoKz0nPHAgY2xhc3M9Im5vdGUiPkFzdHJpcyBhbnN3ZXJzIG9ubHkgZnJvbSB0aGUgZW50cmllcyBpbiB0aGlzIGxpYnJhcnkuIFRoZXNlIGFyZSBjcmVhdGl2ZSBwb2Vtcywgbm90IGEgaGlzdG9yeSB0ZXh0Ym9vay48L3A+JzsKICAgICQoImFzdG91dCIpLmlubmVySFRNTD1oOwogICAgaWYoJCgiYXN0YWxsIikpJCgiYXN0YWxsIikuYWRkRXZlbnRMaXN0ZW5lcigiY2xpY2siLGZ1bmN0aW9uKCl7aWYod2luZG93LkxpdmluZ0xpYnJhcnkpd2luZG93LkxpdmluZ0xpYnJhcnkuc2hvdyhhLmFsbCk7d2luZG93LnNjcm9sbFRvKHt0b3A6JCgibGlzdCIpLm9mZnNldFRvcC04MCxiZWhhdmlvcjoic21vb3RoIn0pO30pOwogIH0KICBhc3luYyBmdW5jdGlvbiBhc2socSl7CiAgICAkKCJhc3RvdXQiKS5pbm5lckhUTUw9JzxwIGNsYXNzPSJub3RlIj5Mb29raW5nLi4uPC9wPic7CiAgICBpZighKGF3YWl0IGxvYWQoKSkpeyQoImFzdG91dCIpLmlubmVySFRNTD0nPHAgY2xhc3M9Im5vdGUiPkkgY291bGQgbm90IG9wZW4gdGhlIGxpYnJhcnkgZmlsZXMganVzdCBub3cuIEJyb3dzaW5nIGFuZCB0aGUgZnJlZSBkb3dubG9hZHMgc3RpbGwgd29yay48L3A+JztyZXR1cm47fQogICAgdmFyIGE9YW5zd2VyKHEpOwogICAgcmVuZGVyKGEpOwogICAgc3BlYWsocSxhKTsKICB9CiAgLyogQXN0cmlzIHNwZWFrczogYSBzaG9ydCBwbGFpbi1zZW50ZW5jZSBhbnN3ZXIgd3JpdHRlbiBieSBhIG1vZGVsIG9uIHRoZSBSaW5nIG9mIDEyIHNlcnZlciwgYnVpbHQgT05MWSBmcm9tIHRoZSBlbnRyaWVzIGZvdW5kIGFib3ZlLgogICAqIFRoZSBrZXkgbmV2ZXIgcmVhY2hlcyB0aGlzIHBhZ2UuIElmIHRoZSBzZXJ2ZXIgaXMgYXNsZWVwLCBidXN5IG9yIHRoZSBmcmVlIHdlZWsgaXMgb3ZlciwgdGhlIHBsYWluIHJlc3VsdHMgYWJvdmUgc2ltcGx5IHN0YXkgYXMgdGhleSBhcmUuICovCiAgdmFyIFNQRUFLX1VSTD0iaHR0cHM6Ly9yaW5nLW9mLTEyLWFwaS5vbnJlbmRlci5jb20vbGlicmFyeS9hc3RyaXMiOwogIGFzeW5jIGZ1bmN0aW9uIHNwZWFrKHEsYSl7CiAgICBpZighYS5oaXRzfHwhYS5oaXRzLmxlbmd0aClyZXR1cm47CiAgICB2YXIgYm94PWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInAiKTtib3guY2xhc3NOYW1lPSJub3RlIjtib3guaWQ9ImFzdHNwZWFrIjtib3gudGV4dENvbnRlbnQ9IkFzdHJpcyBpcyB0aGlua2luZy4uLiI7CiAgICB2YXIgb3V0PSQoImFzdG91dCIpO291dC5pbnNlcnRCZWZvcmUoYm94LG91dC5maXJzdENoaWxkKTsKICAgIHRyeXsKICAgICAgdmFyIGN0bD1uZXcgQWJvcnRDb250cm9sbGVyKCksdG09c2V0VGltZW91dChmdW5jdGlvbigpe2N0bC5hYm9ydCgpO30sMjUwMDApOwogICAgICB2YXIg cj1hd2FpdCBmZXRjaChTUEVBS19VUkwse21ldGhvZDoiUE9TVCIsaGVhZGVyczp7IkNvbnRlbnQtVHlwZSI6ImFwcGxpY2F0aW9uL2pzb24ifSxzaWduYWw6Y3RsLnNpZ25hbCwKICAgICAgICBib2R5OkpTT04uc3RyaW5naWZ5KHtxdWVzdGlvbjpxLGVudHJpZXM6YS5oaXRzLm1hcChmdW5jdGlvbihlKXtyZXR1cm4ge246ZS5uLHQ6ZS50LGQ6ZS5kLHI6ZS5yLHg6ZS54fTt9KX0pfSk7CiAgICAgIGNsZWFyVGltZW91dCh0bSk7CiAgICAgIHZhciBqPWF3YWl0IHIuanNvbigpOwogICAgICBpZihyLm9rJiZqLnRleHQpe2JveC5jbGFzc05hbWU9IiI7Ym94LnRleHRDb250ZW50PWoudGV4dDt9CiAgICAgIGVsc2UgaWYoaiYmai5lcnJvcj09PSJmcmVlX3dlZWtfb3ZlciIpe2JveC50ZXh0Q29udGVudD1qLm1lc3NhZ2U7fQogICAgICBlbHNle2JveC5yZW1vdmUoKTt9CiAgICB9Y2F0Y2goZSl7Ym94LnJlbW92ZSgpO30KICB9CiAgdmFyIGY9JCgiYXN0Zm9ybSIpOwogIGlmKGYpZi5hZGRFdmVudExpc3RlbmVyKCJzdWJtaXQiLGZ1bmN0aW9uKGV2KXtldi5wcmV2ZW50RGVmYXVsdCgpO3ZhciBxPSQoImFzdHEiKS52YWx1ZS50cmltKCk7aWYocSlhc2socSk7fSk7Cn0pKCk7Cg==
+/* Astris, Keeper of the Galactic Record. Runs entirely in the browser from the library's own files.
+ * Search runs entirely in the browser, free, no key, no tracking. A short spoken answer is added by the Ring of 12 server when it is awake (free for the first week, then a subscription); the plain search never depends on it.
+ * She never invents history. If the library does not cover something, she says so. */
+(function(){
+  "use strict";
+  function $(id){return document.getElementById(id);}
+  function esc(t){var d=document.createElement("div");d.textContent=t==null?"":String(t);return d.innerHTML;}
+  function fold(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+  var STOP="a an and are as at be but by do does for from has have how i in is it its me my of on or please show tell the them there these this to was were what when where which who why with about any find give some something poems poem entries entry era eras year years".split(" ");
+  var LIST=null,SEARCH=null,ERA={};
+  async function load(){
+    if(LIST)return true;
+    try{
+      var r=await Promise.all([fetch("data/list.json"),fetch("data/search.json"),fetch("data/manifest.json")]);
+      LIST=await r[0].json();SEARCH=await r[1].json();ERA=(await r[2].json()).eras||{};return true;
+    }catch(e){return false;}
+  }
+  function terms(q){
+    return fold(q).replace(/[^a-z0-9\s]/g," ").split(/\s+/).filter(function(w){return w&&STOP.indexOf(w)<0&&(w.length>1||/\d/.test(w));});
+  }
+  function score(i,ts,q){
+    var e=LIST[i],head=fold(e.t+" "+e.r+" "+(ERA[e.e]||"")+" "+e.d),desc=fold(e.x),body=SEARCH[i]||"",s=0,hit=0;
+    for(var k=0;k<ts.length;k++){
+      var t=ts[k],h=false,re=new RegExp("(^|[^a-z0-9])"+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"s?([^a-z0-9]|$)");
+      if(re.test(head)){s+=6;h=true;}
+      if(re.test(desc)){s+=3;h=true;}
+      if(body.indexOf(t)>=0){s+=1;h=true;}
+      if(h)hit++;
+    }
+    if(!ts.length||hit===0)return 0;
+    if(hit===ts.length)s+=4;
+    return s;
+  }
+  function answer(q){
+    var ts=terms(q);
+    if(/^\s*(0\d{3}|\d{1,3}|#\d{1,4})\s*$/.test(q)){var n=q.trim().replace("#","").padStart(4,"0"),e=LIST.filter(function(x){return x.n===n;})[0];
+      return e?{msg:"Entry "+esc(n)+" is here.",hits:[e]}:{msg:"I have no entry "+esc(n)+". The library runs from 0044 to 4343.",hits:[]};}
+    if(!ts.length)return {msg:"Tell me a place, a time, a thing or a feeling, and I will look it up. Try: plague, Egypt, 1066, the first cities.",hits:[]};
+    var sc=[];for(var i=0;i<LIST.length;i++){var r=score(i,ts,q);if(s>0)sc.push([s,i]);}
+    sc.sort(function(a,b){return b[0]-a[0]||a[1]-b[1];});
+    if(!sc.length)return {msg:"The library does not cover that yet. I would rather say so than guess. Try fewer words, a place, or a date. The Research center may have what you need.",hits:[]};
+    var top=sc.slice(0,5).map(function(p){return LIST[p[1]];}),all=sc.map(function(p){return LIST[p[1]].n;});
+    return {msg:"I found "+sc.length+" entr"+(sc.length===1?"y":"ies")+" that touch on that. The closest "+(top.length===1?"is":"are")+":",hits:top,all:all};
+  }
+  function render(a){
+    var h='<p>'+a.msg+'</p>';
+    if(a.hits.length){h+='<ul class="poem-list">'+a.hits.map(function(e){
+      return '<li class="poem-row"><a href="#'+esc(e.n)+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+'</span></a><p>'+esc(e.x)+'</p></li>';}).join("")+'</ul>';}
+    if(a.all&&a.all.length>a.hits.length)h+='<p><button class="btn alt" type="button" id="astall">Show all '+a.all.length+' in the list below</button></p>';
+    h+='<p class="note">Astris answers only from the entries in this library. These are creative poems, not a history textbook.</p>';
+    $("astout").innerHTML=h;
+    if($("astall"))$("astall").addEventListener("click",function(){if(window.LivingLibrary)window.LivingLibrary.show(a.all);window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});});
+  }
+  async function ask(q){
+    $("astout").innerHTML='<p class="note">Looking...</p>';
+    if(!(await load())){$("astout").innerHTML='<p class="note">I could not open the library files just now. Browsing and the free downloads still work.</p>';return;}
+    var a=answer(q);
+    render(a);
+    speak(q,a);
+  }
+  /* Astris speaks: a short plain-sentence answer written by a model on the Ring of 12 server, built ONLY from the entries found above.
+   * The key never reaches this page. If the server is asleep, busy or the free week is over, the plain results above simply stay as they are. */
+  var SPEAK_URL="https://ring-of-12-api.onrender.com/library/astris";
+  async function speak(q,a){
+    if(!a.hits||!a.hits.length)return;
+    var box=document.createElement("p");box.className="note";box.id="astspeak";box.textContent="Astris is thinking...";
+    var out=$("astout");out.insertBefore(box,out.firstChild);
+    try{
+      var ctl=new AbortController(),tm=setTimeout(function(){ctl.abort();},25000);
+      var r=await fetch(SPEAK_URL,{method:"POST",headers:{"Content-Type":"application/json"},signal:ctl.signal,
+        body:JSON.stringify({question:q,entries:a.hits.map(function(e){return {n:e.n,t:e.t,d:e.d,r:e.r,x:e.x};})})});
+      clearTimeout(tm);
+      var j=await r.json();
+      if(r.ok&&j.text){box.className="";box.textContent=j.text;}
+      else if(j&&j.error==="free_week_over"){box.textContent=j.message;}
+      else{box.remove();}
+    }catch(e){box.remove();}
+  }
+  var f=$("astform");
+  if(f)f.addEventListener("submit",function(ev){ev.preventDefault();var q=$("astq").value.trim();if(q)ask(q);});
+})();
