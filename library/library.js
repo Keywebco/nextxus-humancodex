@@ -42,7 +42,7 @@
       var blk=txt.slice(i,j);
       var p=blk.indexOf("poem: |\n");var d=blk.indexOf("\n    description:");
       var poem=blk.slice(p+8,d).split("\n").map(function(l){return l.replace(/^      /,"");}).join("\n").trim();
-      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">Published text. A poem may be improved later; every change is dated and the old text is kept.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
+      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">Poem '+esc(e.n)+' is an original work. It may be improved over time, but it stays at this number and in this place. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       $("close").addEventListener("click",function(){box.hidden=true;history.replaceState(null,"","#");});
       box.scrollIntoView({behavior:"smooth",block:"start"});
     }catch(err){box.innerHTML='<p class="note">Could not open that poem: '+esc(err.message)+'. The raw files are on the <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">free download page</a>.</p>';}
