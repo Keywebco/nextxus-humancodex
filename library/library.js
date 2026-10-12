@@ -37,12 +37,19 @@
     var e=LIST.filter(function(x){return x.n===n;})[0];if(!e)return;
     var box=$("poem");box.hidden=false;box.innerHTML='<p class="note">Opening '+esc(n)+'...</p>';
     try{
-      var txt=await (await fetch("data/vol-"+e.v+".yaml")).text();
-      var i=txt.indexOf('number: "'+n+'"');var j=txt.indexOf('\n  - number:',i+5);if(j<0)j=txt.length;
-      var blk=txt.slice(i,j);
-      var p=blk.indexOf("poem: |\n");var d=blk.indexOf("\n    description:");
-      var poem=blk.slice(p+8,d).split("\n").map(function(l){return l.replace(/^      /,"");}).join("\n").trim();
-      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">Poem '+esc(e.n)+' is an original work. It may be improved over time, but it stays at this number and in this place. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
+      var REV=null;try{REV=await jget("data/revised.json");}catch(x){REV=null;}
+      var rv=REV&&REV[n];var head='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p>';
+      var foot='<p class="note">Entry '+esc(e.n)+' keeps this number and this place. The text may be improved over time. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
+      if(rv){
+        box.innerHTML=head+'<div data-readable><p>'+esc(rv.event)+'</p><p>'+esc(rv.announce)+'</p><pre class="poemtext">'+esc(rv.piece)+'</pre></div>'+foot;
+      }else{
+        var txt=await (await fetch("data/vol-"+e.v+".yaml")).text();
+        var i=txt.indexOf('number: "'+n+'"');var j=txt.indexOf('\n  - number:',i+5);if(j<0)j=txt.length;
+        var blk=txt.slice(i,j);
+        var p=blk.indexOf("poem: |\n");var d=blk.indexOf("\n    description:");
+        var poem=blk.slice(p+8,d).split("\n").map(function(l){return l.replace(/^      /,"");}).join("\n").trim();
+        box.innerHTML=head+'<pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p>'+foot;
+      }
       $("close").addEventListener("click",function(){box.hidden=true;history.replaceState(null,"","#");});
       box.scrollIntoView({behavior:"smooth",block:"start"});
     }catch(err){box.innerHTML='<p class="note">Could not open that poem: '+esc(err.message)+'. The raw files are on the <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">free download page</a>.</p>';}
