@@ -38,6 +38,7 @@
     var box=$("poem");box.hidden=false;box.innerHTML='<p class="note">Opening '+esc(n)+'...</p>';
     try{
       var REV=null;try{var rr=await fetch("data/revised-"+e.v+".json");if(rr.ok)REV=await rr.json();}catch(x){REV=null;}
+      if(!(REV&&REV[n])){try{var r2=await fetch("data/revised-"+e.v+"b.json");if(r2.ok){var B=await r2.json();if(B[n]){REV=REV||{};REV[n]=B[n];}}}catch(x){}}
       var rv=REV&&REV[n];var head='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p>';
       var foot='<p class="note">Entry '+esc(e.n)+' keeps this number and this place. The text may be improved over time. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       if(rv){
