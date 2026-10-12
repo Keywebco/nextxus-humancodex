@@ -6,7 +6,7 @@
   function $(id){return document.getElementById(id);}
   function esc(t){var d=document.createElement("div");d.textContent=t==null?"":String(t);return d.innerHTML;}
   function fold(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
-  var STOP="a an and are as at be but by do does for from has have how i in is it its me my of on or please show tell the them there these this to was were what when where which who why with about any find give some something poems poem entries entry era eras year years".split(" ");
+  var STOP="a an and are as at be but by do does for from has have how i in is it its me my of on or please show tell the them there these this to was were what when where which who why with about any find give some something poems poem entries entry era eras year years happen happens happened happening did can could would will know say said many much more most other like get got just also".split(" ");
   var LIST=null,SEARCH=null,ERA={};
   async function load(){
     if(LIST)return true;
@@ -63,18 +63,18 @@
   var SPEAK_URL="https://ring-of-12-api.onrender.com/library/astris";
   async function speak(q,a){
     if(!a.hits||!a.hits.length)return;
-    var box=document.createElement("p");box.className="note";box.id="astspeak";box.textContent="Astris is thinking...";
+    var box=document.createElement("p");box.className="note";box.id="astspeak";box.textContent="Astris is writing her answer. This can take up to 20 seconds. The entries below are ready to read now.";
     var out=$("astout");out.insertBefore(box,out.firstChild);
     try{
-      var ctl=new AbortController(),tm=setTimeout(function(){ctl.abort();},25000);
+      var ctl=new AbortController(),tm=setTimeout(function(){ctl.abort();},30000);
       var r=await fetch(SPEAK_URL,{method:"POST",headers:{"Content-Type":"application/json"},signal:ctl.signal,
         body:JSON.stringify({question:q,entries:a.hits.map(function(e){return {n:e.n,t:e.t,d:e.d,r:e.r,x:e.x};})})});
       clearTimeout(tm);
       var j=await r.json();
       if(r.ok&&j.text){box.className="";box.textContent=j.text;}
       else if(j&&(j.error==="free_over"||j.error==="slow_down"||j.error==="daily_ceiling")){box.className="note";box.textContent=j.message;}
-      else{box.remove();}
-    }catch(e){box.remove();}
+      else{box.className="note";box.textContent="Astris is resting just now. The entries below are the answer, and you can try her again in a minute.";}
+    }catch(e){box.className="note";box.textContent="Astris is resting just now. The entries below are the answer, and you can try her again in a minute.";}
   }
   var f=$("astform");
   if(f)f.addEventListener("submit",function(ev){ev.preventDefault();var q=$("astq").value.trim();if(q)ask(q);});
