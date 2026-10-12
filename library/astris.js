@@ -1,5 +1,5 @@
 /* Astris, Keeper of the Galactic Record. Runs entirely in the browser from the library's own files.
- * No server, no AI model, no tracking: she searches the 4,300 entries and answers only from them.
+ * Search runs entirely in the browser, free, no key. A short spoken answer is added by the Ring of 12 server when it is awake (it is a paid AI service: a $5 donation covers about 15 questions); plain search never depends on it.
  * She never invents history. If the library does not cover something, she says so. */
 (function(){
   "use strict";
@@ -54,7 +54,27 @@
   async function ask(q){
     $("astout").innerHTML='<p class="note">Looking...</p>';
     if(!(await load())){$("astout").innerHTML='<p class="note">I could not open the library files just now. Browsing and the free downloads still work.</p>';return;}
-    render(answer(q));
+    var a=answer(q);
+    render(a);
+    speak(q,a);
+  }
+  /* Astris speaks: a short plain-sentence answer written by a model on the Ring of 12 server, built ONLY from the entries found above.
+   * The key never reaches this page. If the server is asleep, busy or the free week is over, the plain results above simply stay as they are. */
+  var SPEAK_URL="https://ring-of-12-api.onrender.com/library/astris";
+  async function speak(q,a){
+    if(!a.hits||!a.hits.length)return;
+    var box=document.createElement("p");box.className="note";box.id="astspeak";box.textContent="Astris is thinking...";
+    var out=$("astout");out.insertBefore(box,out.firstChild);
+    try{
+      var ctl=new AbortController(),tm=setTimeout(function(){ctl.abort();},25000);
+      var r=await fetch(SPEAK_URL,{method:"POST",headers:{"Content-Type":"application/json"},signal:ctl.signal,
+        body:JSON.stringify({question:q,entries:a.hits.map(function(e){return {n:e.n,t:e.t,d:e.d,r:e.r,x:e.x};})})});
+      clearTimeout(tm);
+      var j=await r.json();
+      if(r.ok&&j.text){box.className="";box.textContent=j.text;}
+      else if(j&&(j.error==="free_over"||j.error==="slow_down"||j.error==="daily_ceiling")){box.className="note";box.textContent=j.message;}
+      else{box.remove();}
+    }catch(e){box.remove();}
   }
   var f=$("astform");
   if(f)f.addEventListener("submit",function(ev){ev.preventDefault();var q=$("astq").value.trim();if(q)ask(q);});
