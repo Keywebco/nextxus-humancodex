@@ -1,6 +1,6 @@
 /* Living Library: browse and search 4,300 poems through history.
- * Runs entirely in your browser. The free allowance is counted on the Federation server per visitor (not on this page),
- * because a counter kept in the page is easy to reset. The raw YAML is always free to download, read and print. */
+ * Browsing and searching run entirely in your browser from the files on this site: free, no key, no server. The raw YAML is always free to download, read and print.
+ * If a data file fails to load, the page retries and then shows a plain message with a try-again button. */
 (function(){
   "use strict";
   function $(id){return document.getElementById(id);}
@@ -10,7 +10,7 @@
   var LIST=[],SEARCH=null,VOL={1:"Deep Time to the First Villages",2:"Bronze and Iron",3:"Faiths and the Medieval World",4:"Plague, Sail, and Reason",5:"Steam, Steel, and the Wars",6:"The Cold Peace to Tomorrow"};
   var PAGE=0,SIZE=20,CUR=[];
 
-  async function jget(u){var r=await fetch(u);if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}
+  async function jget(u){var last;for(var i=0;i<3;i++){try{var r=await fetch(u);if(!r.ok)throw new Error("HTTP "+r.status);return await r.json();}catch(e){last=e;await new Promise(function(ok){setTimeout(ok,1200*(i+1));});}}throw last;}
 
   function row(e){
     return '<li class="poem-row"><a href="#'+e.n+'" data-n="'+e.n+'"><span class="pn">'+esc(e.n)+'</span><span class="pt">'+esc(e.t)+'</span><span class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+'</span></a><p>'+esc(e.x)+'</p></li>';
@@ -42,7 +42,7 @@
       var blk=txt.slice(i,j);
       var p=blk.indexOf("poem: |\n");var d=blk.indexOf("\n    description:");
       var poem=blk.slice(p+8,d).split("\n").map(function(l){return l.replace(/^      /,"");}).join("\n").trim();
-      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">Published text. A poem may be improved later; every change is dated and the old text is kept.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
+      box.innerHTML='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p><pre class="poemtext" data-readable>'+esc(poem)+'</pre><p><b>About this poem.</b> '+esc(e.x)+'</p><p class="note">Poem '+esc(e.n)+' is an original work. It may be improved over time, but it stays at this number and in this place. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       $("close").addEventListener("click",function(){box.hidden=true;history.replaceState(null,"","#");});
       box.scrollIntoView({behavior:"smooth",block:"start"});
     }catch(err){box.innerHTML='<p class="note">Could not open that poem: '+esc(err.message)+'. The raw files are on the <a href="https://github.com/Keywebco/nextxus-humancodex/tree/main/library/data">free download page</a>.</p>';}
@@ -52,7 +52,7 @@
    * so it keeps working with no server, no key and nobody tending it. (The old server gate is dormant in the ring-of-12-api repo.) ----- */
   async function inquire(q){
     var st=$("gate");st.textContent="Searching...";
-    if(!SEARCH){try{SEARCH=await jget("data/search.json");}catch(e){st.textContent="Could not load the search data. The full YAML is free to download below.";return null;}}
+    if(!SEARCH){try{SEARCH=await jget("data/search.json");}catch(e){st.textContent="The poem search could not load just now, so nothing was searched. Please check your connection and try again. The full YAML is free to download below.";$("list").innerHTML="";$("count").textContent="Search did not run.";return null;}}
     var terms=fold(q).split(/\s+/).filter(Boolean);
     var hits=[];for(var i=0;i<SEARCH.length;i++){var s=SEARCH[i],ok=true;for(var k=0;k<terms.length;k++){if(s.indexOf(terms[k])<0){ok=false;break;}}if(ok)hits.push(LIST[i]);}
     st.textContent="";
@@ -60,7 +60,7 @@
   }
 
   async function init(){
-    try{LIST=await jget("data/list.json");}catch(e){$("list").innerHTML='<li class="note">The library list did not load. The raw YAML is still free to download below.</li>';return;}
+    try{LIST=await jget("data/list.json");}catch(e){$("count").textContent="The library did not load.";$("list").innerHTML='<li class="note">The library list did not load, usually a slow or dropped connection. <button class="btn" type="button" id="retry">Tap here to try again</button> The raw YAML is still free to download below.</li>';var rb=$("retry");if(rb)rb.addEventListener("click",function(){location.reload();});return;}
     show(LIST);
     $("vol").addEventListener("change",filterBrowse);$("era").addEventListener("change",filterBrowse);
     $("q").addEventListener("input",filterBrowse);
