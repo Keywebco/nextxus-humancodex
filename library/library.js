@@ -38,7 +38,8 @@
     var box=$("poem");box.hidden=false;box.innerHTML='<p class="note">Opening '+esc(n)+'...</p>';
     try{
       var REV=null;try{var rr=await fetch("data/revised-"+e.v+".json");if(rr.ok)REV=await rr.json();}catch(x){REV=null;}
-      if(!(REV&&REV[n])){var sfx=["b","c","d","e","f","g","h"];for(var si=0;si<sfx.length&&!(REV&&REV[n]);si++){try{var r2=await fetch("data/revised-"+e.v+sfx[si]+".json");if(!r2.ok)break;var B=await r2.json();if(B[n]){REV=REV||{};REV[n]=B[n];}}catch(x){break;}}}
+      if(!(REV&&REV[n])){var sfx=["b","c","d","e","f","g","h"];for(var si=0;si<sfx.length&&!(REV&&REV[n]);si++){try{var r2=await fetch("data/revised-"+e.v+sfx[si]+".json");if(!r2.ok)break;var B=await r2.json();if(B[n]){REV=REV||{};REV[n]=B[n];}}catch(x){break;}}
+      if(!(REV&&REV[n])){for(var sj=9;sj<=80&&!(REV&&REV[n]);sj++){try{var r3=await fetch("data/revised-"+e.v+"-"+sj+".json");if(!r3.ok)break;var C=await r3.json();if(C[n]){REV=REV||{};REV[n]=C[n];}}catch(x){break;}}}}
       var rv=REV&&REV[n];var head='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p>';
       var foot='<p class="note">Entry '+esc(e.n)+' keeps this number and this place. The text may be improved over time. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       if(rv){
@@ -68,7 +69,7 @@
   }
 
   async function init(){
-    try{LIST=await jget("data/list.json");}catch(e){$("count").textContent="The library did not load.";$("list").innerHTML='<li class="note">The library list did not load, usually a slow or dropped connection. <button class="btn" type="button" id="retry">Tap here to try again</button> The raw YAML is still free to download below.</li>';var rb=$("retry");if(rb)rb.addEventListener("click",function(){location.reload();});return;}
+    try{LIST=await jget("data/list.json");try{var fx=await fetch("data/fixes.json");if(fx.ok){var FX=await fx.json();LIST.forEach(function(it){if(FX[it.n])for(var k in FX[it.n])it[k]=FX[it.n][k];});}}catch(x){}}catch(e){$("count").textContent="The library did not load.";$("list").innerHTML='<li class="note">The library list did not load, usually a slow or dropped connection. <button class="btn" type="button" id="retry">Tap here to try again</button> The raw YAML is still free to download below.</li>';var rb=$("retry");if(rb)rb.addEventListener("click",function(){location.reload();});return;}
     show(LIST);
     $("vol").addEventListener("change",filterBrowse);$("era").addEventListener("change",filterBrowse);
     $("q").addEventListener("input",filterBrowse);
