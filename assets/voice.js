@@ -13,9 +13,14 @@
   function setAuto(v){try{localStorage.setItem(AUTO,v?"1":"0");}catch(e){}}
   function say(text){
     if(!synth||!text)return false;
-    try{synth.cancel();var t=String(text).replace(/\s+/g," ").trim().slice(0,3500);var u=new SpeechSynthesisUtterance(t);u.rate=0.95;u.lang=document.documentElement.lang||"en";synth.speak(u);return true;}catch(e){return false;}
+    try{window.__nxStop=true;clearTimeout(window.__nxT);synth.cancel();window.__nxStop=false;window.__nxActive=true;var parts=String(text).split(/\s*\.\.\. \.\.\.\s*/).map(function(p){return p.replace(/\s+/g," ").trim();}).filter(Boolean);
+      if(parts.length<2)parts=[String(text).replace(/\s+/g," ").trim()];
+      var qi=0;var total=parts.length;
+      (function next(){if(qi>=total)return;var seg=parts[qi++].slice(0,3500);var u=new SpeechSynthesisUtterance(seg);u.rate=0.95;u.lang=document.documentElement.lang||"en";
+        u.onend=function(){if(window.__nxStop)return;if(qi<total){window.__nxT=setTimeout(next,900);}else{window.__nxActive=false;}};synth.speak(u);})();
+      return true;}catch(e){window.__nxActive=false;return false;}
   }
-  function stop(){try{synth&&synth.cancel();}catch(e){}}
+  function stop(){try{window.__nxStop=true;window.__nxActive=false;clearTimeout(window.__nxT);synth&&synth.cancel();}catch(e){}}
   function status(msg){var el=document.getElementById("nx-voice-status");if(el)el.textContent=msg;}
 
   function micFor(input){
@@ -39,9 +44,9 @@
     var b=document.createElement("button");b.type="button";b.className="btn alt nx-read";b.textContent=label||"\uD83D\uDD0A Read aloud";
     if(!synth){b.disabled=true;b.textContent="\uD83D\uDD0A Read aloud (not in this browser)";return b;}
     b.addEventListener("click",function(){
-      if(synth.speaking){stop();b.textContent=label||"\uD83D\uDD0A Read aloud";return;}
+      if(synth.speaking||window.__nxActive){stop();b.textContent=label||"\uD83D\uDD0A Read aloud";return;}
       var t=typeof getText==="function"?getText():getText;
-      if(say(t)){b.textContent="\u23F9 Stop reading";var u=setInterval(function(){if(!synth.speaking){clearInterval(u);b.textContent=label||"\uD83D\uDD0A Read aloud";}},400);}
+      if(say(t)){b.textContent="\u23F9 Stop reading";var u=setInterval(function(){if(!synth.speaking&&!window.__nxActive){clearInterval(u);b.textContent=label||"\uD83D\uDD0A Read aloud";}},400);}
     });
     return b;
   }
@@ -63,12 +68,12 @@
     function decorate(root){
       root.querySelectorAll("[data-readable]").forEach(function(el){
         if(seen.has(el))return;seen.add(el);
-        var holder=document.createElement("div");holder.style.margin="6px 0";holder.appendChild(readBtn(function(){return (el.innerText||el.textContent||"").replace(/Read aloud|Stop reading/g,"");}));
+        var holder=document.createElement("div");holder.style.margin="6px 0";holder.appendChild(readBtn(function(){return (el.getAttribute("data-speech")||el.innerText||el.textContent||"").replace(/Read aloud|Stop reading/g,"");}));
         el.parentNode.insertBefore(holder,el);
       });
     }
     var mo=new MutationObserver(function(){decorate(document);
-      if(auto()){var el=document.querySelector("[data-readable]");if(el&&!el.__spoken){el.__spoken=1;say(el.innerText||el.textContent);}}});
+      if(auto()){var el=document.querySelector("[data-readable]");if(el&&!el.__spoken){el.__spoken=1;say(el.getAttribute("data-speech")||el.innerText||el.textContent);}}});
     mo.observe(document.body,{childList:true,subtree:true});decorate(document);
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
