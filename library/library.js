@@ -43,7 +43,13 @@
       var rv=REV&&REV[n];var head='<h2 style="margin-top:0">'+esc(e.n)+' | '+esc(e.t)+'</h2><p class="pm">'+esc(e.d)+' | '+esc(e.r)+' | '+esc(ERA[e.e]||"")+' | Volume '+e.v+': '+esc(VOL[e.v])+'</p>';
       var foot='<p class="note">Entry '+esc(e.n)+' keeps this number and this place. The text may be improved over time. Keep a copy of the version you first read.</p><p><button class="btn alt" id="close" type="button">Close</button></p>';
       if(rv){
-        box.innerHTML=head+'<div data-readable><p>'+esc(rv.event)+'</p><p>'+esc(rv.announce)+'</p><pre class="poemtext">'+esc(rv.piece)+'</pre></div>'+foot;
+        var kd=String(rv.kind||"poem").replace(/[^A-Za-z \-]/g,"").toUpperCase();
+        var sp=String(rv.event).trim()+" ... ... "+String(rv.announce).trim()+" ... ... "+String(rv.piece).replace(/\s*\n\s*/g,", ").replace(/,\s*,/g,",").replace(/([.!?:]),\s*/g,"$1 ").trim();
+        box.innerHTML=head+'<div data-readable data-speech="'+esc(sp).replace(/"/g,"&quot;")+'"><p class="evdesc" style="margin-bottom:0">'+esc(rv.event)+'</p>'
+          +'<hr style="margin:30px 0 18px;border:0;border-top:2px solid #d4af37;opacity:.65">'
+          +'<p aria-hidden="true" style="margin:0 0 4px;font-size:.95rem;font-weight:700;letter-spacing:.14em;color:#d4af37">'+esc(kd)+'</p>'
+          +'<p class="evann" style="margin:0 0 22px;font-style:italic">'+esc(rv.announce)+'</p>'
+          +'<pre class="poemtext" style="margin-top:0;white-space:pre-wrap;overflow-wrap:anywhere;font-family:Georgia,\'Times New Roman\',serif;font-size:1.12em;line-height:1.55">'+esc(rv.piece)+'</pre></div>'+foot;
       }else{
         var txt=await (await fetch("data/vol-"+e.v+".yaml")).text();
         var i=txt.indexOf('number: "'+n+'"');var j=txt.indexOf('\n  - number:',i+5);if(j<0)j=txt.length;
