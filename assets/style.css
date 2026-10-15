@@ -93,3 +93,11 @@ animation:nx-star-drift 180s linear infinite, nx-star-twinkle 14s ease-in-out in
  .hero::before{opacity:.85}
  .hero::after{opacity:.7}
 }
+/* ── RING OF 12 ICONS ── */
+.ring12-icons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:flex-end;margin:22px auto;max-width:780px}
+.ring12-icon{margin:0;text-align:center}
+.ring12-icon iframe{display:block;object-fit:cover;background:#111;border:0;border-radius:16px}
+.ring12-icon.main iframe{width:min(280px,70vw);height:min(280px,70vw);box-shadow:0 0 44px rgba(201,162,39,.35),0 0 90px rgba(201,162,39,.12)}
+.ring12-icon:not(.main) iframe{width:min(132px,32vw);height:min(132px,32vw);opacity:.94}
+.ring12-icon.solo iframe{width:min(180px,46vw);height:min(180px,46vw)}
+.ring12-icon figcaption{margin-top:8px;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
