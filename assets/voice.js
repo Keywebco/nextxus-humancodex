@@ -17,7 +17,7 @@
       if(parts.length<2)parts=[String(text).replace(/\s+/g," ").trim()];
       var qi=0;var total=parts.length;
       (function next(){if(qi>=total)return;var seg=parts[qi++].slice(0,3500);var u=new SpeechSynthesisUtterance(seg);u.rate=0.95;u.lang=document.documentElement.lang||"en";
-        u.onend=function(){if(window.__nxStop)return;if(qi<total){window.__nxT=setTimeout(next,900);}else{window.__nxActive=false;}};synth.speak(u);})();
+        u.onend=function(){if(window.__nxStop)return;if(qi<total){window.__nxT=setTimeout(next,2000);}else{window.__nxActive=false;}};synth.speak(u);})();
       return true;}catch(e){window.__nxActive=false;return false;}
   }
   function stop(){try{window.__nxStop=true;window.__nxActive=false;clearTimeout(window.__nxT);synth&&synth.cancel();}catch(e){}}
