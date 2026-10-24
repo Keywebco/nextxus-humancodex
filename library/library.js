@@ -27,7 +27,8 @@
   function filterBrowse(){
     var v=$("vol").value,q=fold($("q").value).trim();
     var er=$("era").value;var out=LIST.filter(function(e){return (!v||String(e.v)===v)&&(!er||e.e===er);});
-    if(/^\d{1,4}$/.test(q)){var n=q.padStart(4,"0");out=out.filter(function(e){return e.n===n;});}
+    if(/^f\d{1,3}$/i.test(q)){var fn=q.toUpperCase();out=out.filter(function(e){return e.n===fn;});}
+    else if(/^\d{1,4}$/.test(q)){var n=q.padStart(4,"0");out=out.filter(function(e){return e.n===n;});}
     else if(q){out=out.filter(function(e){return fold(e.t+" "+e.d+" "+e.r+" "+e.x+" "+(ERA[e.e]||"")).indexOf(q)>=0;});}
     show(out);
   }
@@ -87,9 +88,9 @@
       var b=$("sgo");b.disabled=true;var hits=await inquire(q);b.disabled=false;
       if(hits){$("q").value="";$("vol").value="";$("era").value="";show(hits);$("count").textContent=hits.length+" poem"+(hits.length===1?"":"s")+" contain every word you typed.";window.scrollTo({top:$("list").offsetTop-80,behavior:"smooth"});}
     });
-    var m=/^#(\d{4})$/.exec(location.hash);if(m)openPoem(m[1]);
+    var m=/^#(\d{4}|F\d{1,3})$/.exec(location.hash);if(m)openPoem(m[1]);
   }
-  window.addEventListener("hashchange",function(){var m=/^#(\d{4})$/.exec(location.hash);if(m)openPoem(m[1]);});
+  window.addEventListener("hashchange",function(){var m=/^#(\d{4}|F\d{1,3})$/.exec(location.hash);if(m)openPoem(m[1]);});
   window.LivingLibrary={show:function(ns){var s={};ns.forEach(function(n){s[n]=1;});show(LIST.filter(function(e){return s[e.n];}));$("count").textContent=ns.length+" entries from Astris.";}};
   init();
 })();
