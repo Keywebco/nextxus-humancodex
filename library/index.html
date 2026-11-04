@@ -13,6 +13,55 @@
 #astris h2{font-size:1.6rem}
 </style>
 </head><body>
+<style>
+.ai-greeting{display:flex;gap:16px;align-items:center;background:#101412;border:2px solid #c9a84c;border-radius:16px;padding:16px;margin:16px auto;max-width:900px}
+.ai-greeting h2{margin:0 0 6px;color:#c9a84c}
+.ai-greeting p{margin:0;color:#a8b3ad}
+.chat-panel{position:fixed;bottom:70px;right:20px;width:320px;max-width:90vw;background:#0a0f0b;border:2px solid #c9a84c;border-radius:12px;display:none;flex-direction:column;z-index:30;max-height:380px}
+.chat-panel.open{display:flex}
+.voice-bar{position:fixed;bottom:0;left:0;right:0;background:rgba(0,0,0,.96);border-top:2px solid #00ff88;z-index:20;padding:8px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;font-family:system-ui,sans-serif}
+.voice-bar button{background:#00ff88;color:#04140c;border:none;border-radius:8px;padding:6px 10px;font-size:14px;font-weight:700;cursor:pointer}
+.voice-bar button.alt{background:transparent;color:#00ff88;border:1px solid #00ff88}
+body{padding-bottom:90px}
+</style>
+<div class="ai-greeting">
+<div style="width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#00ff88,#c9a84c);display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:800">📚</div>
+<div>
+<h2>Library Guide</h2>
+<p>Galactic Living Library. Poems and volumes. Volume 1 edited. Ask or listen. <button onclick="document.getElementById('chatPanel').classList.add('open')" style="background:#00ff88;border:none;padding:6px 12px;border-radius:6px;font-weight:700;cursor:pointer">Open Chat</button></p>
+</div>
+</div>
+<div class="chat-panel" id="chatPanel">
+<div style="background:#c9a84c;color:#000;padding:8px;font-weight:800">Library Guide <button onclick="this.parentElement.parentElement.classList.remove('open')" style="float:right;background:none;border:none">✕</button></div>
+<div id="chatMessages" style="flex:1;overflow-y:auto;padding:8px;font-size:14px"><div><strong>Guide:</strong> The Galactic Library is open. Which volume or poem calls to you?</div></div>
+<div style="display:flex;border-top:1px solid #1f3a24"><input id="chatInput" style="flex:1;background:#000;color:#fff;border:none;padding:8px" placeholder="Ask about a volume or poem..."><button id="sendChat" style="background:#00ff88;border:none;padding:8px 12px">Send</button></div>
+</div>
+<div class="voice-bar">
+<span id="voiceStatus">Voice off</span>
+<button id="btnEnable">Enable Voice</button>
+<button class="alt" id="btnThisPage" disabled>What’s on this page?</button>
+<button class="alt" id="btnHelp" disabled>Help</button>
+</div>
+<script>
+const synth=window.speechSynthesis;let voiceEnabled=false;
+const statusEl=document.getElementById('voiceStatus');
+function speak(t){if(!voiceEnabled||!synth)return;synth.cancel();const u=new SpeechSynthesisUtterance(t);u.rate=0.95;synth.speak(u);statusEl.textContent='Speaking…';u.onend=()=>statusEl.textContent='Voice ready';}
+document.getElementById('btnEnable').onclick=()=>{voiceEnabled=!voiceEnabled;statusEl.textContent=voiceEnabled?'Voice ready':'Voice off';document.querySelectorAll('.voice-bar button.alt').forEach(b=>b.disabled=!voiceEnabled);if(voiceEnabled)speak('Voice enabled. This is the Galactic Living Library.');};
+document.getElementById('btnThisPage').onclick=()=>speak('The Galactic Living Library. Poems about events. Six volumes. Volume 1 is edited and approved. The other five need editing and approval. Free for all.');
+document.getElementById('btnHelp').onclick=()=>speak('Ask in the chat about any volume or poem. Free. Own your code. The Library grows.');
+const msgs=document.getElementById('chatMessages');
+const inp=document.getElementById('chatInput');
+function add(w,t){const d=document.createElement('div');d.innerHTML='<strong>'+w+':</strong> '+t;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;}
+function reply(q){q=q.toLowerCase();
+if(q.includes('volume')||q.includes('1')||q.includes('one'))return 'Volume 1 is edited. The other five volumes need editing and approval. It is a massive free project.';
+if(q.includes('poem'))return 'Poems in the Library are tied to events. They live here for free, for everyone.';
+if(q.includes('own')||q.includes('free'))return 'Free. The point is to own your code and sites, not lease them. The Library is part of that.';
+return 'The Library holds poems and six volumes. Ask about a specific volume or the poems.';
+}
+document.getElementById('sendChat').onclick=()=>{const t=inp.value.trim();if(!t)return;add('You',t);setTimeout(()=>add('Guide',reply(t)),300);inp.value='';if(voiceEnabled)speak(reply(t));};
+inp.onkeypress=e=>{if(e.key==='Enter')document.getElementById('sendChat').click();};
+</script>
+>
 <a class="skip" href="#main">Skip to main content</a>
 <header class="site"><a class="brand" href="../index.html">NextXus HumanCodex</a>
 <nav class="main" aria-label="Main">
