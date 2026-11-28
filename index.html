@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://next-xus.net/federation-ui/theme.css">
 <title>Learn, research and ask the truth | NextXus HumanCodex</title>
 <meta name="twitter:card" content="summary">
 <meta property="og:site_name" content="Next-Xus Federation">
@@ -13,7 +14,24 @@
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Next-Xus Federation","url":"https://next-xus.org/","description":"Free courses, a research center covering history of the galaxy and everything, a source-checked truth tool, and member access. Next-Xus HumanCodex Federation."}</script>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-</head><body>
+<style id="nx-align">
+/* Next-Xus shared theme alignment: maps this page onto federation-ui tokens. */
+html:not([data-theme]) body.nx-theme{--bg:var(--nx-bg,#070d16);--bg2:var(--nx-surface,#0f1c2e);--bg3:var(--nx-line,#2a4362);--gold:var(--nx-gold,#f2c14e);--gold-dim:#b08a2e;--text:var(--nx-text,#eef3f8);--dim:var(--nx-dim,#c2cedb);--blue:var(--nx-link,#a9ddff)}
+html[data-theme] body.nx-theme{background:var(--bg);color:var(--text)}
+body.nx-theme header.site{background:var(--nx-bg-2,#0b1522)}
+body.nx-theme header.site .brand{font-size:1.05rem}
+body.nx-theme .ai-greeting{max-width:none;margin:18px 0;background:var(--nx-surface,#0f1c2e);border:1px solid var(--nx-gold,#f2c14e);border-radius:var(--nx-radius,12px)}
+body.nx-theme .ai-greeting h2{margin-top:0}
+body.nx-theme .ai-greeting p{color:var(--nx-dim,#c2cedb)}
+body.nx-theme .chat-panel{background:var(--nx-surface,#0f1c2e);border-color:var(--nx-gold,#f2c14e)}
+body.nx-theme .voice-bar{box-sizing:border-box;max-width:100vw;background:rgba(7,13,22,.97);border-top:1px solid var(--nx-gold,#f2c14e)}
+body.nx-theme .voice-bar button{background:var(--nx-gold,#f2c14e);color:var(--nx-on-gold,#111111)}
+body.nx-theme .voice-bar button.alt{background:transparent;color:var(--nx-gold,#f2c14e);border:1px solid var(--nx-gold,#f2c14e)}
+@media (max-width:760px){body.nx-theme .hero::before,body.nx-theme .hero::after{left:-18px;right:-18px}}
+body.nx-theme .entry{background:var(--nx-surface,#0f1c2e)!important;border:1px solid var(--nx-gold,#f2c14e)!important}
+</style>
+</head><body class="nx-theme" data-nx-site="codex">
+<noscript><div class="nx-bar"><nav class="nx-bar-inner" aria-label="Next-Xus Federation"><a class="nx-brand" href="https://next-xus.net/"><span class="nx-mark" aria-hidden="true">NX</span>Next-Xus Federation</a><ul class="nx-links"><li><a href="https://next-xus.net/">Home</a></li><li><a href="https://next-xus.org/" aria-current="page">Codex</a></li><li><a href="https://next-xus.net/dragon/">Dragons</a></li><li><a href="https://next-xus.net/nextxus-music/">Music</a></li><li><a href="https://next-xus.biz/">Business</a></li><li><a href="https://next-xus.info/">Info</a></li></ul></nav></div></noscript>
 <style>
 .ai-greeting{display:flex;gap:16px;align-items:center;background:#101412;border:2px solid #c9a84c;border-radius:16px;padding:16px;margin:16px auto;max-width:900px}
 .ai-greeting h2{margin:0 0 6px;color:#c9a84c}
@@ -25,19 +43,12 @@
 .voice-bar button.alt{background:transparent;color:#00ff88;border:1px solid #00ff88}
 body{padding-bottom:90px}
 </style>
-<div class="ai-greeting">
-<div style="width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#00ff88,#c9a84c);display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:800">NX</div>
-<div>
-<h2>Commons Guide</h2>
-<p>Front door to the HumanCodex and Galactic Library. Ask about volumes, poems, or the free path. <button onclick="document.getElementById('chatPanel').classList.add('open')" style="background:#00ff88;border:none;padding:6px 12px;border-radius:6px;font-weight:700;cursor:pointer">Open Chat</button></p>
-</div>
-</div>
 <div class="chat-panel" id="chatPanel">
 <div style="background:#c9a84c;color:#000;padding:8px;font-weight:800">Commons Guide <button onclick="this.parentElement.parentElement.classList.remove('open')" style="float:right;background:none;border:none">✕</button></div>
 <div id="chatMessages" style="flex:1;overflow-y:auto;padding:8px;font-size:14px"><div><strong>Guide:</strong> Welcome to the Commons. What would you like from the Library or the Codex?</div></div>
 <div style="display:flex;border-top:1px solid #1f3a24"><input id="chatInput" style="flex:1;background:#000;color:#fff;border:none;padding:8px" placeholder="Ask about the Library or Commons..."><button id="sendChat" style="background:#00ff88;border:none;padding:8px 12px">Send</button></div>
 </div>
-<div class="voice-bar">
+<div class="voice-bar" role="region" aria-label="Voice guide bar">
 <span id="voiceStatus">Voice off</span>
 <button id="btnEnable">Enable Voice</button>
 <button class="alt" id="btnThisPage" disabled>What’s on this page?</button>
@@ -186,6 +197,12 @@ if (isOwner) document.getElementById('aiStatus').textContent = 'Owner mode: max 
 </section>
 
 <img class="banner" src="library/images/library-banner.jpg" alt="A spiral of glowing bookshelves in space around a great open book, with a pyramid, a steamship, a trilobite and a starship drifting through the galaxy" width="1600" height="685">
+<div class="ai-greeting" role="region" aria-label="Commons Guide">
+<div>
+<h2>Commons Guide</h2>
+<p>Front door to the HumanCodex and Galactic Library. Ask about volumes, poems, or the free path. <button onclick="document.getElementById('chatPanel').classList.add('open')" class="btn" style="margin-top:8px">Open Chat</button></p>
+</div>
+</div>
 <div class="greeter" id="greeter">
 <div class="greeter-video" role="img" aria-label="Space reserved for a welcome video from Roger AI">
 <p><b>Welcome video</b></p>
@@ -282,4 +299,5 @@ if (isOwner) document.getElementById('aiStatus').textContent = 'Owner mode: max 
 <a href="https://keywebster.gumroad.com/">Gumroad</a></footer>
 
 <script src="assets/voice.js"></script>
+<script src="https://next-xus.net/federation-ui/chrome.js" defer></script>
 </body></html>
